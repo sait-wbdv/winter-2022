@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi generate",
-    "start": "nuxi preview"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt preview",
+    "generate": "nuxt generate",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "core-js": "^3.15.1",
-    "nuxt-edge": "latest"
+    "nuxt": "^2.15.7"
   },
   "devDependencies": {
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27338323.1e98259",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "postcss": "^8.3.5"
+  },
+  "resolutions": {
+    "glob-parent": "^5.1.2",
+    "nth-check": "^2.0.1"
   }
 }
