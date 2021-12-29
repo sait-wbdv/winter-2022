@@ -906,13 +906,13 @@ function scrollBehavior(to, from, savedPosition) {
   });
 }
 const _145f180c = () => interopDefault(Promise.resolve().then(function() {
-  return index$i;
+  return index$k;
 }));
 const _8c9c6104 = () => interopDefault(Promise.resolve().then(function() {
-  return index$g;
+  return index$i;
 }));
 const _91bcae7e = () => interopDefault(Promise.resolve().then(function() {
-  return index$e;
+  return index$g;
 }));
 const _52bdd824 = () => interopDefault(Promise.resolve().then(function() {
   return schedule$1;
@@ -921,19 +921,40 @@ const _07e62440 = () => interopDefault(Promise.resolve().then(function() {
   return zoom$1;
 }));
 const _20a60b42 = () => interopDefault(Promise.resolve().then(function() {
-  return index$c;
+  return index$e;
 }));
 const _f6dca5c0 = () => interopDefault(Promise.resolve().then(function() {
-  return index$a;
+  return index$c;
 }));
 const _1dd6da99 = () => interopDefault(Promise.resolve().then(function() {
-  return index$8;
+  return index$a;
 }));
 const _47a0401b = () => interopDefault(Promise.resolve().then(function() {
-  return index$6;
+  return index$8;
 }));
 const _064e585e = () => interopDefault(Promise.resolve().then(function() {
+  return index$6;
+}));
+const _d413250a = () => interopDefault(Promise.resolve().then(function() {
   return index$4;
+}));
+const _24134dd2 = () => interopDefault(Promise.resolve().then(function() {
+  return _slug$b;
+}));
+const _fa49e850 = () => interopDefault(Promise.resolve().then(function() {
+  return _slug$9;
+}));
+const _1c203951 = () => interopDefault(Promise.resolve().then(function() {
+  return _slug$7;
+}));
+const _45e99ed3 = () => interopDefault(Promise.resolve().then(function() {
+  return _slug$5;
+}));
+const _0497b716 = () => interopDefault(Promise.resolve().then(function() {
+  return _slug$3;
+}));
+const _d780679a = () => interopDefault(Promise.resolve().then(function() {
+  return _slug$1;
 }));
 const _14e9efd6 = () => interopDefault(Promise.resolve().then(function() {
   return index$2;
@@ -987,6 +1008,34 @@ const routerOptions = {
     path: "/courses/cpnt-265",
     component: _064e585e,
     name: "courses-cpnt-265"
+  }, {
+    path: "/courses/dsgn-270",
+    component: _d413250a,
+    name: "courses-dsgn-270"
+  }, {
+    path: "/courses/cpnt-200/:slug?",
+    component: _24134dd2,
+    name: "courses-cpnt-200-slug"
+  }, {
+    path: "/courses/cpnt-201/:slug?",
+    component: _fa49e850,
+    name: "courses-cpnt-201-slug"
+  }, {
+    path: "/courses/cpnt-260/:slug?",
+    component: _1c203951,
+    name: "courses-cpnt-260-slug"
+  }, {
+    path: "/courses/cpnt-262/:slug?",
+    component: _45e99ed3,
+    name: "courses-cpnt-262-slug"
+  }, {
+    path: "/courses/cpnt-265/:slug?",
+    component: _0497b716,
+    name: "courses-cpnt-265-slug"
+  }, {
+    path: "/courses/dsgn-270/:slug?",
+    component: _d780679a,
+    name: "courses-dsgn-270-slug"
   }, {
     path: "/",
     component: _14e9efd6,
@@ -1104,19 +1153,19 @@ const listenersKeys = [
   "afterAppear",
   "appearCancelled"
 ];
-var render$c = function() {
+var render$o = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "__nuxt-error-page" }, [_c("div", { staticClass: "error" }, [_c("svg", { attrs: { "xmlns": "http://www.w3.org/2000/svg", "width": "90", "height": "90", "fill": "#DBE1EC", "viewBox": "0 0 48 48" } }, [_c("path", { attrs: { "d": "M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z" } })]), _c("div", { staticClass: "title" }, [_vm._v(_vm._s(_vm.message))]), _vm.statusCode === 404 ? _c("p", { staticClass: "description" }, [typeof _vm.$route === "undefined" ? _c("a", { staticClass: "error-link", attrs: { "href": "/" } }) : _c("NuxtLink", { staticClass: "error-link", attrs: { "to": "/" } }, [_vm._v("Back to the home page")])], 1) : _c("p", { staticClass: "description" }, [_vm._v("An error occurred while rendering the page. Check developer tools console for details.")]), _vm._m(0)])]);
 };
-var staticRenderFns$c = [function() {
+var staticRenderFns$o = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "logo" }, [_c("a", { attrs: { "href": "https://nuxtjs.org", "target": "_blank", "rel": "noopener" } }, [_vm._v("Nuxt")])]);
 }];
-render$c._withStripped = true;
+render$o._withStripped = true;
 var nuxtError_vue_vue_type_style_index_0_lang = "";
 function normalizeComponent(scriptExports, render2, staticRenderFns2, functionalTemplate, injectStyles, scopeId, moduleIdentifier, shadowMode) {
   var options = typeof scriptExports === "function" ? scriptExports.options : scriptExports;
@@ -1169,7 +1218,7 @@ function normalizeComponent(scriptExports, render2, staticRenderFns2, functional
     options
   };
 }
-const __vue2_script$k = {
+const __vue2_script$r = {
   name: "NuxtError",
   props: {
     error: {
@@ -1197,16 +1246,16 @@ const __vue2_script$k = {
     };
   }
 };
-const __cssModules$k = {};
-var __component__$k = /* @__PURE__ */ normalizeComponent(__vue2_script$k, render$c, staticRenderFns$c, false, __vue2_injectStyles$k, null, null, null);
-function __vue2_injectStyles$k(context) {
-  for (let o2 in __cssModules$k) {
-    this[o2] = __cssModules$k[o2];
+const __cssModules$r = {};
+var __component__$r = /* @__PURE__ */ normalizeComponent(__vue2_script$r, render$o, staticRenderFns$o, false, __vue2_injectStyles$r, null, null, null);
+function __vue2_injectStyles$r(context) {
+  for (let o2 in __cssModules$r) {
+    this[o2] = __cssModules$r[o2];
   }
 }
-__component__$k.options.__file = ".nuxt/components/nuxt-error.vue";
+__component__$r.options.__file = ".nuxt/components/nuxt-error.vue";
 var NuxtError = /* @__PURE__ */ function() {
-  return __component__$k.exports;
+  return __component__$r.exports;
 }();
 var Nuxt = {
   name: "Nuxt",
@@ -1284,7 +1333,7 @@ var Nuxt = {
   }
 };
 var nuxtLoading_vue_vue_type_style_index_0_lang = "";
-const __vue2_script$j = {
+const __vue2_script$q = {
   name: "NuxtLoading",
   data() {
     return {
@@ -1421,40 +1470,39 @@ const __vue2_script$j = {
     return el;
   }
 };
-let __vue2_render$7, __vue2_staticRenderFns$7;
-const __cssModules$j = {};
-var __component__$j = /* @__PURE__ */ normalizeComponent(__vue2_script$j, __vue2_render$7, __vue2_staticRenderFns$7, false, __vue2_injectStyles$j, null, null, null);
-function __vue2_injectStyles$j(context) {
-  for (let o2 in __cssModules$j) {
-    this[o2] = __cssModules$j[o2];
+let __vue2_render$2, __vue2_staticRenderFns$2;
+const __cssModules$q = {};
+var __component__$q = /* @__PURE__ */ normalizeComponent(__vue2_script$q, __vue2_render$2, __vue2_staticRenderFns$2, false, __vue2_injectStyles$q, null, null, null);
+function __vue2_injectStyles$q(context) {
+  for (let o2 in __cssModules$q) {
+    this[o2] = __cssModules$q[o2];
   }
 }
-__component__$j.options.__file = ".nuxt/components/nuxt-loading.vue";
+__component__$q.options.__file = ".nuxt/components/nuxt-loading.vue";
 var NuxtLoading = /* @__PURE__ */ function() {
-  return __component__$j.exports;
+  return __component__$q.exports;
 }();
 var tailwind = "";
-var main = "";
 var prism = "";
-var render$b = function() {
+var render$n = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("Nuxt");
 };
-var staticRenderFns$b = [];
-render$b._withStripped = true;
-const __vue2_script$i = {};
-const __cssModules$i = {};
-var __component__$i = /* @__PURE__ */ normalizeComponent(__vue2_script$i, render$b, staticRenderFns$b, false, __vue2_injectStyles$i, null, null, null);
-function __vue2_injectStyles$i(context) {
-  for (let o2 in __cssModules$i) {
-    this[o2] = __cssModules$i[o2];
+var staticRenderFns$n = [];
+render$n._withStripped = true;
+const __vue2_script$p = {};
+const __cssModules$p = {};
+var __component__$p = /* @__PURE__ */ normalizeComponent(__vue2_script$p, render$n, staticRenderFns$n, false, __vue2_injectStyles$p, null, null, null);
+function __vue2_injectStyles$p(context) {
+  for (let o2 in __cssModules$p) {
+    this[o2] = __cssModules$p[o2];
   }
 }
-__component__$i.options.__file = ".nuxt/layouts/default.vue";
+__component__$p.options.__file = ".nuxt/layouts/default.vue";
 var _6f6c098b = /* @__PURE__ */ function() {
-  return __component__$i.exports;
+  return __component__$p.exports;
 }();
 const layouts = { "_default": sanitizeComponent(_6f6c098b) };
 var App = {
@@ -1598,80 +1646,80 @@ var App = {
     NuxtLoading
   }
 };
-var render$a = function() {
+var render$m = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   _vm._self._c || _h;
   return _vm._m(0);
 };
-var staticRenderFns$a = [function() {
+var staticRenderFns$m = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("footer", [_c("p", [_vm._v("\xA9 2021 MIT License")])]);
 }];
-render$a._withStripped = true;
-const __vue2_script$h = {};
-const __cssModules$h = {};
-var __component__$h = /* @__PURE__ */ normalizeComponent(__vue2_script$h, render$a, staticRenderFns$a, false, __vue2_injectStyles$h, null, null, null);
-function __vue2_injectStyles$h(context) {
-  for (let o2 in __cssModules$h) {
-    this[o2] = __cssModules$h[o2];
+render$m._withStripped = true;
+const __vue2_script$o = {};
+const __cssModules$o = {};
+var __component__$o = /* @__PURE__ */ normalizeComponent(__vue2_script$o, render$m, staticRenderFns$m, false, __vue2_injectStyles$o, null, null, null);
+function __vue2_injectStyles$o(context) {
+  for (let o2 in __cssModules$o) {
+    this[o2] = __cssModules$o[o2];
   }
 }
-__component__$h.options.__file = "components/Footer.vue";
+__component__$o.options.__file = "components/Footer.vue";
 var Footer = /* @__PURE__ */ function() {
-  return __component__$h.exports;
+  return __component__$o.exports;
 }();
-var render$9 = function() {
+var render$l = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("header", [_vm._m(0), _c("AppNavigation")], 1);
+  return _c("header", [_vm._m(0), _c("Navigation")], 1);
 };
-var staticRenderFns$9 = [function() {
+var staticRenderFns$l = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", [_c("p", [_vm._v("Sait Web Developer")]), _c("p", [_vm._v("Fast Track - Winter 2022")])]);
 }];
-render$9._withStripped = true;
-const __vue2_script$g = {};
-const __cssModules$g = {};
-var __component__$g = /* @__PURE__ */ normalizeComponent(__vue2_script$g, render$9, staticRenderFns$9, false, __vue2_injectStyles$g, null, null, null);
-function __vue2_injectStyles$g(context) {
-  for (let o2 in __cssModules$g) {
-    this[o2] = __cssModules$g[o2];
+render$l._withStripped = true;
+const __vue2_script$n = {};
+const __cssModules$n = {};
+var __component__$n = /* @__PURE__ */ normalizeComponent(__vue2_script$n, render$l, staticRenderFns$l, false, __vue2_injectStyles$n, null, null, null);
+function __vue2_injectStyles$n(context) {
+  for (let o2 in __cssModules$n) {
+    this[o2] = __cssModules$n[o2];
   }
 }
-__component__$g.options.__file = "components/Header.vue";
+__component__$n.options.__file = "components/Header.vue";
 var Header = /* @__PURE__ */ function() {
-  return __component__$g.exports;
+  return __component__$n.exports;
 }();
-var render$8 = function() {
+var render$k = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   _vm._self._c || _h;
   return _vm._m(0);
 };
-var staticRenderFns$8 = [function() {
+var staticRenderFns$k = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("nav", [_c("ul", [_c("li", [_c("a", { attrs: { "href": "schedule" } }, [_vm._v("Schedule")])]), _c("li", [_c("a", { attrs: { "href": "assignments" } }, [_vm._v("Assignments")])]), _c("li", [_c("a", { attrs: { "href": "library" } }, [_vm._v("Library")])]), _c("li", [_c("a", { attrs: { "href": "zoom" } }, [_vm._v("Zoom")])])])]);
 }];
-render$8._withStripped = true;
-const __vue2_script$f = {};
-const __cssModules$f = {};
-var __component__$f = /* @__PURE__ */ normalizeComponent(__vue2_script$f, render$8, staticRenderFns$8, false, __vue2_injectStyles$f, null, null, null);
-function __vue2_injectStyles$f(context) {
-  for (let o2 in __cssModules$f) {
-    this[o2] = __cssModules$f[o2];
+render$k._withStripped = true;
+const __vue2_script$m = {};
+const __cssModules$m = {};
+var __component__$m = /* @__PURE__ */ normalizeComponent(__vue2_script$m, render$k, staticRenderFns$k, false, __vue2_injectStyles$m, null, null, null);
+function __vue2_injectStyles$m(context) {
+  for (let o2 in __cssModules$m) {
+    this[o2] = __cssModules$m[o2];
   }
 }
-__component__$f.options.__file = "components/Navigation.vue";
+__component__$m.options.__file = "components/Navigation.vue";
 var Navigation = /* @__PURE__ */ function() {
-  return __component__$f.exports;
+  return __component__$m.exports;
 }();
 var components = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -2985,7 +3033,7 @@ var NuxtContent$1 = {
     return h(tag, data2, body.children.map((child) => processNode(child, h, document2)));
   }
 };
-var render$7 = function() {
+var render$j = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
@@ -3022,9 +3070,9 @@ var render$7 = function() {
     _vm.file = $event.target.value;
   } } });
 };
-var staticRenderFns$7 = [];
-render$7._withStripped = true;
-const __vue2_script$e = {
+var staticRenderFns$j = [];
+render$j._withStripped = true;
+const __vue2_script$l = {
   props: {
     value: String,
     isEditing: Boolean
@@ -3082,18 +3130,18 @@ const __vue2_script$e = {
     }
   }
 };
-const __cssModules$e = {};
-var __component__$e = /* @__PURE__ */ normalizeComponent(__vue2_script$e, render$7, staticRenderFns$7, false, __vue2_injectStyles$e, null, null, null);
-function __vue2_injectStyles$e(context) {
-  for (let o2 in __cssModules$e) {
-    this[o2] = __cssModules$e[o2];
+const __cssModules$l = {};
+var __component__$l = /* @__PURE__ */ normalizeComponent(__vue2_script$l, render$j, staticRenderFns$j, false, __vue2_injectStyles$l, null, null, null);
+function __vue2_injectStyles$l(context) {
+  for (let o2 in __cssModules$l) {
+    this[o2] = __cssModules$l[o2];
   }
 }
-__component__$e.options.__file = ".nuxt/content/editor.vue";
+__component__$l.options.__file = ".nuxt/content/editor.vue";
 var Editor = /* @__PURE__ */ function() {
-  return __component__$e.exports;
+  return __component__$l.exports;
 }();
-var render$6 = function() {
+var render$i = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
@@ -3101,10 +3149,10 @@ var render$6 = function() {
     _vm.file = $$v;
   }, expression: "file" } })], 1), _c("nuxt-content-dev", { directives: [{ name: "show", rawName: "v-show", value: !_vm.isEditing, expression: "!isEditing" }], ref: "content", class: _vm.classes, attrs: { "id": _vm.id, "document": _vm.document }, on: { "dblclick": _vm.toggleEdit } })], 1);
 };
-var staticRenderFns$6 = [];
-render$6._withStripped = true;
+var staticRenderFns$i = [];
+render$i._withStripped = true;
 var nuxtContent_dev_vue_vue_type_style_index_0_scoped_true_lang = "";
-const __vue2_script$d = {
+const __vue2_script$k = {
   name: "NuxtContent",
   components: {
     NuxtContentDev: NuxtContent$1,
@@ -3167,16 +3215,16 @@ const __vue2_script$d = {
     }
   }
 };
-const __cssModules$d = {};
-var __component__$d = /* @__PURE__ */ normalizeComponent(__vue2_script$d, render$6, staticRenderFns$6, false, __vue2_injectStyles$d, "f58a9f50", null, null);
-function __vue2_injectStyles$d(context) {
-  for (let o2 in __cssModules$d) {
-    this[o2] = __cssModules$d[o2];
+const __cssModules$k = {};
+var __component__$k = /* @__PURE__ */ normalizeComponent(__vue2_script$k, render$i, staticRenderFns$i, false, __vue2_injectStyles$k, "f58a9f50", null, null);
+function __vue2_injectStyles$k(context) {
+  for (let o2 in __cssModules$k) {
+    this[o2] = __cssModules$k[o2];
   }
 }
-__component__$d.options.__file = ".nuxt/content/nuxt-content.dev.vue";
+__component__$k.options.__file = ".nuxt/content/nuxt-content.dev.vue";
 var NuxtContent = /* @__PURE__ */ function() {
-  return __component__$d.exports;
+  return __component__$k.exports;
 }();
 Vue__default["default"].component(NuxtContent.name, NuxtContent);
 var nuxt_plugin_pluginserver_16a130d7 = (ctx, inject) => {
@@ -3529,16 +3577,16 @@ const imageMixin = defineMixin({
     }
   }
 });
-var render$5 = function() {
+var render$h = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("img", _vm._b({ key: _vm.nSrc, attrs: { "src": _vm.nSrc } }, "img", _vm.nAttrs, false));
 };
-var staticRenderFns$5 = [];
-render$5._withStripped = true;
-const defineComponent$1 = (opts) => opts;
-const __vue2_script$c = defineComponent$1({
+var staticRenderFns$h = [];
+render$h._withStripped = true;
+const defineComponent$2 = (opts) => opts;
+const __vue2_script$j = defineComponent$2({
   name: "NuxtImg",
   mixins: [imageMixin],
   computed: {
@@ -3567,27 +3615,27 @@ const __vue2_script$c = defineComponent$1({
   created() {
   }
 });
-const __cssModules$c = {};
-var __component__$c = /* @__PURE__ */ normalizeComponent(__vue2_script$c, render$5, staticRenderFns$5, false, __vue2_injectStyles$c, null, null, null);
-function __vue2_injectStyles$c(context) {
-  for (let o2 in __cssModules$c) {
-    this[o2] = __cssModules$c[o2];
+const __cssModules$j = {};
+var __component__$j = /* @__PURE__ */ normalizeComponent(__vue2_script$j, render$h, staticRenderFns$h, false, __vue2_injectStyles$j, null, null, null);
+function __vue2_injectStyles$j(context) {
+  for (let o2 in __cssModules$j) {
+    this[o2] = __cssModules$j[o2];
   }
 }
-__component__$c.options.__file = "node_modules/@nuxt/image/dist/runtime/components/nuxt-img.vue";
+__component__$j.options.__file = "node_modules/@nuxt/image/dist/runtime/components/nuxt-img.vue";
 var NuxtImg = /* @__PURE__ */ function() {
-  return __component__$c.exports;
+  return __component__$j.exports;
 }();
-var render$4 = function() {
+var render$g = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("picture", { key: _vm.nSources[0].src }, [_vm.nSources[1] ? _c("source", { attrs: { "type": _vm.nSources[1].type, "srcset": _vm.nSources[1].srcset, "sizes": _vm.nSources[1].sizes } }) : _vm._e(), _c("img", _vm._b({ attrs: { "src": _vm.nSources[0].src, "srcset": _vm.nSources[0].srcset, "sizes": _vm.nSources[0].sizes } }, "img", _vm.nImgAttrs, false))]);
 };
-var staticRenderFns$4 = [];
-render$4._withStripped = true;
-const defineComponent = (opts) => opts;
-const __vue2_script$b = defineComponent({
+var staticRenderFns$g = [];
+render$g._withStripped = true;
+const defineComponent$1 = (opts) => opts;
+const __vue2_script$i = defineComponent$1({
   name: "NuxtPicture",
   mixins: [imageMixin],
   props: {
@@ -3646,16 +3694,16 @@ const __vue2_script$b = defineComponent({
   created() {
   }
 });
-const __cssModules$b = {};
-var __component__$b = /* @__PURE__ */ normalizeComponent(__vue2_script$b, render$4, staticRenderFns$4, false, __vue2_injectStyles$b, null, null, null);
-function __vue2_injectStyles$b(context) {
-  for (let o2 in __cssModules$b) {
-    this[o2] = __cssModules$b[o2];
+const __cssModules$i = {};
+var __component__$i = /* @__PURE__ */ normalizeComponent(__vue2_script$i, render$g, staticRenderFns$g, false, __vue2_injectStyles$i, null, null, null);
+function __vue2_injectStyles$i(context) {
+  for (let o2 in __cssModules$i) {
+    this[o2] = __cssModules$i[o2];
   }
 }
-__component__$b.options.__file = "node_modules/@nuxt/image/dist/runtime/components/nuxt-picture.vue";
+__component__$i.options.__file = "node_modules/@nuxt/image/dist/runtime/components/nuxt-picture.vue";
 var NuxtPicture = /* @__PURE__ */ function() {
-  return __component__$b.exports;
+  return __component__$i.exports;
 }();
 const operationsGenerator = createOperationsGenerator({
   keyMap: {
@@ -4063,221 +4111,551 @@ var server = async (ssrContext) => {
   await beforeRender();
   return _app;
 };
-const __vue2_script$a = {};
-let __vue2_render$6, __vue2_staticRenderFns$6;
-const __cssModules$a = {};
-var __component__$a = /* @__PURE__ */ normalizeComponent(__vue2_script$a, __vue2_render$6, __vue2_staticRenderFns$6, false, __vue2_injectStyles$a, null, null, null);
-function __vue2_injectStyles$a(context) {
-  for (let o2 in __cssModules$a) {
-    this[o2] = __cssModules$a[o2];
+const __vue2_script$h = {};
+let __vue2_render$1, __vue2_staticRenderFns$1;
+const __cssModules$h = {};
+var __component__$h = /* @__PURE__ */ normalizeComponent(__vue2_script$h, __vue2_render$1, __vue2_staticRenderFns$1, false, __vue2_injectStyles$h, null, null, null);
+function __vue2_injectStyles$h(context) {
+  for (let o2 in __cssModules$h) {
+    this[o2] = __cssModules$h[o2];
   }
 }
-__component__$a.options.__file = "pages/assignments/index.vue";
+__component__$h.options.__file = "pages/assignments/index.vue";
+var index$j = /* @__PURE__ */ function() {
+  return __component__$h.exports;
+}();
+var index$k = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index$j
+});
+const __vue2_script$g = {};
+let __vue2_render, __vue2_staticRenderFns;
+const __cssModules$g = {};
+var __component__$g = /* @__PURE__ */ normalizeComponent(__vue2_script$g, __vue2_render, __vue2_staticRenderFns, false, __vue2_injectStyles$g, null, null, null);
+function __vue2_injectStyles$g(context) {
+  for (let o2 in __cssModules$g) {
+    this[o2] = __cssModules$g[o2];
+  }
+}
+__component__$g.options.__file = "pages/courses/index.vue";
 var index$h = /* @__PURE__ */ function() {
-  return __component__$a.exports;
+  return __component__$g.exports;
 }();
 var index$i = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$h
 });
-const __vue2_script$9 = {};
-let __vue2_render$5, __vue2_staticRenderFns$5;
-const __cssModules$9 = {};
-var __component__$9 = /* @__PURE__ */ normalizeComponent(__vue2_script$9, __vue2_render$5, __vue2_staticRenderFns$5, false, __vue2_injectStyles$9, null, null, null);
-function __vue2_injectStyles$9(context) {
-  for (let o2 in __cssModules$9) {
-    this[o2] = __cssModules$9[o2];
+var render$f = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  _vm._self._c || _h;
+  return _vm._m(0);
+};
+var staticRenderFns$f = [function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("p", [_vm._v("Library")])]);
+}];
+render$f._withStripped = true;
+const __vue2_script$f = {};
+const __cssModules$f = {};
+var __component__$f = /* @__PURE__ */ normalizeComponent(__vue2_script$f, render$f, staticRenderFns$f, false, __vue2_injectStyles$f, null, null, null);
+function __vue2_injectStyles$f(context) {
+  for (let o2 in __cssModules$f) {
+    this[o2] = __cssModules$f[o2];
   }
 }
-__component__$9.options.__file = "pages/courses/index.vue";
+__component__$f.options.__file = "pages/library/index.vue";
 var index$f = /* @__PURE__ */ function() {
-  return __component__$9.exports;
+  return __component__$f.exports;
 }();
 var index$g = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$f
 });
-var render$3 = function() {
+var render$e = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   _vm._self._c || _h;
   return _vm._m(0);
 };
-var staticRenderFns$3 = [function() {
-  var _vm = this;
-  var _h = _vm.$createElement;
-  var _c = _vm._self._c || _h;
-  return _c("div", [_c("p", [_vm._v("Library")])]);
-}];
-render$3._withStripped = true;
-const __vue2_script$8 = {};
-const __cssModules$8 = {};
-var __component__$8 = /* @__PURE__ */ normalizeComponent(__vue2_script$8, render$3, staticRenderFns$3, false, __vue2_injectStyles$8, null, null, null);
-function __vue2_injectStyles$8(context) {
-  for (let o2 in __cssModules$8) {
-    this[o2] = __cssModules$8[o2];
-  }
-}
-__component__$8.options.__file = "pages/library/index.vue";
-var index$d = /* @__PURE__ */ function() {
-  return __component__$8.exports;
-}();
-var index$e = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": index$d
-});
-var render$2 = function() {
-  var _vm = this;
-  var _h = _vm.$createElement;
-  _vm._self._c || _h;
-  return _vm._m(0);
-};
-var staticRenderFns$2 = [function() {
+var staticRenderFns$e = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", [_c("p", [_vm._v("Schedule")])]);
 }];
-render$2._withStripped = true;
-const __vue2_script$7 = {};
-const __cssModules$7 = {};
-var __component__$7 = /* @__PURE__ */ normalizeComponent(__vue2_script$7, render$2, staticRenderFns$2, false, __vue2_injectStyles$7, null, null, null);
-function __vue2_injectStyles$7(context) {
-  for (let o2 in __cssModules$7) {
-    this[o2] = __cssModules$7[o2];
+render$e._withStripped = true;
+const __vue2_script$e = {};
+const __cssModules$e = {};
+var __component__$e = /* @__PURE__ */ normalizeComponent(__vue2_script$e, render$e, staticRenderFns$e, false, __vue2_injectStyles$e, null, null, null);
+function __vue2_injectStyles$e(context) {
+  for (let o2 in __cssModules$e) {
+    this[o2] = __cssModules$e[o2];
   }
 }
-__component__$7.options.__file = "pages/schedule.vue";
+__component__$e.options.__file = "pages/schedule.vue";
 var schedule = /* @__PURE__ */ function() {
-  return __component__$7.exports;
+  return __component__$e.exports;
 }();
 var schedule$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": schedule
 });
-var render$1 = function() {
+var render$d = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   _vm._self._c || _h;
   return _vm._m(0);
 };
-var staticRenderFns$1 = [function() {
+var staticRenderFns$d = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", [_c("p", [_vm._v("Zoom")])]);
 }];
-render$1._withStripped = true;
-const __vue2_script$6 = {};
-const __cssModules$6 = {};
-var __component__$6 = /* @__PURE__ */ normalizeComponent(__vue2_script$6, render$1, staticRenderFns$1, false, __vue2_injectStyles$6, null, null, null);
-function __vue2_injectStyles$6(context) {
-  for (let o2 in __cssModules$6) {
-    this[o2] = __cssModules$6[o2];
+render$d._withStripped = true;
+const __vue2_script$d = {};
+const __cssModules$d = {};
+var __component__$d = /* @__PURE__ */ normalizeComponent(__vue2_script$d, render$d, staticRenderFns$d, false, __vue2_injectStyles$d, null, null, null);
+function __vue2_injectStyles$d(context) {
+  for (let o2 in __cssModules$d) {
+    this[o2] = __cssModules$d[o2];
   }
 }
-__component__$6.options.__file = "pages/zoom.vue";
+__component__$d.options.__file = "pages/zoom.vue";
 var zoom = /* @__PURE__ */ function() {
-  return __component__$6.exports;
+  return __component__$d.exports;
 }();
 var zoom$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": zoom
 });
-const __vue2_script$5 = {};
-let __vue2_render$4, __vue2_staticRenderFns$4;
-const __cssModules$5 = {};
-var __component__$5 = /* @__PURE__ */ normalizeComponent(__vue2_script$5, __vue2_render$4, __vue2_staticRenderFns$4, false, __vue2_injectStyles$5, null, null, null);
-function __vue2_injectStyles$5(context) {
-  for (let o2 in __cssModules$5) {
-    this[o2] = __cssModules$5[o2];
+var render$c = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  }), 1)]);
+};
+var staticRenderFns$c = [];
+render$c._withStripped = true;
+const __vue2_script$c = {
+  async asyncData({ $content, params }) {
+    const posts = await $content("cpnt-200");
+    return {
+      posts
+    };
+  }
+};
+const __cssModules$c = {};
+var __component__$c = /* @__PURE__ */ normalizeComponent(__vue2_script$c, render$c, staticRenderFns$c, false, __vue2_injectStyles$c, null, null, null);
+function __vue2_injectStyles$c(context) {
+  for (let o2 in __cssModules$c) {
+    this[o2] = __cssModules$c[o2];
   }
 }
-__component__$5.options.__file = "pages/courses/cpnt-200/index.vue";
+__component__$c.options.__file = "pages/courses/cpnt-200/index.vue";
+var index$d = /* @__PURE__ */ function() {
+  return __component__$c.exports;
+}();
+var index$e = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index$d
+});
+var render$b = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  }), 1)]);
+};
+var staticRenderFns$b = [];
+render$b._withStripped = true;
+const __vue2_script$b = {
+  async asyncData({ $content, params }) {
+    const posts = await $content("cpnt-200");
+    return {
+      posts
+    };
+  }
+};
+const __cssModules$b = {};
+var __component__$b = /* @__PURE__ */ normalizeComponent(__vue2_script$b, render$b, staticRenderFns$b, false, __vue2_injectStyles$b, null, null, null);
+function __vue2_injectStyles$b(context) {
+  for (let o2 in __cssModules$b) {
+    this[o2] = __cssModules$b[o2];
+  }
+}
+__component__$b.options.__file = "pages/courses/cpnt-201/index.vue";
 var index$b = /* @__PURE__ */ function() {
-  return __component__$5.exports;
+  return __component__$b.exports;
 }();
 var index$c = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$b
 });
-const __vue2_script$4 = {};
-let __vue2_render$3, __vue2_staticRenderFns$3;
-const __cssModules$4 = {};
-var __component__$4 = /* @__PURE__ */ normalizeComponent(__vue2_script$4, __vue2_render$3, __vue2_staticRenderFns$3, false, __vue2_injectStyles$4, null, null, null);
-function __vue2_injectStyles$4(context) {
-  for (let o2 in __cssModules$4) {
-    this[o2] = __cssModules$4[o2];
+var render$a = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  }), 1)]);
+};
+var staticRenderFns$a = [];
+render$a._withStripped = true;
+const __vue2_script$a = {
+  async asyncData({ $content, params }) {
+    const posts = await $content("cpnt-200");
+    return {
+      posts
+    };
+  }
+};
+const __cssModules$a = {};
+var __component__$a = /* @__PURE__ */ normalizeComponent(__vue2_script$a, render$a, staticRenderFns$a, false, __vue2_injectStyles$a, null, null, null);
+function __vue2_injectStyles$a(context) {
+  for (let o2 in __cssModules$a) {
+    this[o2] = __cssModules$a[o2];
   }
 }
-__component__$4.options.__file = "pages/courses/cpnt-201/index.vue";
+__component__$a.options.__file = "pages/courses/cpnt-260/index.vue";
 var index$9 = /* @__PURE__ */ function() {
-  return __component__$4.exports;
+  return __component__$a.exports;
 }();
 var index$a = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$9
 });
-const __vue2_script$3 = {};
-let __vue2_render$2, __vue2_staticRenderFns$2;
-const __cssModules$3 = {};
-var __component__$3 = /* @__PURE__ */ normalizeComponent(__vue2_script$3, __vue2_render$2, __vue2_staticRenderFns$2, false, __vue2_injectStyles$3, null, null, null);
-function __vue2_injectStyles$3(context) {
-  for (let o2 in __cssModules$3) {
-    this[o2] = __cssModules$3[o2];
+var render$9 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  }), 1)]);
+};
+var staticRenderFns$9 = [];
+render$9._withStripped = true;
+const __vue2_script$9 = {
+  async asyncData({ $content, params }) {
+    const posts = await $content("cpnt-200");
+    return {
+      posts
+    };
+  }
+};
+const __cssModules$9 = {};
+var __component__$9 = /* @__PURE__ */ normalizeComponent(__vue2_script$9, render$9, staticRenderFns$9, false, __vue2_injectStyles$9, null, null, null);
+function __vue2_injectStyles$9(context) {
+  for (let o2 in __cssModules$9) {
+    this[o2] = __cssModules$9[o2];
   }
 }
-__component__$3.options.__file = "pages/courses/cpnt-260/index.vue";
+__component__$9.options.__file = "pages/courses/cpnt-262/index.vue";
 var index$7 = /* @__PURE__ */ function() {
-  return __component__$3.exports;
+  return __component__$9.exports;
 }();
 var index$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$7
 });
-const __vue2_script$2 = {};
-let __vue2_render$1, __vue2_staticRenderFns$1;
-const __cssModules$2 = {};
-var __component__$2 = /* @__PURE__ */ normalizeComponent(__vue2_script$2, __vue2_render$1, __vue2_staticRenderFns$1, false, __vue2_injectStyles$2, null, null, null);
-function __vue2_injectStyles$2(context) {
-  for (let o2 in __cssModules$2) {
-    this[o2] = __cssModules$2[o2];
+var render$8 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  }), 1)]);
+};
+var staticRenderFns$8 = [];
+render$8._withStripped = true;
+const __vue2_script$8 = {
+  async asyncData({ $content, params }) {
+    const posts = await $content("cpnt-200");
+    return {
+      posts
+    };
+  }
+};
+const __cssModules$8 = {};
+var __component__$8 = /* @__PURE__ */ normalizeComponent(__vue2_script$8, render$8, staticRenderFns$8, false, __vue2_injectStyles$8, null, null, null);
+function __vue2_injectStyles$8(context) {
+  for (let o2 in __cssModules$8) {
+    this[o2] = __cssModules$8[o2];
   }
 }
-__component__$2.options.__file = "pages/courses/cpnt-262/index.vue";
+__component__$8.options.__file = "pages/courses/cpnt-265/index.vue";
 var index$5 = /* @__PURE__ */ function() {
-  return __component__$2.exports;
+  return __component__$8.exports;
 }();
 var index$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$5
 });
-const __vue2_script$1 = {};
-let __vue2_render, __vue2_staticRenderFns;
-const __cssModules$1 = {};
-var __component__$1 = /* @__PURE__ */ normalizeComponent(__vue2_script$1, __vue2_render, __vue2_staticRenderFns, false, __vue2_injectStyles$1, null, null, null);
-function __vue2_injectStyles$1(context) {
-  for (let o2 in __cssModules$1) {
-    this[o2] = __cssModules$1[o2];
+var render$7 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  }), 1)]);
+};
+var staticRenderFns$7 = [];
+render$7._withStripped = true;
+const __vue2_script$7 = {
+  async asyncData({ $content, params }) {
+    const posts = await $content("cpnt-200");
+    return {
+      posts
+    };
+  }
+};
+const __cssModules$7 = {};
+var __component__$7 = /* @__PURE__ */ normalizeComponent(__vue2_script$7, render$7, staticRenderFns$7, false, __vue2_injectStyles$7, null, null, null);
+function __vue2_injectStyles$7(context) {
+  for (let o2 in __cssModules$7) {
+    this[o2] = __cssModules$7[o2];
   }
 }
-__component__$1.options.__file = "pages/courses/cpnt-265/index.vue";
+__component__$7.options.__file = "pages/courses/dsgn-270/index.vue";
 var index$3 = /* @__PURE__ */ function() {
-  return __component__$1.exports;
+  return __component__$7.exports;
 }();
 var index$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index$3
+});
+var render$6 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v(_vm._s(_vm.lesson.title))]), _c("nuxt-content", { attrs: { "document": _vm.lesson } })], 1);
+};
+var staticRenderFns$6 = [];
+render$6._withStripped = true;
+const __vue2_script$6 = defineComponent({
+  async asyncData({ $content, params, error }) {
+    try {
+      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      return {
+        lesson
+      };
+    } catch (e2) {
+      error("No lesson found");
+    }
+  }
+});
+const __cssModules$6 = {};
+var __component__$6 = /* @__PURE__ */ normalizeComponent(__vue2_script$6, render$6, staticRenderFns$6, false, __vue2_injectStyles$6, null, null, null);
+function __vue2_injectStyles$6(context) {
+  for (let o2 in __cssModules$6) {
+    this[o2] = __cssModules$6[o2];
+  }
+}
+__component__$6.options.__file = "pages/courses/cpnt-200/_slug.vue";
+var _slug$a = /* @__PURE__ */ function() {
+  return __component__$6.exports;
+}();
+var _slug$b = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _slug$a
+});
+var render$5 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v(_vm._s(_vm.lesson.title))]), _c("nuxt-content", { attrs: { "document": _vm.lesson } })], 1);
+};
+var staticRenderFns$5 = [];
+render$5._withStripped = true;
+const __vue2_script$5 = defineComponent({
+  async asyncData({ $content, params, error }) {
+    try {
+      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      return {
+        lesson
+      };
+    } catch (e2) {
+      error("No lesson found");
+    }
+  }
+});
+const __cssModules$5 = {};
+var __component__$5 = /* @__PURE__ */ normalizeComponent(__vue2_script$5, render$5, staticRenderFns$5, false, __vue2_injectStyles$5, null, null, null);
+function __vue2_injectStyles$5(context) {
+  for (let o2 in __cssModules$5) {
+    this[o2] = __cssModules$5[o2];
+  }
+}
+__component__$5.options.__file = "pages/courses/cpnt-201/_slug.vue";
+var _slug$8 = /* @__PURE__ */ function() {
+  return __component__$5.exports;
+}();
+var _slug$9 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _slug$8
+});
+var render$4 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v(_vm._s(_vm.lesson.title))]), _c("nuxt-content", { attrs: { "document": _vm.lesson } })], 1);
+};
+var staticRenderFns$4 = [];
+render$4._withStripped = true;
+const __vue2_script$4 = defineComponent({
+  async asyncData({ $content, params, error }) {
+    try {
+      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      return {
+        lesson
+      };
+    } catch (e2) {
+      error("No lesson found");
+    }
+  }
+});
+const __cssModules$4 = {};
+var __component__$4 = /* @__PURE__ */ normalizeComponent(__vue2_script$4, render$4, staticRenderFns$4, false, __vue2_injectStyles$4, null, null, null);
+function __vue2_injectStyles$4(context) {
+  for (let o2 in __cssModules$4) {
+    this[o2] = __cssModules$4[o2];
+  }
+}
+__component__$4.options.__file = "pages/courses/cpnt-260/_slug.vue";
+var _slug$6 = /* @__PURE__ */ function() {
+  return __component__$4.exports;
+}();
+var _slug$7 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _slug$6
+});
+var render$3 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v(_vm._s(_vm.lesson.title))]), _c("nuxt-content", { attrs: { "document": _vm.lesson } })], 1);
+};
+var staticRenderFns$3 = [];
+render$3._withStripped = true;
+const __vue2_script$3 = defineComponent({
+  async asyncData({ $content, params, error }) {
+    try {
+      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      return {
+        lesson
+      };
+    } catch (e2) {
+      error("No lesson found");
+    }
+  }
+});
+const __cssModules$3 = {};
+var __component__$3 = /* @__PURE__ */ normalizeComponent(__vue2_script$3, render$3, staticRenderFns$3, false, __vue2_injectStyles$3, null, null, null);
+function __vue2_injectStyles$3(context) {
+  for (let o2 in __cssModules$3) {
+    this[o2] = __cssModules$3[o2];
+  }
+}
+__component__$3.options.__file = "pages/courses/cpnt-262/_slug.vue";
+var _slug$4 = /* @__PURE__ */ function() {
+  return __component__$3.exports;
+}();
+var _slug$5 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _slug$4
+});
+var render$2 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v(_vm._s(_vm.lesson.title))]), _c("nuxt-content", { attrs: { "document": _vm.lesson } })], 1);
+};
+var staticRenderFns$2 = [];
+render$2._withStripped = true;
+const __vue2_script$2 = defineComponent({
+  async asyncData({ $content, params, error }) {
+    try {
+      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      return {
+        lesson
+      };
+    } catch (e2) {
+      error("No lesson found");
+    }
+  }
+});
+const __cssModules$2 = {};
+var __component__$2 = /* @__PURE__ */ normalizeComponent(__vue2_script$2, render$2, staticRenderFns$2, false, __vue2_injectStyles$2, null, null, null);
+function __vue2_injectStyles$2(context) {
+  for (let o2 in __cssModules$2) {
+    this[o2] = __cssModules$2[o2];
+  }
+}
+__component__$2.options.__file = "pages/courses/cpnt-265/_slug.vue";
+var _slug$2 = /* @__PURE__ */ function() {
+  return __component__$2.exports;
+}();
+var _slug$3 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _slug$2
+});
+var render$1 = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v(_vm._s(_vm.lesson.title))]), _c("nuxt-content", { attrs: { "document": _vm.lesson } })], 1);
+};
+var staticRenderFns$1 = [];
+render$1._withStripped = true;
+const __vue2_script$1 = defineComponent({
+  async asyncData({ $content, params, error }) {
+    try {
+      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      return {
+        lesson
+      };
+    } catch (e2) {
+      error("No lesson found");
+    }
+  }
+});
+const __cssModules$1 = {};
+var __component__$1 = /* @__PURE__ */ normalizeComponent(__vue2_script$1, render$1, staticRenderFns$1, false, __vue2_injectStyles$1, null, null, null);
+function __vue2_injectStyles$1(context) {
+  for (let o2 in __cssModules$1) {
+    this[o2] = __cssModules$1[o2];
+  }
+}
+__component__$1.options.__file = "pages/courses/dsgn-270/_slug.vue";
+var _slug = /* @__PURE__ */ function() {
+  return __component__$1.exports;
+}();
+var _slug$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _slug
 });
 var render = function() {
   var _vm = this;

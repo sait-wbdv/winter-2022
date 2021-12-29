@@ -5,6 +5,6 @@
       <p>Sait Web Developer</p>
       <p>Fast Track - Winter 2022</p>
     </div>
-    <AppNavigation />
+    <Navigation />
   </header>
 </template>

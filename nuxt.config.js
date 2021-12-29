@@ -21,7 +21,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -43,13 +42,14 @@ export default {
     '@nuxt/image'
   ],
   googleFonts: {
-    preconnect: true,
     families: {
       'Open+Sans': true,
       Raleway: {
         wght: [100, 300]
       }
-    }
+    },
+    preconnect: true,
+    preload: true,
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

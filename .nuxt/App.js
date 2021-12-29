@@ -5,9 +5,7 @@ import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch,
 import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '../node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css'
-
-import '../assets/css/main.css'
+import '../assets/css/tailwind.css'
 
 import '../node_modules/prismjs/themes/prism.css'
 

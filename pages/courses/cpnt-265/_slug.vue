@@ -5,8 +5,6 @@
   </div>
 </template>
 <script>
-import { defineComponent } from "@vue/composition-api";
-
 export default defineComponent({
   async asyncData({ $content, params, error }) {
     try {
