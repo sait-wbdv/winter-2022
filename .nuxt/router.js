@@ -6,6 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _145f180c = () => interopDefault(import('../pages/assignments/index.vue' /* webpackChunkName: "pages/assignments/index" */))
 const _8c9c6104 = () => interopDefault(import('../pages/courses/index.vue' /* webpackChunkName: "pages/courses/index" */))
+const _91bcae7e = () => interopDefault(import('../pages/library/index.vue' /* webpackChunkName: "pages/library/index" */))
+const _52bdd824 = () => interopDefault(import('../pages/schedule.vue' /* webpackChunkName: "pages/schedule" */))
+const _07e62440 = () => interopDefault(import('../pages/zoom.vue' /* webpackChunkName: "pages/zoom" */))
 const _20a60b42 = () => interopDefault(import('../pages/courses/cpnt-200/index.vue' /* webpackChunkName: "pages/courses/cpnt-200/index" */))
 const _f6dca5c0 = () => interopDefault(import('../pages/courses/cpnt-201/index.vue' /* webpackChunkName: "pages/courses/cpnt-201/index" */))
 const _1dd6da99 = () => interopDefault(import('../pages/courses/cpnt-260/index.vue' /* webpackChunkName: "pages/courses/cpnt-260/index" */))
@@ -32,6 +35,18 @@ export const routerOptions = {
     path: "/courses",
     component: _8c9c6104,
     name: "courses"
+  }, {
+    path: "/library",
+    component: _91bcae7e,
+    name: "library"
+  }, {
+    path: "/schedule",
+    component: _52bdd824,
+    name: "schedule"
+  }, {
+    path: "/zoom",
+    component: _07e62440,
+    name: "zoom"
   }, {
     path: "/courses/cpnt-200",
     component: _20a60b42,

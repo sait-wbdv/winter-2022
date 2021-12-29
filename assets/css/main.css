@@ -3,19 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Basic Font Setup */
+/* adjustments to base styles */
+
 @layer base {
+/* Basic Font Setup */
+
   h1 {
-    @apply text-2xl font-body;
+    @apply text-4xl font-title font-light;
   }
   h2 {
-    @apply text-1xl font-body;
+    @apply text-3xl font-title font-light;
   }
   h3 {
-    @apply text-xl font-body;
+    @apply text-2xl font-title font-light;
+  }
+  h4 {
+    @apply text-xl font-title font-light;
   }
   p, a, li {
-    @apply text-lg;
+    @apply text-lg font-sans font-normal;
   }
 }
 

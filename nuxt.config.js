@@ -33,11 +33,24 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // https://vite.nuxtjs.org/
+    'nuxt-vite',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    'nuxt-vite'
+    // https://google-fonts.nuxtjs.org/
+    '@nuxtjs/google-fonts',
+    // https://image.nuxtjs.org/
+    '@nuxt/image'
   ],
-
+  googleFonts: {
+    preconnect: true,
+    families: {
+      'Open+Sans': true,
+      Raleway: {
+        wght: [100, 300]
+      }
+    }
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/content'

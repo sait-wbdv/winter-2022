@@ -14,6 +14,27 @@
     "_name": "_8c9c6104"
   },
   {
+    "name": "library",
+    "path": "/library",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/library/index.vue",
+    "chunkName": "pages/library/index",
+    "_name": "_91bcae7e"
+  },
+  {
+    "name": "schedule",
+    "path": "/schedule",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/schedule.vue",
+    "chunkName": "pages/schedule",
+    "_name": "_52bdd824"
+  },
+  {
+    "name": "zoom",
+    "path": "/zoom",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/zoom.vue",
+    "chunkName": "pages/zoom",
+    "_name": "_07e62440"
+  },
+  {
     "name": "courses-cpnt-200",
     "path": "/courses/cpnt-200",
     "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-200/index.vue",

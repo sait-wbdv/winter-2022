@@ -15,6 +15,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 import nuxt_plugin_plugin_7846d553 from 'nuxt_plugin_plugin_7846d553' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_pluginclient_9e308162 from 'nuxt_plugin_pluginclient_9e308162' // Source: ./content/plugin.client.js (mode: 'client')
 import nuxt_plugin_pluginserver_16a130d7 from 'nuxt_plugin_pluginserver_16a130d7' // Source: ./content/plugin.server.js (mode: 'server')
+import nuxt_plugin_image_3ac1bc38 from 'nuxt_plugin_image_3ac1bc38' // Source: ./image.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -64,7 +65,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"winter-2022","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"winter-2022","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"hid":"gf-prefetch","rel":"dns-prefetch","href":"https:\u002F\u002Ffonts.gstatic.com\u002F"},{"hid":"gf-preconnect","rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com\u002F","crossorigin":""},{"hid":"gf-preload","rel":"preload","as":"style","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Open+Sans&family=Raleway:wght@100;300"}],"style":[],"script":[{"hid":"gf-script","innerHTML":"(function(){var l=document.createElement('link');l.rel=\"stylesheet\";l.href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Open+Sans&family=Raleway:wght@100;300\";document.querySelector(\"head\").appendChild(l);})();"}],"noscript":[{"hid":"gf-noscript","innerHTML":"\u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Open+Sans&family=Raleway:wght@100;300\"\u003E"}],"__dangerouslyDisableSanitizersByTagID":{"gf-script":["innerHTML"],"gf-noscript":["innerHTML"]}},
 
     router,
     nuxt: {
@@ -188,6 +189,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.server && typeof nuxt_plugin_pluginserver_16a130d7 === 'function') {
     await nuxt_plugin_pluginserver_16a130d7(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_image_3ac1bc38 === 'function') {
+    await nuxt_plugin_image_3ac1bc38(app.context, inject)
   }
 
   // Lock enablePreview in context

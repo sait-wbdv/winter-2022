@@ -240,6 +240,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Open Sans',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -266,6 +267,11 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+    },
+    extend: {
+      fontFamily: {
+        title: 'Raleway'
+      }
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
