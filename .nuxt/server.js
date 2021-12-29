@@ -54,7 +54,7 @@ const createNext = ssrContext => (opts) => {
     return
   }
   let fullPath = withQuery(opts.path, opts.query)
-  const $config = ssrContext.nuxt.config || {}
+  const $config = ssrContext.runtimeConfig || {}
   const routerBase = ($config._app && $config._app.basePath) || '/'
   if (!fullPath.startsWith('http') && (routerBase !== '/' && !fullPath.startsWith(routerBase))) {
     fullPath = joinURL(routerBase, fullPath)
@@ -81,8 +81,6 @@ export default async (ssrContext) => {
   ssrContext.next = createNext(ssrContext)
   // Used for beforeNuxtRender({ Components, nuxtState })
   ssrContext.beforeRenderFns = []
-  // for beforeSerialize(nuxtState)
-  ssrContext.beforeSerializeFns = []
   // Nuxt object (window.{{globals.context}}, defaults to window.__NUXT__)
   ssrContext.nuxt = { layout: 'default', data: [], fetch: {}, error: null, serverRendered: true, routePath: '' }
 
@@ -110,11 +108,6 @@ export default async (ssrContext) => {
   const beforeRender = async () => {
     // Call beforeNuxtRender() methods
     await Promise.all(ssrContext.beforeRenderFns.map(fn => promisify(fn, { Components, nuxtState: ssrContext.nuxt })))
-
-    ssrContext.rendered = () => {
-      // Call beforeSerialize() hooks
-      ssrContext.beforeSerializeFns.forEach(fn => fn(ssrContext.nuxt))
-    }
   }
 
   const renderErrorPage = async () => {

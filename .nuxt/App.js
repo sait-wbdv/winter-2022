@@ -7,7 +7,7 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 import '../node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css'
 
-import '../static/assets/css/main.css'
+import '../assets/css/main.css'
 
 import '../node_modules/prismjs/themes/prism.css'
 
