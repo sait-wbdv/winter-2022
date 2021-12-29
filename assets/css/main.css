@@ -2,3 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Basic Font Setup */
+@layer base {
+  h1 {
+    @apply text-2xl font-body;
+  }
+  h2 {
+    @apply text-1xl font-body;
+  }
+  h3 {
+    @apply text-xl font-body;
+  }
+  p, a, li {
+    @apply text-lg;
+  }
+}
+
+/* Componenets */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-full hover:shadow-md;
+  }
+}
