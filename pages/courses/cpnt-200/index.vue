@@ -1,8 +1,13 @@
 <template>
   <main>
     <h2>{{ posts.title }}</h2>
+    <p>{{ $route.path }}</p>
     <ul>
-      <nuxt-link v-for="post in posts" :key="post.slug">
+      <nuxt-link
+        :to="`cpnt-200/${post.slug}`"
+        v-for="post in posts"
+        :key="post.id"
+      >
         {{ post.title }}
       </nuxt-link>
     </ul>
@@ -10,8 +15,8 @@
 </template>
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("cpnt-200").fetch();
     return {
       posts,
     };

@@ -2,7 +2,11 @@
   <main>
     <h2>{{ posts.title }}</h2>
     <ul>
-      <nuxt-link v-for="post in posts" :key="post.slug">
+      <nuxt-link
+        :to="`dsgn-270/${params.slug}`"
+        v-for="post in posts"
+        :key="post.id"
+      >
         {{ post.title }}
       </nuxt-link>
     </ul>
@@ -10,8 +14,8 @@
 </template>
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("dsgn-270").fetch();
     return {
       posts,
     };

@@ -1153,19 +1153,19 @@ const listenersKeys = [
   "afterAppear",
   "appearCancelled"
 ];
-var render$o = function() {
+var render$p = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "__nuxt-error-page" }, [_c("div", { staticClass: "error" }, [_c("svg", { attrs: { "xmlns": "http://www.w3.org/2000/svg", "width": "90", "height": "90", "fill": "#DBE1EC", "viewBox": "0 0 48 48" } }, [_c("path", { attrs: { "d": "M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z" } })]), _c("div", { staticClass: "title" }, [_vm._v(_vm._s(_vm.message))]), _vm.statusCode === 404 ? _c("p", { staticClass: "description" }, [typeof _vm.$route === "undefined" ? _c("a", { staticClass: "error-link", attrs: { "href": "/" } }) : _c("NuxtLink", { staticClass: "error-link", attrs: { "to": "/" } }, [_vm._v("Back to the home page")])], 1) : _c("p", { staticClass: "description" }, [_vm._v("An error occurred while rendering the page. Check developer tools console for details.")]), _vm._m(0)])]);
 };
-var staticRenderFns$o = [function() {
+var staticRenderFns$p = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "logo" }, [_c("a", { attrs: { "href": "https://nuxtjs.org", "target": "_blank", "rel": "noopener" } }, [_vm._v("Nuxt")])]);
 }];
-render$o._withStripped = true;
+render$p._withStripped = true;
 var nuxtError_vue_vue_type_style_index_0_lang = "";
 function normalizeComponent(scriptExports, render2, staticRenderFns2, functionalTemplate, injectStyles, scopeId, moduleIdentifier, shadowMode) {
   var options = typeof scriptExports === "function" ? scriptExports.options : scriptExports;
@@ -1247,7 +1247,7 @@ const __vue2_script$r = {
   }
 };
 const __cssModules$r = {};
-var __component__$r = /* @__PURE__ */ normalizeComponent(__vue2_script$r, render$o, staticRenderFns$o, false, __vue2_injectStyles$r, null, null, null);
+var __component__$r = /* @__PURE__ */ normalizeComponent(__vue2_script$r, render$p, staticRenderFns$p, false, __vue2_injectStyles$r, null, null, null);
 function __vue2_injectStyles$r(context) {
   for (let o2 in __cssModules$r) {
     this[o2] = __cssModules$r[o2];
@@ -1470,9 +1470,9 @@ const __vue2_script$q = {
     return el;
   }
 };
-let __vue2_render$2, __vue2_staticRenderFns$2;
+let __vue2_render$1, __vue2_staticRenderFns$1;
 const __cssModules$q = {};
-var __component__$q = /* @__PURE__ */ normalizeComponent(__vue2_script$q, __vue2_render$2, __vue2_staticRenderFns$2, false, __vue2_injectStyles$q, null, null, null);
+var __component__$q = /* @__PURE__ */ normalizeComponent(__vue2_script$q, __vue2_render$1, __vue2_staticRenderFns$1, false, __vue2_injectStyles$q, null, null, null);
 function __vue2_injectStyles$q(context) {
   for (let o2 in __cssModules$q) {
     this[o2] = __cssModules$q[o2];
@@ -1484,17 +1484,17 @@ var NuxtLoading = /* @__PURE__ */ function() {
 }();
 var tailwind = "";
 var prism = "";
-var render$n = function() {
+var render$o = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("Nuxt");
 };
-var staticRenderFns$n = [];
-render$n._withStripped = true;
+var staticRenderFns$o = [];
+render$o._withStripped = true;
 const __vue2_script$p = {};
 const __cssModules$p = {};
-var __component__$p = /* @__PURE__ */ normalizeComponent(__vue2_script$p, render$n, staticRenderFns$n, false, __vue2_injectStyles$p, null, null, null);
+var __component__$p = /* @__PURE__ */ normalizeComponent(__vue2_script$p, render$o, staticRenderFns$o, false, __vue2_injectStyles$p, null, null, null);
 function __vue2_injectStyles$p(context) {
   for (let o2 in __cssModules$p) {
     this[o2] = __cssModules$p[o2];
@@ -1646,22 +1646,22 @@ var App = {
     NuxtLoading
   }
 };
-var render$m = function() {
+var render$n = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   _vm._self._c || _h;
   return _vm._m(0);
 };
-var staticRenderFns$m = [function() {
+var staticRenderFns$n = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("footer", [_c("p", [_vm._v("\xA9 2021 MIT License")])]);
 }];
-render$m._withStripped = true;
+render$n._withStripped = true;
 const __vue2_script$o = {};
 const __cssModules$o = {};
-var __component__$o = /* @__PURE__ */ normalizeComponent(__vue2_script$o, render$m, staticRenderFns$m, false, __vue2_injectStyles$o, null, null, null);
+var __component__$o = /* @__PURE__ */ normalizeComponent(__vue2_script$o, render$n, staticRenderFns$n, false, __vue2_injectStyles$o, null, null, null);
 function __vue2_injectStyles$o(context) {
   for (let o2 in __cssModules$o) {
     this[o2] = __cssModules$o[o2];
@@ -1671,22 +1671,22 @@ __component__$o.options.__file = "components/Footer.vue";
 var Footer = /* @__PURE__ */ function() {
   return __component__$o.exports;
 }();
-var render$l = function() {
+var render$m = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("header", [_vm._m(0), _c("Navigation")], 1);
 };
-var staticRenderFns$l = [function() {
+var staticRenderFns$m = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", [_c("p", [_vm._v("Sait Web Developer")]), _c("p", [_vm._v("Fast Track - Winter 2022")])]);
 }];
-render$l._withStripped = true;
+render$m._withStripped = true;
 const __vue2_script$n = {};
 const __cssModules$n = {};
-var __component__$n = /* @__PURE__ */ normalizeComponent(__vue2_script$n, render$l, staticRenderFns$l, false, __vue2_injectStyles$n, null, null, null);
+var __component__$n = /* @__PURE__ */ normalizeComponent(__vue2_script$n, render$m, staticRenderFns$m, false, __vue2_injectStyles$n, null, null, null);
 function __vue2_injectStyles$n(context) {
   for (let o2 in __cssModules$n) {
     this[o2] = __cssModules$n[o2];
@@ -1696,22 +1696,17 @@ __component__$n.options.__file = "components/Header.vue";
 var Header = /* @__PURE__ */ function() {
   return __component__$n.exports;
 }();
-var render$k = function() {
-  var _vm = this;
-  var _h = _vm.$createElement;
-  _vm._self._c || _h;
-  return _vm._m(0);
-};
-var staticRenderFns$k = [function() {
+var render$l = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("nav", [_c("ul", [_c("li", [_c("a", { attrs: { "href": "schedule" } }, [_vm._v("Schedule")])]), _c("li", [_c("a", { attrs: { "href": "assignments" } }, [_vm._v("Assignments")])]), _c("li", [_c("a", { attrs: { "href": "library" } }, [_vm._v("Library")])]), _c("li", [_c("a", { attrs: { "href": "zoom" } }, [_vm._v("Zoom")])])])]);
-}];
-render$k._withStripped = true;
+  return _c("nav", [_c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "schedule" } }, [_vm._v("Schedule")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "assignments" } }, [_vm._v("Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "library" } }, [_vm._v("Library")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "zoom" } }, [_vm._v("Zoom")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "courses" } })], 1)])]);
+};
+var staticRenderFns$l = [];
+render$l._withStripped = true;
 const __vue2_script$m = {};
 const __cssModules$m = {};
-var __component__$m = /* @__PURE__ */ normalizeComponent(__vue2_script$m, render$k, staticRenderFns$k, false, __vue2_injectStyles$m, null, null, null);
+var __component__$m = /* @__PURE__ */ normalizeComponent(__vue2_script$m, render$l, staticRenderFns$l, false, __vue2_injectStyles$m, null, null, null);
 function __vue2_injectStyles$m(context) {
   for (let o2 in __cssModules$m) {
     this[o2] = __cssModules$m[o2];
@@ -3033,7 +3028,7 @@ var NuxtContent$1 = {
     return h(tag, data2, body.children.map((child) => processNode(child, h, document2)));
   }
 };
-var render$j = function() {
+var render$k = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
@@ -3070,8 +3065,8 @@ var render$j = function() {
     _vm.file = $event.target.value;
   } } });
 };
-var staticRenderFns$j = [];
-render$j._withStripped = true;
+var staticRenderFns$k = [];
+render$k._withStripped = true;
 const __vue2_script$l = {
   props: {
     value: String,
@@ -3131,7 +3126,7 @@ const __vue2_script$l = {
   }
 };
 const __cssModules$l = {};
-var __component__$l = /* @__PURE__ */ normalizeComponent(__vue2_script$l, render$j, staticRenderFns$j, false, __vue2_injectStyles$l, null, null, null);
+var __component__$l = /* @__PURE__ */ normalizeComponent(__vue2_script$l, render$k, staticRenderFns$k, false, __vue2_injectStyles$l, null, null, null);
 function __vue2_injectStyles$l(context) {
   for (let o2 in __cssModules$l) {
     this[o2] = __cssModules$l[o2];
@@ -3141,7 +3136,7 @@ __component__$l.options.__file = ".nuxt/content/editor.vue";
 var Editor = /* @__PURE__ */ function() {
   return __component__$l.exports;
 }();
-var render$i = function() {
+var render$j = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
@@ -3149,8 +3144,8 @@ var render$i = function() {
     _vm.file = $$v;
   }, expression: "file" } })], 1), _c("nuxt-content-dev", { directives: [{ name: "show", rawName: "v-show", value: !_vm.isEditing, expression: "!isEditing" }], ref: "content", class: _vm.classes, attrs: { "id": _vm.id, "document": _vm.document }, on: { "dblclick": _vm.toggleEdit } })], 1);
 };
-var staticRenderFns$i = [];
-render$i._withStripped = true;
+var staticRenderFns$j = [];
+render$j._withStripped = true;
 var nuxtContent_dev_vue_vue_type_style_index_0_scoped_true_lang = "";
 const __vue2_script$k = {
   name: "NuxtContent",
@@ -3216,7 +3211,7 @@ const __vue2_script$k = {
   }
 };
 const __cssModules$k = {};
-var __component__$k = /* @__PURE__ */ normalizeComponent(__vue2_script$k, render$i, staticRenderFns$i, false, __vue2_injectStyles$k, "f58a9f50", null, null);
+var __component__$k = /* @__PURE__ */ normalizeComponent(__vue2_script$k, render$j, staticRenderFns$j, false, __vue2_injectStyles$k, "f58a9f50", null, null);
 function __vue2_injectStyles$k(context) {
   for (let o2 in __cssModules$k) {
     this[o2] = __cssModules$k[o2];
@@ -3577,14 +3572,14 @@ const imageMixin = defineMixin({
     }
   }
 });
-var render$h = function() {
+var render$i = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("img", _vm._b({ key: _vm.nSrc, attrs: { "src": _vm.nSrc } }, "img", _vm.nAttrs, false));
 };
-var staticRenderFns$h = [];
-render$h._withStripped = true;
+var staticRenderFns$i = [];
+render$i._withStripped = true;
 const defineComponent$2 = (opts) => opts;
 const __vue2_script$j = defineComponent$2({
   name: "NuxtImg",
@@ -3616,7 +3611,7 @@ const __vue2_script$j = defineComponent$2({
   }
 });
 const __cssModules$j = {};
-var __component__$j = /* @__PURE__ */ normalizeComponent(__vue2_script$j, render$h, staticRenderFns$h, false, __vue2_injectStyles$j, null, null, null);
+var __component__$j = /* @__PURE__ */ normalizeComponent(__vue2_script$j, render$i, staticRenderFns$i, false, __vue2_injectStyles$j, null, null, null);
 function __vue2_injectStyles$j(context) {
   for (let o2 in __cssModules$j) {
     this[o2] = __cssModules$j[o2];
@@ -3626,14 +3621,14 @@ __component__$j.options.__file = "node_modules/@nuxt/image/dist/runtime/componen
 var NuxtImg = /* @__PURE__ */ function() {
   return __component__$j.exports;
 }();
-var render$g = function() {
+var render$h = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("picture", { key: _vm.nSources[0].src }, [_vm.nSources[1] ? _c("source", { attrs: { "type": _vm.nSources[1].type, "srcset": _vm.nSources[1].srcset, "sizes": _vm.nSources[1].sizes } }) : _vm._e(), _c("img", _vm._b({ attrs: { "src": _vm.nSources[0].src, "srcset": _vm.nSources[0].srcset, "sizes": _vm.nSources[0].sizes } }, "img", _vm.nImgAttrs, false))]);
 };
-var staticRenderFns$g = [];
-render$g._withStripped = true;
+var staticRenderFns$h = [];
+render$h._withStripped = true;
 const defineComponent$1 = (opts) => opts;
 const __vue2_script$i = defineComponent$1({
   name: "NuxtPicture",
@@ -3695,7 +3690,7 @@ const __vue2_script$i = defineComponent$1({
   }
 });
 const __cssModules$i = {};
-var __component__$i = /* @__PURE__ */ normalizeComponent(__vue2_script$i, render$g, staticRenderFns$g, false, __vue2_injectStyles$i, null, null, null);
+var __component__$i = /* @__PURE__ */ normalizeComponent(__vue2_script$i, render$h, staticRenderFns$h, false, __vue2_injectStyles$i, null, null, null);
 function __vue2_injectStyles$i(context) {
   for (let o2 in __cssModules$i) {
     this[o2] = __cssModules$i[o2];
@@ -4112,9 +4107,9 @@ var server = async (ssrContext) => {
   return _app;
 };
 const __vue2_script$h = {};
-let __vue2_render$1, __vue2_staticRenderFns$1;
+let __vue2_render, __vue2_staticRenderFns;
 const __cssModules$h = {};
-var __component__$h = /* @__PURE__ */ normalizeComponent(__vue2_script$h, __vue2_render$1, __vue2_staticRenderFns$1, false, __vue2_injectStyles$h, null, null, null);
+var __component__$h = /* @__PURE__ */ normalizeComponent(__vue2_script$h, __vue2_render, __vue2_staticRenderFns, false, __vue2_injectStyles$h, null, null, null);
 function __vue2_injectStyles$h(context) {
   for (let o2 in __cssModules$h) {
     this[o2] = __cssModules$h[o2];
@@ -4129,10 +4124,17 @@ var index$k = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": index$j
 });
+var render$g = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("h2", [_vm._v("Courses")]), _c("ul", [_c("p", [_vm._v(_vm._s(_vm.$route.path))]), _c("li", [_c("nuxt-link", { attrs: { "to": "courses/cpnt-201" } }, [_vm._v("cpnt-201")])], 1)])]);
+};
+var staticRenderFns$g = [];
+render$g._withStripped = true;
 const __vue2_script$g = {};
-let __vue2_render, __vue2_staticRenderFns;
 const __cssModules$g = {};
-var __component__$g = /* @__PURE__ */ normalizeComponent(__vue2_script$g, __vue2_render, __vue2_staticRenderFns, false, __vue2_injectStyles$g, null, null, null);
+var __component__$g = /* @__PURE__ */ normalizeComponent(__vue2_script$g, render$g, staticRenderFns$g, false, __vue2_injectStyles$g, null, null, null);
 function __vue2_injectStyles$g(context) {
   for (let o2 in __cssModules$g) {
     this[o2] = __cssModules$g[o2];
@@ -4241,15 +4243,15 @@ var render$c = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
-    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+  return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("p", [_vm._v(_vm._s(_vm.$route.path))]), _c("ul", _vm._l(_vm.posts, function(post) {
+    return _c("nuxt-link", { key: post.id, attrs: { "to": "cpnt-200/" + post.slug } }, [_vm._v(" " + _vm._s(post.title) + " ")]);
   }), 1)]);
 };
 var staticRenderFns$c = [];
 render$c._withStripped = true;
 const __vue2_script$c = {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("cpnt-200").fetch();
     return {
       posts
     };
@@ -4276,14 +4278,14 @@ var render$b = function() {
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
-    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+    return _c("nuxt-link", { key: post.id, attrs: { "to": "cpnt-201/" + post.slug } }, [_vm._v(" " + _vm._s(post.title) + " ")]);
   }), 1)]);
 };
 var staticRenderFns$b = [];
 render$b._withStripped = true;
 const __vue2_script$b = {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("cpnt-201").fetch();
     return {
       posts
     };
@@ -4310,14 +4312,14 @@ var render$a = function() {
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
-    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+    return _c("nuxt-link", { key: post.id, attrs: { "to": "cpnt-260/" + post.slug } }, [_vm._v(" " + _vm._s(post.title) + " ")]);
   }), 1)]);
 };
 var staticRenderFns$a = [];
 render$a._withStripped = true;
 const __vue2_script$a = {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("cpnt-260").fetch();
     return {
       posts
     };
@@ -4344,14 +4346,14 @@ var render$9 = function() {
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
-    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+    return _c("nuxt-link", { key: post.id, attrs: { "to": "cpnt-262/" + _vm.params.slug } }, [_vm._v(" " + _vm._s(post.title) + " ")]);
   }), 1)]);
 };
 var staticRenderFns$9 = [];
 render$9._withStripped = true;
 const __vue2_script$9 = {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("cpnt-262").fetch();
     return {
       posts
     };
@@ -4378,14 +4380,14 @@ var render$8 = function() {
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
-    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+    return _c("nuxt-link", { key: post.id, attrs: { "to": "cpnt-265/" + _vm.params.slug } }, [_vm._v(" " + _vm._s(post.title) + " ")]);
   }), 1)]);
 };
 var staticRenderFns$8 = [];
 render$8._withStripped = true;
 const __vue2_script$8 = {
   async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+    const posts = await $content("cpnt-265");
     return {
       posts
     };
@@ -4412,14 +4414,14 @@ var render$7 = function() {
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("main", [_c("h2", [_vm._v(_vm._s(_vm.posts.title))]), _c("ul", _vm._l(_vm.posts, function(post) {
-    return _c("nuxt-link", { key: post.slug }, [_vm._v(" " + _vm._s(post.title) + " ")]);
+    return _c("nuxt-link", { key: post.id, attrs: { "to": "dsgn-270/" + _vm.params.slug } }, [_vm._v(" " + _vm._s(post.title) + " ")]);
   }), 1)]);
 };
 var staticRenderFns$7 = [];
 render$7._withStripped = true;
 const __vue2_script$7 = {
-  async asyncData({ $content, params }) {
-    const posts = await $content("cpnt-200");
+  async asyncData({ $content }) {
+    const posts = await $content("dsgn-270").fetch();
     return {
       posts
     };
@@ -4449,10 +4451,10 @@ var render$6 = function() {
 };
 var staticRenderFns$6 = [];
 render$6._withStripped = true;
-const __vue2_script$6 = defineComponent({
+const __vue2_script$6 = {
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
       return {
         lesson
       };
@@ -4460,7 +4462,7 @@ const __vue2_script$6 = defineComponent({
       error("No lesson found");
     }
   }
-});
+};
 const __cssModules$6 = {};
 var __component__$6 = /* @__PURE__ */ normalizeComponent(__vue2_script$6, render$6, staticRenderFns$6, false, __vue2_injectStyles$6, null, null, null);
 function __vue2_injectStyles$6(context) {
@@ -4485,10 +4487,10 @@ var render$5 = function() {
 };
 var staticRenderFns$5 = [];
 render$5._withStripped = true;
-const __vue2_script$5 = defineComponent({
+const __vue2_script$5 = {
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-201/${params.slug}`).fetch();
       return {
         lesson
       };
@@ -4496,7 +4498,7 @@ const __vue2_script$5 = defineComponent({
       error("No lesson found");
     }
   }
-});
+};
 const __cssModules$5 = {};
 var __component__$5 = /* @__PURE__ */ normalizeComponent(__vue2_script$5, render$5, staticRenderFns$5, false, __vue2_injectStyles$5, null, null, null);
 function __vue2_injectStyles$5(context) {
@@ -4524,7 +4526,7 @@ render$4._withStripped = true;
 const __vue2_script$4 = defineComponent({
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
       return {
         lesson
       };
@@ -4560,7 +4562,7 @@ render$3._withStripped = true;
 const __vue2_script$3 = defineComponent({
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
       return {
         lesson
       };
@@ -4596,7 +4598,7 @@ render$2._withStripped = true;
 const __vue2_script$2 = defineComponent({
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
       return {
         lesson
       };
@@ -4660,15 +4662,10 @@ var _slug$1 = /* @__PURE__ */ Object.freeze({
 var render = function() {
   var _vm = this;
   var _h = _vm.$createElement;
-  _vm._self._c || _h;
-  return _vm._m(0);
-};
-var staticRenderFns = [function() {
-  var _vm = this;
-  var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("div", [_c("h1", [_vm._v("Home")])]);
-}];
+  return _c("div", [_c("h1", [_vm._v("Home")]), _c("Navigation")], 1);
+};
+var staticRenderFns = [];
 render._withStripped = true;
 const __vue2_script = {};
 const __cssModules = {};

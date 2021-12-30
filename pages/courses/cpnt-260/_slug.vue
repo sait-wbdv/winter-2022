@@ -8,7 +8,7 @@
 export default defineComponent({
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`/cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
       return {
         lesson,
       };
