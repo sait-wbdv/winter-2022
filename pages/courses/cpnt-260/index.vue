@@ -2,13 +2,11 @@
   <main>
     <h2>{{ posts.title }}</h2>
     <ul>
-      <nuxt-link
-        :to="`cpnt-260/${post.slug}`"
-        v-for="post in posts"
-        :key="post.id"
-      >
-        {{ post.title }}
-      </nuxt-link>
+      <li v-for="post in posts" :key="post.id">
+        <nuxt-link :to="`cpnt-260/${post.slug}`">
+          {{ post.title }}
+        </nuxt-link>
+      </li>
     </ul>
   </main>
 </template>

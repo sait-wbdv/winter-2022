@@ -2,11 +2,8 @@
   <main>
     <h2>{{ posts.title }}</h2>
     <ul>
-      <nuxt-link
-        :to="`dsgn-270/${params.slug}`"
-        v-for="post in posts"
-        :key="post.id"
-      >
+      <li v-for="post in posts" :key="post.id"></li>
+      <nuxt-link :to="`dsgn-270/${params.slug}`">
         {{ post.title }}
       </nuxt-link>
     </ul>
