@@ -16,7 +16,6 @@ packages/*/LICENSE
 distributions/*/LICENSE
 
 # Other
-.nuxt
 .nuxt*
 !.nuxtignore
 !.nuxtrc
