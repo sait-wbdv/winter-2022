@@ -2,16 +2,58 @@
   {
     "name": "assignments",
     "path": "/assignments",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/assignments/index.vue",
-    "chunkName": "pages/assignments/index",
-    "_name": "_145f180c"
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/assignments.vue",
+    "chunkName": "pages/assignments",
+    "_name": "_7fc6a76e"
   },
   {
     "name": "courses",
     "path": "/courses",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/index.vue",
-    "chunkName": "pages/courses/index",
-    "_name": "_8c9c6104"
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses.vue",
+    "chunkName": "pages/courses",
+    "_name": "_ac3b3d8a"
+  },
+  {
+    "name": "cpnt-200",
+    "path": "/cpnt-200",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-200/index.vue",
+    "chunkName": "pages/cpnt-200/index",
+    "_name": "_20047ba8"
+  },
+  {
+    "name": "cpnt-201",
+    "path": "/cpnt-201",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-201/index.vue",
+    "chunkName": "pages/cpnt-201/index",
+    "_name": "_962da32e"
+  },
+  {
+    "name": "cpnt-260",
+    "path": "/cpnt-260",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-260/index.vue",
+    "chunkName": "pages/cpnt-260/index",
+    "_name": "_4e2e5be2"
+  },
+  {
+    "name": "cpnt-262",
+    "path": "/cpnt-262",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-262/index.vue",
+    "chunkName": "pages/cpnt-262/index",
+    "_name": "_77f7c164"
+  },
+  {
+    "name": "cpnt-265",
+    "path": "/cpnt-265",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-265/index.vue",
+    "chunkName": "pages/cpnt-265/index",
+    "_name": "_36a5d9a7"
+  },
+  {
+    "name": "dsgn-270",
+    "path": "/dsgn-270",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/dsgn-270/index.vue",
+    "chunkName": "pages/dsgn-270/index",
+    "_name": "_73642278"
   },
   {
     "name": "library",
@@ -35,88 +77,130 @@
     "_name": "_07e62440"
   },
   {
-    "name": "courses-cpnt-200",
-    "path": "/courses/cpnt-200",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-200/index.vue",
-    "chunkName": "pages/courses/cpnt-200/index",
-    "_name": "_20a60b42"
+    "name": "cpnt-200-assignments",
+    "path": "/cpnt-200/assignments",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-200/assignments/index.vue",
+    "chunkName": "pages/cpnt-200/assignments/index",
+    "_name": "_2280c71f"
   },
   {
-    "name": "courses-cpnt-201",
-    "path": "/courses/cpnt-201",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-201/index.vue",
-    "chunkName": "pages/courses/cpnt-201/index",
-    "_name": "_f6dca5c0"
+    "name": "cpnt-201-assignments",
+    "path": "/cpnt-201/assignments",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-201/assignments/index.vue",
+    "chunkName": "pages/cpnt-201/assignments/index",
+    "_name": "_6cb26060"
   },
   {
-    "name": "courses-cpnt-260",
-    "path": "/courses/cpnt-260",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-260/index.vue",
-    "chunkName": "pages/courses/cpnt-260/index",
-    "_name": "_1dd6da99"
+    "name": "cpnt-260-assignments",
+    "path": "/cpnt-260/assignments",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-260/assignments/index.vue",
+    "chunkName": "pages/cpnt-260/assignments/index",
+    "_name": "_0a8a2059"
   },
   {
-    "name": "courses-cpnt-262",
-    "path": "/courses/cpnt-262",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-262/index.vue",
-    "chunkName": "pages/courses/cpnt-262/index",
-    "_name": "_47a0401b"
+    "name": "cpnt-262-assignments",
+    "path": "/cpnt-262/assignments",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-262/assignments/index.vue",
+    "chunkName": "pages/cpnt-262/assignments/index",
+    "_name": "_c2255a4a"
   },
   {
-    "name": "courses-cpnt-265",
-    "path": "/courses/cpnt-265",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-265/index.vue",
-    "chunkName": "pages/courses/cpnt-265/index",
-    "_name": "_064e585e"
+    "name": "cpnt-265-assignments",
+    "path": "/cpnt-265/assignments",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-265/assignments/index.vue",
+    "chunkName": "pages/cpnt-265/assignments/index",
+    "_name": "_7d821e9e"
   },
   {
-    "name": "courses-dsgn-270",
-    "path": "/courses/dsgn-270",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/dsgn-270/index.vue",
-    "chunkName": "pages/courses/dsgn-270/index",
-    "_name": "_d413250a"
+    "name": "dsgn-270-assignments",
+    "path": "/dsgn-270/assignments",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/dsgn-270/assignments/index.vue",
+    "chunkName": "pages/dsgn-270/assignments/index",
+    "_name": "_d4eb1f8a"
   },
   {
-    "name": "courses-cpnt-200-slug",
-    "path": "/courses/cpnt-200/:slug?",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-200/_slug.vue",
-    "chunkName": "pages/courses/cpnt-200/_slug",
-    "_name": "_24134dd2"
+    "name": "cpnt-200-assignments-slug",
+    "path": "/cpnt-200/assignments/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-200/assignments/_slug.vue",
+    "chunkName": "pages/cpnt-200/assignments/_slug",
+    "_name": "_20ca25d7"
   },
   {
-    "name": "courses-cpnt-201-slug",
-    "path": "/courses/cpnt-201/:slug?",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-201/_slug.vue",
-    "chunkName": "pages/courses/cpnt-201/_slug",
-    "_name": "_fa49e850"
+    "name": "cpnt-200-lessons-slug",
+    "path": "/cpnt-200/lessons/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-200/lessons/_slug.vue",
+    "chunkName": "pages/cpnt-200/lessons/_slug",
+    "_name": "_0b85a4e8"
   },
   {
-    "name": "courses-cpnt-260-slug",
-    "path": "/courses/cpnt-260/:slug?",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-260/_slug.vue",
-    "chunkName": "pages/courses/cpnt-260/_slug",
-    "_name": "_1c203951"
+    "name": "cpnt-201-assignments-slug",
+    "path": "/cpnt-201/assignments/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-201/assignments/_slug.vue",
+    "chunkName": "pages/cpnt-201/assignments/_slug",
+    "_name": "_6afbbf18"
   },
   {
-    "name": "courses-cpnt-262-slug",
-    "path": "/courses/cpnt-262/:slug?",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-262/_slug.vue",
-    "chunkName": "pages/courses/cpnt-262/_slug",
-    "_name": "_45e99ed3"
+    "name": "cpnt-201-lessons-slug",
+    "path": "/cpnt-201/lessons/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-201/lessons/_slug.vue",
+    "chunkName": "pages/cpnt-201/lessons/_slug",
+    "_name": "_7030e166"
   },
   {
-    "name": "courses-cpnt-265-slug",
-    "path": "/courses/cpnt-265/:slug?",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/cpnt-265/_slug.vue",
-    "chunkName": "pages/courses/cpnt-265/_slug",
-    "_name": "_0497b716"
+    "name": "cpnt-260-assignments-slug",
+    "path": "/cpnt-260/assignments/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-260/assignments/_slug.vue",
+    "chunkName": "pages/cpnt-260/assignments/_slug",
+    "_name": "_08d37f11"
   },
   {
-    "name": "courses-dsgn-270-slug",
-    "path": "/courses/dsgn-270/:slug?",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/courses/dsgn-270/_slug.vue",
-    "chunkName": "pages/courses/dsgn-270/_slug",
-    "_name": "_d780679a"
+    "name": "cpnt-260-lessons-slug",
+    "path": "/cpnt-260/lessons/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-260/lessons/_slug.vue",
+    "chunkName": "pages/cpnt-260/lessons/_slug",
+    "_name": "_680833c6"
+  },
+  {
+    "name": "cpnt-262-assignments-slug",
+    "path": "/cpnt-262/assignments/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-262/assignments/_slug.vue",
+    "chunkName": "pages/cpnt-262/assignments/_slug",
+    "_name": "_c5929cda"
+  },
+  {
+    "name": "cpnt-262-lessons-slug",
+    "path": "/cpnt-262/lessons/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-262/lessons/_slug.vue",
+    "chunkName": "pages/cpnt-262/lessons/_slug",
+    "_name": "_035cf748"
+  },
+  {
+    "name": "cpnt-265-assignments-slug",
+    "path": "/cpnt-265/assignments/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-265/assignments/_slug.vue",
+    "chunkName": "pages/cpnt-265/assignments/_slug",
+    "_name": "_7bcb7d56"
+  },
+  {
+    "name": "cpnt-265-lessons-slug",
+    "path": "/cpnt-265/lessons/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/cpnt-265/lessons/_slug.vue",
+    "chunkName": "pages/cpnt-265/lessons/_slug",
+    "_name": "_6c5c1c8b"
+  },
+  {
+    "name": "dsgn-270-assignments-slug",
+    "path": "/dsgn-270/assignments/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/dsgn-270/assignments/_slug.vue",
+    "chunkName": "pages/dsgn-270/assignments/_slug",
+    "_name": "_d858621a"
+  },
+  {
+    "name": "dsgn-270-lessons-slug",
+    "path": "/dsgn-270/lessons/:slug",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/dsgn-270/lessons/_slug.vue",
+    "chunkName": "pages/dsgn-270/lessons/_slug",
+    "_name": "_3cdfc4a8"
   },
   {
     "name": "index",

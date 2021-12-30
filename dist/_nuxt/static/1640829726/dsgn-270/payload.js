@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/dsgn-270", {data:[{lessons:[{slug:"day-01",description:"A description",title:"DSGN-270 Day 1",toc:[],body:{type:"root",children:[]},dir:"\u002Fdsgn-270\u002Flessons",path:"\u002Fdsgn-270\u002Flessons\u002Fday-01",extension:".md",createdAt:"2021-12-28T19:50:27.459Z",updatedAt:"2021-12-30T01:04:31.974Z"}],_img:{}}],fetch:{},mutations:void 0});

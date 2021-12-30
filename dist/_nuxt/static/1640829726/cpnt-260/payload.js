@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cpnt-260", {data:[{lessons:[{slug:"day-01",description:"A description",title:"CPNT-260 Day 1",toc:[],body:{type:"root",children:[]},dir:"\u002Fcpnt-260\u002Flessons",path:"\u002Fcpnt-260\u002Flessons\u002Fday-01",extension:".md",createdAt:"2021-12-28T19:49:45.590Z",updatedAt:"2021-12-29T23:31:24.588Z"}],_img:{}}],fetch:{},mutations:void 0});

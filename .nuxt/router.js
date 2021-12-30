@@ -4,23 +4,35 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _145f180c = () => interopDefault(import('../pages/assignments/index.vue' /* webpackChunkName: "pages/assignments/index" */))
-const _8c9c6104 = () => interopDefault(import('../pages/courses/index.vue' /* webpackChunkName: "pages/courses/index" */))
+const _7fc6a76e = () => interopDefault(import('../pages/assignments.vue' /* webpackChunkName: "pages/assignments" */))
+const _ac3b3d8a = () => interopDefault(import('../pages/courses.vue' /* webpackChunkName: "pages/courses" */))
+const _20047ba8 = () => interopDefault(import('../pages/cpnt-200/index.vue' /* webpackChunkName: "pages/cpnt-200/index" */))
+const _962da32e = () => interopDefault(import('../pages/cpnt-201/index.vue' /* webpackChunkName: "pages/cpnt-201/index" */))
+const _4e2e5be2 = () => interopDefault(import('../pages/cpnt-260/index.vue' /* webpackChunkName: "pages/cpnt-260/index" */))
+const _77f7c164 = () => interopDefault(import('../pages/cpnt-262/index.vue' /* webpackChunkName: "pages/cpnt-262/index" */))
+const _36a5d9a7 = () => interopDefault(import('../pages/cpnt-265/index.vue' /* webpackChunkName: "pages/cpnt-265/index" */))
+const _73642278 = () => interopDefault(import('../pages/dsgn-270/index.vue' /* webpackChunkName: "pages/dsgn-270/index" */))
 const _91bcae7e = () => interopDefault(import('../pages/library/index.vue' /* webpackChunkName: "pages/library/index" */))
 const _52bdd824 = () => interopDefault(import('../pages/schedule.vue' /* webpackChunkName: "pages/schedule" */))
 const _07e62440 = () => interopDefault(import('../pages/zoom.vue' /* webpackChunkName: "pages/zoom" */))
-const _20a60b42 = () => interopDefault(import('../pages/courses/cpnt-200/index.vue' /* webpackChunkName: "pages/courses/cpnt-200/index" */))
-const _f6dca5c0 = () => interopDefault(import('../pages/courses/cpnt-201/index.vue' /* webpackChunkName: "pages/courses/cpnt-201/index" */))
-const _1dd6da99 = () => interopDefault(import('../pages/courses/cpnt-260/index.vue' /* webpackChunkName: "pages/courses/cpnt-260/index" */))
-const _47a0401b = () => interopDefault(import('../pages/courses/cpnt-262/index.vue' /* webpackChunkName: "pages/courses/cpnt-262/index" */))
-const _064e585e = () => interopDefault(import('../pages/courses/cpnt-265/index.vue' /* webpackChunkName: "pages/courses/cpnt-265/index" */))
-const _d413250a = () => interopDefault(import('../pages/courses/dsgn-270/index.vue' /* webpackChunkName: "pages/courses/dsgn-270/index" */))
-const _24134dd2 = () => interopDefault(import('../pages/courses/cpnt-200/_slug.vue' /* webpackChunkName: "pages/courses/cpnt-200/_slug" */))
-const _fa49e850 = () => interopDefault(import('../pages/courses/cpnt-201/_slug.vue' /* webpackChunkName: "pages/courses/cpnt-201/_slug" */))
-const _1c203951 = () => interopDefault(import('../pages/courses/cpnt-260/_slug.vue' /* webpackChunkName: "pages/courses/cpnt-260/_slug" */))
-const _45e99ed3 = () => interopDefault(import('../pages/courses/cpnt-262/_slug.vue' /* webpackChunkName: "pages/courses/cpnt-262/_slug" */))
-const _0497b716 = () => interopDefault(import('../pages/courses/cpnt-265/_slug.vue' /* webpackChunkName: "pages/courses/cpnt-265/_slug" */))
-const _d780679a = () => interopDefault(import('../pages/courses/dsgn-270/_slug.vue' /* webpackChunkName: "pages/courses/dsgn-270/_slug" */))
+const _2280c71f = () => interopDefault(import('../pages/cpnt-200/assignments/index.vue' /* webpackChunkName: "pages/cpnt-200/assignments/index" */))
+const _6cb26060 = () => interopDefault(import('../pages/cpnt-201/assignments/index.vue' /* webpackChunkName: "pages/cpnt-201/assignments/index" */))
+const _0a8a2059 = () => interopDefault(import('../pages/cpnt-260/assignments/index.vue' /* webpackChunkName: "pages/cpnt-260/assignments/index" */))
+const _c2255a4a = () => interopDefault(import('../pages/cpnt-262/assignments/index.vue' /* webpackChunkName: "pages/cpnt-262/assignments/index" */))
+const _7d821e9e = () => interopDefault(import('../pages/cpnt-265/assignments/index.vue' /* webpackChunkName: "pages/cpnt-265/assignments/index" */))
+const _d4eb1f8a = () => interopDefault(import('../pages/dsgn-270/assignments/index.vue' /* webpackChunkName: "pages/dsgn-270/assignments/index" */))
+const _20ca25d7 = () => interopDefault(import('../pages/cpnt-200/assignments/_slug.vue' /* webpackChunkName: "pages/cpnt-200/assignments/_slug" */))
+const _0b85a4e8 = () => interopDefault(import('../pages/cpnt-200/lessons/_slug.vue' /* webpackChunkName: "pages/cpnt-200/lessons/_slug" */))
+const _6afbbf18 = () => interopDefault(import('../pages/cpnt-201/assignments/_slug.vue' /* webpackChunkName: "pages/cpnt-201/assignments/_slug" */))
+const _7030e166 = () => interopDefault(import('../pages/cpnt-201/lessons/_slug.vue' /* webpackChunkName: "pages/cpnt-201/lessons/_slug" */))
+const _08d37f11 = () => interopDefault(import('../pages/cpnt-260/assignments/_slug.vue' /* webpackChunkName: "pages/cpnt-260/assignments/_slug" */))
+const _680833c6 = () => interopDefault(import('../pages/cpnt-260/lessons/_slug.vue' /* webpackChunkName: "pages/cpnt-260/lessons/_slug" */))
+const _c5929cda = () => interopDefault(import('../pages/cpnt-262/assignments/_slug.vue' /* webpackChunkName: "pages/cpnt-262/assignments/_slug" */))
+const _035cf748 = () => interopDefault(import('../pages/cpnt-262/lessons/_slug.vue' /* webpackChunkName: "pages/cpnt-262/lessons/_slug" */))
+const _7bcb7d56 = () => interopDefault(import('../pages/cpnt-265/assignments/_slug.vue' /* webpackChunkName: "pages/cpnt-265/assignments/_slug" */))
+const _6c5c1c8b = () => interopDefault(import('../pages/cpnt-265/lessons/_slug.vue' /* webpackChunkName: "pages/cpnt-265/lessons/_slug" */))
+const _d858621a = () => interopDefault(import('../pages/dsgn-270/assignments/_slug.vue' /* webpackChunkName: "pages/dsgn-270/assignments/_slug" */))
+const _3cdfc4a8 = () => interopDefault(import('../pages/dsgn-270/lessons/_slug.vue' /* webpackChunkName: "pages/dsgn-270/lessons/_slug" */))
 const _14e9efd6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -36,12 +48,36 @@ export const routerOptions = {
 
   routes: [{
     path: "/assignments",
-    component: _145f180c,
+    component: _7fc6a76e,
     name: "assignments"
   }, {
     path: "/courses",
-    component: _8c9c6104,
+    component: _ac3b3d8a,
     name: "courses"
+  }, {
+    path: "/cpnt-200",
+    component: _20047ba8,
+    name: "cpnt-200"
+  }, {
+    path: "/cpnt-201",
+    component: _962da32e,
+    name: "cpnt-201"
+  }, {
+    path: "/cpnt-260",
+    component: _4e2e5be2,
+    name: "cpnt-260"
+  }, {
+    path: "/cpnt-262",
+    component: _77f7c164,
+    name: "cpnt-262"
+  }, {
+    path: "/cpnt-265",
+    component: _36a5d9a7,
+    name: "cpnt-265"
+  }, {
+    path: "/dsgn-270",
+    component: _73642278,
+    name: "dsgn-270"
   }, {
     path: "/library",
     component: _91bcae7e,
@@ -55,53 +91,77 @@ export const routerOptions = {
     component: _07e62440,
     name: "zoom"
   }, {
-    path: "/courses/cpnt-200",
-    component: _20a60b42,
-    name: "courses-cpnt-200"
+    path: "/cpnt-200/assignments",
+    component: _2280c71f,
+    name: "cpnt-200-assignments"
   }, {
-    path: "/courses/cpnt-201",
-    component: _f6dca5c0,
-    name: "courses-cpnt-201"
+    path: "/cpnt-201/assignments",
+    component: _6cb26060,
+    name: "cpnt-201-assignments"
   }, {
-    path: "/courses/cpnt-260",
-    component: _1dd6da99,
-    name: "courses-cpnt-260"
+    path: "/cpnt-260/assignments",
+    component: _0a8a2059,
+    name: "cpnt-260-assignments"
   }, {
-    path: "/courses/cpnt-262",
-    component: _47a0401b,
-    name: "courses-cpnt-262"
+    path: "/cpnt-262/assignments",
+    component: _c2255a4a,
+    name: "cpnt-262-assignments"
   }, {
-    path: "/courses/cpnt-265",
-    component: _064e585e,
-    name: "courses-cpnt-265"
+    path: "/cpnt-265/assignments",
+    component: _7d821e9e,
+    name: "cpnt-265-assignments"
   }, {
-    path: "/courses/dsgn-270",
-    component: _d413250a,
-    name: "courses-dsgn-270"
+    path: "/dsgn-270/assignments",
+    component: _d4eb1f8a,
+    name: "dsgn-270-assignments"
   }, {
-    path: "/courses/cpnt-200/:slug?",
-    component: _24134dd2,
-    name: "courses-cpnt-200-slug"
+    path: "/cpnt-200/assignments/:slug",
+    component: _20ca25d7,
+    name: "cpnt-200-assignments-slug"
   }, {
-    path: "/courses/cpnt-201/:slug?",
-    component: _fa49e850,
-    name: "courses-cpnt-201-slug"
+    path: "/cpnt-200/lessons/:slug",
+    component: _0b85a4e8,
+    name: "cpnt-200-lessons-slug"
   }, {
-    path: "/courses/cpnt-260/:slug?",
-    component: _1c203951,
-    name: "courses-cpnt-260-slug"
+    path: "/cpnt-201/assignments/:slug",
+    component: _6afbbf18,
+    name: "cpnt-201-assignments-slug"
   }, {
-    path: "/courses/cpnt-262/:slug?",
-    component: _45e99ed3,
-    name: "courses-cpnt-262-slug"
+    path: "/cpnt-201/lessons/:slug",
+    component: _7030e166,
+    name: "cpnt-201-lessons-slug"
   }, {
-    path: "/courses/cpnt-265/:slug?",
-    component: _0497b716,
-    name: "courses-cpnt-265-slug"
+    path: "/cpnt-260/assignments/:slug",
+    component: _08d37f11,
+    name: "cpnt-260-assignments-slug"
   }, {
-    path: "/courses/dsgn-270/:slug?",
-    component: _d780679a,
-    name: "courses-dsgn-270-slug"
+    path: "/cpnt-260/lessons/:slug",
+    component: _680833c6,
+    name: "cpnt-260-lessons-slug"
+  }, {
+    path: "/cpnt-262/assignments/:slug",
+    component: _c5929cda,
+    name: "cpnt-262-assignments-slug"
+  }, {
+    path: "/cpnt-262/lessons/:slug",
+    component: _035cf748,
+    name: "cpnt-262-lessons-slug"
+  }, {
+    path: "/cpnt-265/assignments/:slug",
+    component: _7bcb7d56,
+    name: "cpnt-265-assignments-slug"
+  }, {
+    path: "/cpnt-265/lessons/:slug",
+    component: _6c5c1c8b,
+    name: "cpnt-265-lessons-slug"
+  }, {
+    path: "/dsgn-270/assignments/:slug",
+    component: _d858621a,
+    name: "dsgn-270-assignments-slug"
+  }, {
+    path: "/dsgn-270/lessons/:slug",
+    component: _3cdfc4a8,
+    name: "dsgn-270-lessons-slug"
   }, {
     path: "/",
     component: _14e9efd6,
