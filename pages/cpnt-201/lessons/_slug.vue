@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>{{ lesson.title }}</h2>
+    <h1>{{ lesson.title }}</h1>
     <nuxt-content :document="lesson" />
   </div>
 </template>
@@ -8,7 +8,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`cpnt-201/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-201/lessons/${params.slug}`).fetch();
       return {
         lesson,
       };

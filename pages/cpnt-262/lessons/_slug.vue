@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h2>{{ lesson.title }}</h2>
+    <h1>{{ lesson.title }}</h1>
     <nuxt-content :document="lesson" />
   </div>
 </template>
 <script>
-export default defineComponent({
+export default {
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-262/lessons/${params.slug}`).fetch();
       return {
         lesson,
       };
@@ -16,5 +16,5 @@ export default defineComponent({
       error("No lesson found");
     }
   },
-});
+};
 </script>

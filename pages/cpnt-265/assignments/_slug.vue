@@ -1,16 +1,18 @@
 <template>
   <div>
-    <h2>{{ lesson.title }}</h2>
-    <nuxt-content :document="lesson" />
+    <h1>{{ assignment.title }}</h1>
+    <nuxt-content :document="assignment" />
   </div>
 </template>
 <script>
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`cpnt-200/${params.slug}`).fetch();
+      const assignment = await $content(
+        `cpnt-265/assignments/${params.slug}`
+      ).fetch();
       return {
-        lesson,
+        assignment,
       };
     } catch (e) {
       error("No lesson found");
