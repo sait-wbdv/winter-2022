@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h2>CPNT-200</h2>
+    <h1>CPNT 200 Lesson Plans</h1>
     <ul>
       <li v-for="lesson in lessons" :key="lesson.id">
         <nuxt-link :to="`lessons/${lesson.slug}`">

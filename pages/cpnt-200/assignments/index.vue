@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h2>CPNT-200</h2>
+    <h1>CPNT 200 Assessments</h1>
     <ul>
       <li v-for="assignment in assignments" :key="assignment.id">
         <nuxt-link :to="`assignments/${assignment.slug}`">
