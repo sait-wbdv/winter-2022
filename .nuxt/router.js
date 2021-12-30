@@ -12,9 +12,9 @@ const _4e2e5be2 = () => interopDefault(import('../pages/cpnt-260/index.vue' /* w
 const _77f7c164 = () => interopDefault(import('../pages/cpnt-262/index.vue' /* webpackChunkName: "pages/cpnt-262/index" */))
 const _36a5d9a7 = () => interopDefault(import('../pages/cpnt-265/index.vue' /* webpackChunkName: "pages/cpnt-265/index" */))
 const _73642278 = () => interopDefault(import('../pages/dsgn-270/index.vue' /* webpackChunkName: "pages/dsgn-270/index" */))
+const _f19eb9e6 = () => interopDefault(import('../pages/house-rules.vue' /* webpackChunkName: "pages/house-rules" */))
 const _91bcae7e = () => interopDefault(import('../pages/library/index.vue' /* webpackChunkName: "pages/library/index" */))
 const _52bdd824 = () => interopDefault(import('../pages/schedule.vue' /* webpackChunkName: "pages/schedule" */))
-const _07e62440 = () => interopDefault(import('../pages/zoom.vue' /* webpackChunkName: "pages/zoom" */))
 const _2280c71f = () => interopDefault(import('../pages/cpnt-200/assignments/index.vue' /* webpackChunkName: "pages/cpnt-200/assignments/index" */))
 const _6cb26060 = () => interopDefault(import('../pages/cpnt-201/assignments/index.vue' /* webpackChunkName: "pages/cpnt-201/assignments/index" */))
 const _0a8a2059 = () => interopDefault(import('../pages/cpnt-260/assignments/index.vue' /* webpackChunkName: "pages/cpnt-260/assignments/index" */))
@@ -79,6 +79,10 @@ export const routerOptions = {
     component: _73642278,
     name: "dsgn-270"
   }, {
+    path: "/house-rules",
+    component: _f19eb9e6,
+    name: "house-rules"
+  }, {
     path: "/library",
     component: _91bcae7e,
     name: "library"
@@ -86,10 +90,6 @@ export const routerOptions = {
     path: "/schedule",
     component: _52bdd824,
     name: "schedule"
-  }, {
-    path: "/zoom",
-    component: _07e62440,
-    name: "zoom"
   }, {
     path: "/cpnt-200/assignments",
     component: _2280c71f,

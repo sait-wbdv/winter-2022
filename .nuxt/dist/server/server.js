@@ -929,14 +929,14 @@ const _36a5d9a7 = () => interopDefault(Promise.resolve().then(function() {
 const _73642278 = () => interopDefault(Promise.resolve().then(function() {
   return index$i;
 }));
+const _f19eb9e6 = () => interopDefault(Promise.resolve().then(function() {
+  return houseRules$1;
+}));
 const _91bcae7e = () => interopDefault(Promise.resolve().then(function() {
   return index$g;
 }));
 const _52bdd824 = () => interopDefault(Promise.resolve().then(function() {
   return schedule$1;
-}));
-const _07e62440 = () => interopDefault(Promise.resolve().then(function() {
-  return zoom$1;
 }));
 const _2280c71f = () => interopDefault(Promise.resolve().then(function() {
   return index$e;
@@ -1037,6 +1037,10 @@ const routerOptions = {
     component: _73642278,
     name: "dsgn-270"
   }, {
+    path: "/house-rules",
+    component: _f19eb9e6,
+    name: "house-rules"
+  }, {
     path: "/library",
     component: _91bcae7e,
     name: "library"
@@ -1044,10 +1048,6 @@ const routerOptions = {
     path: "/schedule",
     component: _52bdd824,
     name: "schedule"
-  }, {
-    path: "/zoom",
-    component: _07e62440,
-    name: "zoom"
   }, {
     path: "/cpnt-200/assignments",
     component: _2280c71f,
@@ -1237,19 +1237,19 @@ const listenersKeys = [
   "afterAppear",
   "appearCancelled"
 ];
-var render$C = function() {
+var render$E = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "__nuxt-error-page" }, [_c("div", { staticClass: "error" }, [_c("svg", { attrs: { "xmlns": "http://www.w3.org/2000/svg", "width": "90", "height": "90", "fill": "#DBE1EC", "viewBox": "0 0 48 48" } }, [_c("path", { attrs: { "d": "M22 30h4v4h-4zm0-16h4v12h-4zm1.99-10C12.94 4 4 12.95 4 24s8.94 20 19.99 20S44 35.05 44 24 35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16z" } })]), _c("div", { staticClass: "title" }, [_vm._v(_vm._s(_vm.message))]), _vm.statusCode === 404 ? _c("p", { staticClass: "description" }, [typeof _vm.$route === "undefined" ? _c("a", { staticClass: "error-link", attrs: { "href": "/" } }) : _c("NuxtLink", { staticClass: "error-link", attrs: { "to": "/" } }, [_vm._v("Back to the home page")])], 1) : _c("p", { staticClass: "description" }, [_vm._v("An error occurred while rendering the page. Check developer tools console for details.")]), _vm._m(0)])]);
 };
-var staticRenderFns$C = [function() {
+var staticRenderFns$E = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "logo" }, [_c("a", { attrs: { "href": "https://nuxtjs.org", "target": "_blank", "rel": "noopener" } }, [_vm._v("Nuxt")])]);
 }];
-render$C._withStripped = true;
+render$E._withStripped = true;
 var nuxtError_vue_vue_type_style_index_0_lang = "";
 function normalizeComponent(scriptExports, render2, staticRenderFns2, functionalTemplate, injectStyles, scopeId, moduleIdentifier, shadowMode) {
   var options = typeof scriptExports === "function" ? scriptExports.options : scriptExports;
@@ -1302,7 +1302,7 @@ function normalizeComponent(scriptExports, render2, staticRenderFns2, functional
     options
   };
 }
-const __vue2_script$D = {
+const __vue2_script$F = {
   name: "NuxtError",
   props: {
     error: {
@@ -1330,16 +1330,16 @@ const __vue2_script$D = {
     };
   }
 };
-const __cssModules$D = {};
-var __component__$D = /* @__PURE__ */ normalizeComponent(__vue2_script$D, render$C, staticRenderFns$C, false, __vue2_injectStyles$D, null, null, null);
-function __vue2_injectStyles$D(context) {
-  for (let o2 in __cssModules$D) {
-    this[o2] = __cssModules$D[o2];
+const __cssModules$F = {};
+var __component__$F = /* @__PURE__ */ normalizeComponent(__vue2_script$F, render$E, staticRenderFns$E, false, __vue2_injectStyles$F, null, null, null);
+function __vue2_injectStyles$F(context) {
+  for (let o2 in __cssModules$F) {
+    this[o2] = __cssModules$F[o2];
   }
 }
-__component__$D.options.__file = ".nuxt/components/nuxt-error.vue";
+__component__$F.options.__file = ".nuxt/components/nuxt-error.vue";
 var NuxtError = /* @__PURE__ */ function() {
-  return __component__$D.exports;
+  return __component__$F.exports;
 }();
 var Nuxt = {
   name: "Nuxt",
@@ -1417,7 +1417,7 @@ var Nuxt = {
   }
 };
 var nuxtLoading_vue_vue_type_style_index_0_lang = "";
-const __vue2_script$C = {
+const __vue2_script$E = {
   name: "NuxtLoading",
   data() {
     return {
@@ -1555,24 +1555,64 @@ const __vue2_script$C = {
   }
 };
 let __vue2_render, __vue2_staticRenderFns;
+const __cssModules$E = {};
+var __component__$E = /* @__PURE__ */ normalizeComponent(__vue2_script$E, __vue2_render, __vue2_staticRenderFns, false, __vue2_injectStyles$E, null, null, null);
+function __vue2_injectStyles$E(context) {
+  for (let o2 in __cssModules$E) {
+    this[o2] = __cssModules$E[o2];
+  }
+}
+__component__$E.options.__file = ".nuxt/components/nuxt-loading.vue";
+var NuxtLoading = /* @__PURE__ */ function() {
+  return __component__$E.exports;
+}();
+var tailwind = "";
+var prism = "";
+var render$D = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("Header"), _c("Nuxt"), _c("Footer")], 1);
+};
+var staticRenderFns$D = [];
+render$D._withStripped = true;
+const __vue2_script$D = {};
+const __cssModules$D = {};
+var __component__$D = /* @__PURE__ */ normalizeComponent(__vue2_script$D, render$D, staticRenderFns$D, false, __vue2_injectStyles$D, null, null, null);
+function __vue2_injectStyles$D(context) {
+  for (let o2 in __cssModules$D) {
+    this[o2] = __cssModules$D[o2];
+  }
+}
+__component__$D.options.__file = "layouts/assignment.vue";
+var _62241743 = /* @__PURE__ */ function() {
+  return __component__$D.exports;
+}();
+var render$C = function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("div", [_c("Header"), _c("Nuxt"), _c("Footer")], 1);
+};
+var staticRenderFns$C = [];
+render$C._withStripped = true;
+const __vue2_script$C = {};
 const __cssModules$C = {};
-var __component__$C = /* @__PURE__ */ normalizeComponent(__vue2_script$C, __vue2_render, __vue2_staticRenderFns, false, __vue2_injectStyles$C, null, null, null);
+var __component__$C = /* @__PURE__ */ normalizeComponent(__vue2_script$C, render$C, staticRenderFns$C, false, __vue2_injectStyles$C, null, null, null);
 function __vue2_injectStyles$C(context) {
   for (let o2 in __cssModules$C) {
     this[o2] = __cssModules$C[o2];
   }
 }
-__component__$C.options.__file = ".nuxt/components/nuxt-loading.vue";
-var NuxtLoading = /* @__PURE__ */ function() {
+__component__$C.options.__file = "layouts/default.vue";
+var _6f6c098b = /* @__PURE__ */ function() {
   return __component__$C.exports;
 }();
-var tailwind = "";
-var prism = "";
 var render$B = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("Nuxt");
+  return _c("div", [_c("Header"), _c("Nuxt"), _c("Footer")], 1);
 };
 var staticRenderFns$B = [];
 render$B._withStripped = true;
@@ -1584,11 +1624,11 @@ function __vue2_injectStyles$B(context) {
     this[o2] = __cssModules$B[o2];
   }
 }
-__component__$B.options.__file = ".nuxt/layouts/default.vue";
-var _6f6c098b = /* @__PURE__ */ function() {
+__component__$B.options.__file = "layouts/lesson.vue";
+var _7c9fe8ae = /* @__PURE__ */ function() {
   return __component__$B.exports;
 }();
-const layouts = { "_default": sanitizeComponent(_6f6c098b) };
+const layouts = { "_assignment": sanitizeComponent(_62241743), "_default": sanitizeComponent(_6f6c098b), "_lesson": sanitizeComponent(_7c9fe8ae) };
 var App = {
   render(h, props) {
     const loadingEl = h("NuxtLoading", { ref: "loading" });
@@ -1784,7 +1824,7 @@ var render$y = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("nav", [_c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "schedule" } }, [_vm._v("Schedule")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "assignments" } }, [_vm._v("Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "library" } }, [_vm._v("Library")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "zoom" } }, [_vm._v("Zoom")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "courses" } })], 1)])]);
+  return _c("div", [_c("nav", { attrs: { "arial-label": "Primary Navigation" } }, [_c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "/schedule" } }, [_vm._v("Schedule")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "/courses" } }, [_vm._v("Courses")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "/assignments" } }, [_vm._v("Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "/library" } }, [_vm._v("Library")])], 1)])]), _c("nav", { attrs: { "arial-label": "Utility Navigation" } }, [_c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "/house-rules" } }, [_vm._v("House Rules")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "/house-rules" } }, [_vm._v("Live Stream")])], 1)])])]);
 };
 var staticRenderFns$y = [];
 render$y._withStripped = true;
@@ -4194,9 +4234,24 @@ var render$t = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("div", [_c("h2", [_vm._v("Assignments")]), _c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-200/assignments" } }, [_vm._v("CPNT-200 Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-201/assignments" } }, [_vm._v("CPNT-201 Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-260/assignments" } }, [_vm._v("CPNT-260 Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-201/assignments" } }, [_vm._v("CPNT-262 Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-265/assignments" } }, [_vm._v("CPNT-265 Assignments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "dsgn-270/assignments" } }, [_vm._v("CPNT-270 Assignments")])], 1)])]);
+  return _c("div", [_c("h1", [_vm._v("Assessments")]), _c("h2", [_vm._v("Draft Categories")]), _c("h3", [_vm._v("Daily Code Journal")]), _vm._m(0), _c("h3", [_vm._v("Assignments")]), _vm._m(1), _c("h3", [_vm._v("Achievements")]), _vm._m(2), _c("h2", [_vm._v("Assessments by Course")]), _c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-200/assignments" } }, [_vm._v("CPNT-200 Assessments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-201/assignments" } }, [_vm._v("CPNT-201 Assessments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-260/assignments" } }, [_vm._v("CPNT-260 Assessments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-262/assignments" } }, [_vm._v("CPNT-262 Assessments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-265/assignments" } }, [_vm._v("CPNT-265 Assessments")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "dsgn-270/assignments" } }, [_vm._v("CPNT-270 Assessments")])], 1)])]);
 };
-var staticRenderFns$t = [];
+var staticRenderFns$t = [function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("ul", [_c("li", [_vm._v("Total Weight: 20%")]), _c("li", [_vm._v("4% per submission")]), _c("li", [_vm._v("Due: 8am the following day (no late submissions)")])]);
+}, function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("ul", [_c("li", [_vm._v("Total Weight: 50%")]), _c("li", [_vm._v("Due: assigned on a per-assignment basis")])]);
+}, function() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("ul", [_c("li", [_vm._v("Total weight: 30%")]), _c("li", [_vm._v("5% per achievement")]), _c("li", [_vm._v("Due: varies by category")])]);
+}];
 render$t._withStripped = true;
 const __vue2_script$t = {};
 const __cssModules$t = {};
@@ -4219,7 +4274,7 @@ var render$s = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("div", [_c("h2", [_vm._v("Courses")]), _c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-200" } }, [_vm._v("CPNT-200")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-201" } }, [_vm._v("CPNT-201")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-260" } }, [_vm._v("CPNT-260")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-262" } }, [_vm._v("CPNT-262")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-265" } }, [_vm._v("CPNT-265")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "dsgn-270" } }, [_vm._v("DSGN-262")])], 1)])]);
+  return _c("div", [_c("h2", [_vm._v("Courses")]), _c("ul", [_c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-200" } }, [_vm._v("CPNT-200")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-201" } }, [_vm._v("CPNT-201")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-260" } }, [_vm._v("CPNT-260")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-262" } }, [_vm._v("CPNT-262")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "cpnt-265" } }, [_vm._v("CPNT-265")])], 1), _c("li", [_c("nuxt-link", { attrs: { "to": "dsgn-270" } }, [_vm._v("DSGN-270")])], 1)])]);
 };
 var staticRenderFns$s = [];
 render$s._withStripped = true;
@@ -4244,7 +4299,7 @@ var render$r = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
+  return _c("main", [_c("h1", [_vm._v("CPNT 200 Lesson Plans")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
     return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-200/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
   }), 0)]);
 };
@@ -4278,7 +4333,7 @@ var render$q = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
+  return _c("main", [_c("h1", [_vm._v("CPNT 201 Lesson Plans")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
     return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-201/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
   }), 0)]);
 };
@@ -4312,8 +4367,8 @@ var render$p = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
-    return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-200/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
+  return _c("main", [_c("h1", [_vm._v("CPNT 260 Lesson Plans")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
+    return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-260/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
   }), 0)]);
 };
 var staticRenderFns$p = [];
@@ -4346,7 +4401,7 @@ var render$o = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
+  return _c("main", [_c("h1", [_vm._v("CPNT 262 Lesson Plans")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
     return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-262/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
   }), 0)]);
 };
@@ -4380,7 +4435,7 @@ var render$n = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
+  return _c("main", [_c("h1", [_vm._v("CPNT 265 Lesson Plans")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
     return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-265/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
   }), 0)]);
 };
@@ -4414,7 +4469,7 @@ var render$m = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
+  return _c("main", [_c("h1", [_vm._v("DSGN 270 Lesson Plans")]), _c("ul", _vm._l(_vm.lessons, function(lesson) {
     return _c("li", { key: lesson.id }, [_c("nuxt-link", { attrs: { "to": "dsgn-270/lessons/" + lesson.slug } }, [_vm._v(" " + _vm._s(lesson.title) + " ")])], 1);
   }), 0)]);
 };
@@ -4454,7 +4509,7 @@ var staticRenderFns$l = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("div", [_c("p", [_vm._v("Library")])]);
+  return _c("div", [_c("h1", [_vm._v("House Rules")]), _c("h2", [_vm._v("Live Stream Schedule")]), _c("ul", [_c("li", [_c("time", { attrs: { "datetime": "08:00" } }, [_vm._v("8am")]), _vm._v(": Morning session")]), _c("li", [_c("time", { attrs: { "datetime": "11:30" } }, [_vm._v("11:30pm")]), _vm._v(": Lunch")]), _c("li", [_c("time", { attrs: { "datetime": "12:30" } }, [_vm._v("12:30am")]), _vm._v(": Lab Time")])])]);
 }];
 render$l._withStripped = true;
 const __vue2_script$l = {};
@@ -4465,14 +4520,14 @@ function __vue2_injectStyles$l(context) {
     this[o2] = __cssModules$l[o2];
   }
 }
-__component__$l.options.__file = "pages/library/index.vue";
-var index$f = /* @__PURE__ */ function() {
+__component__$l.options.__file = "pages/house-rules.vue";
+var houseRules = /* @__PURE__ */ function() {
   return __component__$l.exports;
 }();
-var index$g = /* @__PURE__ */ Object.freeze({
+var houseRules$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index$f
+  "default": houseRules
 });
 var render$k = function() {
   var _vm = this;
@@ -4484,7 +4539,7 @@ var staticRenderFns$k = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("div", [_c("p", [_vm._v("Schedule")])]);
+  return _c("div", [_c("p", [_vm._v("Library")])]);
 }];
 render$k._withStripped = true;
 const __vue2_script$k = {};
@@ -4495,14 +4550,14 @@ function __vue2_injectStyles$k(context) {
     this[o2] = __cssModules$k[o2];
   }
 }
-__component__$k.options.__file = "pages/schedule.vue";
-var schedule = /* @__PURE__ */ function() {
+__component__$k.options.__file = "pages/library/index.vue";
+var index$f = /* @__PURE__ */ function() {
   return __component__$k.exports;
 }();
-var schedule$1 = /* @__PURE__ */ Object.freeze({
+var index$g = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": schedule
+  "default": index$f
 });
 var render$j = function() {
   var _vm = this;
@@ -4514,7 +4569,7 @@ var staticRenderFns$j = [function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("div", [_c("p", [_vm._v("Zoom")])]);
+  return _c("div", [_c("p", [_vm._v("Schedule")])]);
 }];
 render$j._withStripped = true;
 const __vue2_script$j = {};
@@ -4525,21 +4580,21 @@ function __vue2_injectStyles$j(context) {
     this[o2] = __cssModules$j[o2];
   }
 }
-__component__$j.options.__file = "pages/zoom.vue";
-var zoom = /* @__PURE__ */ function() {
+__component__$j.options.__file = "pages/schedule.vue";
+var schedule = /* @__PURE__ */ function() {
   return __component__$j.exports;
 }();
-var zoom$1 = /* @__PURE__ */ Object.freeze({
+var schedule$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": zoom
+  "default": schedule
 });
 var render$i = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
-    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-200/assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
+  return _c("main", [_c("h1", [_vm._v("CPNT 200 Assessments")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
+    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
   }), 0)]);
 };
 var staticRenderFns$i = [];
@@ -4572,8 +4627,8 @@ var render$h = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
-    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-201/assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
+  return _c("main", [_c("h1", [_vm._v("CPNT 201 Assessments")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
+    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
   }), 0)]);
 };
 var staticRenderFns$h = [];
@@ -4606,7 +4661,7 @@ var render$g = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
+  return _c("main", [_c("h1", [_vm._v("CPNT 260 Assessments")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
     return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-260/assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
   }), 0)]);
 };
@@ -4640,8 +4695,8 @@ var render$f = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
-    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-262/assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
+  return _c("main", [_c("h1", [_vm._v("CPNT 262 Assessments")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
+    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
   }), 0)]);
 };
 var staticRenderFns$f = [];
@@ -4674,8 +4729,8 @@ var render$e = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
-    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "cpnt-265/assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
+  return _c("main", [_c("h1", [_vm._v("CPNT 265 Assessments")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
+    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
   }), 0)]);
 };
 var staticRenderFns$e = [];
@@ -4708,8 +4763,8 @@ var render$d = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("main", [_c("h2", [_vm._v("CPNT-200")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
-    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "dsgn-270/assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
+  return _c("main", [_c("h1", [_vm._v("DSGN 270 Assessments")]), _c("ul", _vm._l(_vm.assignments, function(assignment) {
+    return _c("li", { key: assignment.id }, [_c("nuxt-link", { attrs: { "to": "assignments/" + assignment.slug } }, [_vm._v(" " + _vm._s(assignment.title) + " ")])], 1);
   }), 0)]);
 };
 var staticRenderFns$d = [];

@@ -9,9 +9,11 @@ import '../assets/css/tailwind.css'
 
 import '../node_modules/prismjs/themes/prism.css'
 
-import _6f6c098b from './layouts/default.vue'
+import _62241743 from '../layouts/assignment.vue'
+import _6f6c098b from '../layouts/default.vue'
+import _7c9fe8ae from '../layouts/lesson.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_assignment": sanitizeComponent(_62241743),"_default": sanitizeComponent(_6f6c098b),"_lesson": sanitizeComponent(_7c9fe8ae) }
 
 export default {
   render (h, props) {

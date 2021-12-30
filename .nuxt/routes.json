@@ -56,6 +56,13 @@
     "_name": "_73642278"
   },
   {
+    "name": "house-rules",
+    "path": "/house-rules",
+    "component": "/home/ashlyn/Code/sait/winter-2022/pages/house-rules.vue",
+    "chunkName": "pages/house-rules",
+    "_name": "_f19eb9e6"
+  },
+  {
     "name": "library",
     "path": "/library",
     "component": "/home/ashlyn/Code/sait/winter-2022/pages/library/index.vue",
@@ -68,13 +75,6 @@
     "component": "/home/ashlyn/Code/sait/winter-2022/pages/schedule.vue",
     "chunkName": "pages/schedule",
     "_name": "_52bdd824"
-  },
-  {
-    "name": "zoom",
-    "path": "/zoom",
-    "component": "/home/ashlyn/Code/sait/winter-2022/pages/zoom.vue",
-    "chunkName": "pages/zoom",
-    "_name": "_07e62440"
   },
   {
     "name": "cpnt-200-assignments",
