@@ -1,5 +1,27 @@
 # Winter 2022 Planning
 
+## Core Competencies
+- Documentation
+    - README conventions
+    - Markdown
+    - Getting Started
+    - Attributions
+- Planning it out
+    - Pseudocode
+        - User stories
+        - Task flows
+        - Wireframes
+        - Code comments
+- Brute force
+    - Code journal
+    - Problem solving
+        - Bug huts
+- Testing/Optimization
+    - Bug hunts
+    - Level-ups
+- Reflection 
+    - Takeaways
+
 ## CPNT 260
 - Inspiration
     - Landing pages
