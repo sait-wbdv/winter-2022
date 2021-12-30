@@ -18,7 +18,7 @@
         <nuxt-link to="cpnt-265">CPNT-265</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="dsgn-270">DSGN-262</nuxt-link>
+        <nuxt-link to="dsgn-270">DSGN-270</nuxt-link>
       </li>
     </ul>
   </div>

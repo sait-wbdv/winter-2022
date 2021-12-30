@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Assignments</h2>
+    <h1>Assignments</h1>
     <ul>
       <li>
         <nuxt-link to="cpnt-200/assignments">CPNT-200 Assignments</nuxt-link>
@@ -12,7 +12,7 @@
         <nuxt-link to="cpnt-260/assignments">CPNT-260 Assignments</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="cpnt-201/assignments">CPNT-262 Assignments</nuxt-link>
+        <nuxt-link to="cpnt-262/assignments">CPNT-262 Assignments</nuxt-link>
       </li>
       <li>
         <nuxt-link to="cpnt-265/assignments">CPNT-265 Assignments</nuxt-link>
