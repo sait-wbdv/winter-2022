@@ -3,7 +3,7 @@
     <h1>CPNT 260 Assessments</h1>
     <ul>
       <li v-for="assignment in assignments" :key="assignment.id">
-        <nuxt-link :to="`assignments/${assignment.slug}`">
+        <nuxt-link :to="`cpnt-260/assignments/${assignment.slug}`">
           {{ assignment.title }}
         </nuxt-link>
       </li>
