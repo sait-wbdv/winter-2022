@@ -55,13 +55,10 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/content',
-    // https://github.com/nuxt-community/markdownit-module
-    '@nuxtjs/markdownit'
   ],
-  markdownit: {
-    use: [
-      // https://github.com/markdown-it/markdown-it-deflist
-      'markdown-it-deflist'
+  content: {
+    remarkPlugins: [
+      'remark-definition-list'
     ]
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
