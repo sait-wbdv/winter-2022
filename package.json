@@ -12,7 +12,8 @@
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "remark-definition-list": "^1.1.0"
   },
   "devDependencies": {
     "@nuxt/image": "^0.6.0",

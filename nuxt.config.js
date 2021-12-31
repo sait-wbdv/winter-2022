@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -53,9 +54,14 @@ export default {
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
   ],
-
+  content: {
+    // https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
+    remarkPlugins: [
+      'remark-definition-list'
+    ]
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
