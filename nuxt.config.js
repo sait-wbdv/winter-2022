@@ -57,6 +57,7 @@ export default {
     '@nuxt/content',
   ],
   content: {
+    // https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
     remarkPlugins: [
       'remark-definition-list'
     ]
