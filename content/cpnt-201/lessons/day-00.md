@@ -1,6 +1,6 @@
 ---
 title: Day 0 - Orientation
-description: [description here]
+description: Description here
 date: 2022-01-10
 released: true
 ---
