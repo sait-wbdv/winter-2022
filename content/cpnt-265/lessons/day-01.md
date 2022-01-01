@@ -1,4 +1,6 @@
 ---
-title: CPNT-265 Day 1
-description: A description
+title: Day 1
+description: [description here]
+date: 2022-04-04
+released: true
 ---

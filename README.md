@@ -46,3 +46,13 @@
 
 ### 270: Design
 - 
+
+## Dasa days:
+Feb 23
+Feb 28
+Mar 18
+Apr 1
+Apr 7 (Guest Speaker Day)
+Apr 8
+Apr 14
+Apr 22 (Final Presentations)
