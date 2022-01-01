@@ -19,6 +19,8 @@ Code Editor
 const var = "fenced code block"
 ```
 
+::hr{.red}
+
 ## VS Code setup
 ### Configuration
 - Set indents to `2 spaces`
