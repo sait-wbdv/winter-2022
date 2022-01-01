@@ -22,7 +22,15 @@ export default {
       ]
       
     )
-    const lessons = [].concat.apply([],values)
+    // concatenate each list of course lessons into one
+    let lessons = [].concat.apply([],values)
+
+    // Sort by date
+    lessons = lessons.sort((a,b) => {
+      a = new Date(a.date);
+      b = new Date(b.date);
+      return a - b;
+    })
 
     return {
       lessons,
