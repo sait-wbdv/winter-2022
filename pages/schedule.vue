@@ -5,6 +5,7 @@
       <!-- Step 4: Prepend Course and Day to title -->
       <li v-for="lesson in lessons" :key="lesson.id">
           {{ lesson.title }}
+          {{ lesson.day }}
       </li>
     </ul>
   </main>
@@ -39,7 +40,7 @@ export default {
     lessons = lessons.map(item => {
       item.course = item.dir.split('/')[1];
       item.type = item.dir.split('/')[2];
-      
+      item.day = parseInt(item.slug.split("-")[1])
       return item;
     })
 
@@ -54,5 +55,6 @@ export default {
       lessons,
     };
   },
+
 };
 </script>
