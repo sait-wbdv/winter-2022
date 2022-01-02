@@ -36,6 +36,13 @@ export default {
     console.log(lessons);
 
     // Step 1: .map on lessons
+    lessons = lessons.map(item => {
+      item.course = item.dir.split('/')[1];
+      item.type = item.dir.split('/')[2];
+      
+      return item;
+    })
+
     // Step 2: split lesson.dir -> course code and item type (lesson); add to lesson item
     // Step 3: split slug -> day-01 -> Day 1; add to lesson item
 
