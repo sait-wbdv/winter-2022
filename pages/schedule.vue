@@ -4,8 +4,7 @@
     <ul>
       <!-- Step 4: Prepend Course and Day to title -->
       <li v-for="lesson in lessons" :key="lesson.id">
-          {{ lesson.title }}
-          {{ lesson.day }}
+          <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
       </li>
     </ul>
   </main>
@@ -39,14 +38,14 @@ export default {
     // Step 1: .map on lessons
     lessons = lessons.map(item => {
       item.course = item.dir.split('/')[1];
+      // Step 2: split lesson.dir -> course code and item type (lesson); add to lesson item
       item.type = item.dir.split('/')[2];
-      item.day = parseInt(item.slug.split("-")[1])
+      // Step 3: split slug -> day-01 -> Day 1; add to lesson item
+      item.day = parseInt(item.slug.split("-")[1]);
+      item.label = `${item.course.split('-')[0].toUpperCase()} ${item.course.split('-')[1]} Day ${item.day}`
+
       return item;
     })
-
-    // Step 2: split lesson.dir -> course code and item type (lesson); add to lesson item
-    // Step 3: split slug -> day-01 -> Day 1; add to lesson item
-
 
     // TODO: why isn't vue-luxon working?
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
