@@ -2,6 +2,7 @@
   <main>
     <h1>Program Schedule</h1>
     <ul>
+      <!-- Step 4: Prepend Course and Day to title -->
       <li v-for="lesson in lessons" :key="lesson.id">
           {{ lesson.title }}
       </li>
@@ -31,6 +32,13 @@ export default {
       b = new Date(b.date);
       return a - b;
     })
+
+    console.log(lessons);
+
+    // Step 1: .map on lessons
+    // Step 2: split lesson.dir -> course code and item type (lesson); add to lesson item
+    // Step 3: split slug -> day-01 -> Day 1; add to lesson item
+
 
     // TODO: why isn't vue-luxon working?
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
