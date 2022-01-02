@@ -32,6 +32,8 @@ export default {
       return a - b;
     })
 
+    console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
+
     return {
       lessons,
     };
