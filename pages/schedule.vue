@@ -2,7 +2,6 @@
   <main>
     <h1>Program Schedule</h1>
     <ul>
-      <!-- Step 4: Prepend Course and Day to title -->
       <li v-for="lesson in lessons" :key="lesson.id">
           <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
       </li>
@@ -35,12 +34,10 @@ export default {
 
     console.log(lessons);
 
-    // Step 1: .map on lessons
     lessons = lessons.map(item => {
+      // TODO: what's the most efficient way to remove the multiple split() calls?
       item.course = item.dir.split('/')[1];
-      // Step 2: split lesson.dir -> course code and item type (lesson); add to lesson item
       item.type = item.dir.split('/')[2];
-      // Step 3: split slug -> day-01 -> Day 1; add to lesson item
       item.day = parseInt(item.slug.split("-")[1]);
       item.label = `${item.course.split('-')[0].toUpperCase()} ${item.course.split('-')[1]} Day ${item.day}`
 
