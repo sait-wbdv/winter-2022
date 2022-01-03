@@ -45,4 +45,5 @@
     - [Git: Troubleshooting conflict errors](https://gist.github.com/acidtone/ffb0268f5f717df9631eb0c8b48e97e7)
 
 ### 270: Design
-- 
+- Accessability
+    - [Adding A Dyslexia-Friendly Mode To A Website](https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/?utm_source=puntofisso&utm_medium=email)
