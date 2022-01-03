@@ -33,8 +33,14 @@ export default {
     })
 
     console.log(lessons);
-
+    // Step 1. Declare base `week` and `startDate`
     lessons = lessons.map(item => {
+      // Step 2. If first `item`: set `startDate` to Monday of first week of `item.date`, set `week` to 1
+      // Step 3. Else: subtract `startDate` from `currentDate`, divide by 7 and round down (`currentWeek`)
+      // Step 4. If `week` !== `currentWeek`, set `week` = `currentWeek`
+      // Step 5. Set `item.week` = `week`
+
+
       // TODO: what's the most efficient way to remove the multiple split() calls?
       item.course = item.dir.split('/')[1];
       item.type = item.dir.split('/')[2];
