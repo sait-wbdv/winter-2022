@@ -33,15 +33,14 @@ export default {
     })
 
     console.log(lessons);
-    // Step 1. Declare base `week` and `startDate`
-    let week = 1; // Week of WBDV Program (1-15)
+    let week = 1; // First week of WBDV Program (1-15)
     let firstMon = new Date(2022, 0, 10, 8, 0, 0, 0); // First Monday of the semester
 
     // Loop through lessons and add some properties
     lessons = lessons.map((item) => {
-      let itemDate = new Date (item.date)
-
-      // TODO: find a better way to compensate for timezone; adding a day will break when month turns over
+      // Add week number
+      let itemDate = new Date (item.date);
+      // TODO: find a better way to compensate for timezone; adding a day will break when month turns over?
       itemDate = new Date(itemDate.getFullYear(), itemDate.getMonth(), itemDate.getDate() + 1, 8, 0, 0, 0);
       item.week = week + (Math.floor((itemDate.getTime() - firstMon.getTime()) / 24 / 60 / 60 / 1000 / 7));
 
