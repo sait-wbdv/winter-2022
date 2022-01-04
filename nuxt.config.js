@@ -6,27 +6,28 @@ export default {
   head: {
     title: 'winter-2022',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/css/main.css'
-  ],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/vue-luxon.js'
+    // https://www.npmjs.com/package/vue-codepen
+    '~/plugins/vue-codepen.js',
+    // https://www.npmjs.com/package/vue-luxon
+    '~/plugins/vue-luxon.js',
+    // https://www.npmjs.com/package/vue-youtube-embed
+    { src: '~/plugins/youtube.js', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,29 +42,23 @@ export default {
     // https://google-fonts.nuxtjs.org/
     '@nuxtjs/google-fonts',
     // https://image.nuxtjs.org/
-    '@nuxt/image'
+    '@nuxt/image',
   ],
   googleFonts: {
     families: {
       'Open+Sans': true,
       Raleway: {
-        wght: [100, 300]
-      }
+        wght: [100, 300],
+      },
     },
-    preconnect: true,
-    preload: true,
   },
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    '@nuxt/content',
-  ],
+  modules: ['@nuxt/content', '@nuxtjs/dayjs'],
   content: {
     // https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
-    remarkPlugins: [
-      'remark-definition-list'
-    ]
+    plugins: ['remark-definition-list'],
   },
+  // https://github.com/nuxt-community/dayjs-module
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
-}
+  build: {},
+};
