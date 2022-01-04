@@ -34,42 +34,18 @@ export default {
 
     console.log(lessons);
     // Step 1. Declare base `week` and `startDate`
-    let week; // Week of WBDV Program (1-15)
-    let startDate; // Date of first lesson 
-    let firstMon; // Date of the monday of week 1
+    let week = 1; // Week of WBDV Program (1-15)
+    let firstMon = new Date(2022, 0, 10, 8, 0, 0, 0); // First Monday of the semester
 
     // Loop through lessons and add some properties
-    lessons = lessons.map((item, index) => {
-      const currentDateArr = item.date.split('-') // YYYY-MM-DD
-      const currentDate = new Date(Date.UTC(currentDateArr[0], currentDateArr[1], currentDateArr[2], 0, 0, 0))
-      // Step 2. If first `item`: 
-      if (index === 0) {
-        // first item
-        week = 1;
-        startDate = currentDate;
+    lessons = lessons.map((item) => {
+      let itemDate = new Date (item.date)
+      itemDate = new Date(itemDate.getFullYear(), itemDate.getMonth(), itemDate.getDate() + 1, 8, 0, 0, 0);
 
-        // set `startDate` to Monday of first week of `item.date`
-        if (startDate.getDay() === 1) {
-          // Monday
-          firstMon = startDate;
-        } else if (startDate.getDay() === 0) {
-          // Sunday
-          firstMon = new Date(startDate - (60 * 60 * 24 * 6));
-        } else {
-          // Tuesday-Saturday (2-6)
-          firstMon = new Date(startDate - (60 * 60 * 24 * (startDate.getDay() - 1)));
-        }
-        console.log(item.date, startDate.getDay(), firstMon.getDay())
-        console.log(startDate, firstMon)
-      } else {
-        // Not the first item
-        // Step 3. Else: subtract `firstMon` from `currentDate`, divide by 7 and round down (`currentWeek`)
-        // Step 4. If `week` !== `currentWeek`, set `week` = `currentWeek`
-        week = week + (Math.floor((currentDate - firstMon) / 24 / 60 / 60 / 7))
-      }
-
+      // Step 3. Else: subtract `firstMon` from `currentDate`, divide by 7 and round down (`currentWeek`)
+      // Step 4. If `week` !== `currentWeek`, set `week` = `currentWeek`
       // Step 5. Set `item.week` = `week`
-      item.week = week;
+      item.week = week + (Math.floor((itemDate.getTime() - firstMon.getTime()) / 24 / 60 / 60 / 1000 / 7));
 
       // Set course, type and day from directory info
       // TODO: what's the most efficient way to remove the multiple split() calls?
