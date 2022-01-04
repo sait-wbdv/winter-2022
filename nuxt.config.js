@@ -22,8 +22,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // https://www.npmjs.com/package/vue-codepen
-    '~/plugins/vue-codepen.js',
     // https://www.npmjs.com/package/vue-luxon
     '~/plugins/vue-luxon.js',
     // https://www.npmjs.com/package/vue-youtube-embed
