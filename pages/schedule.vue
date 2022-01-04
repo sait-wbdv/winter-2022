@@ -40,11 +40,9 @@ export default {
     // Loop through lessons and add some properties
     lessons = lessons.map((item) => {
       let itemDate = new Date (item.date)
-      itemDate = new Date(itemDate.getFullYear(), itemDate.getMonth(), itemDate.getDate() + 1, 8, 0, 0, 0);
 
-      // Step 3. Else: subtract `firstMon` from `currentDate`, divide by 7 and round down (`currentWeek`)
-      // Step 4. If `week` !== `currentWeek`, set `week` = `currentWeek`
-      // Step 5. Set `item.week` = `week`
+      // TODO: find a better way to compensate for timezone; adding a day will break when month turns over
+      itemDate = new Date(itemDate.getFullYear(), itemDate.getMonth(), itemDate.getDate() + 1, 8, 0, 0, 0);
       item.week = week + (Math.floor((itemDate.getTime() - firstMon.getTime()) / 24 / 60 / 60 / 1000 / 7));
 
       // Set course, type and day from directory info
