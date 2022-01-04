@@ -9,8 +9,16 @@
   </main>
 </template>
 <script>
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone'
+
 export default {
-  async asyncData({ $content }) {
+  async asyncData({ $content, $dayjs }) {
+    // DayJS plugin test
+    $dayjs.extend(utc);
+    $dayjs.extend(timezone);
+    console.log($dayjs.tz.guess());
+
     const values = await Promise.all(
       [
         $content("cpnt-201/lessons").fetch(),
@@ -31,8 +39,7 @@ export default {
       b = new Date(b.date);
       return a - b;
     })
-
-    console.log(lessons);
+    
     let week = 1; // First week of WBDV Program (1-15)
     let firstMon = new Date(2022, 0, 10, 8, 0, 0, 0); // First Monday of the semester
 
@@ -40,6 +47,7 @@ export default {
     lessons = lessons.map((item) => {
       // Add week number
       let itemDate = new Date (item.date);
+
       // TODO: find a better way to compensate for timezone; adding a day will break when month turns over?
       itemDate = new Date(itemDate.getFullYear(), itemDate.getMonth(), itemDate.getDate() + 1, 8, 0, 0, 0);
       item.week = week + (Math.floor((itemDate.getTime() - firstMon.getTime()) / 24 / 60 / 60 / 1000 / 7));
@@ -53,6 +61,8 @@ export default {
 
       return item;
     })
+
+    // console.log(lessons);
 
     // TODO: why isn't vue-luxon working?
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));

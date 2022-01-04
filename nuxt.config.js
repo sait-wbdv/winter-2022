@@ -52,6 +52,15 @@ export default {
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxt/content', '@nuxtjs/dayjs'],
+  dayjs: {
+    locales: ['en', 'ja'],
+    defaultLocale: 'en',
+    defaultTimeZone: 'America/Edmonton',
+    plugins: [
+      'utc', // import 'dayjs/plugin/utc'
+      'timezone' // import 'dayjs/plugin/timezone'
+    ] // Your Day.js plugin
+  },
   content: {
     // https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
     plugins: ['remark-definition-list'],
