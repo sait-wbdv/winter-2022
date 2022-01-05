@@ -1,1 +1,260 @@
 /* For use with non tailwind css */
+/**************/
+/* Navigation */
+/**************/
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav.primary ul, nav.utility ul {
+  display: flex;
+}
+
+nav.primary a, nav.utility a {
+  border-radius: 0.3rem;
+  text-align: center;
+  text-decoration: none;
+}
+nav.primary a:hover, nav.utility a:hover {
+  background-color: #0063a7;
+  color: white;
+}
+
+nav.primary a:active, nav.utility a:active {
+
+  background-color: #e02727;
+  color: white;
+}
+
+nav.primary a, nav.utility a {
+  transition: background-color 150ms ease-in-out;
+}
+
+/* Individual Nav Styles */
+nav.primary ul {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+nav.primary li {
+  margin: 0.25rem;
+}
+nav.primary a {
+  padding: 10px;
+  font-variant: small-caps;
+}
+
+nav.utility header {
+  display: none;
+}
+nav.utility ul {
+  justify-content: flex-end;
+  margin: 0 1em;
+}
+nav.utility a {
+  background-color: #0896db;
+  color: white; 
+  
+  padding: 10px 25px;
+}
+/**********/
+/* Header */
+/**********/
+
+.page-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: .25em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #aaa;
+}
+
+.site-name {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #888;
+  font-variant: small-caps;
+  margin: 0 .35rem;
+}
+
+img.sait-logo {
+  flex: 0;
+  width: 60px;
+}
+
+.page-header div {
+  flex: auto;
+}
+
+main {
+  max-width: 110ch;
+  width: 80vw;
+  margin: auto;
+}
+
+/****************/
+/* Page Content */
+/****************/
+
+hr {
+  margin: 2em 5em;
+}
+
+/* Notice box and info box */
+/* TODO: remove notice--info? */
+
+.notice {
+  /* box model */
+  margin: 25px auto;
+  padding: 25px 50px;
+  max-width: 50ch;
+
+  /* colour */
+  border-radius: 15px;
+  background-color: lightgrey;
+  border: 5px solid black;
+}
+
+.notice i {
+  margin-right: 0.5rem;
+}
+
+/* yellow warning box */
+.notice--warning {
+  background-color: hsl(60deg, 50%, 95%);
+  border-color: hsl(50deg, 100%, 50%);
+  color: hsl(60deg, 100%, 10%);
+}
+
+.notice--warning::before {
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/exclamation-triangle.svg");
+  display: inline-block;
+
+  width: 1.2em;
+  margin-right: 0.4rem;
+}
+
+/* green warning box */
+.notice--info {
+  background-color: hsl(90deg, 30%, 95%);
+  border-color: hsl(90deg, 100%, 50%);
+  color: hsl(90deg, 100%, 10%);
+}
+
+.notice--info::before {
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/question.svg");
+  display: inline-block;
+  width: 0.8em;
+  margin-right: 0.4rem;
+}
+
+/* indigo pro-tip box */
+.notice--pro-tip {
+  background-color: hsl(270deg, 50%, 95%);
+  border-color: hsl(270deg, 100%, 50%);
+  color: hsl(270deg, 100%, 10%);
+}
+.notice--pro-tip::before {
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/trophy.svg");
+  display: inline-block;
+  width: 1.2em;
+  margin-right: 0.4rem;
+}
+/* indigo pro-tip box */
+.notice--danger {
+  background-color: hsl(0deg, 50%, 95%);
+  border-color: hsl(0deg, 100%, 50%);
+  color: hsl(0deg, 100%, 10%);
+}
+.notice--danger::before {
+  content: url("https://sait-wbdv.github.io/sample-code/assets/font-awesome/svgs/solid/skull-crossbones.svg");
+  display: inline-block;
+  width: 0.9em;
+  margin-right: 0.4rem;
+}
+
+/***************/
+/* Definitions */
+/***************/
+
+.terms {
+  float: right;
+  width: 40ch;
+
+  margin-left: 2rem;
+  padding: 2rem;
+  padding-top: 0;
+
+  border-radius: 1rem;
+  background-color: #ddd;
+}
+
+dl {
+  font-size: 1.2rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+/**********/
+/* Footer */
+/**********/
+
+footer {
+  border-top: 1px solid grey;
+  padding: 0;
+  text-align: center;
+}
+
+/*****************/
+/* Gallery Cards */
+/*****************/
+
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery > * {
+  width: 25ch;
+  margin: 1rem;
+  text-align: center;
+
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.gallery h3 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.gallery > a {
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.gallery > a:hover.html {
+  background-color: hsl(5, 100%, 95%);
+}
+.gallery > a:hover.css {
+  background-color: hsl(203, 100%, 95%);
+}
+.gallery > a:hover.js {
+  background-color: hsl(52, 100%, 95%);
+}

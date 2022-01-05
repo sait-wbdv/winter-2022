@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h1>{{ lesson.title }}</h1>
-    <nuxt-content :document="lesson" />
+    <main>
+      <h1>{{ lesson.title }}</h1>
+      <nuxt-content :document="lesson" />
+    </main>
   </div>
 </template>
 <script>

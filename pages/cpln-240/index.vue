@@ -1,14 +1,16 @@
 <template>
-  <main>
-    <h1>CPLN 240 Lesson Plans</h1>
-    <ul>
-      <li v-for="lesson in lessons" :key="lesson.id">
-        <nuxt-link :to="`cpln-240/lessons/${lesson.slug}`">
-          {{ lesson.title }}
-        </nuxt-link>
-      </li>
-    </ul>
-  </main>
+  <div>
+    <main>
+      <h1>CPLN 240 Lesson Plans</h1>
+      <ul>
+        <li v-for="lesson in lessons" :key="lesson.id">
+          <nuxt-link :to="`cpln-240/lessons/${lesson.slug}`">
+            {{ lesson.title }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </main>
+  </div>
 </template>
 <script>
 export default {

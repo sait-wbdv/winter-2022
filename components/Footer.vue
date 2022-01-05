@@ -1,5 +1,5 @@
 <template>
   <footer>
-    <p>&copy; 2021 MIT License</p>
+    <p>&copy; 2022 MIT License</p>
   </footer>
 </template>

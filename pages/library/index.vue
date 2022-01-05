@@ -1,5 +1,7 @@
 <template>
   <div>
-    <p>Library</p>
+    <main>
+      <h1>Library</h1>
+    </main>
   </div>
 </template>
