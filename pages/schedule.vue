@@ -21,6 +21,8 @@ export default {
 
     const values = await Promise.all(
       [
+        $content("cpnt-264/lessons").fetch(),
+        $content("cpln-240/lessons").fetch(),
         $content("cpnt-201/lessons").fetch(),
         $content("dsgn-270/lessons").fetch(),
         $content("cpnt-260/lessons").fetch(),
