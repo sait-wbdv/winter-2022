@@ -1,6 +1,10 @@
 <template>
   <main>
     <h1>Program Schedule</h1>
+    <h2>Test Schedule</h2>
+    <section v-for="week in schedule" :key="week.id">
+      <h3>Week X</h3>
+    </section>
     <ul>
       <li v-for="lesson in lessons" :key="lesson.id">
           Week {{lesson.week}}: <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
@@ -90,6 +94,7 @@ export default {
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
 
     return {
+      schedule,
       lessons,
     };
   },
