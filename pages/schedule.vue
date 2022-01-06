@@ -2,8 +2,13 @@
   <main>
     <h1>Program Schedule</h1>
     <h2>Test Schedule</h2>
-    <section v-for="week in schedule" :key="week.id">
-      <h3>Week X</h3>
+    <section v-for="(week, index) in schedule" :key="week.id">
+      <h3>Week {{ index + 1 }}</h3>
+      <ul>
+        <li v-for="lesson in week" :key="lesson.id">
+          <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
+        </li>
+      </ul>
     </section>
     <ul>
       <li v-for="lesson in lessons" :key="lesson.id">
