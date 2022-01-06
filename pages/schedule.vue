@@ -1,6 +1,15 @@
 <template>
   <main>
     <h1>Program Schedule</h1>
+    <h2>Test Schedule</h2>
+    <section v-for="(week, index) in schedule" :key="week.id">
+      <h3>Week {{ index + 1 }}</h3>
+      <ul>
+        <li v-for="lesson in week" :key="lesson.id">
+          <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
+        </li>
+      </ul>
+    </section>
     <ul>
       <li v-for="lesson in lessons" :key="lesson.id">
           Week {{lesson.week}}: <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
@@ -21,6 +30,8 @@ export default {
 
     const values = await Promise.all(
       [
+        $content("cpnt-264/lessons").fetch(),
+        $content("cpln-240/lessons").fetch(),
         $content("cpnt-201/lessons").fetch(),
         $content("dsgn-270/lessons").fetch(),
         $content("cpnt-260/lessons").fetch(),
@@ -88,6 +99,7 @@ export default {
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
 
     return {
+      schedule,
       lessons,
       schedule
     };
