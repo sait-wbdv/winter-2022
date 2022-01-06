@@ -8,6 +8,7 @@
 @layer base {
 /* Basic Font Setup */
 
+
   h1 {
     @apply text-4xl font-title font-light;
   }
@@ -22,6 +23,13 @@
   }
   p, a, li {
     @apply text-lg font-sans font-normal;
+  }
+
+  .site-name {
+    @apply text-4xl font-title font-light;
+  }
+  .tagline {
+    @apply text-sm font-sans font-normal;
   }
 }
 
