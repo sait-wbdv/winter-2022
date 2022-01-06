@@ -6,7 +6,7 @@
       <h3>Week {{ index + 1 }}</h3>
       <ul>
         <li v-for="lesson in week" :key="lesson.id">
-          <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
+          <time>{{ lesson.date }}</time><br><nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
         </li>
       </ul>
     </section>
