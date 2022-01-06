@@ -41,7 +41,10 @@ export default {
     })
     
     let week = 1; // First week of WBDV Program (1-15)
+    let prevWeek = 1; // Week number of previous item
     let firstMon = new Date(2022, 0, 10, 8, 0, 0, 0); // First Monday of the semester
+    let schedule = []; // array of weeks 1-15
+    let weekDetails = {}; // Assigned to `schedule` when week num changes; reset for the next week
 
     // Loop through lessons and add some properties
     lessons = lessons.map((item) => {
@@ -58,6 +61,9 @@ export default {
       item.type = item.dir.split('/')[2];
       item.day = parseInt(item.slug.split("-")[1]);
       item.label = `${item.course.split('-')[0].toUpperCase()} ${item.course.split('-')[1]} Day ${item.day}`
+
+      // Step 1. If week !== prevWeek, start new `weekDetails`, push `weekDetails` to `schedule`
+      // Step 2. Add `item` to `weekDetails.lessons`
 
       return item;
     })
