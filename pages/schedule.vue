@@ -44,10 +44,10 @@ export default {
     let prevWeek = 1; // Week number of previous item
     let firstMon = new Date(2022, 0, 10, 8, 0, 0, 0); // First Monday of the semester
     let schedule = []; // array of weeks 1-15
-    let weekDetails = {}; // Assigned to `schedule` when week num changes; reset for the next week
+    let weekDetails = []; // Assigned to `schedule` when week num changes; reset for the next week
 
     // Loop through lessons and add some properties
-    lessons = lessons.map((item) => {
+    lessons = lessons.map((item, index) => {
       // Add week number
       let itemDate = new Date (item.date);
 
@@ -62,13 +62,27 @@ export default {
       item.day = parseInt(item.slug.split("-")[1]);
       item.label = `${item.course.split('-')[0].toUpperCase()} ${item.course.split('-')[1]} Day ${item.day}`
 
-      // Step 1. If week !== prevWeek, start new `weekDetails`, push `weekDetails` to `schedule`
-      // Step 2. Add `item` to `weekDetails.lessons`
+      if (item.week === prevWeek) {
+        // Step 2. Add `item` to `weekDetails.lessons`
+        weekDetails.push(item);
+        if (index === lessons.length) {
+          // Assumption for last item: last week isn't one lesson day
+          schedule.push(weekDetails);
+        }
+      } else {
+        // Step 1. If week !== prevWeek, start new `weekDetails`, push `weekDetails` to `schedule`
+        // Assumption: sequence of weeks is unbroken week === prevWeek + 1
+        schedule.push(weekDetails);
+
+        weekDetails = [];
+        weekDetails.push(item);
+        prevWeek = item.week;
+      }
 
       return item;
     })
 
-    // console.log(lessons);
+    console.log(schedule);
 
     // TODO: why isn't vue-luxon working?
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
