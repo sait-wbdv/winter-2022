@@ -89,6 +89,7 @@ export default {
 
     return {
       lessons,
+      schedule
     };
   },
 
