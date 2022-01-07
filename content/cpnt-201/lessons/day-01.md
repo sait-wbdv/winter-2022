@@ -1,7 +1,7 @@
 ---
 title: VS Code, READMEs and the Command Line
 description: The command line is one of the first tools you'll be learning as a dev. Your friends and family will think you're hacking the NSA when you're really just listing directory contents.
-date: 2022-01-11
+date: 2022-01-11T15:00:00.000Z
 released: true
 ---
 

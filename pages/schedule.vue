@@ -1,12 +1,11 @@
 <template>
   <main>
     <h1>Program Schedule</h1>
-    <h2>Test Schedule</h2>
     <section v-for="(week, index) in schedule" :key="week.id">
-      <h3>Week {{ index + 1 }}</h3>
+      <h2>Week {{ index + 1 }}</h2>
       <ul>
         <li v-for="lesson in week" :key="lesson.id">
-          <time>{{ lesson.date }}</time><br><nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
+          <time>{{ $dayjs(lesson.date).format('MMM D') }}</time>: <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
         </li>
       </ul>
     </section>
@@ -94,7 +93,8 @@ export default {
     // console.log(this.$luxon("2020-10-05T14:48:00.000Z"));
 
     return {
-      schedule
+      schedule,
+      $dayjs
     };
   },
 

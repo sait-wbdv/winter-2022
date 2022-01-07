@@ -1,6 +1,6 @@
 ---
 title: Day 2
 description: Description here
-date: 2022-02-28
+date: 2022-02-28T15:00:00.000Z
 released: true
 ---
