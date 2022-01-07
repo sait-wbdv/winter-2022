@@ -65,6 +65,24 @@ export default {
       'timezone' // import 'dayjs/plugin/timezone'
     ] // Your Day.js plugin
   },
+
+  // https://content.nuxtjs.org/advanced/#contentfilebeforeinsert
+  hooks: {
+    'content:file:beforeParse': (file) => {
+      if (file.extension !== '.md') return
+      // console.log(file.data); 
+    },
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md' && document.dir.endsWith('lessons')) {
+        if (document.date) {
+          // console.log(document.date);
+        } else {
+          // console.log(document);
+        }
+      }
+    }
+  },
+
   content: {
     // https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
     plugins: ['remark-definition-list'],
