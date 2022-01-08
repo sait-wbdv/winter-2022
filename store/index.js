@@ -3,7 +3,7 @@ export const state = () => ({
 })
 
 export const mutations = {
-  addLessons(state, lessons) {
+  initLessons(state, lessons) {
     state.lessons.push( lessons );
   }
 }
@@ -11,7 +11,7 @@ export const mutations = {
 export const actions = {
   async getLessons() {
     const lessons = ['one', 'two', 'three'];
-    commit('addLessons', lessons);
+    commit('initLessons', lessons);
     return lessons;
   }
 }

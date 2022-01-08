@@ -11,8 +11,8 @@
 export default {
   computed: {
     schedule () {
-      // placeholder
-      this.$store.commit("addLessons", [1, 2, 3]);
+      // placeholder init
+      this.$store.commit("initLessons", [1, 2, 3]);
       console.log(this.$store.state.lessons);
 
       return this.$store.state.lessons;
