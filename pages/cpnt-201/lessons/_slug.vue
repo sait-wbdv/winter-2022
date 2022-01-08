@@ -1,5 +1,6 @@
 <template>
   <div>
+    <aside><LessonNav /></aside>
     <main>
       <h1>{{ lesson.title }}</h1>
       <nuxt-content :document="lesson" />
