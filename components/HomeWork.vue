@@ -8,7 +8,8 @@
           <p>{{ task.description }}</p>
         </li>
       </ul>
-    </article v-if="$slots">
+    </article>
+    <article>
       <slot></slot>
     </article>
   </section>
