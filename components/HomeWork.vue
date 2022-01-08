@@ -1,22 +1,26 @@
 <template>
   <section>
-    <!-- Create template for homework content -->
-      <!-- article -->
-        <!-- title  --> 
-        <!-- list of links-->
-        <!-- embedded videos at full screen + links, only links at <half screen size -->
+    <article v-for="topic in homeWork" :key="topic.id">
+      <h3>{{ topic.title }}</h3>
+      <ul>
+        <li v-for="task in topic.tasks" :key="task.id">
+          <a :href="task.link">{{ task.title }}</a>
+          <p>{{ task.description }}</p>
+        </li>
+      </ul>
+    </article v-if="$slots">
+      <slot></slot>
+    </article>
+  </section>
   </section>
 </template>
 
 <script>
 export default {
-    // load an array from the frontmatter
-    // use conditionals in the template to render different layouts depending on content supplied
-      // can use a conditional or a computed property to select the correct article layout this would access the prop
   props: {
     homeWork: {
       type: Array
-    } 
-  }
+    }
+  },
 }
 </script>
