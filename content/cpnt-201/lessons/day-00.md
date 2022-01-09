@@ -80,7 +80,12 @@ For the adventurous, see this [Git Reference](https://padlet.com/acidtone/git_gi
 GitHub is a private corporation (now owned by Microsoft) that has built a world-leading community around Git. All sample code and projects will be hosted on GH and the program website is hosted using [GH Pages](https://pages.github.com/).
 
 1. [Create a GitHub account](https://github.com/) if you haven't already. **Don't forget:** your GH username will be seen by potential employers.
-2. _Watch_ and/or _Star_ the [program repository](https://github.com/sait-wbdv/fall-2021).
+2. _Watch_ and/or _Star_ the [program repository](https://github.com/sait-wbdv/winter-2022).
 3. Sign up for GitHub Classroom to get your [Student Developer Pack](https://education.github.com/pack) (handy free stuff)!
 
 ---
+
+### Figma
+DSGN 270 will involve a lot of Figma. Rumour has that SAIT students and instructors get extra stuff if you sign up with your SAIT email address. We haven't tested this...
+
+- [Figma Education Plan](https://www.figma.com/education/)
