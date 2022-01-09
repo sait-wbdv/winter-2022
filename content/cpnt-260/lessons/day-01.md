@@ -20,8 +20,13 @@ homework:
       - title: step 2
         link: https://www.mdn.com
         description: a description
+      
+words:
+  - Repository
+  - test
 ---
 
+<termsList :search-terms="words"></termsList>
 # The Lesson for day 1
 
 This is outside the component

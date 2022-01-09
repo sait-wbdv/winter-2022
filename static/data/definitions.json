@@ -1,18 +1,24 @@
-[
-  {
-    "slug": "version-control",
-    "term": "Version Control",
-    "definition": "A category of software tools that help a software team manage changes to source code over time.",
-    "tags": [
-      "git"
-    ]
-  },
-  {
-    "slug": "repository",
-    "term": "Repository (aka repo)",
-    "definition": "Technically, a collection of commits, and branches and tags to identify commits. You can think of a repo as a directory of code that is tracked using Git.",
-    "tags": [
-      "git"
-    ]
-  }
-]
+{
+  "definitions": [
+    {
+      "slug": "version-control",
+      "term": "Version Control",
+      "definition": "A category of software tools that help a software team manage changes to source code over time.",
+      "tags": [
+        "git"
+      ]
+    },
+    {
+      "slug": "repository",
+      "term": "Repository",
+      "definition": "Technically, a collection of commits, and branches and tags to identify commits. You can think of a repo as a directory of code that is tracked using Git.",
+      "tags": [
+        "git"
+      ]
+    },
+    {
+      "term": "test",
+      "definition": "A tester definition."
+    }
+  ]
+}
