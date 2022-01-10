@@ -1,5 +1,5 @@
 ---
-title: Day 5
+title: Vector images and SVG
 description: Description here
 date: 2022-03-09T15:00:00.000Z
 released: false

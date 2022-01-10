@@ -1,5 +1,5 @@
 ---
-title: Day 1
+title: Client-side Javascript
 description: Description here
 date: 2022-02-08T15:00:00.000Z
 released: false
