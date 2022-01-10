@@ -3,6 +3,21 @@ title: Finding Help
 description: Expectations and guidance for finding help.
 ---
 
+## Instructor Contact Info
+In order of preference:
+
+### Tony 
+- Slack DM: See below
+- Email: [tony.grimes@sait.ca](mailto:tony.grimes@sait.ca)
+- Text: 403-710-3836
+
+### Ash
+- Slack DM
+- Email: [ashlyn.knox@sait.ca](mailto:ashlyn.knox@sait.ca)
+- Text: 587-832-5669
+
+---
+
 ## One-on-ones for NON-coding help
 Direct Message an Instructor/Facilitator at any time if you have a private non-coding concern or question.
 
