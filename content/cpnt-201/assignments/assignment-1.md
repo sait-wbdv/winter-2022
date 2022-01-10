@@ -1,83 +1,71 @@
 ---
-title: Assignment 1 - Deployed Static HTML Templates
-description: Deploy 3 static HTML templates of your choice with Git and GitHub Pages. Customize each template for a hypothetical client/project with multiple commits and deploy changes.
-weight: 10%
-due: w1f
+title: Assignment 1 - Markdown Code Journal
+description: For this assignment, you will create a code journal that will serve store future journal entries (dailies) for the rest of this program.
+weight: 20%
+due: w1d05
 ---
 
 ## Details
+In this assignment, you will deploy your code journal, where you will submit your Dailies for the rest of the program.
 
-In this assignment, you will deploy three _distinct_ static website templates that could be customized for a fictitious business of your choice.
-
-**Scenario**: You have landed a new client! They want to choose a template for their new website at the next meeting. You want to impress them with three websites that are:
-
-- deployed (i.e. published) on GH Pages
-- visually distinct with respect to UX/UI
-- customized with the company name and logo
-  - the name can be made up
-  - the logo can be an icon from Font Awesome or similar source
+## Why start a Code Journal?
+- To track your progress. Sometimes it's difficult to notice how much you've learned if you can't laugh at how hard things use to seem.
+- Reminders for helpful resources.
+- Allow Instructors/Facilitators to provide feedback on your learning/coding process.
+- Help with problem solving. Journaling is like talking to a[Rubber Duck](https://rubberduckdebugging.com/).
 
 ## Instructions
-
-1. Search online for three _distinct_ static website templates that could be customized for your selected client;
-2. Deploy each template to GH Pages, naming each repo "cpnt201-a1-[template-name]";
-3. Make at least three customizations to _each_ template **as separate commits**.
-   - At the end of this assignment, you should have made at least 12 commits; three for each of the three customizations, plus your initial commits (which are not counted for marks).
-
-## Criteria
-1. Distinctiveness
-   - Each template should offer a diverse choice for the client by:
-     - being visually distinct from the other two templates;
-     - representing, collectively, a wide variety of layout elements (cards, sliders, gallery, etc).
-     - be from different template authors (but they can be from the same marketplace).
-2. Functionality
-   - Each template should be responsive, and
-   - have the potential to be a multi-page site.
-3. Deployment
-   - Each template should be deployed using GitHub Pages (_not_ with a GH theme) and be viewable on a mobile device.
-4. Committed Customizations
-   - Each template repository should have at least three commits (in addition to your initial commit) that customizes content on the home page. For example:
-     - page titles and headings (commit 1),
-     - page logo/icon (commit 2),
-     - primary navigation (commit 3).
-   - Each change should be captured in its own commit with a descriptive message.
-   - Your initial commit should be the base template with no modifications.
-   - The changes themselves will not be marked but cannot break the design.
+1. Install Git, VS code and create a GitHub account.
+2. Follow the steps outlined in [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
+3. Write, commit and push a first journal entry in the README file of your new repo.
+    - Note: you may choose another file/location for your entry as long as you make it obvious for your instructors to mark.
 
 ---
 
 ## Marking Rubric
+This assignment will be marked out of 20 points.
 
-This assignment will be marked out of 25 points.
+### 5 points: Initial pushed commit: 
+- GH repo named `code-journal` or similar;
+- Repo initialized with a commit message of `initial commit` or similar (this is convention).
 
-### GitHub Setup: 5 points
-
+### 5 points: Git configuration
 - Local email address set correctly in your config
 - GitHub Profile updated with:
   - Profile photo
   - Bio
-  - Location
+  - Location (Calgary or more specific)
   - Optional: website, Twitter, etc
 
-### Distinctiveness: 5 points
+### 5 points: Journal entry
+Now that you have a code journal deployed, you need your first journal entry. Organize and format it so that it makes sense to you, but here are some basic requirements to make marking easier:
+- Journal title in a level 1 heading
+- Journal entry date in a level 2 heading
+- The body of your entry should contain:
+   - one paragraph
+   - one bulleted list of two or more items
 
-The three templates will collectively be scored on their visual distinctiveness according to the criteria listed above.
+### 5 points: Flare
+Flare points are bells/whistles/polish that you can add to any assignment for extra marks. We'll give you options and the Flare is up to you.
 
-### Each Template: 5 points (15 points total)
+For this assignment you may add ONE (two doesn't give you any more marks) of the following:
 
-1. Functionality: 1 point
-   - The template functionality successfully handles the criteria listed above.
-2. Deployment: 1 point
-   - The template is deployed according to the criteria listed above
-3. Committed Changes: 3 points (1 point for each commit)
-   - Three commits according to the criteria listed above.
+**Either:**
+- Make three changes, each with their own commit and descriptive commit message;
+- OR, Add a GH Pages theme to your journal;
+- OR, Make a change to your journal using a branch:
+   1. Create a new branch in your journal repo;
+   2. Make changes in this branch and commit them;
+   3. Push your branch to GitHub;
+   4. Merge your branch into `main`;
+   5. Push the `main` branch to GitHub.
 
 ---
 
 ## Submitting Your Assignment
-
 In order to receive a grade, you must:
-
-1. Deploy each template to a separate GitHub Pages repository named "cpnt201-a1-[template-name]".
-2. Zip your projects/repos and submit them to Brightspace.
-3. Include links to each GitHub repo _and_ GH Pages site as a comment with your Brightspace submission. You should have six links total. Points will be deducted for missing links.
+1. Zip your journal and submit it to Brightspace.
+2. As a comment to your submission, include:
+      - a link to your GitHub repo;
+      - a link to the live GH Pages site;
+      - state which Flare you chose (if any) for this assignment.

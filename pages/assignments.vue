@@ -29,13 +29,6 @@
       <h1>Assessments</h1>
       <h2>Code Journal Entries (Dailies)</h2>
       <p>20-25% of the mark for each course will be earned by submitting entries to a daily(ish) code journal.</p>
-      <h3>Why a code journal?</h3>
-      <ul>
-        <li>Track your progress. Sometimes it's difficult to notice how much you've learned if you can't laugh at how hard things use to seem.</li>
-        <li>Reminders for helpful resources.</li>
-        <li>Allow Instructors/Facilitators to provide feedback on your learning/coding process.</li>
-        <li>Help with problem solving. Journaling is like talking to a <a href="https://rubberduckdebugging.com/">Rubber Duck</a>.</li>
-      </ul>
       <h3>Marking Rubric</h3>
       <p>Each Daily will be worth 3-5% and could contain one or more of the following to earn marks:</p>
       <ul>
