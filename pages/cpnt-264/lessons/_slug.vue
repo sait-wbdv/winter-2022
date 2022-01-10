@@ -2,7 +2,8 @@
   <div>
     <main>
       <h1>{{ lesson.title }}</h1>
-      <nuxt-content :document="lesson" />
+      <nuxt-content v-if="lesson.released" :document="lesson" />
+      <h2 v-else>Lesson not published</h2>
     </main>
   </div>
 </template>

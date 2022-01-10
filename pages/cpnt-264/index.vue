@@ -17,7 +17,11 @@ export default {
   async asyncData({ $content }) {
     const lessons = await $content("cpnt-264/lessons").fetch();
     return {
-      lessons,
+      lessons: lessons.sort((a,b) => {
+        a = new Date(a.date);
+        b = new Date(b.date);
+        return a - b;
+      })
     };
   },
 };

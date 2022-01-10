@@ -3,10 +3,13 @@
     <main>
       <h1>DSGN 270 Lesson Plans</h1>
       <ul>
-        <li v-for="lesson in lessons" :key="lesson.id">
-          <nuxt-link :to="`dsgn-270/lessons/${lesson.slug}`">
-            {{ lesson.title }}
+        <li v-for="(lesson, index) in lessons" :key="lesson.id">
+          <nuxt-link v-if="lesson.released" :to="`dsgn-270/lessons/${lesson.slug}`">
+            Day {{ index + 1 }}: {{ lesson.title }}
           </nuxt-link>
+          <span v-else>
+            Day {{ index + 1 }}: {{ lesson.title }}
+          </span>          
         </li>
       </ul>
     </main>
@@ -17,7 +20,11 @@ export default {
   async asyncData({ $content }) {
     const lessons = await $content("dsgn-270/lessons").fetch();
     return {
-      lessons,
+      lessons: lessons.sort((a,b) => {
+        a = new Date(a.date);
+        b = new Date(b.date);
+        return a - b;
+      })
     };
   },
 };
