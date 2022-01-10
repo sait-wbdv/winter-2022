@@ -13,7 +13,7 @@
     <nav class="primary" arial-label="Primary Navigation">
       <ul class="flex justify-end">
         <li><nuxt-link to="/courses">Courses</nuxt-link></li>
-        <li><nuxt-link to="/assignments">Assignments</nuxt-link></li>
+        <li><nuxt-link to="/assessments">Assessments</nuxt-link></li>
         <li><nuxt-link to="/library">Library</nuxt-link></li>
         <li><nuxt-link to="/house-rules" class="whitespace-nowrap">House Rules</nuxt-link></li>
       </ul>
