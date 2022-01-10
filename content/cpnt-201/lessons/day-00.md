@@ -7,8 +7,17 @@ released: true
 
 ## Housekeeping
 - Polls: 
-    - Are you using Mac, PC or linux?
+    - Are you using Mac, PC or Linux?
     - Is your phone iOS or Android? Blackberry!?!
+    - What's your current coding experience?
+
+---
+
+## Agenda
+1. Instructor introductions
+2. Program overview
+3. Software setup
+4. Student introductions
 
 ---
 
