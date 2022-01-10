@@ -9,5 +9,41 @@ homework:
       - title: Figma account created
         link: https://www.figma.com/education/
         description: Rumour has that SAIT students and instructors get extra stuff if you sign up with your SAIT email address. We haven't tested this...
+  - title: UX Fundamentals
+    tasks:
+      - title: Usability 101 - Introduction to Usability
+        link: https://www.nngroup.com/articles/usability-101-introduction-to-usability/
+        description:
+      - title: Text Scanning Patterns - Eyetracking Evidence
+        link: https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/
+        description:
+      - title: Satisficing
+        link: https://www.nngroup.com/articles/satisficing/
+        description:
+      - title: Information foraging
+        link: https://www.nngroup.com/articles/information-foraging/
+        description:
+  - title: User Stories
+    tasks:
+      - title: How to Write a Good User Story
+        link: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/
+        description: 
+      - title: Agile User Stories
+        link: https://www.youtube.com/watch?v=apOvF9NVguA
+        description: 
+      - title: Gist - User Stories
+        link: https://gist.github.com/acidtone/6f8b416c4c409c60148581f7ec806c46
+        description: 
+  - title: User Flows
+    tasks:  
+      - title: What are User Flows in User Experience (UX) Design?
+        link: https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/
+        description: 
+      - title: User flow tutorial | How I use them in design projects
+        link: https://www.youtube.com/watch?v=TIV1y11xz7k
+        description: 
 ---
+
+<homeWork :home-work="homework">
+</homeWork>
 
