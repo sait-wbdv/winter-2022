@@ -47,6 +47,7 @@ Note: The past two cohorts of this program also have access to this Slack team b
 Tony also runs a public Discord server where you can find help from local developers:
 
 - [Pixels YYC Discord Invite](https://discord.gg/Fg6DwHUmGZ)
+- [Calgary Dev Community](https://discord.gg/XbnjJjzpmG) (started by the fall-2021 cohort)
 
 ---
 
