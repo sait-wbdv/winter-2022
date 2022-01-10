@@ -15,6 +15,12 @@ homework:
       - title: W3Schools interactive tutorial
         link: https://www.w3schools.com/git/git_intro.asp
         description: 
+  - title: Markdown Journal
+    tasks:
+      - title: Search - "github flavoured markdown"
+        link: https://www.google.com/search?q=github+flavoured+markdown+cheatsheet
+        description: Markdown is a language that is often used for developer documentation. Your coding journal will be written in markdown!
+
 ---
 
 <homeWork :home-work="homework">
