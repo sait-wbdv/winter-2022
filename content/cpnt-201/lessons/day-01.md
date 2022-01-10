@@ -28,14 +28,13 @@ homework:
 
 ---
 
-
 <home-work :home-work="homework">
 </home-work>
 
-
 ## Housekeeping:
 - Questions:
-  - "will we need microsoft word or any of those for ex power point for this course?"
+  - "Will we need microsoft word or any of those for ex power point for this course?"
+- [Jess's Discord server](https://discord.gg/XbnjJjzpmG) added to Orientation page.
 
 ---
 
