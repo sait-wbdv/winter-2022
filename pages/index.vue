@@ -5,7 +5,9 @@
       <h2>Week {{ index + 1 }}</h2>
       <ul>
         <li v-for="lesson in week" :key="lesson.id">
-          <time>{{ $dayjs(lesson.date).format('MMM D') }}</time>: <nuxt-link :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
+          <time>{{ $dayjs(lesson.date).format('MMM D') }}</time>: 
+          <nuxt-link v-if="lesson.released" :to="`${lesson.course}/lessons/${lesson.slug}`">{{ lesson.label }} - {{ lesson.title }}</nuxt-link>
+          <span v-else>{{ lesson.label }} - {{ lesson.title }}</span>
         </li>
       </ul>
     </section>
@@ -68,14 +70,12 @@ export default {
       item.label = `${item.course.split('-')[0].toUpperCase()} ${item.course.split('-')[1]} Day ${item.day}`
 
       if (item.week === prevWeek) {
-        // Step 2. Add `item` to `weekDetails.lessons`
         weekDetails.push(item);
-        if (index === lessons.length) {
+        if (index === lessons.length - 1) {
           // Assumption for last item: last week isn't one lesson day
           schedule.push(weekDetails);
         }
       } else {
-        // Step 1. If week !== prevWeek, start new `weekDetails`, push `weekDetails` to `schedule`
         // Assumption: sequence of weeks is unbroken week === prevWeek + 1
         schedule.push(weekDetails);
 
