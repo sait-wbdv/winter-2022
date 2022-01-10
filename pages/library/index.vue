@@ -1,5 +1,6 @@
 <template>
   <div>
+<!--
     <aside>
       <nav aria-label="Local Navigation">
         <h3>Core Topics</h3>
@@ -15,6 +16,7 @@
         </ul>
       </nav>
     </aside>
+-->
     <main>
       <h1>WBDV Library</h1>
       <p>A collection of links, resources and documentation that serve as this program's textbook.</p>
@@ -40,8 +42,12 @@
             <img src="~/assets/images/js.svg" alt="Javascript logo">
           </article>
         </nuxt-link>
-
       </section>
+      <h2>Extras</h2>
+      <ul>
+        <li><nuxt-link to="/library/open-content">Open Content</nuxt-link></li>
+        <li><nuxt-link to="/library/courses">Popular Courses</nuxt-link></li>
+      </ul>
 
     </main>
   </div>

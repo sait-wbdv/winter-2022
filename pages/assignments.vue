@@ -1,5 +1,6 @@
 <template>
   <div>
+<!--
     <aside>
       <nav aria-label="Local Navigation">
         <h2>Assignments by Course</h2>
@@ -25,8 +26,11 @@
         </ul>
       </nav>
     </aside>
+-->
     <main>
       <h1>Assessments</h1>
+      <p>All assessments must be submitted to Brightspace to receive a mark. Most coding assignments will also require you to <code>push</code> your project to GitHub and deploy to a live server.</p>
+      <hr>
       <h2>Code Journal Entries (Dailies)</h2>
       <p>20-25% of the mark for each course will be earned by submitting entries to a daily(ish) code journal.</p>
       <h3>Marking Rubric</h3>
@@ -50,8 +54,17 @@
           </ul>
         </li>
       </ol>
-      <h2>Flare</h2>
-      <p>Add image to Office Space.</p>
+      <p>Notes:</p>
+      <ul>
+        <li>Journal entries are not required every day. Each course will require 4-6 entries, due at various points in the schedule.</li>
+        <li>If English is not your first language, you may write your journal in your native language if you can find a way to auto-translate it for your instructors (unless the auto-translate sucks).</li>
+      </ul>
+      <hr>
+      <h2>Assignments</h2>
+      <p>Besides your coding journal, the majority of your assessments will take the form of assignments, each worth 10-25% of the course mark. Requirements, weighting and rubrics will be announced with the individual assignments as the program progresses.</p>
+      <h3>Late Penalties</h3>
+      <p>10% of your assignment mark will be deducted for each day late. Assignments will not be accepted more than three days late.</p>
+      <p>Marks will be returned within 10 days of submission, but hopefully sooner.</p>
     </main>
   </div>
 </template>
