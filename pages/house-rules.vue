@@ -10,13 +10,13 @@
       </ul>
 
       <h2>Camera Policy</h2>
-      <p>To help get to know each other, </p>
+      <p>To help get to know each other, cameras should be on:</p>
       <ol>
-        <li>8-9am</li>
-        <li>During breakout discussions and when paired coding</li>
+        <li>From 8-9am</li>
+        <li>During breakout sessions</li>
         <li>After 2pm</li>
       </ol>
-
+      <p>This policy will be relaxed as the program progresses.</p>
       <h2>Be an excellent neighbour</h2>
       <ul>
         <li>People are allowed to like (and not like) things</li>

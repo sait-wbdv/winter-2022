@@ -31,7 +31,3 @@ homework:
 
 <homeWork :home-work="homework">
 </homeWork>
-
----
-
-## Command line basics
