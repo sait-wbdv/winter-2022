@@ -47,6 +47,6 @@ homework:
         description: 
 ---
 
-<homeWork :home-work="homework">
-</homeWork>
+<home-work :home-work="homework">
+</home-work>
 

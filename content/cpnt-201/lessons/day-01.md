@@ -29,5 +29,13 @@ homework:
 ---
 
 
-<homeWork :home-work="homework">
-</homeWork>
+<home-work :home-work="homework">
+</home-work>
+
+
+## Housekeeping:
+- Questions:
+  - "will we need microsoft word or any of those for ex power point for this course?"
+
+---
+
