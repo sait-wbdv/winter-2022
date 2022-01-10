@@ -1,7 +1,7 @@
 <template>
 <section>
   <h3> Terminology </h3>
-  <dl>
+  <dl class="mx-2">
     <div v-for="def in defSearch" :key="def.id">
       <dt>{{ def.term }}</dt>
       <dd>{{ def.definition }}</dd>

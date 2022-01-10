@@ -21,7 +21,7 @@
   h4 {
     @apply text-xl font-title font-light;
   }
-  p, a, li {
+  p, a, li, dl, dt {
     @apply text-lg font-sans font-normal;
   }
 
