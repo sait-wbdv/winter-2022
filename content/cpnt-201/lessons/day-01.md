@@ -53,8 +53,8 @@ homework:
 
 ## Lab Time
 - [Set up your SAIT workspace](/labs/setup/workspace)
-- [Follow the White Rabbit](labs/command-line/white-rabbit)
 - Configure VS Code to use two-space indenting
+- Command line practice: [Follow the White Rabbit](/labs/command-line/white-rabbit)
 
 ---
 
