@@ -1,13 +1,14 @@
 <template>
   <div>
-<!--
+
     <aside>
       <nav aria-label="Local Navigation">
-        <h2>Assignments by Course</h2>
+        <h2>Assessments by Course</h2>
         <ul>
           <li>
-            <nuxt-link to="cpnt-201/assignments">CPNT-201 Assessments</nuxt-link>
+            <nuxt-link to="cpnt-201/assessments">CPNT-201 Assessments</nuxt-link>
           </li>
+<!--
           <li>
             <nuxt-link to="dsgn-270/assignments">CPNT-270 Assessments</nuxt-link>
           </li>
@@ -23,10 +24,10 @@
           <li>
             <nuxt-link to="cpnt-265/assignments">CPNT-265 Assessments</nuxt-link>
           </li>
+-->
         </ul>
       </nav>
     </aside>
--->
     <main>
       <h1>Assessments</h1>
       <p>All assessments must be submitted to Brightspace to receive a mark. Most coding assignments will also require you to <code>push</code> your project to GitHub and deploy to a live server.</p>

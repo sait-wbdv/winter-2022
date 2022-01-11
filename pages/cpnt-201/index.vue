@@ -1,7 +1,9 @@
 <template>
   <div>
     <main>
-      <h1>CPNT 201 Lesson Plans</h1>
+      <h1>CPNT 201: Web Development Tools and Techniques</h1>
+      <p><nuxt-link to="cpnt-201/assessments">Assessments</nuxt-link></p>
+      <h2>Lesson Plans</h2>
       <ul>
         <li v-for="(lesson, index) in lessons" :key="lesson.id">
           <nuxt-link v-if="lesson.released" :to="`cpnt-201/lessons/${lesson.slug}`">
