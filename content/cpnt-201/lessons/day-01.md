@@ -30,29 +30,33 @@ homework:
 - Questions:
   - "Will we need microsoft word or any of those for ex power point for this course?"
 - [Jess's Discord server](https://discord.gg/XbnjJjzpmG) added to Orientation page.
+- Announced: [CPNT 201 Assignment 1](/cpnt-201/assessments)
 
 ---
-<!--
 ## 1. Setting up your Workspace
 ### Materials
 - [Recommendations for organizing your code for this program](/labs/setup/workspace)
+- [Files, directories and naming conventions](https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984)
 
-## 2. Quality of life tips
+## 2. VS Code setup
 ### Materials
+- [VS Code Summary](/library/tools/vscode)
 
-## 3. VS Code setup
+## 3. Command line basics
 ### Materials
+- [Navigating the file system](https://gist.github.com/acidtone/316d2bd9cf59f841684dbd68ffc3ee95)
 
-## 4. Command line basics
-### Materials
+### Notes
+- Windows users: The Command Prompt is the default terminal application for Windows. Please use Git Bash instead.
 
 ---
 
 ## Lab Time
+- [Set up your SAIT workspace](/labs/setup/workspace)
 - [Follow the White Rabbit](labs/command-line/white-rabbit)
+- Configure VS Code to use two-space indenting
 
 ---
--->
 
 <home-work :home-work="homework">
 </home-work>

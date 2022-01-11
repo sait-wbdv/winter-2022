@@ -6,6 +6,19 @@ description: VS Code is the recommended code editor for this program.
 
 If you already have a favourite code editor, feel free to use it. Otherwise, VS Code is the (current) favourite among most web developers.
 
+---
+
+## Key Takeaways
+- Always open a folder (blue bar along bottom of window), not a file (purple bar). This is for two reasons:
+    - It will open the file navigation sidebar
+    - It will enable the Live Server extension (it needs to know what directory to attach the web server to) 
+
+## Tutorials:
+- Youtube: [Freecodecamp Crash Course](https://www.youtube.com/watch?v=WPqXP_kLzpo)
+- Youtube: [James Quick's VS Code Playlist](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZneYg7_KNOwCjy-AcJmtHb)
+
+---
+
 ## Initial setup
 - [Install VS Code](https://code.visualstudio.com/download)
 
@@ -22,9 +35,4 @@ If you already have a favourite code editor, feel free to use it. Otherwise, VS 
 - [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
     - HTML and CSS syntax suggestions, checking and highlighting.
 
----
-
-## Extra bells and whistles
-- Padlet: [Popular VS Code Extensions](https://padlet.com/acidtone/vscodeextensions) contributed by Tony's colleagues.
-- Tutorials:
-    - Youtube: [James Quick's VS Code Playlist](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZneYg7_KNOwCjy-AcJmtHb)
+See: [Popular VS Code Extensions](https://padlet.com/acidtone/vscodeextensions) contributed by Tony's colleagues.

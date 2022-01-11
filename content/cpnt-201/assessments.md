@@ -9,7 +9,7 @@ description:
 ---
 
 ## Assignments
-### Assignment 1: Markdown Code Journal
+### Assignment 1: [Markdown Code Journal](/cpnt-201/assignments/assignment-1)
 - Weight: 20% of final course mark
 - Due: Wed Jan 12, 2022 @ 11:59PM
 

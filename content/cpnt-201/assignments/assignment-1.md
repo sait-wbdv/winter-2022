@@ -6,7 +6,7 @@ due: w1d05
 ---
 
 ## Details
-In this assignment, you will deploy your code journal, where you will submit your Dailies for the rest of the program.
+In this assignment, you will deploy your code journal, where you will submit your journal entries for the rest of the program.
 
 ## Why start a Code Journal?
 - To track your progress. Sometimes it's difficult to notice how much you've learned if you can't laugh at how hard things use to seem.
