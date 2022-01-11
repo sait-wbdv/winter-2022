@@ -25,16 +25,37 @@ homework:
       - title: VS Code's Integrated Terminal
         link: https://code.visualstudio.com/docs/editor/integrated-terminal
         description: 
-
 ---
-
-<home-work :home-work="homework">
-</home-work>
-
 ## Housekeeping:
 - Questions:
   - "Will we need microsoft word or any of those for ex power point for this course?"
 - [Jess's Discord server](https://discord.gg/XbnjJjzpmG) added to Orientation page.
+
+---
+<!--
+## 1. Setting up your Workspace
+### Materials
+- [Recommendations for organizing your code for this program](/labs/setup/workspace)
+
+## 2. Quality of life tips
+### Materials
+
+## 3. VS Code setup
+### Materials
+
+## 4. Command line basics
+### Materials
+
+---
+
+## Lab Time
+- [Follow the White Rabbit](labs/command-line/white-rabbit)
+
+---
+-->
+
+<home-work :home-work="homework">
+</home-work>
 
 ---
 
