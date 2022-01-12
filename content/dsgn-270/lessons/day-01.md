@@ -9,6 +9,11 @@ homework:
       - title: Figma account created
         link: https://www.figma.com/education/
         description: Rumour has that SAIT students and instructors get extra stuff if you sign up with your SAIT email address. We haven't tested this...
+  - title: Mental Models
+    tasks:
+        - title: UX Design Basics - Mental Models
+          link: https://www.youtube.com/watch?v=9gM8K4ooavY
+          description: A great introduction to Mental models by Jamal Nichols. Group discussion - find an example of product design (a handy tool, piece of equipment, etc) in your immediate(ish) area (home, office, vehicle, etc). You will be discussing your find in a group of 3 or 4 tomorrow.
   - title: UX Fundamentals
     tasks:
       - title: Usability 101 - Introduction to Usability
