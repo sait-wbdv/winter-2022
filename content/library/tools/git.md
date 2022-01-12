@@ -48,6 +48,6 @@ terminology:
 ## Common Errors
 - [Troubleshooting common errors](https://gist.github.com/acidtone/ffb0268f5f717df9631eb0c8b48e97e7)
 - Forgetting the `-m "commit message"` portion of a commit will open `vim` (or whatever command line text editor is set up) and you'll see a screen like this:
-    ![Forgot commit message](/assets/images/library/forgot-commit-message.png)
+    ![Forgot a commit message](/assets/images/library/forgot-commit-message.png)
 
     - If this happens, it's easiest to just quit `vim` by typing `:q!` (see: [`vim` cheat sheet](https://devhints.io/vim))
