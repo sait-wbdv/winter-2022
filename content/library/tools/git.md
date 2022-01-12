@@ -37,6 +37,7 @@ terminology:
 - [Set your identity](https://gist.github.com/acidtone/6ca4c62d88570732d3760904ef965e4d)
 - Optional(?): [Set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
 
-## Project and Activities
+## Extras
+- [Troubleshooting common errors](https://gist.github.com/acidtone/ffb0268f5f717df9631eb0c8b48e97e7)
 - [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
 - Pair programming with Git: [Commit catch](https://gist.github.com/acidtone/3a7ff64489b4fc641f0b96be8edd561d)
