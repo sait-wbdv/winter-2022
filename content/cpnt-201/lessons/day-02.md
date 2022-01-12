@@ -22,13 +22,46 @@ homework:
         description: Markdown is a language that is often used for developer documentation. Your coding journal will be written in markdown!
 ---
 
-<home-work :home-work="homework">
-</home-work>
+## Housekeeping
+- Ellie Forte: Guest Speaker for [Friday afternoon](http://localhost:3000/dsgn-270/lessons/day-02)
 
-## Lab Day
+---
 
+## 1. Review
+- [Recommendations for organizing your code for this program](/labs/setup/workspace)
+- [Files, directories and naming conventions](https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984)
+- [Navigating the file system](https://gist.github.com/acidtone/316d2bd9cf59f841684dbd68ffc3ee95)
+
+## 2. Introduction to Git
+### Materials
+- [Git Overview](/library/tools/git)
+
+## 3. First-time setup
+### Materials
+- [Set your identity](https://gist.github.com/acidtone/6ca4c62d88570732d3760904ef965e4d)
+- Optional(?): [Set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
+
+## 4. Demo: Publish a webpage
+### Materials
 - [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
 
-  There's no need to complete this project before class. We'll be working on this during the session.
+## 5. Markdown overview
+### Materials
+- [Search - "github flavoured markdown"](https://www.google.com/search?q=github+flavoured+markdown+cheatsheet)
 
-  Windows users will need Git Bash (or similar bash terminal), which is installed with Git. The Command Prompt is not recommended. Mac and Unix use bash terminals by default.
+---
+
+## Lab Day
+- If this is your first time using Git with your current system, you will need to [follow these steps](https://gist.github.com/acidtone/6ca4c62d88570732d3760904ef965e4d) to set your username, email and excludes file.
+- If you're having issues connecting with your password, you may have to [set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
+- [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
+    - Deploy a website template: Repeat the above steps, except in Step 4:
+        1. Search for a "[free static website template](https://www.google.com/search?q=free+static+website+template)" online.
+        2. Download/clone the source files to your system.
+        3. In Step 4: Drag and drop your downloaded files instead of creating a single `index.html` file. 
+        4. Proceed to Step 5.
+- Complete your [Markdown Code Journal](/cpnt-201/assignments/assignment-1) Assignment.
+
+
+<home-work :home-work="homework">
+</home-work>

@@ -50,3 +50,9 @@ homework:
 <home-work :home-work="homework">
 </home-work>
 
+---
+
+## Lab Time
+- Guest Speaker: Ellie Forte
+    - Graduate of the `fall-2020` cohort and founding member of the Cry Club;
+    - Currently Junior UX Designer (?) at [EvansHunt](https://www.evanshunt.com/).
