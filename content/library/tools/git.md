@@ -38,7 +38,13 @@ terminology:
 - Optional(?): [Set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
 
 ## Extras
-- [Troubleshooting common errors](https://gist.github.com/acidtone/ffb0268f5f717df9631eb0c8b48e97e7)
 - [`vim` cheat sheet](https://devhints.io/vim)
 - [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
 - Pair programming with Git: [Commit catch](https://gist.github.com/acidtone/3a7ff64489b4fc641f0b96be8edd561d)
+
+## Common Errors
+- [Troubleshooting common errors](https://gist.github.com/acidtone/ffb0268f5f717df9631eb0c8b48e97e7)
+- Forgetting the `-m "commit message"` portion of a commit will open `vim` (or whatever command line text editor is set up) and you'll see a screen like this:
+    ![Forgot commit message](/assets/images/library/forgot-commit-message.png)
+
+    - If this happens, it's easiest to just quit `vim` by typing `:q!` (see: [`vim` cheat sheet](https://devhints.io/vim))
