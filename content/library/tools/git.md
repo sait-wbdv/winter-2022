@@ -39,5 +39,6 @@ terminology:
 
 ## Extras
 - [Troubleshooting common errors](https://gist.github.com/acidtone/ffb0268f5f717df9631eb0c8b48e97e7)
+- [`vim` cheat sheet](https://devhints.io/vim)
 - [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
 - Pair programming with Git: [Commit catch](https://gist.github.com/acidtone/3a7ff64489b4fc641f0b96be8edd561d)
