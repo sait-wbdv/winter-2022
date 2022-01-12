@@ -23,7 +23,7 @@ homework:
 ---
 
 ## Housekeeping
-- Ellie Forte: Guest Speaker for [Friday afternoon](http://localhost:3000/dsgn-270/lessons/day-02)
+- Ellie Forte: Guest Speaker for [Friday afternoon](/dsgn-270/lessons/day-02)
 
 ---
 
