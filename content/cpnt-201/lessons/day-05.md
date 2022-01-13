@@ -1,6 +1,6 @@
 ---
-title: Linters, Formatters, and Code Quality
+title: Dependency management
 description: Description here
-date: 2022-02-07T15:00:00.000Z
-released: true
+date: 2022-02-03T15:00:00.000Z
+released: false
 ---

@@ -1,6 +1,6 @@
 ---
-title: Vector images and SVG
+title: Styling SVGs
 description: Description here
-date: 2022-03-09T15:00:00.000Z
+date: 2022-03-10T15:00:00.000Z
 released: false
 ---
