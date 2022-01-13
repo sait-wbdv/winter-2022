@@ -1,6 +1,6 @@
 ---
-title: Styling SVGs
+title: Figma In-depth
 description: Description here
-date: 2022-03-10T15:00:00.000Z
+date: 2022-03-11T15:00:00.000Z
 released: false
 ---
