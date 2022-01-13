@@ -34,4 +34,9 @@ In this Lab, you will find and deploy a free (optional) static website template 
 
 7. Customize the template by making any changes to page titles, headings and/or navigation as you see fit.
 8. Add and commit your changes as you did on Steps 5 and 6.
-9. When you're ready, push your changes to GitHub and deploy to GH Pages, if desired.
+9. When you're ready, push your changes to GitHub:
+    1. Create an empty repo on GitHub. DO NOT initialize with a README file (or license, gitignore files);
+    2. You will be taken to an empty repo with sample commands to copy/paste;
+    3. Copy the code listed under: "`…or push an existing repository from the command line`"
+    4. Paste the code into your terminal and hit enter.
+    5. Refresh your GitHub repo and you should see the new files from your remote repo!
