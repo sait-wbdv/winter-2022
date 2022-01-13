@@ -35,7 +35,7 @@ Once you've completed your pair-code session, each of you has resolved a merge c
 - Download a ZIP of the repo from GitHub and submit to Brightspace;
 - As a comment on the submission:
     - add a link to the repo you created with your partner(s);
-    - add a link to the specific commit that YOU pushed to resolve the conflict (it has two parents listed [like this one] (will be linked once Tony completes an in-class demo)).
+    - add a link to the specific commit that YOU pushed to resolve the conflict (it has two parents listed [like this one](https://github.com/sait-wbdv/hello-conflict/commit/3accba9e0ec9abdbd542fc3ee05cf680fd792115)).
 
 ## Marking Rubric
 10 points will be given for each of the following criteria, for a total of 20 points for this assignment:
