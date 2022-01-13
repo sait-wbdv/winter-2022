@@ -39,7 +39,7 @@ homework:
 ## 3. First-time setup
 ### Materials
 - [Set your identity](https://gist.github.com/acidtone/6ca4c62d88570732d3760904ef965e4d)
-- Optional(?): [Set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
+- [Set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
 
 ## 4. Demo: Publish a webpage
 ### Materials

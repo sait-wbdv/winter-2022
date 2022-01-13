@@ -2,7 +2,7 @@
 title: Assignment 1 - Markdown Code Journal
 description: For this assignment, you will create a code journal that will serve store future journal entries (dailies) for the rest of this program.
 weight: 20%
-due: w1d05
+due: 2022-01-13T23:59:00.000Z
 ---
 
 ## Details

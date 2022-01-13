@@ -3,7 +3,7 @@ title: CPNT 201 Assessments
 description: 
 ---
 ## Journal Entries
-- Weight: 5 journal entries at 4% per entry (20% total)
+- Weight: 4 journal entries at 5% per entry (20% total)
 - Due: TBA (not until February)
 
 ---
@@ -11,11 +11,11 @@ description:
 ## Assignments
 ### Assignment 1: [Markdown Code Journal](/cpnt-201/assignments/assignment-1)
 - Weight: 20% of final course mark
-- Due: Wed Jan 12, 2022 @ 11:59PM
+- Due: Wed Jan 12 @ 11:59PM
 
-### Assignment 2: TBA
+### Assignment 2: [Collaboration and merge conflicts](/cpnt-201/assignments/assignment-2)
 - Weight: 20% of final course mark
-- Due: TBA
+- Due: Mon Jan 17 @11:59pm
 
 ### Assignment 3: TBA
 - Weight: 20% of final course mark
