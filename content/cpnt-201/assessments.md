@@ -11,7 +11,7 @@ description:
 ## Assignments
 ### Assignment 1: [Markdown Code Journal](/cpnt-201/assignments/assignment-1)
 - Weight: 20% of final course mark
-- Due: Wed Jan 12 @ 11:59PM
+- Due: Thurs Jan 13 @ 11:59PM
 
 ### Assignment 2: [Collaboration and merge conflicts](/cpnt-201/assignments/assignment-2)
 - Weight: 20% of final course mark
