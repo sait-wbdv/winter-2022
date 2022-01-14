@@ -20,7 +20,7 @@ The goals and content of the repository and paired coding session are up to you.
 - Write a poem together
 - Pick a topic to Google and compile the best search results
 
-## Student pairings
+## Group pairings
 - Tori / Erik / Will
 - Bryan / Jibril
 - Hyeju / Mahalakshmi
