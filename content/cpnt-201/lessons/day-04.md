@@ -9,6 +9,7 @@ homework:
 ## Housekeeping
 - Open Zoom room for Guest Speaker
     - [https://sait-ca.zoom.us/j/6557806098](https://sait-ca.zoom.us/j/6557806098)
+- [Group pairings for Assignment 2](/cpnt-201/assignments/assignment-2#group-pairings)
 
 ---
 
