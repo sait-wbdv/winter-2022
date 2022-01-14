@@ -6,6 +6,40 @@ released: true
 homework:
 ---
 
+## Housekeeping
+- Open Zoom room for Guest Speaker
+    - [https://sait-ca.zoom.us/j/6557806098](https://sait-ca.zoom.us/j/6557806098)
+
+---
+
+## 1. Copyright
+### Materials
+- [Summary of copyright](/library/takeaways/copyright)
+
+## 2. Common open licenses
+### Materials
+- [Openly licensed content](/library/takeaways/open-licenses)
+
+## 3. Images in markdown
+### Materials
+- [Markdown Cheatsheet - Images](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+
+## 4. Demo: Basic Image Editing
+### Materials
+- [Photo Editing Terms Explained Simply](https://www.picmonkey.com/blog/photo-editing-terms-you-dont-know)
+- [Pixlr Tutorial Videos and Articles](https://pixlr.com/learn/)
+
+## Labs and demos
+- [Basic Image editing](/labs/images/basic-editing)
+- [Image sizing](/labs/images/sizing)
+
+---
+
+## Lab Time
+- Guest Speaker: Ellie Forte
+    - Graduate of the `fall-2020` cohort and founding member of the Cry Club;
+    - Currently Junior UX Designer (?) at [EvansHunt](https://www.evanshunt.com/).
+
 <home-work :home-work="homework">
 
 ## Image Editors
@@ -24,8 +58,3 @@ Download and install an image editor, such as Photoshop, if you don't already ha
     - [Which License Should I Use? MIT vs. Apache vs. GPL](https://exygy.com/blog/which-license-should-i-use-mit-vs-apache-vs-gpl/)
 
 </home-work>
-
-## Lab Time
-- Guest Speaker: Ellie Forte
-    - Graduate of the `fall-2020` cohort and founding member of the Cry Club;
-    - Currently Junior UX Designer (?) at [EvansHunt](https://www.evanshunt.com/).
