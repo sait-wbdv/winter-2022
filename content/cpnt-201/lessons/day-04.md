@@ -19,7 +19,8 @@ homework:
 
 ## 2. Common open licenses
 ### Materials
-- [Openly licensed content](/library/takeaways/open-licenses)
+- [Popular Open licenses](/library/takeaways/open-licenses)
+- [Openly licensed content](/library/open-content)
 
 ## 3. Images in markdown
 ### Materials
