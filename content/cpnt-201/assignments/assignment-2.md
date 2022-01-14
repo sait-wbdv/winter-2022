@@ -20,6 +20,16 @@ The goals and content of the repository and paired coding session are up to you.
 - Write a poem together
 - Pick a topic to Google and compile the best search results
 
+## Student pairings
+- Tori / Erik / Will
+- Bryan / Jibril
+- Hyeju / Mahalakshmi
+- Ed / Jason
+- Josh / Nora
+- Harjodh / Maryam / Stephan
+- Edgar / Tess
+- Arshdeep / 
+
 ### 2. Resolve a merge conflict
 While pair coding, each of you should resolve a merge conflict.
 1. Both of you edit the same line of code;
