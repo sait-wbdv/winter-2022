@@ -1,6 +1,136 @@
 ---
 title: Responsive Web Design
-description: Description here
+description: We will focus on stylizing content with css, adding fonts, and practicing using html tags semantically.
 date: 2022-01-21T15:00:00.000Z
 released: false
+homework:
+  - topic: Flexbox Articles
+    tasks:
+      - title: Flexbox article MDN
+        link: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+        description: MDN documentation on flexbox.
+      - title: A complete guide to flexbox
+        link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+        description: A visual guide on how flexbox works
+    - topic: Flexbox Video 
+      tasks: 
+        - title: Flexbox Patterns You Can Use
+          link: https://www.youtube.com/watch?v=vQAvjof1oe4
+    - topic: Flexbox Game
+      tasks:
+        - title: Flexbox Froggy
+          link: https://flexboxfroggy.com
+
 ---
+
+## Trophy of the Day: A 404 Error Page
+
+- create a 404 page
+
+## Review
+
+- Trophies from last class
+- Code debief
+
+## Assignment 1 - About Page
+
+- Complete:
+  - Create an About page that has text, images, and styling
+  - Create a site navigation. Note this will be improved on throughout the following assignments.
+
+---
+
+---
+
+## Tool Time
+
+- Switching from codepen to vscode
+- Using `head` tag in html
+- Emmet plugin and autocompletion
+
+---
+
+## <a id="topic-1"></a> Topic 1: Code Indentation and CSS Selector Nesting
+
+### Code Indentation
+
+- Indentation is very important, in some languages it's necessary for code to run
+- Any HTML elements that are _within_ a container element must be nested inside using indents
+  - You can use hotkeys to auto indent your code. This saves a lot of time
+
+### CSS Selector nesting
+
+- In bruteforce mode, it's normaly to add classes directly to elements
+- After everything works like you want, your optimization process should include removing redundent code
+- A good practice is to add a class to a parent element and then use nested selectors on it's children
+  - `nav.parent-class a {/* link styles */}`
+
+---
+
+## Responsive Fonts
+
+### Terminology
+
+These css properties and values are especially useful for setting responsive fonts.
+
+- `clamp()`
+  : Use clamp to set minimum and maximum font size and the range that they increase and decrease by. ie: `font-size: clamp(1.2rem, 2.5vw, 1.4rem)`
+- `text-align`
+  : align text left, center, right, or justified. [Mdn article](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align).
+- `max-width` and `min-width`
+  : Both of these will override the `width` property. And `min-width` will override `max-width`.
+- `rem`
+  : rem units are equal to the font-size declared on a root element. 1 `rem` unit is equal to `16px`. A px is 10times bigger than a rem.
+
+#### Font size readings
+
+- If you are wanting to get more detailed with font-size, read this [CSS-tricks article](https://css-tricks.com/rems-ems/) which shows how to use px, em, and rem together effectively
+- Read [This css tricks article](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/) on using clamp based off viewport units
+
+#### Font optimization Notes and Readings
+
+- `@import` in css is slower than using `link` in html
+- use `preconnect` to improve font loading times
+- Link example: `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />`
+- [Optimize web fonts](https://www.freecodecamp.org/news/web-fonts-in-2018-f191a48367e8/)
+- [comparing preload, preconnect, and prefetch](https://george.mand.is/2019/11/whats-the-difference-between-link-preload-preconnect-and-prefetch/).
+
+## Create a 404 Page
+
+---
+
+## Topic 3: Site Navigation
+
+- Navigation should use a `nav` tag.
+- You can have more than one nav
+- It is conventional to put an unordered list inside your nav for links, but not essential
+- To link to content on the same page, add an `id` tag to the link location and specify it in your link
+  - nav link = `<a href="#link-on-page">Link</a>`, then add the id to the element like: `<h2 id="link-on-page">Text</h2>`
+- To open the link in a new tab use `target="_blank"` in your link tag
+- A `nav` is often found inside a `header` or above a `header`. It depends on the site
+
+### Extra Reading
+
+- To add a list to a nav or not is discussed in this [css-tricks article](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/).
+- A footer navigation does not necessarily need a nav element: [mdn article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav).
+
+---
+
+## Walkthrough
+
+- Check for syntax errors
+- Fix HTML indentation
+- Plan CSS declarations cleanup
+
+### <a id="color"></a>Better Colour Codes
+
+- using color tags such as `red` and `rebeccapurple` are good for quick planning
+- In production you will want to use hex codes or hsl()/hsla() for better color control
+- Hex code colors follow RGB values but notate them in hexadecimal numbers
+  - For Example: the lighter red in the SAIT logo is `#e12726` which means: red=e1 green=27 and blue=26
+- HSL() stands for Hue, Saturation, Lightness, add an A `hsla() to include opacity
+  - This is a newer approach and gives better control of colors, plus browsers read them better for accessiblity
+
+---
+
+<home-work :home-work="homework"></home-work>

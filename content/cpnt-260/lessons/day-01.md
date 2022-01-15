@@ -1,41 +1,198 @@
 ---
 title: Into to HTML
-description: Description here
-date: 2022-01-20T15:00:00.000Z
+description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
+date: 2022-01-19T15:00:00.000Z
 released: false
 homework:
-  - title: UX fundamentals
+  - title: Basic HTML
     tasks:
-      - title: Introduction to Usability
-        link: https://www.nngroup.com/
-        description: Read the first 2 sections of this article
-      - title: Text Scanning
-        link: https://www.css-tricks.com
-        description: an article on how people scan text
-  - title: Software Setup
+      - title: Webpage Structure
+        link: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+      - title: Why, how, and when to use semantic html
+        link: https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria
+  - title: Web Design
     tasks:
-      - title: step 1
-        link: https://www.mdn.com
-        description: a description
-      - title: step 2
-        link: https://www.mdn.com
-        description: a description
-      
-words:
-  - Repository
-  - test
+      - title: Modern Layouts  Getting Out of Our Ruts
+        link: https://www.youtube.com/watch?v=jreccgYLfx8
+        description: In this video, Jen Simmons gives great insights into layout and modern css technologies used to create interesting web designs.
+      - title: Mdn Navigation Section
+        link: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+        description: docs on how to make a site nav
+  - title: Typography
+    tasks:
+      - title: Font Loading Strategies
+        link: https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/
+        description: glance through this article for different ideas on loading fonts into a web page
+      - title: Google fonts
+        link: https://fonts.google.com/
+        description: We will be using google fonts for most of our websites
 ---
 
-<termsList :search-terms="words"></termsList>
-# The Lesson for day 1
+## Trophy of the day: A wiki page
 
-This is outside the component
+- Create an html wiki page on a topic of your choice.
+- Examples:
+  - A current interest
+  - A group or organization
+  - A concept or theory
+  - A game or sport
+- [Wiki pages in the wild](https://aelieve.com/rankings/websites/category/reference/best-wiki-sites/)
 
-<homeWork :home-work="homework">
+## Topic 1: HTML, CSS, and JavaScript
 
-### Inside the component
+### Key Terms
 
-- An extra activity
-- the article containing this will only exist if there is markdown added here
+<dl>
+  <dt>HTML (HyperText Markup Language)</dt>
+  <dd>The standard language for documents that will be displayed on the web. It uses tags to structure and describe types of information. **The content**</dd>
+  <dt>CSS (Cascading Style Sheets)</dt>
+  <dd>A stylesheet language that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. **How content looks**</dd>
+  <dt>JS (JavaScript)</dt>
+  <dd>A multi-paradigm scripting/programming language that enables websites with advanced interactive features. Originally a frontend browser focused language, it has now been extended to be a backend language. **content interactivity**</dd>
+  <dt>DOM (Document Object Model)<dt>
+  <dd>A programming interface for web documents. It creates a representation of a web page that can be manipulated by scripting languages (such as javascript or php).</dd>
+</dl>
 
-</homeWork>
+### Tool Time
+
+[Firefox devtools](https://developer.mozilla.org/en-US/docs/Tools)
+: browser based devtools for firefox. Especially good for examining css styling.
+
+### Notes
+
+- A good workflow is to create your content (html) -> Then style it (css) -> Then make it interactive (js)
+  - While some initial styling can be helpful, a design can end up really messy if you don't start with unstyled content first
+  - This approach also helps write readable css. Naming conventions and container hierarchy can become chaotic when doing both at the same time
+
+#### the `<html></html>` tag
+
+- put everything in side of these tags
+
+#### The html `<head></head>` tag
+
+- this is **not** the same as the `<header></header>` tag
+- In the head, you add metadata, the site title (which renders in browser tabs), link stylesheets, and add script tags
+- Note that while online tools such as codepen will manage the head tag for you, when you write an html page in vscode, you **must** include a head tag with relevant information. the emmet plugin helps by writing a boiler plate of this for you, but you will need to add your stylesheets etc to it.
+
+#### the `<body></body>` tag
+
+- this is where you will code anything seen on the web page. Put your semantic html inside the body tags
+
+#### Example Page structure
+
+- this is like the code generated by writing `html:5` at the top of your `.html` page
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- these metadata tags are good defaults -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site title goes here</title>
+  <!-- link fonts and stylesheets here -->
+</head>
+<body>
+<!-- enter page content here -->
+</body>
+</html>
+```
+
+---
+
+## Topic 2: Site Layout and Semantic HTML
+
+HTML is the primary language of the web. It can be written manually, or generated dynamically. As a web developer, you will be doing a bit of both depending on your tool set.
+
+Semantic html is html that structures content based on the semantic meaning of the content. This makes code easier to work on, it is also helpful for screen readers and digital web crawlers.
+
+Your html will consist of container elements (`div`, `article`, `section`, `header`, `footer`...) and content elements (paragraphs, images, headers, links...). As we learn how to use these tags, we will be working towards a component oriented approach. This will lay groundwork for using frontend frameworks such as vue, react, or svelte.
+
+For now, the most important thing is to become familiar with how to structure content and to practice creating common ui elements.
+
+### Tool Time
+
+- [Codepen](https://codepen.io)
+  - A browser based frontend development environment for publicly creating and sharing design ideas.
+- [Lorem Ipsum](https://loremipsum.io/generator/)
+  - A generator for placeholder text.
+- [Lorem Picsum](https://picsum.photos/)
+  - A random image generator for placeholder images.
+
+### Notes
+
+- Container tags
+  - use `div` when the only reason for adding a container around content is to style it
+  - otherwise choose between `main`, `header`, `footer`, `nav`, `section`, `article`
+  - Container guidelines
+    - `main`
+      - generally only use 1 main tag, this is the primary content of your page, it can contain any of the other tags.
+      - you can put the page level `header` inside of it our outside of it
+    - `header`
+      - you can use this more than once, each section or article can have a header with a heading in it
+    - `nav`
+      - use this for navigation links
+        - either put links directly in a nav, or put links in a list inside of a nav (both are acceptable but using the `ul` with a set of `li` tags is more conventional)
+    - `footer`
+      - this goes at the bottom of your page, it can be in or out of the `main` tag. Put copyright info in here (there are lots of ways to use a footer but this is the bare minimum)
+    - `article`
+      - Use an article for content that can stand on it's own.
+      - it should have a heading text tag
+      - The content in an article such as a blog post should relate to the outer content
+      - [docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+    - `section`
+      - A general section of a document, should contain a heading text tag
+      - An article or main are good examples of container that have a couple section tags
+      - While an article can be taken out of it's containing content and still make sense, a section tag wouldn't make sense if taken out of the containing context
+      - [docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+    - `div`
+      - a generic container tag, use this for when you are just styling content and there is no other reason to put it into a container
+- Important HTML content tags
+  - `h1-h3` headings
+    - most common depth of headings
+  - `p` paragraph text
+  - `a` links
+  - `ul` and `ol` for lists
+  - `strong`, `em` bold and italics
+
+---
+
+## Activity 1: Write a wiki page in html
+
+- Pair Coding
+
+---
+
+## Topic 3: Style with CSS
+
+### Terminology
+
+<dl>
+  <dt>Selectors</dt>
+  <dd>Define elements that css rules are applied to. [Review the 5 types of selectors here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+  <dt>Declarations</dt>
+  <dd>These are the rules used to stylize elements. They consist of a property and a value. [More information can be found here](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)</dd>
+</dl>
+
+### Notes
+
+- A lot of bugs are causes by style inheritence, when your layouts/designs are breaking, walk through where each element is getting it's styling from
+- setting classes is a good default strategy.
+  - Tend towards using `id` for overriding styles, form fields, and javascript manipulation.
+  - be careful when styling elements directly. Depending on how many pages are using a given css file, this can lead to unpredictable results
+- Use whitespace and clear naming conventions that will make sense in the future.
+  -When you're doing your walkthrough, it can be a good practice to consider "Is this the best name for this label?"
+  - consider if you were to look at it in 2 months, would it still make sense, take note on inconsistencies in your labeling methodology and perfect a consistent system in your optimize state
+- Use comments to section off your code
+  - also, if you have very long css files, it can be worthwhile to throw a small overview with line numbers at the top for quick editing later.
+    - use multiline comment titles like this to give yourself some buffer room for line number changes from edits.
+    - This example would give you 5 lines of wiggle room where nothing else is going on. so if you search for the line number noted in your overview and it's changed by a couple lines because of other edits and not updating, it won't be as much of a hassle
+
+---
+
+## Lab Time
+
+---
+
+<home-work :home-work="homework"></home-work>
