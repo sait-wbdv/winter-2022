@@ -42,6 +42,9 @@ terminology:
 - [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)
 - [Create a merge conflict](https://gist.github.com/acidtone/d8c2e285c9b25fcb7443a4f0f4e4b4e6)
     - merge conflicts often happen in team environments but this is an activity to help you practice resolving conflicts by yourself.
+
+        ![Screencap of a merge conflict in VS Code](/assets/images/library/merge-conflict.png "Screencap of a merge conflict in VS Code")
+
 - Pair programming with Git: [Commit catch](https://gist.github.com/acidtone/3a7ff64489b4fc641f0b96be8edd561d)
 
 

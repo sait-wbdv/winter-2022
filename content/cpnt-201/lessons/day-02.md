@@ -51,7 +51,7 @@ homework:
 
 ---
 
-## Lab Day
+## Lab Time
 - If this is your first time using Git with your current system, you will need to [follow these steps](https://gist.github.com/acidtone/6ca4c62d88570732d3760904ef965e4d) to set your username, email and excludes file.
 - If you're having issues connecting with your password, you may have to [set up your SSH keys](https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5)
 - [Publish a webpage with Git and GitHub Pages](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c)

@@ -10,6 +10,7 @@ SAIT (and the rest of the world) have strict policies for copyright. This is a c
 Thanks to all current and past students that have contributed to this list.
 
 ## Open source licenses
+- [Summary of copyright](/library/takeways/copyright)
 - [Understanding The Copyright License](https://www.smashingmagazine.com/2011/06/understanding-copyright-and-licenses/)
 - Common open licenses
     - [Creative Commons Licenses](https://creativecommons.org/about/cclicenses/) for content
