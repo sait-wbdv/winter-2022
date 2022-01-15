@@ -15,6 +15,17 @@ homework:
       - title: Modern Layouts  Getting Out of Our Ruts
         link: https://www.youtube.com/watch?v=jreccgYLfx8
         description: In this video, Jen Simmons gives great insights into layout and modern css technologies used to create interesting web designs.
+      - title: Mdn Navigation Section
+        link: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+        description: docs on how to make a site nav
+  - title: Typography
+    tasks:
+      - title: Font Loading Strategies
+        link: https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/
+        description: glance through this article for different ideas on loading fonts into a web page
+      - title: Google fonts
+        link: https://fonts.google.com/
+        description: We will be using google fonts for most of our websites
 ---
 
 ## Trophy of the day: A wiki page
