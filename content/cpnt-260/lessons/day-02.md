@@ -20,7 +20,6 @@ homework:
       tasks:
         - title: Flexbox Froggy
           link: https://flexboxfroggy.com
-
 ---
 
 ## Trophy of the Day: A 404 Error Page
