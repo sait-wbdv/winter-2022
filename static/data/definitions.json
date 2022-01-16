@@ -17,8 +17,36 @@
       ]
     },
     {
-      "term": "test",
-      "definition": "A tester definition."
+      "term": "Usability",
+      "definition": "A *quality attribute* that assesses how easy user interfaces are to use. The word \"usability\" also refers to methods for improving ease-of-use during the design process.",
+      "slug": "usability",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "Information Hierarchy",
+      "definition": "A discipline that focuses on organizing, structuring, and labeling content in an effective and sustainable way.",
+      "slug": "information-architecture",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "Satisfice",
+      "definition": "When a user chooses the _first reasonable option_ instead of the best option.",
+      "slug": "satisfice",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "Interaction Cost",
+      "definition": "The sum of efforts — mental and physical — that the users must deploy in interacting with a site in order to reach their goals.",
+      "slug": "interaction-cost",
+      "tags": [
+        "ux"
+      ]
     }
   ]
 }
