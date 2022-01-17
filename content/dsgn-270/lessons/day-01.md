@@ -66,6 +66,7 @@ homework:
 - Evaluate current performance
 - Take steps toward learning goal
     - Create user stories and user flows for creating local and remote Git repos
+- [Final Journal entry example](https://gist.github.com/acidtone/dd6a437cdf6bb2d1e4030ad78e6b7ef7)
 
 ## 2. UX for Devs
 ### Materials

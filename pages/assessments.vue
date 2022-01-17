@@ -6,10 +6,10 @@
         <h2>Assessments by Course</h2>
         <ul>
           <li>
-            <nuxt-link to="cpnt-201/assessments">CPNT-201 Assessments</nuxt-link>
+            <nuxt-link to="/cpnt-201/assessments">CPNT-201 Assessments</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="dsgn-270/assessments">DSGN-270 Assessments</nuxt-link>
+            <nuxt-link to="/dsgn-270/assessments">DSGN-270 Assessments</nuxt-link>
           </li>
 <!--
           <li>
