@@ -30,6 +30,11 @@ hr{.red}
 Code Editor
 : A professional text editor that developers use to write code. The recommended editor for this program is VS Code but you may use another if you're already using one.
 
+### Footnotes
+Here's a simple footnote,[^1] and here's a longer one.
+
+[^1]: This is the first footnote.
+
 ## Embeds
 ### Youtube
 
