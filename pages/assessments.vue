@@ -8,21 +8,21 @@
           <li>
             <nuxt-link to="cpnt-201/assessments">CPNT-201 Assessments</nuxt-link>
           </li>
+          <li>
+            <nuxt-link to="dsgn-270/assessments">DSGN-270 Assessments</nuxt-link>
+          </li>
 <!--
           <li>
-            <nuxt-link to="dsgn-270/assignments">CPNT-270 Assessments</nuxt-link>
+            <nuxt-link to="cpnt-260/assessments">CPNT-260 Assessments</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="cpnt-260/assignments">CPNT-260 Assessments</nuxt-link>
+            <nuxt-link to="cpnt-262/assessments">CPNT-262 Assessments</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="cpnt-262/assignments">CPNT-262 Assessments</nuxt-link>
+            <nuxt-link to="cpnt-200/assessments">CPNT-200 Assessments</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="cpnt-200/assignments">CPNT-200 Assessments</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="cpnt-265/assignments">CPNT-265 Assessments</nuxt-link>
+            <nuxt-link to="cpnt-265/assessments">CPNT-265 Assessments</nuxt-link>
           </li>
 -->
         </ul>

@@ -2,7 +2,7 @@
 title: Colour and typography
 description: Description here
 date: 2022-01-19T15:00:00.000Z
-released: false
+released: true
 homework:
   - title: Colour
     tasks:
@@ -22,3 +22,5 @@ homework:
         description: Find some favourite Google Fonts to style your text for CPNT 260.
 ---
 
+<home-work :home-work="homework">
+</home-work>
