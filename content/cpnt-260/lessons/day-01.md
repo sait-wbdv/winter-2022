@@ -1,7 +1,7 @@
 ---
 title: Into to HTML
 description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
-date: 2022-01-19T15:00:00.000Z
+date: 2022-01-20T15:00:00.000Z
 released: false
 homework:
   - title: Basic HTML
