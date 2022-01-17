@@ -8,22 +8,31 @@ You are the only UX/UI savvy dev on your development team for a mobile app. Afte
 You decide to create a small proof of concept document to hopefully get buy-in from your teammates.
 
 ## Instructions
-1. Select a mobile website of your choice or make one up. 
+1. Select a mobile website of your choice (except Amazon; see below) or make one up. 
 2. In 50 words or less, summarize the purpose of the website to provide context for the rest of this assignment.
 3. Create 3 User Stories related to the website in one unordered list.
-4. For one of the User Stories, create one 5-step (at least) Task Flow as a numbered list.
-5. Create at least 3 mobile wireframe screens to support the chosen user flow.
+4. For ONE of the User Stories, create one 5-step (at least) User Flow as a numbered list.
+5. Create at least 3 mobile wireflow screens (wireframes labelled with user flow steps) to support the chosen user flow.
+
+## Examples submissions from past students
+- [Fesal - Amazon](https://gist.github.com/Raj-Hunjan/6a4a86aa1bd2fdd88289e8487a560bd2)
+- [Raj - Amazon](https://gist.github.com/FesalBadday/552a542f75c9761bae97bd809e20e726)
+
+**Note:** Since these examples have been provided, you CANNOT use Amazon as the focus of your assignment. 
 
 ---
 
 ## Marking Criteria
-This assignment will be marked out of 25 points, which will be given for each of the following:
+This assignment will be marked out of 20 points, which will be given for each of the following:
 
-### User stories: 10 points
+### User stories: 5 points
 - Stories should the following grammatical format (or similar): 
     > As a [type of user], I want [an action] so that [a benefit/a value].
+
+    - See: [Agile User Stories](https://gist.github.com/acidtone/6f8b416c4c409c60148581f7ec806c46)
+    
 - Each story should fit the INVEST set of criteria.
-- Stories should be 20-30 words.
+- Stories should be a maximum of 30 words.
 - Stories should be presented as an unordered list.
 - Each Story action (What) and benefit/value (Why) should be distinct from the other two.
 
@@ -56,7 +65,12 @@ Points will be deducted for lack of scannability:
 ---
 
 ## Submission Instructions
-You will be submitting this assignment as a PDF:
-1. Use an authoring tool of your choice (Google Doc, Indesign, markdown, etc).
-2. Export as a letter format PDF file named `dsgn270-a2.pdf`.
-4. ZIP your PDF and submit to Brightspace. Include a link to your repo/gist as a comment, if applicable.
+In order to receive a grade:
+1. Submit your assignment as a repo named `dsgn270-a1`, with:
+    - The text of your assignment saved in a `README.md` file in the root of your project;
+    - Your wireframe saved as a PNG image in an `/images` directory;
+    - Your wireframe linked at the bottom of your `README.md` file.
+2. Zip your assignment and submit it to Brightspace.
+3. As a comment to your submission, include:
+      - a link to your GitHub repo;
+      - a link to the live GH Pages site;

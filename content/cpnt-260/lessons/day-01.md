@@ -1,7 +1,7 @@
 ---
 title: Into to HTML
 description: Today we will cover the basic technologies of the web and how they work together. We will also start out with the basics of writing html and css.
-date: 2022-01-19T15:00:00.000Z
+date: 2022-01-20T15:00:00.000Z
 released: false
 homework:
   - title: Basic HTML
@@ -26,6 +26,12 @@ homework:
       - title: Google fonts
         link: https://fonts.google.com/
         description: We will be using google fonts for most of our websites
+terms:
+  - HTML
+  - CSS
+  - JS
+  - DOM
+  - Interaction Cost
 ---
 
 ## Trophy of the day: A wiki page
@@ -40,18 +46,7 @@ homework:
 
 ## Topic 1: HTML, CSS, and JavaScript
 
-### Key Terms
-
-<dl>
-  <dt>HTML (HyperText Markup Language)</dt>
-  <dd>The standard language for documents that will be displayed on the web. It uses tags to structure and describe types of information. **The content**</dd>
-  <dt>CSS (Cascading Style Sheets)</dt>
-  <dd>A stylesheet language that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. **How content looks**</dd>
-  <dt>JS (JavaScript)</dt>
-  <dd>A multi-paradigm scripting/programming language that enables websites with advanced interactive features. Originally a frontend browser focused language, it has now been extended to be a backend language. **content interactivity**</dd>
-  <dt>DOM (Document Object Model)<dt>
-  <dd>A programming interface for web documents. It creates a representation of a web page that can be manipulated by scripting languages (such as javascript or php).</dd>
-</dl>
+<terms-list :search-terms="terms"></terms-list>
 
 ### Tool Time
 

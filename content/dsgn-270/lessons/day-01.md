@@ -49,6 +49,46 @@ homework:
         description: 
 ---
 
+## Housekeeping
+- Assessment Schedule
+    - [Dated Journal Entry](/dsgn-270/assignments/journal)
+    - Assignment 1: [Agile UX Breakdown](/dsgn-270/assignments/assignment-1)
+    - Assignment 2: Announced tomorrow
+
+---
+
+## 1. Journal Entry Overview
+### Materials
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## 2. UX for Devs
+### Materials
+- [Usability 101 - Introduction to Usability](https://www.nngroup.com/articles/usability-101-introduction-to-usability/)
+- [Minimizing Cognitive Load](/library/takeaways/design/minimizing-cognitive-load)
+
+## 3. User Stories
+### Materials
+- [How to Write a Good User Story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/)
+- Video: [Agile User Stories](https://www.youtube.com/watch?v=apOvF9NVguA)
+- Gist: [User Stories - A summary](https://gist.github.com/acidtone/6f8b416c4c409c60148581f7ec806c46)
+
+## 4. User flows
+### Materials
+- [What are User Flows in User Experience (UX) Design?](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)
+- Video: [User flow tutorial | How I use them in design projects](https://www.youtube.com/watch?v=TIV1y11xz7k)
+- Gist: [Agile User Flow Summary](https://gist.github.com/acidtone/aa85df7a330fd678d84167f0e59d889d)
+
+---
+
+## Lab Time
+- Ash and Tony will both be in attendance to help with CPNT 201 Assignment 2.
+- DSGN 270:
+    - Dated Journal Entry 1
+    - Assignment 1
+    - Assignment 2
+
+---
+
 <home-work :home-work="homework">
 </home-work>
 

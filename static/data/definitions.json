@@ -17,8 +17,60 @@
       ]
     },
     {
-      "term": "test",
-      "definition": "A tester definition."
+      "term": "Usability",
+      "definition": "A *quality attribute* that assesses how easy user interfaces are to use. The word \"usability\" also refers to methods for improving ease-of-use during the design process.",
+      "slug": "usability",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "Information Hierarchy",
+      "definition": "A discipline that focuses on organizing, structuring, and labeling content in an effective and sustainable way.",
+      "slug": "information-architecture",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "Satisfice",
+      "definition": "When a user chooses the _first reasonable option_ instead of the best option.",
+      "slug": "satisfice",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "Interaction Cost",
+      "definition": "The sum of efforts — mental and physical — that the users must deploy in interacting with a site in order to reach their goals.",
+      "slug": "interaction-cost",
+      "tags": [
+        "ux"
+      ]
+    },
+    {
+      "term": "HTML",
+      "definition": "The standard language for documents that will be displayed on the web. It uses tags to structure and describe types of information. **The content**",
+      "slug": "html",
+      "tags": []
+    },
+    {
+      "term": "CSS",
+      "definition": "A stylesheet language that is used to design how web content will be displayed. It includes colour, layout, fonts etc. Separates the design rules from the content for maintainable code. **How content looks**",
+      "slug": "css",
+      "tags": []
+    },
+    {
+      "term": "JS",
+      "definition": "A multi-paradigm scripting/programming language that enables websites with advanced interactive features. Originally a frontend browser focused language, it has now been extended to be a backend language. **content interactivity**",
+      "slug": "js",
+      "tags": []
+    },
+    {
+      "term": "DOM",
+      "definition": "'Document Object Model'. A programming interface for web documents. It creates a representation of a web page that can be manipulated by scripting languages (such as javascript or php).",
+      "slug": "dom",
+      "tags": []
     }
   ]
 }

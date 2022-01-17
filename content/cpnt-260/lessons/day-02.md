@@ -12,16 +12,22 @@ homework:
       - title: A complete guide to flexbox
         link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
         description: A visual guide on how flexbox works
-    - topic: Flexbox Video 
-      tasks: 
-        - title: Flexbox Patterns You Can Use
-          link: https://www.youtube.com/watch?v=vQAvjof1oe4
-    - topic: Flexbox Game
-      tasks:
-        - title: Flexbox Froggy
-          link: https://flexboxfroggy.com
-
+  - topic: Flexbox Video
+    tasks:
+      - title: Flexbox Patterns You Can Use
+        link: https://www.youtube.com/watch?v=vQAvjof1oe4
+  - topic: Flexbox Game
+    tasks:
+      - title: Flexbox Froggy
+        link: https://flexboxfroggy.com
+assignment-1:
+  title: About Section
+  due: Jan 25
+  description: Create an about section for your website.
+  link: cpnt-260/assignments/assignment-1/
 ---
+
+<assign-box :info="assignment-1"></assign-box>
 
 ## Trophy of the Day: A 404 Error Page
 
