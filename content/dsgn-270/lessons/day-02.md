@@ -50,5 +50,17 @@ homework:
 <home-work :home-work="homework">
 </home-work>
 
----
+<!-- 
+
+## 1. Figma tour
+- Reference: [Figma Tutorial Video Playlist](https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4)
+    - Video: [Setup account, teams, projects, and files](https://youtu.be/hrHL2VLMl7g)
+        - Create a free account and set up a Team.
+    - Video: [Get a tour of the Editor](https://youtu.be/DSrbwCrEIII)
+    - Video: Any other videos in this playlist that interest you.
+- Video: [Figma Drawing Tools Overview](https://webdesign.tutsplus.com/courses/using-figma-for-svg-design/lessons/drawing-tools-overview)
+- [5 of your favorite Illustrator tools in Figma](https://medium.com/@saintasia/5-of-your-favorite-illustrator-tools-in-figma-a7c2aaa45d59)
+
+
+-->
 
