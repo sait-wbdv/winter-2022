@@ -1,30 +1,19 @@
 ---
-title: UX for Devs
+title: Minimizing Cognitive Load
 description: 
-terms:
-  - usability
-  - information-architecture
-  - satisfice
-  - interaction-cost
 ---
 
-<termsList :search-terms="terms"></termsList>
+> Unless faced with life-changing information, most site visitors won't read all of the content provided but settle for a “good-enough” answer. Better sorting and clearer writing satisfy users without exhausting the limited time they’re willing to spend on a website.
 
-## Key Takeaways
-### Satisficing
-Unless faced with life-changing information, most site visitors won't read all of the content provided but settle for a “good-enough” answer. Better sorting and clearer writing satisfy users without exhausting the limited time they’re willing to spend on a website.
-
-How we really use the web:
-1. We don't read pages. we scan them.
+### How we really use the web:
+1. **We don't read pages. we scan them.**
     - [Text Scanning Patterns: Eyetracking Evidence](https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/)
-2. We don't make optimal choices. We satisfice.
+2. **We don't make optimal choices.** We satisfice.
     - [Satisficing](https://www.nngroup.com/articles/satisficing/)
-3. We don't figure out how things work. We muddle through.
+3. **We don't figure out how things work.** We muddle through.
     - [Information foraging](https://www.nngroup.com/articles/information-foraging/)
 
-Source: Don't Make Me Think by Steve Krug
-
-### Usable sites/apps minimize Interaction Cost
+### Usable sites/apps minimize Cognitive Load
 Throughout this program we will be making design decisions that will (hopefully) maximize the usability of our websites and applications by minimizing interaction costs for the user. We do this by ***_minimizing_***:
 - **Reading**
     - [Inverted Pyramid: Writing for Comprehension](https://www.nngroup.com/articles/inverted-pyramid/)
@@ -47,3 +36,8 @@ Throughout this program we will be making design decisions that will (hopefully)
 - **Memory load** ­— the information that users must remember in order to complete their task.
     - Video: [The Magical Number 7 and UX](https://www.nngroup.com/videos/magical-number-7-ux/)
     - [How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/)
+
+---
+
+## Attributions
+[^1]: [_Don't Make Me Think_](https://en.wikipedia.org/wiki/Don%27t_Make_Me_Think) by Steve Krug
