@@ -56,6 +56,7 @@ homework:
     - Journal entry: Due Thurs, Jan 20
     - Assignment 1: Due Fri, Jan 21
     - Assignment 2: Due Sun, Jan 24
+- Ash covering Lab Time this afternoon
 
 ---
 
