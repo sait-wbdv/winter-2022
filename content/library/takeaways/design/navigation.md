@@ -2,6 +2,7 @@
 title: Navigation Conventions
 description: 
 ---
+
 ## Terminology
 Global navigation
 : Indicates the opt-level categories of a website/app and is shown on every page/screen.
