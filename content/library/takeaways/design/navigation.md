@@ -4,25 +4,25 @@ description:
 ---
 
 ## Terminology
-Global navigation
+**Global navigation**
 : Indicates the opt-level categories of a website/app and is shown on every page/screen.
 
-Local navigation
+**Local navigation**
 : Indicates the user’s current location within the site - showing sibling pages within the current category, and if applicable, the children or nieces and nephews of the current page.
 
-Utility navigation
+**Utility navigation**
 : Consists of secondary actions and tools, such as contact, subscribe, save, sign in, share, change view, print, etc.
 
-Doormat navigation
+**Doormat navigation**
 : Navigation that is included both at the top and the bottom of the page (a doormat is the first thing you see when you arrive and the last thing you see when you leave).
 
-Breadcrumb navigation
+**Breadcrumb navigation**
 : Navigation that reflects the information hierarchy of your site (or where the current page sits within the overall site map).
 
-Hamburger navigation
+**Hamburger navigation**
 : Also called _hidden navigation_ is a menu that is hidden until a user action is made. This is often clicking on a "hamburger" icon but can be another object or label.
 
-Combo navigation
+**Combo navigation**
 : Where some main navigation links are visible and some were hidden under a menu.
 
 ## General best practices
