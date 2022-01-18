@@ -47,20 +47,26 @@ homework:
         description: 
 ---
 
+## Housekeeping
+- [Assignment 2](/dsgn-270/assignments/assignment-2) Announced
+- Assignment Schedule adjusted
+    - Journal entry: Due Thurs, Jan 20
+    - Assignment 1: Due Fri, Jan 21
+    - Assignment 2: Due Sun, Jan 24
+
+---
+
+## 1. Wireframes
+### Materials
+- [How to Draw a Wireframe (Even if You Can’t Draw)](https://www.nngroup.com/articles/draw-wireframe-even-if-you-cant-draw/)
+    - Video: [How to Sketch a UI for Non-Designers](https://www.youtube.com/watch?v=X2CbeBojKVM)
+- [How to Get Stakeholders to Sketch - A Magic Formula](https://www.nngroup.com/articles/how-to-get-stakeholders-to-sketch/)
+
+### Demo: Analog Wireframes
+- Amazon on mobile
+
+## 2. Introduction to Figma
+
+
 <home-work :home-work="homework">
 </home-work>
-
-<!-- 
-
-## 1. Figma tour
-- Reference: [Figma Tutorial Video Playlist](https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4)
-    - Video: [Setup account, teams, projects, and files](https://youtu.be/hrHL2VLMl7g)
-        - Create a free account and set up a Team.
-    - Video: [Get a tour of the Editor](https://youtu.be/DSrbwCrEIII)
-    - Video: Any other videos in this playlist that interest you.
-- Video: [Figma Drawing Tools Overview](https://webdesign.tutsplus.com/courses/using-figma-for-svg-design/lessons/drawing-tools-overview)
-- [5 of your favorite Illustrator tools in Figma](https://medium.com/@saintasia/5-of-your-favorite-illustrator-tools-in-figma-a7c2aaa45d59)
-
-
--->
-
