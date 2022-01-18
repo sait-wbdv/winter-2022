@@ -1,5 +1,5 @@
 ---
-title: DSGN 270 Assignment 1 - Convention Treasure Hunt
+title: DSGN 270 Assignment 2 - Convention Treasure Hunt
 description: 
 ---
 In this assignment, you will be using the following tools to find, label and evaluate common navigation and layout conventions you find online:

@@ -55,7 +55,7 @@ homework:
 - [Assignment Schedule](/dsgn-270/assessments) adjusted
     - Journal entry: Due Thurs, Jan 20
     - Assignment 1: Due Fri, Jan 21
-    - Assignment 2: Due Sun, Jan 24
+    - Assignment 2: Due Mon, Jan 24
 - Ash covering Lab Time this afternoon
 
 ---
@@ -73,6 +73,7 @@ homework:
 ### Materials
 - [Figma Tutorial Video Playlist](https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4)
 - [Figma Drawing Tools Overview](https://webdesign.tutsplus.com/courses/using-figma-for-svg-design/lessons/drawing-tools-overvie)
+- [Figma Components](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-Components-in-Figma)
 - [5 of your favorite Illustrator tools in Figma](https://medium.com/@saintasia/5-of-your-favorite-illustrator-tools-in-figma-a7c2aaa45d59)
 
 ### Demo: Annotations
