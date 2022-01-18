@@ -52,7 +52,7 @@ homework:
 
 ## Housekeeping
 - [Assignment 2](/dsgn-270/assignments/assignment-2) Announced
-- Assignment Schedule adjusted
+- [Assignment Schedule](/dsgn-270/assessments) adjusted
     - Journal entry: Due Thurs, Jan 20
     - Assignment 1: Due Fri, Jan 21
     - Assignment 2: Due Sun, Jan 24
