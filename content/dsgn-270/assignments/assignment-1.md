@@ -68,6 +68,7 @@ Points will be deducted for lack of scannability:
 In order to receive a grade:
 1. Submit your assignment as a repo named `dsgn270-a1`, with:
     - The text of your assignment saved in a `README.md` file in the root of your project;
+    - Your name, course title and assignment title at the top of the page;
     - Your wireframe saved as a PNG image in an `/images` directory;
     - Your wireframe linked at the bottom of your `README.md` file.
 2. Zip your assignment and submit it to Brightspace.
