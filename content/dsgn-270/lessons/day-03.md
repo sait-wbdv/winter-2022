@@ -22,5 +22,19 @@ homework:
         description: Find some favourite Google Fonts to style your text for CPNT 260.
 ---
 
+## Housekeeping
+
+---
+
+## 1. Visual Hierarchy
+### Materials
+- Videos:
+    - [Visual hierarchy - Part 12 of 43 of The Freelancer's Journey](https://www.youtube.com/watch)?v=qZWDJqY27bw
+    - [Repetition - Part 1](https://www.youtube.com/watch?v=8zhhc5pzE9Y)
+    - [Grid systems & alignment - Part 1](https://www.youtube.com/watch?v=9QRIjnMEXw8)
+    - [Space in design - Part 1](https://www.youtube.com/watch?v=3dESVj7-XzI)
+    - [Typography - Part 1](https://www.youtube.com/watch?v=yom0nogFN3k)
+
+
 <home-work :home-work="homework">
 </home-work>
