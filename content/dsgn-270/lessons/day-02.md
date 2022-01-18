@@ -8,19 +8,14 @@ homework:
     tasks: 
       - title: Visual hierarchy - Part 12 of 43 of The Freelancer's Journey 
         link: https://www.youtube.com/watch?v=qZWDJqY27bw
-        description: 
       - title: Repetition - Part 13
         link: https://www.youtube.com/watch?v=8zhhc5pzE9Y
-        description: 
       - title: Grid systems & alignment - Part 14
         link: https://www.youtube.com/watch?v=9QRIjnMEXw8
-        description: 
       - title: Space in design - Part 15
         link: https://www.youtube.com/watch?v=3dESVj7-XzI
-        description: 
       - title: Typography - Part 16
         link: https://www.youtube.com/watch?v=yom0nogFN3k
-        description: 
   - title: Navigation and layout
     tasks:
       - title: 5 Tips to make navigation visible
@@ -64,7 +59,6 @@ homework:
 
 ---
 
-<<<<<<< HEAD
 ## 1. Wireframes
 ### Materials
 - [How to Draw a Wireframe (Even if You Can’t Draw)](https://www.nngroup.com/articles/draw-wireframe-even-if-you-cant-draw/)
@@ -72,12 +66,32 @@ homework:
 - [How to Get Stakeholders to Sketch - A Magic Formula](https://www.nngroup.com/articles/how-to-get-stakeholders-to-sketch/)
 
 ### Demo: Analog Wireframes
-- Amazon on mobile
+- Sketching Amazon on mobile
 
 ## 2. Introduction to Figma
+### Materials
+- [Figma Tutorial Video Playlist](https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4)
+- [Figma Drawing Tools Overview](https://webdesign.tutsplus.com/courses/using-figma-for-svg-design/lessons/drawing-tools-overvie)
+- [5 of your favorite Illustrator tools in Figma](https://medium.com/@saintasia/5-of-your-favorite-illustrator-tools-in-figma-a7c2aaa45d59)
 
-=======
->>>>>>> bdce40c2ab81d0c8c4032812ddfb466542266fc9
+### Demo: Annotations
+- Overview of features
+- Adding annotations to a wireframe to create a wireflow
+
+## 3. Visual Hierarchy
+### Materials
+- Videos:
+    - [Visual hierarchy - Part 12 of 43 of The Freelancer's Journey](https://www.youtube.com/watch)?v=qZWDJqY27bw
+    - [Repetition - Part 1](https://www.youtube.com/watch?v=8zhhc5pzE9Y)
+    - [Grid systems & alignment - Part 1](https://www.youtube.com/watch?v=9QRIjnMEXw8)
+    - [Space in design - Part 1](https://www.youtube.com/watch?v=3dESVj7-XzI)
+    - [Typography - Part 1](https://www.youtube.com/watch?v=yom0nogFN3k)
+
+---
+
+## Lab Time
+- Assignments
+- Journal entry
 
 <home-work :home-work="homework">
 </home-work>
