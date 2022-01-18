@@ -66,7 +66,7 @@ homework:
 - [How to Get Stakeholders to Sketch - A Magic Formula](https://www.nngroup.com/articles/how-to-get-stakeholders-to-sketch/)
 
 ### Demo: Analog Wireframes
-- Sketching Amazon on mobile
+- User Flow: [Buy a Desk on Amazon](https://gist.github.com/acidtone/aa85df7a330fd678d84167f0e59d889d)
 
 ## 2. Introduction to Figma
 ### Materials
