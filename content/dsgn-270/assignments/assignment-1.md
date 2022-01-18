@@ -15,8 +15,8 @@ You decide to create a small proof of concept document to hopefully get buy-in f
 5. Create at least 3 mobile wireflow screens (wireframes labelled with user flow steps) to support the chosen user flow.
 
 ## Examples submissions from past students
-- [Fesal - Amazon](https://gist.github.com/Raj-Hunjan/6a4a86aa1bd2fdd88289e8487a560bd2)
-- [Raj - Amazon](https://gist.github.com/FesalBadday/552a542f75c9761bae97bd809e20e726)
+- [Fesal - Amazon](https://gist.github.com/FesalBadday/552a542f75c9761bae97bd809e20e726)
+- [Raj - Amazon](https://gist.github.com/Raj-Hunjan/6a4a86aa1bd2fdd88289e8487a560bd2)
 
 **Note:** Since these examples have been provided, you CANNOT use Amazon as the focus of your assignment. 
 
@@ -36,8 +36,8 @@ This assignment will be marked out of 20 points, which will be given for each of
 - Stories should be presented as an unordered list.
 - Each Story action (What) and benefit/value (Why) should be distinct from the other two.
 
-### Task flow: 5 points
-The task flow should:
+### User flow: 5 points
+The user flow should:
 - reference which Story you've chosen.
 - have the same starting point for all users;
 - be 5 tasks or more;
@@ -73,5 +73,5 @@ In order to receive a grade:
     - Your wireframe linked at the bottom of your `README.md` file.
 2. Zip your assignment and submit it to Brightspace.
 3. As a comment to your submission, include:
-      - a link to your GitHub repo;
-      - a link to the live GH Pages site;
+    - a link to your GitHub repo;
+    - a link to the live GH Pages site;

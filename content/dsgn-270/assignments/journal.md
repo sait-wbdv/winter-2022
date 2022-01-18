@@ -4,6 +4,9 @@ description:
 ---
 
 Four journal entries will be submitted for DSGN 270 in 2 rounds.
+- Example from [Jan 17, 2022 lesson](https://gist.github.com/acidtone/dd6a437cdf6bb2d1e4030ad78e6b7ef7)
+- [Tony's code journal](https://github.com/acidtone/code-journal)
+
 
 ## Round 1: January 17-19
 - Submission 1
@@ -54,7 +57,7 @@ Learning objective: To capture learning artifacts (code, references, ideas, remi
     - In the README of a relevant remote repo (project, assignment, etc) under the heading "Code Journal".
 - Zip your dated entry and submit it to Brightspace.
 - As a comment to your submission, include:
-      - a link to the specific file and heading of your dated entry.
+    - a link to the specific file and heading of your dated entry.
 
 ---
 
