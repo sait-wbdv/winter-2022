@@ -1,8 +1,8 @@
 ---
 title: CPNT-260 Assignment 1
 description: Create an about page for yourself, a fake client, a pet, a character from a movie.
-weight: 20%
-due: 2022-02-27T23:59:00.000Z
+weight: 15%
+due: 2022-01-27T23:59:00.000Z
 ---
 
 ## Details
@@ -15,9 +15,9 @@ Create a repo in github and deploy your assignment to github pages.
 
 ## Marking Rubric
 
-This assignment is worth 20 points.
+This assignment is worth 15 points.
 
-### Site UI **5pts**
+### Site UI **3pts**
 
 - Header
 - Indicates current page with an h1
@@ -32,6 +32,7 @@ This assignment is worth 20 points.
     - about
     - gallery
     - services/products... whatever's applicable
+  - **for this assignment, the navigation can be completely static**
 
 ### Page Content **5pts**
 
@@ -57,11 +58,16 @@ This assignment is worth 20 points.
     - Note 1 technical issue you had while creating this
       - How did you approach solving it
   - Attributions for code or assets that are not your own
+
+#### Code quality and design requirements
+
 - Page uses proper semantic elements
 - Code indentation is 2 spaces per indent
 - Follow best practices/logical file naming conventions
+- paragraph text line lenght is <= 75ch
+- no horizontal scroll and overflow on page
 
-### Flare **5pts**
+### Flare **2pts**
 
 - Style that goes beyond basic responsive requirements
 - examples:
