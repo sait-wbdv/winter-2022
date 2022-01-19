@@ -24,6 +24,7 @@ homework:
 
 ## Housekeeping
 - Tony will be contacting you for one-on-ones during lab time next week.
+- [Link example](https://github.com/acidtone/code-journal#jan-1-2022) added to [Journal Submission Instructions](https://sait-wbdv.netlify.app/dsgn-270/assignments/journal/#submission-instructions)
 - Request from the Registrar:
     - Check your MySAIT status to make sure you haven't been cancelled recently for non-payment.
 - Anyone want SAIT WBDV hoodies?
