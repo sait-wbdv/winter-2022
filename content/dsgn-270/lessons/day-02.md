@@ -1,5 +1,5 @@
 ---
-title: UI for Devs
+title: Wireframes, Figma and Navigation
 description: Description here
 date: 2022-01-18T15:00:00.000Z
 released: true
