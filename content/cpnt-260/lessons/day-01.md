@@ -34,6 +34,10 @@ terms:
   - Interaction Cost
 ---
 
+<home-work :home-work="homework"></home-work>
+
+---
+
 ### [Activity 1: Wiki Article](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
 
 - Due: Friday Jan 21 @11:59pm
@@ -165,4 +169,3 @@ For now, the most important thing is to become familiar with how to structure co
 - Work on Wiki Page
 - Experiment creating other codepens
 
-<home-work :home-work="homework"></home-work>
