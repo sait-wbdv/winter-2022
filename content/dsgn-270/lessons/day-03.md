@@ -73,13 +73,27 @@ We're hiring our Lab Facilitators soon! Let's add some Issues to the WBDV websit
 
 ### Demo: WBDV Utility Nav Colour Conversion
 The "Help Desk" and "Live Stream" buttons should probably be different colours. 
-1. Convert the blue hex code of the "Help Desk" button to HSL using the strategy from [Reading color hex codes](https://www.youtube.com/watch?v=eqZqx6lRPe0):
+1. Convert the blue hex code (`#0896db`)of the "Help Desk" button to HSL using the strategy from [Reading color hex codes](https://www.youtube.com/watch?v=eqZqx6lRPe0):
     1. 3-digit shorthand
+        - `#09d`
     2. Line graph
     3. Hue from shape
+        - Azure
     4. Lightness from total
+        - 50% (middle)
     5. Saturation from range
-2. We'll use a colour converter to check our result (no cheating!).
+        - Washed(?); maybe saturated-ish
+        - Middle Washed Azure
+        - Guess hsl: 
+            - H: `200deg`
+            - S: `75%`
+            - L: `50%`
+2. We'll use a colour converter to check our result (no cheating!).]
+    - actual HSL
+        - H: `200deg`
+        - S: `93%`
+        - L: `45%`
+    - correction: Middle Saturated Azure
 3. Let's pick a new colour for the "Help Desk" button using colour harmonies.
 4. Using HSL, let's create some better hover and active colours for the global nav.
 
