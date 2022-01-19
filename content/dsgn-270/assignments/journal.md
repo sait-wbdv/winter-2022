@@ -58,6 +58,7 @@ Learning objective: To capture learning artifacts (code, references, ideas, remi
 - Zip your dated entry and submit it to Brightspace.
 - As a comment to your submission, include:
     - a link to the specific file and heading of your dated entry.
+        - Example: [Jan 1st entry](https://github.com/acidtone/code-journal#jan-1-2022) in Tony's `code-journal`
 
 ---
 
