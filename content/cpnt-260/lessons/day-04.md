@@ -15,18 +15,6 @@ released: false
 - Form follow up: add `fieldset` to forms
 - Look at the [`flex`](https://css-tricks.com/almanac/properties/f/flex/) proprty
 
-### Class Codepens
-
-_quick note: don't use assignments for daily activities_
-
-- [David Ha Simple Nav](https://boostha.github.io/cpnt260-simple-nav/)
-- nested space-between and space-around
-
-## Assignment 2: Services, Info, Team Members, or Product Page
-
-- **Due: September 26 11:59pm**
-- [Assignment Link]({{ '/assignments/cpnt260/assignment-2/' | url }})
-
 ---
 
 ## Overview

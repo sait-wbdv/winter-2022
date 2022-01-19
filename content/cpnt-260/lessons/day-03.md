@@ -5,6 +5,12 @@ date: 2022-01-24T15:00:00.000Z
 released: false
 ---
 
+## Assignment 1 - About Page
+
+- Complete:
+  - Create an About page that has text, images, and styling
+  - Create a site navigation. Note this will be improved on throughout the following assignments.
+
 ## Trophy of the day: A flexible design that includes user input
 
 ## Review
