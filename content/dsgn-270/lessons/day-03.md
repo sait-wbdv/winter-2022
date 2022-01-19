@@ -23,6 +23,7 @@ homework:
 ---
 
 ## Housekeeping
+- Tony will be contacting you for one-on-ones during lab time next week.
 - Request from the Registrar:
     - Check your MySAIT status to make sure you haven't been cancelled recently for non-payment.
 - Anyone want SAIT WBDV hoodies?
