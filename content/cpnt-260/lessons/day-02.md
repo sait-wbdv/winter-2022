@@ -27,6 +27,23 @@ assignment-1:
   link: cpnt-260/assignments/assignment-1/
 ---
 
+## Overview
+
+<home-work :home-work="homework"></home-work>
+
+### Semantic HTML Recap Notes
+
+- review [this gist](https://gist.github.com/lilyx13/be85b495d534d3482fd7e9b1680e282b) for information on using semantic html
+
+### Assignment 1: About Page
+
+---
+
+## Topic 1: HTML Document structure
+
+- Moving from codepen to vscode, we need to add a few more bits of code to our html documents
+  - the `html`, `head`, and `body` tags are used to structure the html document for proper rendering of content and assets
+
 #### the `<html></html>` tag
 
 - put everything in side of these tags
@@ -62,17 +79,13 @@ assignment-1:
 </html>
 ```
 
----
+### Breakout Session: Migrate a codepen to vscode
 
-## Tool Time
-
-- Switching from codepen to vscode
-- Using `head` tag in html
-- Emmet plugin and autocompletion
+- [Instructions](https://gist.github.com/lilyx13/b68470fb2367c90d0ea657528eb39cc5)
 
 ---
 
-## <a id="topic-1"></a> Topic 1: Code Indentation and CSS Selector Nesting
+## Topic 2: Code Indentation and CSS Selector Nesting
 
 ### Code Indentation
 
@@ -138,16 +151,10 @@ These css properties and values are especially useful for setting responsive fon
 
 ---
 
-## Walkthrough
-
-- Check for syntax errors
-- Fix HTML indentation
-- Plan CSS declarations cleanup
-
-### <a id="color"></a>Better Colour Codes
+### A quick note on Colour Codes
 
 - using color tags such as `red` and `rebeccapurple` are good for quick planning
-- In production you will want to use hex codes or hsl()/hsla() for better color control
+- In production you will want to use hex codes or hsl()/hsla() for better color control (hex codes are also good but give you less programmatic control of their values)
 - Hex code colors follow RGB values but notate them in hexadecimal numbers
   - For Example: the lighter red in the SAIT logo is `#e12726` which means: red=e1 green=27 and blue=26
 - HSL() stands for Hue, Saturation, Lightness, add an A `hsla() to include opacity
@@ -155,4 +162,7 @@ These css properties and values are especially useful for setting responsive fon
 
 ---
 
-<home-work :home-work="homework"></home-work>
+## Lab Time Options
+
+- Create a static navigation menu
+- Work on Assignment 1
