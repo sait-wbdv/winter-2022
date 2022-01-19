@@ -9,6 +9,14 @@ released: false
 
 Just like with other parts of this course, you will be documenting your process through a series of code journals. Each of these will be graded out of 4 and are based on your work over a couple days.
 
+### Overview
+
+- Journal 1 Due: January 21 at 11:59pm
+- Journal 2 Due: January 24 at 11:59pm
+- Journal 3 Due: January 28 at 11:59pm
+- Journal 4 Due: February 1 at 11:59pm
+- Journal 5 Due: February 4 at 11:59pm
+
 ### Requirements
 
 - These are meant to support your learning and evolution as a programmer. So there is no set structure to them. **however you do need to link your journal to code that it references**
