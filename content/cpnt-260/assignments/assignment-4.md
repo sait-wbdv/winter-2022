@@ -1,8 +1,8 @@
 ---
-title: CPNT-260 Assignment 3
-description:
-weight: 20%
-due: 2022-01-31T23:59:00.000Z
+title: CPNT-260 Assignment 4
+description: Landing Page with a Hero Section and integrated 3rd party service.
+weight: 15%
+due: 2022-01-07T23:59:00.000Z
 ---
 
 ## Details
@@ -11,9 +11,25 @@ due: 2022-01-31T23:59:00.000Z
 
 This assignment is worth 15 points.
 
-### Site UI **3pts**
-
 ### Page Content **5pts**
+
+#### Hero Section
+
+- at least 1 **locally hosted** image using either HTML or CSS
+- a heading using `h1` tag
+- a tagline using `p` tag
+- a call to action
+  - using a `a` element stylized like a button that connects to your form section
+
+#### 3rd Party Integration **3pts**
+
+- Add a 3rd party api to your home page
+  - examples:
+    - google maps
+    - google translate
+    - [any of these free public apis](https://apipheny.io/free-api/)
+    - [formspree](https://formspree.com)
+- the link should work
 
 ### General Requirements **5pts**
 
