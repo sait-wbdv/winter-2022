@@ -2,7 +2,7 @@
 title: Responsive Web Design
 description: We will focus on stylizing content with css, adding fonts, and practicing using html tags semantically.
 date: 2022-01-21T15:00:00.000Z
-released: false
+released: true
 homework:
   - topic: Flexbox Articles
     tasks:
@@ -20,6 +20,7 @@ homework:
     tasks:
       - title: Flexbox Froggy
         link: https://flexboxfroggy.com
+        description: try playing this over the weekend
 assignment-1:
   title: About Section
   due: Jan 25
@@ -27,13 +28,35 @@ assignment-1:
   link: cpnt-260/assignments/assignment-1/
 ---
 
+<home-work :home-work="homework">
+This is a lot of content to review. Take some time to explore it over the weekend as well.
+
+Before class, please focus on reading through the css-tricks complete guide to flexbox
+</home-work>
+
 ## Overview
 
 ### Semantic HTML Recap Notes
 
 - review [this gist](https://gist.github.com/lilyx13/be85b495d534d3482fd7e9b1680e282b) for information on using semantic html
 
-### Assignment 1: About Page
+### Code Review
+
+- Discuss [wiki article activity](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
+  - discussion prompts (discussion content can be used in code journals):
+    - what worked well?
+    - what was challenging?
+    - what new ideas did you come up with while working on this?
+
+### Today's Activity: [Navigation Bar]()
+
+- Due: Saturday Jan 22 @ 11:59Pm
+- This can be just a nav bar in a codepen similar to [this example](https://codepen.io/lilyx/pen/xxXMwYp)
+
+### [Assignment 1: About Page](/cpnt-260/assignments/assignment-1)
+
+- Due: Tuesday January 25 @ 11:59PM
+  - Write an about page for yourself, a client, about a product, company, character, movie. No Lorem Ipsum
 
 ---
 
@@ -128,8 +151,6 @@ These css properties and values are especially useful for setting responsive fon
 - [Optimize web fonts](https://www.freecodecamp.org/news/web-fonts-in-2018-f191a48367e8/)
 - [comparing preload, preconnect, and prefetch](https://george.mand.is/2019/11/whats-the-difference-between-link-preload-preconnect-and-prefetch/).
 
-## Create a 404 Page
-
 ---
 
 ## Topic 3: Site Navigation
@@ -149,20 +170,7 @@ These css properties and values are especially useful for setting responsive fon
 
 ---
 
-### A quick note on Colour Codes
-
-- using color tags such as `red` and `rebeccapurple` are good for quick planning
-- In production you will want to use hex codes or hsl()/hsla() for better color control (hex codes are also good but give you less programmatic control of their values)
-- Hex code colors follow RGB values but notate them in hexadecimal numbers
-  - For Example: the lighter red in the SAIT logo is `#e12726` which means: red=e1 green=27 and blue=26
-- HSL() stands for Hue, Saturation, Lightness, add an A `hsla() to include opacity
-  - This is a newer approach and gives better control of colors, plus browsers read them better for accessiblity
-
----
-
 ## Lab Time Options
 
-- Create a static navigation menu
+- Create a static navigation menu for activity 2
 - Work on Assignment 1
-
-<home-work :home-work="homework"></home-work>
