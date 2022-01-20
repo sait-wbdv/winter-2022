@@ -6,13 +6,13 @@ description: All of the grading requirements for cpnt260
 ## Journal Entries
 
 - Weight: 5 journal entries at 4% per entry (20% total)
-- [Journal Entry List](/cpnt-260/assessments/journal)
+- [Journal Entry List](/cpnt-260/assignments/journal)
 
 ## Activities
 
 - Weight: 5 activities at 4% per activity (20% total)
 
-### [Activity List](/cpnt-260/assessments/activities)
+### [Activity List](/cpnt-260/assignments/activities)
 
 - [wiki article](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
 - Navigation Menu
