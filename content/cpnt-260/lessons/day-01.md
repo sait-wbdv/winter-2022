@@ -162,10 +162,11 @@ For now, the most important thing is to become familiar with how to structure co
 - Use comments to plan html with pseudo code
 - After breakout, we will have a brief class discussion on how you approached planning your code
 
+#### [Link to Today's Demo Codepen](https://codepen.io/lilyx/pen/XWeLJEp)
+
 ---
 
 ## Lab Time
 
 - Work on Wiki Page
 - Experiment creating other codepens
-
