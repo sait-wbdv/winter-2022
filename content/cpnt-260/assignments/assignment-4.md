@@ -3,7 +3,7 @@ title: CPNT-260 Assignment 4
 description: Landing Page with a Hero Section and integrated 3rd party service.
 weight: 15%
 released: false
-due: 2022-01-07T23:59:00.000Z
+due: 2022-02-07T23:59:00.000Z
 ---
 
 ## Details

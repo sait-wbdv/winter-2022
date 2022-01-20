@@ -2,7 +2,7 @@
 title: CPNT-260 Activities Overview
 description: These small activities will help build skills to improve your work in your main assignments.
 weight: 20%
-released: false
+released: true
 ---
 
 ## Details
@@ -21,7 +21,7 @@ Each of these activities are worth 4% and are designed to both make the assignme
 
 ## Activity Overview
 
-- Wiki Article
+- [Wiki Article](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
   - Focus: long form text and structuring content with semantic html
 - 404 Error Page
   - Focus: simple layouts

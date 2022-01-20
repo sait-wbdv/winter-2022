@@ -29,8 +29,6 @@ assignment-1:
 
 ## Overview
 
-<home-work :home-work="homework"></home-work>
-
 ### Semantic HTML Recap Notes
 
 - review [this gist](https://gist.github.com/lilyx13/be85b495d534d3482fd7e9b1680e282b) for information on using semantic html
@@ -166,3 +164,5 @@ These css properties and values are especially useful for setting responsive fon
 
 - Create a static navigation menu
 - Work on Assignment 1
+
+<home-work :home-work="homework"></home-work>

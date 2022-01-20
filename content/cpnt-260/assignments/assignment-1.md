@@ -2,7 +2,6 @@
 title: CPNT-260 Assignment 1
 description: Create an about page for yourself, a fake client, a pet, a character from a movie.
 weight: 15%
-released: false
 due: 2022-01-25T23:59:00.000Z
 ---
 
