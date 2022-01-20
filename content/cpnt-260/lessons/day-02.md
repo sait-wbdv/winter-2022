@@ -48,7 +48,7 @@ Before class, please focus on reading through the css-tricks complete guide to f
     - what was challenging?
     - what new ideas did you come up with while working on this?
 
-### Today's Activity: [Navigation Bar]()
+### Today's Activity: [Navigation Bar](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
 
 - Due: Saturday Jan 22 @ 11:59Pm
 - This can be just a nav bar in a codepen similar to [this example](https://codepen.io/lilyx/pen/xxXMwYp)
@@ -174,3 +174,5 @@ These css properties and values are especially useful for setting responsive fon
 
 - Create a static navigation menu for activity 2
 - Work on Assignment 1
+
+_remember that the activities are timed in a way that they can be used as content in your assignments_
