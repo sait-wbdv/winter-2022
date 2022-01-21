@@ -23,7 +23,7 @@ homework:
         description: try playing this over the weekend
 assignment-1:
   title: About Section
-  due: Jan 25
+  due: Jan 26
   description: Create an about section for your website.
   link: cpnt-260/assignments/assignment-1/
 ---
@@ -42,22 +42,23 @@ Before class, please focus on reading through the css-tricks complete guide to f
 
 - review [this gist](https://gist.github.com/lilyx13/be85b495d534d3482fd7e9b1680e282b) for information on using semantic html
 
+- check out [this repo for a full version of the wiki example created in class](https://github.com/lilyx13/cpnt-260-wiki-practice-example)
+
 ### Code Review
 
 - Discuss [wiki article activity](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
+
   - discussion prompts (discussion content can be used in code journals):
     - what worked well?
     - what was challenging?
     - what new ideas did you come up with while working on this?
-
-### Today's Activity: [Navigation Bar](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
 
 - Due: Saturday Jan 22 @ 11:59Pm
 - This can be just a nav bar in a codepen similar to [this example](https://codepen.io/lilyx/pen/xxXMwYp)
 
 ### [Assignment 1: About Page](/cpnt-260/assignments/assignment-1)
 
-- Due: Tuesday January 25 @ 11:59PM
+- Due: Wednesday January 26 @ 11:59PM
   - Write an about page for yourself, a client, about a product, company, character, movie. No Lorem Ipsum
 
 ---
@@ -179,7 +180,8 @@ These css properties and values are especially useful for setting responsive fon
 
 ## Lab Time Options
 
-- Create a static navigation menu for activity 2
+- continue working on wiki pages
+
 - Work on Assignment 1
 
 _remember that the activities are timed in a way that they can be used as content in your assignments_
