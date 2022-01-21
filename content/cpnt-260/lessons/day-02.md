@@ -29,9 +29,11 @@ assignment-1:
 ---
 
 <home-work :home-work="homework">
+
 This is a lot of content to review. Take some time to explore it over the weekend as well.
 
 Before class, please focus on reading through the css-tricks complete guide to flexbox
+
 </home-work>
 
 ## Overview
