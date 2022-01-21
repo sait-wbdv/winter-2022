@@ -111,17 +111,17 @@ Before class, please focus on reading through the css-tricks complete guide to f
 
 - [Instructions](https://gist.github.com/lilyx13/b68470fb2367c90d0ea657528eb39cc5)
 
----
+### Code Indentation and CSS Selector Nesting
 
-## Topic 2: Code Indentation and CSS Selector Nesting
+- Notes on organizing your code properly
 
-### Code Indentation
+#### Code Indentation
 
 - Indentation is very important, in some languages it's necessary for code to run
 - Any HTML elements that are _within_ a container element must be nested inside using indents
   - You can use hotkeys to auto indent your code. This saves a lot of time
 
-### CSS Selector nesting
+#### CSS Selector nesting
 
 - In bruteforce mode, it's normaly to add classes directly to elements
 - After everything works like you want, your optimization process should include removing redundent code
@@ -130,7 +130,7 @@ Before class, please focus on reading through the css-tricks complete guide to f
 
 ---
 
-## Responsive Fonts
+## Topic 2: Responsive Fonts
 
 ### Terminology
 
