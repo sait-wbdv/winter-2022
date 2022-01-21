@@ -102,6 +102,11 @@ Before class, please focus on reading through the css-tricks complete guide to f
 </html>
 ```
 
+### [Step by step on setting up an html project](https://gist.github.com/lilyx13/cbd281e55057a3f5e6f094008d8a8e3d)
+
+- Covers command line and gui methods
+- Quick review of important command line commands
+
 ### Breakout Session: Migrate a codepen to vscode
 
 - [Instructions](https://gist.github.com/lilyx13/b68470fb2367c90d0ea657528eb39cc5)
