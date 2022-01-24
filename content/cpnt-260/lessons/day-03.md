@@ -118,7 +118,7 @@ _Basics of creating forms_
 
 ---
 
-<home-work :home-work="homework">
+<home-work>
 
 ## Mobile Design and Font Awesome Icons
 
