@@ -1,11 +1,11 @@
 ---
 title: Flexbox Page Layout
-description: Description here
+description: We will be learning the ins and outs of flexbox and how to use it for layout.
 date: 2022-01-24T15:00:00.000Z
-released: false
+released: true
 ---
 
-## Activity: A responsive navigation bar
+### Today's Activity: [Navigation Bar](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
 
 ## Review
 
@@ -27,23 +27,14 @@ Use These for your assignments and any code that you want to check.
 - [HTML Validator](https://validator.w3.org/)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
----
-
-## Overview
-
-1. Plan it out
-
-- Solving design problems with flexbox
-
-2. Brute force
-
-- Position elements in Flex Containers
-- Nesting flexbox containers
-
-3. Walkthrough
-4. Optimize/Test
+### Codepens from Wiki Activity
 
 ---
+
+## Morning Project Prep Breakout Sessions 20min
+
+- [Instructions](https://gist.github.com/lilyx13/21a63f15c264a0975d37cf2dadd2f01c)
+- we will have a group discussion afterwards on assets found. Everyone should be ready to show and discuss their design concepts.
 
 ## Topic 1: Introduction to Flexbox
 
@@ -51,13 +42,14 @@ _Create responsive and interesting designs with flexbox_
 
 ### Terminology
 
-`display`
-: This property is used to set the layout of an element and its children. Read more in [this Mdn article](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
-main-axis
-: This is defined by the `flex-direction`. If your flex-direction is set to row _(this is the default)_, then the main axis is horizontal. If your flex-direction is set to column, then the main axis is vertical. - items are set along this axis by using `justify-content`
-cross-axis
-: This is the other axis of a flex layout. It changes depending on your flex-direction - Items are positioned along this axis by using `align-items`
-
+<dl>
+<dt>display</dt>
+<dd>This property is used to set the layout of an element and its children. Read more in [this Mdn article](https://developer.mozilla.org/en-US/docs/Web/CSS/display)</dd>
+<dt>main-axis</dt>
+<dd>This is defined by the `flex-direction`. If your flex-direction is set to row _(this is the default)_, then the main axis is horizontal. If your flex-direction is set to column, then the main axis is vertical. - items are set along this axis by using `justify-content`</dd>
+<dt>cross-axis</dt>
+<dd>This is the other axis of a flex layout. It changes depending on your flex-direction - Items are positioned along this axis by using `align-items`</dd>
+</dl>
 ### Notes
 
 - [Tony's Flexbox header gist](https://gist.github.com/acidtone/1ff8aabed305f862c10f1ff6b8908a04)
@@ -71,19 +63,31 @@ _Arrange a site's content_
 
 ### Terminology
 
-flex container
-: The parent element of flex items. A flex container can also be a flex item. Use properties such as `flex-wrap`, `flex-flow` etc to customize how the items in the container will be positioned and respond to one another.
-flex item
-: Children of flex containers. Use properties such as `flex-grow`, `flex-shrink`, `align-self` to customize how flex items look and function
+<dl>
+<dt>flex container</dt>
+<dd>: The parent element of flex items. A flex container can also be a flex item. Use properties such as `flex-wrap`, `flex-flow` etc to customize how the items in the container will be positioned and respond to one another.</dd>
+<dt>flex item</dt>
+<dd>: Children of flex containers. Use properties such as `flex-grow`, `flex-shrink`, `align-self` to customize how flex items look and function</dd>
+</dl>
 
 ### Notes
 
 - [Ashlyn's Flexbox Codepen](https://codepen.io/ashlyn-knox/pen/qBmzyrG)
   - Ignore the scss nesting for now, but we will be getting into that later in the program
 
-## Activity: [Make a Page Layout with Flexbox]({{ '/activities/html-css/flexbox-layout' | url }})
-
 ---
+
+## Topic 3: Site Navigation
+
+- Navigation should use a `nav` tag.
+- You can have more than one nav
+- It is conventional to put an unordered list inside your nav for links, but not essential
+- To link to content on the same page, add an `id` tag to the link location and specify it in your link
+  - nav link = `<a href="#link-on-page">Link</a>`, then add the id to the element like: `<h2 id="link-on-page">Text</h2>`
+- To open the link in a new tab use `target="_blank"` in your link tag
+- A `nav` is often found inside a `header` or above a `header`. It depends on the site
+
+<!--
 
 ### Topic 3: Simple Signup Forms
 
@@ -102,33 +106,21 @@ _Basics of creating forms_
 - [Mdn Your first Form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
   - For now we don't need to worry about sending form data to a web server.
 - [Smashing Magazine article on form usability](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/)
+  -->
 
 ---
 
-## Activity 2: [Designing a Signup page with flexbox]({{ 'activities/html-css/simple-signup/ | url }})
+## Lab Time
+
+- Work on [Navigation Bar Activity](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
+
+- Work on [assignment 1](/cpnt-260/assignments/assignment-1)
 
 ---
 
-## Walkthrough
+<home-work :home-work="homework">
 
-- Code review
-- Bug Hunting
-- Discussion
-- Comment and plan code changes
-
----
-
-## Optimize
-
-_End of Day Activity_
-
-- Implement changes noted in comments
-- Validate Code
-- Deploy and Submit
-
----
-
-## Prep for next day
+## Mobile Design and Font Awesome Icons
 
 - Read [Mdn Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 - Read [Mdn Media Queries and Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/rwd_skills)
@@ -141,4 +133,4 @@ _End of Day Activity_
   - Everything in purple is about flex **containers**
   - Everything in yellow is about flex **items**
 
----
+</home-work>

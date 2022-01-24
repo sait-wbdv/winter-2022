@@ -27,7 +27,7 @@ description: All of the grading requirements for cpnt260
 ### Assignment 1: [About Page](/cpnt-260/assignments/assignment-1)
 
 - Weight: 20% of final course mark
-- Due: Tuesday Jan 25 @ 11:59PM
+- Due: Wednesday Jan 26 @ 11:59PM
 
 ### Assignment 2: [Product/Services Page](/cpnt-260/assignments/assignment-2)
 
