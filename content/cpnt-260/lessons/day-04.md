@@ -1,48 +1,87 @@
 ---
 title: Mobile First Design
-description: Description here
+description: Optimize a website for mobile and desktop
 date: 2022-01-25T15:00:00.000Z
-released: false
+released: true
 ---
-
-## Tropy of the day: Mobile first webpage with hamburger menu
 
 ## Review
 
+- Design Asset Review
+  - Everyone will get a chance to briefly discuss some of the color and typography groupings that they put together.
+    - Particularly address approaches to make your assets easy to use later
 - Flexbox Questions
 - debugging overflow (if you've had this issue on any of your activities, this will be a good time to go back to it and work on fixing it)
-- Apply starter flexbox and styling to [today's codepen](https://codepen.io/ashlyn-knox/pen/ExXRrLY) as a class
-- Form follow up: add `fieldset` to forms
 - Look at the [`flex`](https://css-tricks.com/almanac/properties/f/flex/) proprty
 
 ---
 
-## Overview
+## VSCode Web Dev Workflow
 
-1. Plan it out
+- Optimize your workflow with good settings and plugins
+  - live server plugin
+  - prettier
+  - format on save
+- Practice deploying sites to github pages
 
-- Mobile First Design
+### Codepen to Optimize and deploy on GH Pages
 
-1. Brute force
-
-- Card Design
-- Hamburger menu and icons
-
-1. Walkthrough
-2. Optimize/Test
+<iframe height="300" style="width: 100%;" scrolling="no" title="Star wars nav and cards" src="https://codepen.io/lilyx/embed/podzVLY?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/lilyx/pen/podzVLY">
+  Star wars nav and cards</a> by lilyx (<a href="https://codepen.io/lilyx">@lilyx</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
-## Topic 1: Mobile First Design
+## Topic 1: Flexbox card layouts
+
+- We will follow up with the cards made in this codepen
+
+### Notes
+
+- Check out [Ash's Codepen](https://codepen.io/ashlyn-knox/pen/MWmxxbR) for a simple card layout
+- Articles are a great tag for cards
+- If you have clickable elements inside your cards, keep in mind how you want your interaction hierarchy to work.
+- Does the user click on the whole card? or button inside the card?
+- If you use a hover state to indicate that the card can be clicked on a desktop, how will you replace this visual breadcrumb for mobile users?
+
+#### Further Reading
+
+- [Mdn Card Design](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card)
+- [Article on card designs](https://thenextweb.com/news/how-cards-are-taking-over-web-design)
+
+---
+
+## Topic 2: Adding Icons to your site
+
+_Hamburger menus and many more_
+
+### Notes
+
+- To access fontawesome icons, include this in the head of your html
+- `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">`
+- You can also download the icons and store them in your assets
+- set icons with `<i>` tag
+
+## Activity: [Add Icons and create a hamburger menu]({{ '/activities/html-css/media-query-breakpoints/' | url }})
+
+- [Ash's Example](https://codepen.io/ashlyn-knox/pen/LYLWPBy)
+  - this example is very raw and suitable for optimization. One way to practice would be to fork this pen and try optimizing it (adding smoother animations, better colors, spacing etc). Pull it apart and see what makes it work.
+
+---
+
+## Topic 3: Mobile First Design
 
 _Media Queries and Breakpoints_
 
 ### Terminology
 
-breakpoint
-: The points where the layout shifts
-media-query
-: Media queries are used to set major breakpoints. CSS declarations within a media query will only run under the conditions specified in the media query declaration. You can have multiple media-query declarations in a file.
+<dl>
+<dt>breakpoint</dt>
+<dd>The points where the layout shifts</dd>
+<dt>media-query</dt>
+<dd>Media queries are used to set major breakpoints. CSS declarations within a media query will only run under the conditions specified in the media query declaration. You can have multiple media-query declarations in a file.</dd>
 
 ### Notes
 
@@ -50,6 +89,7 @@ media-query
 - With modern layouts like flexbox and grid, media queries are less important for creating a responsive experience.
 - Try to use them sparingly. Check out [this guide from css-tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/) on tips for using mobile queries
 - we will be focusing on using media queries in css
+- `@media media-type and (media-feature-rule) { /* styles here */ }`
 
 #### Media Query Gists
 
@@ -65,64 +105,6 @@ media-query
 - the nav menu needs to completely change layout to vertical and not flex when resizing the screen
 - Other content to try to change could be:
 - how sections are positions around one another (do something that cannot be achieved with `flex-wrap`)
-
-## Topic 2: Flexbox card layouts
-
-_How to make easy and responsive cards_
-
-### Notes
-
-- Check out [Ash's Codepen](https://codepen.io/ashlyn-knox/pen/MWmxxbR) for a simple card layout
-- Articles are a great tag for cards
-- If you have clickable elements inside your cards, keep in mind how you want your interaction hierarchy to work.
-- Does the user click on the whole card? or button inside the card?
-- If you use a hover state to indicate that the card can be clicked on a desktop, how will you replace this visual breadcrumb for mobile users?
-
-#### Code
-
-- `@media media-type and (media-feature-rule) { /* styles here */ }`
-
-#### Further Reading
-
-- [Mdn Card Design](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card)
-- [Article on card designs](https://thenextweb.com/news/how-cards-are-taking-over-web-design)
-
----
-
-## Topic 3: Adding Icons to your site
-
-_Hamburger menus and many more_
-
-### Notes
-
-- To access fontawesome icons, include this in the head of your html
-- `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">`
-- You can also download the icons and store them in your assets
-- set icons with `<i>` tag
-
-## Activity: [Add Icons and create a hamburger menu]({{ '/activities/html-css/media-query-breakpoints/' | url }})
-
-- [Ash's Example](https://codepen.io/ashlyn-knox/pen/LYLWPBy)
-
----
-
-## Walkthrough
-
-- Discuss file naming conventions
-- style.css
-- index.html
-- Discuss Submission content for graded assignments
-- Color theme practicing
-- Apply a color theme that you like to your design
-  - this can happen early or later depending on if you are starting with a clear brand/theme or are starting with quick placeholders
-  - take a color scheme that you like:
-    - could be from a game
-    - movie
-    - clothing line
-    - band
-    - Your house
-  - Apply the theme to your design
-    - use the dropper tool to find exact hexcodes or hsl() values.
 
 ---
 
