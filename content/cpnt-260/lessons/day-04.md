@@ -64,8 +64,6 @@ _Hamburger menus and many more_
 - You can also download the icons and store them in your assets
 - set icons with `<i>` tag
 
-## Activity: [Add Icons and create a hamburger menu]({{ '/activities/html-css/media-query-breakpoints/' | url }})
-
 - [Ash's Example](https://codepen.io/ashlyn-knox/pen/LYLWPBy)
   - this example is very raw and suitable for optimization. One way to practice would be to fork this pen and try optimizing it (adding smoother animations, better colors, spacing etc). Pull it apart and see what makes it work.
 
@@ -110,6 +108,7 @@ _Media Queries and Breakpoints_
 
 ## Lab Time
 
+- [Card Activity](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
 - Explore media queries, font-awesome icons, and flexbox
 - Enhance previous designs
 - Create a card layout with flexbox
