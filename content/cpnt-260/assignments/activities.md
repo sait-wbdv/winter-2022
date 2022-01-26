@@ -27,7 +27,7 @@ Each of these activities are worth 4% and are designed to both make the assignme
   - Focus: simple layouts
 - [Navigation Menu](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
   - Focus: responsive design, ui components, and display property
-- Card Design
+- [Card Design](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
   - Focus: Flexbox layout, responsive images and text in a container
 - Hero Section
   - Focus: background images, overlays

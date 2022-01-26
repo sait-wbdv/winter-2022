@@ -15,9 +15,9 @@ description: All of the grading requirements for cpnt260
 ### [Activity List](/cpnt-260/assignments/activities)
 
 - [wiki article](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
-- Navigation Menu
+- [Navigation Menu](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
+- [Card Design](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
 - 404 Page
-- Card Design
 - Hero Section
 
 ---
