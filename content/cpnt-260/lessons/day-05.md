@@ -54,18 +54,16 @@ released: true
 - Mobile Navigations Use breakpoints to switch between layouts.
 - There are a few different approaches to do this that all have their merits.
 - [Instructions](https://gist.github.com/lilyx13/f730c3466dcd9aa11d0d1b8f7d261f49)
-- Important syntax:
-  - `position: absolute`
-  - `transform: translateX(100%);` and `transform: translateX(0)`
-  - `height`
-  - `z-index`
 
 ### Here are a couple Examples
 
-- [Check out Kevin Powel on Hamburger Menus](https://www.youtube.com/watch?v=b3OKONiAA80)
+- [Check out Kevin Powel on Hamburger Menus](https://www.youtube.com/watch?v=b3OKONiAA80) - note that this one uses JS
 - [Pure CSS Dropdown Menu](https://codepen.io/mutedblues/pen/MmPNPG)
-- [Basic Slide out Navigation](https://codepen.io/lilyx/pen/LYLWPBy)
+- [Basic Slide out Navigation](https://codepen.io/lilyx/pen/LYLWPBy). Also uses a minor amount of JS
+  - bugged for practice fixing and tweaking styles
 - A quick google search will reveal how many different approaches there really are [Youtube Search Result](https://www.youtube.com/results?search_query=css+hamburger+menu)
+
+---
 
 ## Use CSS to Style Images
 
@@ -75,10 +73,6 @@ released: true
 - background images use `background-image: url("");` in the css declarations
   - [Mdn documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
   - [CSS Tricks Article](https://css-tricks.com/perfect-full-page-background-image/)
-
-### Breakout Session
-
-- [Image Activity](https://gist.github.com/lilyx13/7cf695121df71107c5e9003835b33e94)
 
 ---
 
@@ -99,9 +93,3 @@ released: true
 - [Work on Assignment 2](/cpnt-260/assignments/assignment-2)
 
   - **(recommendation)** Go straight to this if you are feeling comfortable with today's content
-
-<!--
-
-<home-work></home-work>
-
--->
