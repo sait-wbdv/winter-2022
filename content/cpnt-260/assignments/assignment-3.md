@@ -2,7 +2,6 @@
 title: CPNT-260 Assignment 3
 description: Create a gallery page. You can have a gallery that focuses on a topic of your choice. you can use flexbox or grid. You page must also include social media icons in the footer or header
 weight: 15%
-released: false
 due: 2022-02-03T23:59:00.000Z
 ---
 

@@ -2,7 +2,6 @@
 title: CPNT-260 Assignment 2
 description: Create a services/product/info page. Use flexbox to achieve a responsive and dynamic layout.
 weight: 15%
-released: false
 due: 2022-01-30T23:59:00.000Z
 ---
 
