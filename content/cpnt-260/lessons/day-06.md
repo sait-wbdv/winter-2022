@@ -64,7 +64,7 @@ homework:
 ### Breakout Session
 
 - [Experiment Using CSS Grid](https://gist.github.com/lilyx13/fefe332cb4a0a4dc9fc0c20daccb3d3d)
-
+- [CSS Grid Quick Tips](https://gist.github.com/lilyx13/d02bad5d98e6d2da930baf764858bae4)
 ---
 
 ## Background Images
