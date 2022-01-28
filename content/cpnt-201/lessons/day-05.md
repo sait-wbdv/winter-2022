@@ -1,6 +1,6 @@
 ---
-title: Adding Functionality with CDNs
-description: Content Delivery Networks(CDN) are very useful for quickly adding features and functionality to a website. We will explore adding tailwindcss to a web page to allow for quick utility styling.
+title: Code Quality Tools
+description: Tools such as code linters and formatters are useful for catching errors early on and maintaining a consistent style of code. This is especially relevant for working on large teams where everyone will need to decide on a code style. We will look at configuring eslint and prettier to help format your javascript code.
 date: 2022-02-18T15:00:00.000Z
 released: false
 ---
