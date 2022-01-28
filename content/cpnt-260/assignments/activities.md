@@ -22,12 +22,26 @@ Each of these activities are worth 4% and are designed to both make the assignme
 ## Activity Overview
 
 - [Wiki Article](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
+
+  - Due: Jan 21
   - Focus: long form text and structuring content with semantic html
-- 404 Error Page
-  - Focus: simple layouts
+
 - [Navigation Menu](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
+
+  - Due: January 24 @ 11:59PM
   - Focus: responsive design, ui components, and display property
-- Card Design
+
+- [Card Design](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
+
+  - Due: January 26 @ 11:59PM
   - Focus: Flexbox layout, responsive images and text in a container
-- Hero Section
-  - Focus: background images, overlays
+
+- [404 Page](https://gist.github.com/lilyx13/a66987daff43634eabd1903d33c3a9dd)
+
+  - Due: January 28 @ 11:59PM
+  - Focus: Background images, flexbox or css grid
+
+- [Form Content](https://gist.github.com/lilyx13/4b5ceabc01d3c7c30818fd1652998c03)
+
+  - Due: February 1 @ 11:59PM
+  - Focus: User interaction, accessibility, form content
