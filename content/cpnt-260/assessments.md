@@ -21,7 +21,7 @@ description: All of the grading requirements for cpnt260
 
 - [wiki article](https://gist.github.com/lilyx13/7371f05b2deb3862eb4ca54e27c21299)
   - Due: Jan 21
-- [Navigation Menu](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
+- [Navigation Menu](https://gist.github.com/lilyx13/b20b36f46354e74b1efafcfa5c170d1a)
   - Due: Jan 24
 - [Card Design](https://gist.github.com/lilyx13/eeee0b490f00e1cef8caf1f43598856e)
   - Due: Jan 26
