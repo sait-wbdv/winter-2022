@@ -2,7 +2,7 @@
 title: Hero Sections
 description: In this session we will learn how to build attractive and useful hero sections
 date: 2022-02-01T15:00:00.000Z
-released: false
+released: true
 homework:
   - Title: Transitions
     tasks:
@@ -22,6 +22,13 @@ homework:
         link: https://www.joshwcomeau.com/css/custom-css-reset/
       - title: Video on CSS Reset
         link: https://www.youtube.com/watch?v=A2gGkE9r1GM
+---
+
+## Gallery Review
+
+- [Ash's Gist on building complex grid galleries](https://gist.github.com/lilyx13/194413bb64620dd12a9ec90c5ff139ef)
+- [Ash's Repo from yesterday](https://github.com/lilyx13/gallery-example)
+
 ---
 
 ## Hero Sections
