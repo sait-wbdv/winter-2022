@@ -7,11 +7,13 @@ due: 2022-02-07T23:59:00.000Z
 
 ## Details
 
+- Due: Monday February 7th
+
 ## Marking Rubric
 
 This assignment is worth 15 points.
 
-### Page Content **5pts**
+### Page Content **10pts**
 
 #### Hero Section
 
@@ -20,18 +22,18 @@ This assignment is worth 15 points.
 - a tagline using `p` tag
 - a call to action
   - using a `a` element stylized like a button that connects to your form section
+- Hero should be 75-100% of the screen height on load. Use percentage or vh units.
 
-#### 3rd Party Integration **3pts**
+#### 3rd Party Integration
 
 - Add a 3rd party api to your home page
   - examples:
-    - google maps
-    - google translate
-    - [any of these free public apis](https://apipheny.io/free-api/)
     - [formspree](https://formspree.com)
-- the link should work
+      - default to formspree if this is challenging
+    - google maps
+    - [any of these free public apis](https://apipheny.io/free-api/)
 
-### General Requirements **5pts**
+### General Requirements **3pts**
 
 - Include a README markdown file in your project that includes the following information:
   - Course Title
