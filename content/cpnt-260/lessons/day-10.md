@@ -66,31 +66,13 @@ released: true
 
 ---
 
-## Transitions and Keyframes
+## Transitions
 
-### Lollipop Example
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Lollipop Hero" src="https://codepen.io/lilyx/embed/MWOKZLv?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/lilyx/pen/MWOKZLv">
-  Lollipop Hero</a> by lilyx (<a href="https://codepen.io/lilyx">@lilyx</a>)
+<iframe height="300" style="width: 100%;" scrolling="no" title="Transition Lab" src="https://codepen.io/lilyx/embed/gOXrzJV?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/lilyx/pen/gOXrzJV">
+  Transition Lab</a> by lilyx (<a href="https://codepen.io/lilyx">@lilyx</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-- Transitions:
-  - hover state on button
-  - active state on button
-- Keyframes:
-  - rotating logo
-  - floating hearts
-- Text Transforms:
-  - text outline
-  -
-
-#### Extra Reading
-
-- [Fun with blurred text](https://css-tricks.com/fun-with-blurred-text/)
-
-### Transition Notes
 
 - Transition syntax example: `transition: background-color 0.5s ease-in-out;
 - [Mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
@@ -116,7 +98,17 @@ div {
 }
 ```
 
+#### Extra Reading
+
+- [Fun with blurred text](https://css-tricks.com/fun-with-blurred-text/
+
 ### Keyframes Notes
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Keyframe Lab" src="https://codepen.io/lilyx/embed/oNoxyav?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/lilyx/pen/oNoxyav">
+  Keyframe Lab</a> by lilyx (<a href="https://codepen.io/lilyx">@lilyx</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 - [CSS Tricks](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
 - [Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
@@ -144,6 +136,10 @@ div {
   - it could be set to only repeat a set number of times
 - Instead of `from` and `to` you can use **percentages**
 
+#### Extra Reading
+
+- [Fun with blurred text](https://css-tricks.com/fun-with-blurred-text/
+
 ---
 
 ## CPNT-260 Takeaways
@@ -157,6 +153,8 @@ div {
   - `div` is just for **style** and small groupings
 - white space is your friend (almost always add a bit of padding on buttons)
 - make your fonts responsive with clamp
+- It is often useful to use containers to set sizes of objects
+- **Avoid spam coding** Think things through
 
 ---
 
