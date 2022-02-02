@@ -1,5 +1,5 @@
 ---
-title: Modern Web Development and Review Day
+title: CSS Animations and Review Day
 description: Description here
 date: 2022-02-02T15:00:00.000Z
 released: true
@@ -102,7 +102,7 @@ div {
 
 - [Fun with blurred text](https://css-tricks.com/fun-with-blurred-text/
 
-### Keyframes Notes
+### Keyframes
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Keyframe Lab" src="https://codepen.io/lilyx/embed/oNoxyav?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/lilyx/pen/oNoxyav">
