@@ -51,6 +51,7 @@ released: true
 ### Breakout Session: Form Code Walkthrough (30 min)
 
 - In pairs, you will conduct a walkthrough of each other's form activities to note issues in one another's code.
+- **FORK and add the word 'Walkthrough' to the forked title**
 - Driver/Navigator Format
   - Look at Driver's Code, Driver adds comments
   - Navigator comments on errors in code
@@ -63,6 +64,8 @@ released: true
 <!-- TODO fix type -->
 <input type="text-box" name="text-box" id="name">
 ```
+
+- **When finished, you are welcome to submit the walkthrough into brightspace alongside your other form activity**. submissions done here that are correctly labelled and commented will be taken into account for marks.
 
 ---
 
