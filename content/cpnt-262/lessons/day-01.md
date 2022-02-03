@@ -17,7 +17,6 @@ homework:
 ### Materials
 - [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [A first splash into JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
-- [Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
 
 ### Slides!
 Built using [RevealJS](https://revealjs.com/):
@@ -27,10 +26,11 @@ Built using [RevealJS](https://revealjs.com/):
 ### Materials
 - Gist: [Installing RevealJS](https://gist.github.com/acidtone/5ade98e682f62f8fafd34d24dca03066)
 
-## 3. Walk-through of common data types
+## 3. Walk-through: Variables and common data types
 ### Materials
 - [Finding Your Browser's Developer Console](https://balsamiq.com/support/faqs/browserconsole/)
 - [Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+- [Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
 - [Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 
 ---
