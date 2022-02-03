@@ -9,6 +9,7 @@ homework:
 ## Housekeeping
 - One-on-ones delayed due to Facilitator intake
 - Course Overview
+    - [Draft Assignment Schedule](/cpnt-262/assessments)
 - Poll: More or less journal entries?
 
 ---
