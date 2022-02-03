@@ -15,6 +15,10 @@ homework:
 
 ### Other Resources
 - [JavaScript type coercion explained](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/) on Free Code Camp
+- Watch: [JavaScript Tutorial for Beginners](https://youtu.be/W6NZfCO5SIk) by [Mosh Hamedani](https://codewithmosh.com/)
+    - This is an excellent overview of the starter JS concepts you'll need for the rest of this course.
+    - There is a handy Table of Contents in the video description. 
+
 
 ### Free Code Camp Exercises
 - [Javascript basics](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript): Exercises 9-22
