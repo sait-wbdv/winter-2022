@@ -6,6 +6,11 @@ released: true
 homework: 
 ---
 
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-03-revealjs)
+
+---
+
 ## Housekeeping
 - One-on-ones delayed due to Facilitator intake
 - Course Overview
@@ -40,6 +45,7 @@ Built using [RevealJS](https://revealjs.com/):
 - Facilitators on Staff:
     - Jess
     - Patrick
+    - Mike
 
 ### Labs
 - See: [RevealJS Labs](https://gist.github.com/acidtone/5ade98e682f62f8fafd34d24dca03066#labs)
