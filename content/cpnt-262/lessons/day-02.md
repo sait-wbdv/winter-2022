@@ -25,7 +25,12 @@ homework:
 ## 2. Basic math in JS
 ### Materials
 - [Basic math in JavaScript — numbers and operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
-- Gist: [Tip Calculator](https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1)
+- Example Gists: 
+    - [Tip Calculator](https://gist.github.com/acidtone/5c13ec3ff2ea53b7f75ae3692ca944d1)
+    - [Refactor Adding Machine to create Simple Calculator](https://gist.github.com/acidtone/fb9d28505944280f548ad6dde0890102)
+
+### Activity
+- [Fix Syntax errors in Adding Machine](https://gist.github.com/acidtone/b4ceaf48115f553c4845b9fb86ad2bb2)
 
 ## 3. More Error Handling
 Some extra tutorials to practice your debugging.
