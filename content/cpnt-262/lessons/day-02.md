@@ -5,6 +5,8 @@ date: 2022-02-04T15:00:00.000Z
 released: true
 homework: 
 ---
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-04-math-errors)
 
 ## Housekeeping
 - [`in-class` repo](https://github.com/sait-wbdv/in-class-w22) added
