@@ -2,6 +2,7 @@
 title: CPNT 262 Assessments
 description: 
 ---
+<aside class="sidebar">
 
 ## Course Breakdown
 ### Vanilla JS - Days 1-11
@@ -14,7 +15,9 @@ description:
 - **15%**: VueJS Individual Assignment
 - **30%**: VueJS Group Project
 
----
+</aside>
+
+<section class="content">
 
 ## Vanilla JS Achievements
 Bite-sized assessments to introduce you to fundamental topics.
@@ -41,3 +44,5 @@ Bite-sized assessments to introduce you to fundamental topics.
 
 ### VueJS Assessments
 To be announced in mid-March
+
+</section>
