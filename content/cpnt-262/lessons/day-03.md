@@ -7,8 +7,7 @@ homework:
 ---
 
 ## Housekeeping
-- [New CPNT 262 Assessment Schedule]()
-
+- [New CPNT 262 Assessment Schedule](/cpnt-262/assessments)
 
 ---
 
@@ -37,7 +36,7 @@ One tricky aspect of Javascript is it will sometimes automatically convert one d
 
 ## Lab Time
 - [Refactor code into functions](https://gist.github.com/acidtone/90355d3bdbcf770be4a642939f58cfd7).
-- 
+- Code Challenge: [CSS Toggles with element.classList](http://browsertherapy.com/challenges/css-toggles-with-classlist/)
 
 
 <home-work :home-work="homework">
