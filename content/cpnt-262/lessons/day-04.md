@@ -20,5 +20,6 @@ homework:
 ### Changing CSS with JS
 - ['Element.classList'](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 - [Code Examples](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Examples)
+- Code Challenge: [CSS Toggles with element.classList](http://browsertherapy.com/challenges/css-toggles-with-classlist/)
 
 </home-work>
