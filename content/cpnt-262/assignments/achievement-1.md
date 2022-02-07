@@ -2,15 +2,18 @@
 title: CPNT-262 Achievement 1 - Plugin' Away
 description: A description
 ---
+- Due: Wednesday, Feb 9 @ 11:59pm
+- Weight: 4% of the final mark
+
 This Achievement is based on the [Day 1 demo](https://sait-wbdv.netlify.app/cpnt-262/lessons/day-01) when we [installed RevealJS](https://gist.github.com/acidtone/5ade98e682f62f8fafd34d24dca03066).
 
 ## Learning Outcomes
-This achievement will me marked out of 4 points where you will:
+This achievement will me marked out of **4 points** where you will:
 - **2 points**: Install a third-party JS library using its documented installation instructions;
 - **1 point**: Demonstrate the library with a simple demo;
 - **1 point**: Distinguish between the various methods JS can be loaded into an HTML file.
 
-**Note**: You may use examples shown in class for reduced marks. Use a different library or significantly demonstrate deeper knowledge of [RevealJS] for a chance at full points.
+**Note**: You may use [RevealJS](https://revealjs.com/) for reduced marks unless you can come up with a cool slide show.
 
 ---
 
@@ -39,6 +42,6 @@ This achievement will me marked out of 4 points where you will:
 ## Submission
 1. Create a GitHub repo of your project;
 2. Download a ZIP of the project;
-3. In Brightspace, submit your ZIP and include the following as a comment for your submission:
+3. In Brightspace, submit your ZIP and include the following as a comment in your submission:
     - a link to your GitHub repo;
     - a link to the GitHub Pages site;
