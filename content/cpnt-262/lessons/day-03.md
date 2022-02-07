@@ -17,6 +17,7 @@ homework:
 - [Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
 
 ### Demo: Greet function
+- [Starter files](https://gist.github.com/acidtone/383cf362c923f5126ecb32621dc7c0d4)
 - Gist: [Defining functions](https://gist.github.com/acidtone/e3ed5adfcb4f3c02f1b78f78c9c2bf8b)
 - Gist: [Invoking functions](https://gist.github.com/acidtone/679b1b07dcaad4491e8696c871e36436)
 
