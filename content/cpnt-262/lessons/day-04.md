@@ -11,6 +11,7 @@ homework:
 ### Events and `Element.addEventListener()`
 - MDN Readings:
     - [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+        - [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
     - [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
     - [`EventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
     - [Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
