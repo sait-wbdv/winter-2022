@@ -2,28 +2,42 @@
 title: CPNT 262 Assessments
 description: 
 ---
-## Journal Entries
-- Weight: TBA
-- Due: TBA 
+
+## Course Breakdown
+### Vanilla JS - Days 1-11
+- **25%**: [Vanilla JS Achievements](#vanilla-js-achievements)
+    - 5 achievements x 5% 
+- **15%**: [Vanilla Individual Assignment](vanilla-jS-individual-assignment)
+
+### VueJS - Days 12-22
+- **15%**: VueJS Achievements
+- **15%**: VueJS Individual Assignment
+- **30%**: VueJS Group Project
 
 ---
 
-## Assignments: Vanilla Javascript
-### Assignment 1: Library Integration
-- Weight: 10% of final course mark
-- Due: Wednesday Feb 9 @ 11:59pm
+## Vanilla JS Achievements
+Bite-sized assessments to introduce you to fundamental topics.
+1. [Plugin' Away](/cpnt-262/assignments/achievement-1)
+    - Due: Wednesday, Feb 9
+    - Weight: 5% of the final mark
+2. [Before and After](/cpnt-262/assignments/achievement-2)
+    - Due: Friday, Feb 11
+    - Weight: 5% of the final mark
+3. [Press of a Button](/cpnt-262/assignments/achievement-3)
+    - Due: Sunday, Feb 13
+    - Weight: 5% of the final mark
+4. If This, Then That (conditional code)
+    - Due: Tuesday, Feb 15
+    - Weight: 5% of the final mark
+5. Groundhog Day (loops)
+    - Due: Thursday, Feb 17
+    - Weight: 5% of the final mark
 
-### Assignment 2: Buttons and Events
-- Weight: 10% of final course mark
-- Due: Friday Feb 11 @ 11:59pm
+## Vanilla JS Individual Assignment
+**Fetch Data from an API**
+- Due: Tuesday, Feb 22
+- Weight: 15% of final mark
 
-### Assignment 3: Loops
-- Weight: 10% of final course mark
-- Due: Tuesday Feb 15 @ 11:59pm
-
-### Assignment 4: Fetching API Data
-- Weight: 10% of final course mark
-- Due: Friday Feb 18 @ 11:59pm
-
-## Assignments: Node & VueJS
-### To Be Announced
+### VueJS Assessments
+To be announced in mid-March
