@@ -5,6 +5,8 @@ date: 2022-02-07T15:00:00.000Z
 released: true
 homework: 
 ---
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-07-functions)
 
 ## Housekeeping
 - [New CPNT 262 Assessment Schedule](/cpnt-262/assessments)
@@ -23,8 +25,10 @@ homework:
 
 ## 2. Arguments and parameters
 ### Materials
-- Gist: [Function arguments and parameters](https://gist.github.com/acidtone/977e697e38e389284e839e4b7543ee56)
-- Reference: [`Window.prompt()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+- Gist: [Function arguments and parameters](https://gist.github.com/acidtone/977e697e38e389284e839e4b7543ee56)1
+- Reference: 
+    - [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+    - [`Window.prompt()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
 
 ### Breakout Activity
 In pairs, create a function that accepts a number as an argument in kilograms (kgs) and converts the number to pounds (lbs).
