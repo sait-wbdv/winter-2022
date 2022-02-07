@@ -23,7 +23,17 @@ homework:
 ## 2. Arguments and parameters
 ### Materials
 - Gist: [Function arguments and parameters](https://gist.github.com/acidtone/977e697e38e389284e839e4b7543ee56)
+- Reference: [`Window.prompt()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
 
+### Breakout Activity
+In pairs, create a function that accepts a number as an argument in kilograms (kgs) and converts the number to pounds (lbs).
+1. You can use [these starter files](https://gist.github.com/acidtone/383cf362c923f5126ecb32621dc7c0d4) as a starting point.
+2. Declare a function called `toPounds` that accepts a `kilos` parameter.
+3. Inside the function, multiply `kilos` by 1.6 to convert to pounds.
+4. Log the new amount to the console with `console.log`.
+5. If you have time, use the [`Window.prompt()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) method to define `kilos` from user input.
+
+Don't forget the [Pair Programming Dos and Don'ts](https://gist.github.com/acidtone/caa20b2520814a94240043c40301024a).
 
 ## 3. Dealing with Coercion
 One tricky aspect of Javascript is it will sometimes automatically convert one data type (i.e. a `Number`) to another (a `String`). This can lead to unexpected results.
@@ -36,6 +46,7 @@ One tricky aspect of Javascript is it will sometimes automatically convert one d
 
 ## Lab Time
 - [Refactor code into functions](https://gist.github.com/acidtone/90355d3bdbcf770be4a642939f58cfd7).
+- [Plugin' Away Achievement](/cpnt-262/assignments/achievement-1)
 - Code Challenge: [CSS Toggles with element.classList](http://browsertherapy.com/challenges/css-toggles-with-classlist/)
 
 
