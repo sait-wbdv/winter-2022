@@ -2,12 +2,19 @@
 title: CPNT-262 Achievement 4 - If This, Then That
 description: A description
 ---
+- Due: Tuesday, Feb 15 @ 11:59pm
+- Weight: 5% of the final mark
 
 ## Learning Outcomes
+This achievement will be marked out of **5 points** where you will:
 
 ---
 
 ## Instructions
+5. Include a `README.md` file with the following information:
+    - Your name, course and assignment title;
+    - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
+    - Journal: Include self-assessments, observations, research, etc under the heading "Code Journal". 
 
 ---
 

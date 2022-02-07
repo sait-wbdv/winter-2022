@@ -4,29 +4,38 @@ description:
 ---
 
 ## Course Breakdown
-- 20%: Vanilla JS Achievements
-    - 5 x 4% per achievement
-- 15%: Vanilla Individual Assignment
-- 20%: VueJS Achievements
-    - 5 x 4% per achievement
-- 15%: VueJS Assignment
-- 30%: Group Assignment
+### Vanilla JS - Days 1-11
+- **25%**: [Vanilla JS Achievements](#vanilla-js-achievements)
+    - 5 achievements x 5% 
+- **15%**: [Vanilla Individual Assignment](vanilla-jS-individual-assignment)
+
+### VueJS - Days 12-22
+- **15%**: VueJS Achievements
+- **15%**: VueJS Individual Assignment
+- **30%**: VueJS Group Project
+
+---
 
 ## Vanilla JS Achievements
 Bite-sized assessments to introduce you to fundamental topics.
-1. Plugin' Away
+1. [Plugin' Away](/cpnt-262/assignments/achievement-1)
     - Due: Wednesday, Feb 9
-2. Before and After
+    - Weight: 5% of the final mark
+2. [Before and After](/cpnt-262/assignments/achievement-2)
     - Due: Friday, Feb 11
-3. Press of a Button
-    - Due: Monday, Feb 14
-4. If This, Then That
-    - Due: Wednesday, Feb 16
-5. Groundhog Day (loops)
-    - Due: Friday, Feb 18
+    - Weight: 5% of the final mark
+3. [Press of a Button](/cpnt-262/assignments/achievement-3)
+    - Due: Sunday, Feb 13
+    - Weight: 5% of the final mark
+4. [If This, Then That](/cpnt-262/assignments/achievement-4)
+    - Due: Tuesday, Feb 15
+    - Weight: 5% of the final mark
+5. [Groundhog Day (loops)](/cpnt-262/assignments/achievement-5)
+    - Due: Thursday, Feb 17
+    - Weight: 5% of the final mark
 
 ## Vanilla JS Individual Assignment
-**REST API Gallery Page**
+**Fetch Data from an API**
 - Due: Tuesday, Feb 22
 - Weight: 15% of final mark
 

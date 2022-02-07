@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <h1>{{ assignment.title }}</h1>
-    <nuxt-content :document="assignment" />
-  </div>
+  <main>
+    <div>
+      <h1>{{ assignment.title }}</h1>
+      <nuxt-content :document="assignment" />
+    </div>
+  </main>
 </template>
 <script>
 export default {

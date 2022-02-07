@@ -3,13 +3,13 @@ title: CPNT-262 Achievement 2 - Before and After
 description: A description
 ---
 - Due: Friday, Feb 11 @ 11:59pm
-- Weight: 4% of the final mark
+- Weight: 5% of the final mark
 
 ## Learning Outcomes
-This achievement will be marked out of **4 points** where you will:
+This achievement will be marked out of **5 points** where you will:
 - **1 point**: Declare a variable with `const` or `let` and assign it value of your choice.
 - **2 points**: Print this variable in two different ways using `console.log`.
-- **1 point**: Repeating these instructions with a variable for _each_ of the following value types:
+- **1 point**: Bonus point for repeating these instructions with a variable for _each_ of the following value types:
     - `String`
     - `Number`
     - `Boolean`
@@ -32,6 +32,11 @@ Copy/download/clone these starter files into your workspace. Complete the follow
     - Reverse a Boolean value with the [logical NOT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT) (`!`) operator
     - Output the number of items in an array with [`Array.length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
     - Ask a classmate/facilitator for any other suggestions.
+5. Include a `README.md` file with the following information:
+    - Your name, course and assignment title;
+    - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
+    - Code Journal: Include self-assessments, observations, research, etc under the heading "Code Journal". 
+
 
 ---
 

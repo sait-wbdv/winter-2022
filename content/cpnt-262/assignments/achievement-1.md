@@ -3,12 +3,12 @@ title: CPNT-262 Achievement 1 - Plugin' Away
 description: A description
 ---
 - Due: Wednesday, Feb 9 @ 11:59pm
-- Weight: 4% of the final mark
+- Weight: 5% of the final mark
 
-This Achievement is based on the [Day 1 demo](https://sait-wbdv.netlify.app/cpnt-262/lessons/day-01) when we [installed RevealJS](https://gist.github.com/acidtone/5ade98e682f62f8fafd34d24dca03066).
+This Achievement is based on the [Day 1 demo](/cpnt-262/lessons/day-01#2-demo-install-revealjs) when we [installed RevealJS](https://gist.github.com/acidtone/5ade98e682f62f8fafd34d24dca03066).
 
 ## Learning Outcomes
-This achievement will me marked out of **4 points** where you will:
+This achievement will me marked out of **5 points** where you will:
 - **2 points**: Install a third-party JS library using its documented installation instructions;
 - **1 point**: Demonstrate the library with a simple demo;
 - **1 point**: Distinguish between the various methods JS can be loaded into an HTML file.
@@ -31,11 +31,13 @@ This achievement will me marked out of **4 points** where you will:
         - Libraries with a [CDN](https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/) option are generally easier to install. 
 3. Create a simple demo that shows a working implementation.
 4. Include a `README.md` file (if your library includes one, replace it) with the following:
+    - Your name, course and assignment title;
     - **How did you install the library?**
         - As embedded code in a `<script>` element at the end of the HTML file?
         - As external code in a `<script>` element in the `<head>` element of the HTML file?
         - Did you use a Content Delivery Network, downloaded files or `npm`?
-    - **Did anyone help you?** Include attributions for any classmates, articles, tutorials, etc that helped you complete this project.
+    - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
+    - Code Journal: Include self-assessments, observations, research, etc under the heading "Code Journal". 
 
 ---
 
