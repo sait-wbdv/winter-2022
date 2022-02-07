@@ -29,7 +29,7 @@ homework:
 In pairs, create a function that accepts a number as an argument in kilograms (kgs) and converts the number to pounds (lbs).
 1. You can use [these starter files](https://gist.github.com/acidtone/383cf362c923f5126ecb32621dc7c0d4) as a starting point.
 2. Declare a function called `toPounds` that accepts a `kilos` parameter.
-3. Inside the function, multiply `kilos` by 1.6 to convert to pounds.
+3. Inside the function, multiply `kilos` by 2.2 to convert to pounds.
 4. Log the new amount to the console with `console.log`.
 5. If you have time, use the [`Window.prompt()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) method to define `kilos` from user input.
 
