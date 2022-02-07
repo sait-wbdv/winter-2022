@@ -10,8 +10,9 @@ This Achievement is based on the [Day 1 demo](/cpnt-262/lessons/day-01#2-demo-in
 ## Learning Outcomes
 This achievement will me marked out of **5 points** where you will:
 - **2 points**: Install a third-party JS library using its documented installation instructions;
-- **1 point**: Demonstrate the library with a simple demo;
+- **1 point**: Demonstrate the library with a simple demo (most libraries include sample code to do this);
 - **1 point**: Distinguish between the various methods JS can be loaded into an HTML file.
+- **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
 **Note**: You may use [RevealJS](https://revealjs.com/) for reduced marks unless you can come up with a cool slide show.
 

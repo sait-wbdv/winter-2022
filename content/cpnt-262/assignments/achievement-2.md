@@ -14,11 +14,12 @@ This achievement will be marked out of **5 points** where you will:
     - `Number`
     - `Boolean`
     - `Array`
+- **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
 ---
 
 ## Instructions
-Copy/download/clone these starter files into your workspace. Complete the following instructions in `client.js`:
+Copy/download/clone these [starter files](https://gist.github.com/acidtone/383cf362c923f5126ecb32621dc7c0d4) into your workspace. In `client.js`:
 1. Declare a variable with a name of your choice.
 2. Assign this variable a value of your choice.
     - Suggestions for beginners:
@@ -36,7 +37,6 @@ Copy/download/clone these starter files into your workspace. Complete the follow
     - Your name, course and assignment title;
     - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
     - Code Journal: Include self-assessments, observations, research, etc under the heading "Code Journal". 
-
 
 ---
 

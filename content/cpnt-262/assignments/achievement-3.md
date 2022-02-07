@@ -7,9 +7,13 @@ description: A description
 
 ## Learning Outcomes
 This achievement will be marked out of **5 points** where you will:
-- **1 point**: Assign a DOM element to a variable using `const` and `document.querySelector`.
-- **2 points**: Add an Event Listener to this DOM variable using `document.addEventListener`.
-- **1 point**: Bonus point for _not_ using a `<button>` as the DOM element and/or not using `click` as the event trigger.
+- **1 point**: Assign a DOM element to a variable using `const` and [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector).
+- **2 points**: Add an Event Listener to this DOM variable using [`Element.addEventListener`](https://www.w3schools.com/jsref/met_element_addeventlistener.asp).
+- **1 point**: Bonus point for doing one of the following:
+    - _not_ using a `<button>` as the DOM element;
+    - not using `click` as the event trigger;
+    - use the `Window.prompt()` method (or similar) to accept user input.
+- **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
 ---
 
@@ -19,6 +23,7 @@ This achievement will be marked out of **5 points** where you will:
         - Use your code from your [Before and After Achievement](/cpnt-262/assignments/achievement-2)
     - Any other code will do as long as:
         - it's not broken;
+        - **it _hasn't_ been given as an example in class**;
         - it prints something to the console or webpage.
 2. Wrap the code into a named function.
     - The code should _not_ execute when the page loads.
