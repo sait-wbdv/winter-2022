@@ -16,4 +16,7 @@ homework:
 - Videos:
     - [Introduction to Arrays with JavaScript](https://www.youtube.com/watch?v=arIhhRd1RPc)
 
+### Loops
+- [for statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
+
 </home-work>
