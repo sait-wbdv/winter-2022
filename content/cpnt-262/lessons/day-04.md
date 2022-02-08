@@ -27,6 +27,12 @@ homework:
 
 ### Breakout Activity
 - In pairs: Try to repeat what Tony did in his demo
+    1. Pick one of the functions from [today's spoilers](https://github.com/sait-wbdv/in-class-w22/tree/main/02-08-events/02-spoiler-finished)
+    2. Goal: refactor the code so that the prompt(s) start on a button click
+    3. Create a button element
+    4. Assign that element to a variable with [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+    5. Wrap the prompt code into a `clickHandler` function.
+    6. Add that function as a button click event using [`button.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 ## 3. More events and elements
 - [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
