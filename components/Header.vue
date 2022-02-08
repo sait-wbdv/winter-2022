@@ -25,5 +25,6 @@
 https://sait-ca.zoom.us/j/85143721031" target="_blank" class="block">Live Stream</a></li>
       </ul>
     </nav>
+    <DarkMode />
   </header>
 </template>

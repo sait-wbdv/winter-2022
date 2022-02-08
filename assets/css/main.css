@@ -1,4 +1,54 @@
 /* For use with non tailwind css */
+
+/*************/
+/* Variables */
+/*************/
+
+:root {
+  --body-bg-clr: white;
+  --text-clr: black;
+
+  --nav-bg-clr-hover: #0063a7;
+  --nav-bg-clr-active: #e02727;
+  --utility-clr: #0896db;
+  --nav-link-clr: white;
+  --tagline-clr: #888;
+  --notice-bg-clr: lightgrey;
+  --notice-border-clr: black;
+
+  --notice-warning-bg-clr: hsl(60deg, 50%, 95%);
+  --notice-warning-border-clr: hsl(50deg, 100%, 50%);
+  --notice-warning-text-clr: hsl(60deg, 100%, 10%);
+
+  --notice-info-bg-clr: hsl(90deg, 30%, 95%);
+  --notice-info-border-clr: hsl(90deg, 100%, 50%);
+  --notice-info-text-clr: hsl(90deg, 100%, 10%);
+
+  --terms-bg-clr: #ddd;
+  --footer-border-clr: grey;
+
+  --gallery-border-clr: black;
+  --gallery-shadow: rgb(0 0 0 / 0.2);
+  --gallery-html-hover: hsl(5, 100%, 95%);
+  --gallery-css-hover: hsl(203, 100%, 95%);
+  --gallery-js-hover: hsl(52, 100%, 95%);
+
+}
+
+[data-theme="dark"] {
+  --body-bg-clr: black;
+  --text-clr: white;
+}
+
+
+/**********/
+/* Global */
+/**********/
+body {
+  background-color: var(--body-bg-clr);
+  color: var(--text-clr)
+}
+
 /**************/
 /* Navigation */
 /**************/
@@ -17,14 +67,14 @@ nav.primary a, nav.utility a {
   text-decoration: none;
 }
 nav.primary a:hover, nav.utility a:hover {
-  background-color: #0063a7;
+  background-color: var(--nav-bg-clr-hover);
   color: white;
 }
 
 nav.primary a:active, nav.utility a:active {
 
-  background-color: #e02727;
-  color: white;
+  background-color: var(--nav-bg-clr-active);
+  color: var(--nav-link-clr);
 }
 
 nav.primary a, nav.utility a {
@@ -52,8 +102,8 @@ nav.utility ul {
   margin: 0 1em;
 }
 nav.utility a {
-  background-color: #0896db;
-  color: white; 
+  background-color: var(--utility-clr);
+  color: var(--nav-link-clr); 
   
   padding: 10px 25px;
 }
@@ -77,7 +127,7 @@ nav.utility a {
 
 .tagline {
   font-size: 1.25rem;
-  color: #888;
+  color: var(--tagline-clr);
   font-variant: small-caps;
   margin: 0 .35rem;
 }
@@ -116,8 +166,8 @@ hr {
 
   /* colour */
   border-radius: 15px;
-  background-color: lightgrey;
-  border: 5px solid black;
+  background-color: var(--notice-bg-clr);
+  border: 5px solid var(--notice-border-clr);
 }
 
 .notice i {
@@ -126,9 +176,9 @@ hr {
 
 /* yellow warning box */
 .notice--warning {
-  background-color: hsl(60deg, 50%, 95%);
-  border-color: hsl(50deg, 100%, 50%);
-  color: hsl(60deg, 100%, 10%);
+  background-color: var(--notice-warning-bg-clr);
+  border-color: var(--notice-warning-border-clr);
+  color: var(--notice-warning-text-clr);
 }
 
 .notice--warning::before {
@@ -141,9 +191,9 @@ hr {
 
 /* green warning box */
 .notice--info {
-  background-color: hsl(90deg, 30%, 95%);
-  border-color: hsl(90deg, 100%, 50%);
-  color: hsl(90deg, 100%, 10%);
+  background-color: var(--notice-info-bg-clr);
+  border-color: var(--notice-info-border-clr);
+  color: var(--notice-info-text-clr);
 }
 
 .notice--info::before {
@@ -191,7 +241,7 @@ hr {
   padding-top: 0;
 
   border-radius: 1rem;
-  background-color: #ddd;
+  background-color: var(--terms-bg-clr);
 }
 
 dl {
@@ -211,7 +261,7 @@ dd {
 /**********/
 
 footer {
-  border-top: 1px solid grey;
+  border-top: 1px solid var(--footer-border-clr);
   padding: 0;
   text-align: center;
 }
@@ -232,11 +282,11 @@ footer {
   margin: 1rem;
   text-align: center;
 
-  border: 3px solid black;
+  border: 3px solid var(--gallery-border-clr);
   border-radius: 10px;
   padding: 2rem;
 
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px var(--gallery-shadow);
 }
 
 .gallery h3 {
@@ -250,11 +300,11 @@ footer {
 }
 
 .gallery > a:hover.html {
-  background-color: hsl(5, 100%, 95%);
+  background-color: var(--gallery-html-hover);
 }
 .gallery > a:hover.css {
-  background-color: hsl(203, 100%, 95%);
+  background-color: var(--gallery-css-hover);
 }
 .gallery > a:hover.js {
-  background-color: hsl(52, 100%, 95%);
+  background-color: var(--gallery-js-hover);
 }
