@@ -7,7 +7,9 @@ homework:
 ---
 
 ## Housekeeping
-
+- [Changes](https://github.com/sait-wbdv/winter-2022/commit/0543d3fc7ccfd4829fb90c0aa7e0169a27799029) to:
+    - Achievement 2: [Before and After](/cpnt-262/assignments/achievement-2)
+    - Achievement 3: [Press of a Button](/cpnt-262/assignments/achievement-3)
 
 ---
 
