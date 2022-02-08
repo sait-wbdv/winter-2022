@@ -8,12 +8,12 @@ description: A description
 ## Learning Outcomes
 This achievement will be marked out of **5 points** where you will:
 - **1 point**: Declare a variable with `const` or `let` and assign it value of your choice.
-- **2 points**: Print this variable in two different ways using `console.log`.
-- **1 point**: Bonus point for repeating these instructions with a variable for _each_ of the following value types:
+- **2 points**: Print a variable in two distinct ways for _each_ of the following value types:
     - `String`
     - `Number`
     - `Boolean`
     - `Array`
+- **1 point**: Add a label to a console message using multiple `console.log` arguments.
 - **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
 ---
