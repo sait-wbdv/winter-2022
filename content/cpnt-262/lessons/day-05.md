@@ -7,7 +7,9 @@ homework:
 ---
 
 ## Housekeeping
-
+- Friday afternoon: 
+    - Ash/Tony pair-code session -> WBDV Dark Mode Toggle
+- [Updated Schedule](/)
 
 ---
 
@@ -26,15 +28,17 @@ homework:
 - Gist: [JS Activity - Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
 - Starter Code: [01-clickhandler-starter](https://github.com/sait-wbdv/in-class-w22/tree/main/02-09-dom-input-output/01-clickhandler-starter)
 
-## 3. Demo: Dark Mode Toggle
-If there's time...
+## 3. Demo: Vanilla JS Dark Mode Toggle
+If there's time, we'll add a Dark Mode to the GST Calculator.
 ### Materials: 
 - [Ultimate Dark Mode Toggle](https://padlet.com/acidtone/UltimateDarkModeToggle)
 
 ---
 
 ## Lab Time
-- [JS Activity: Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
+- JS Activity: [Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
+Ratio to Percentage Converter
+    - Bonus Activity: [Ratio to Percentage utility function](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8#bonus-activity)
 
 ---
 
