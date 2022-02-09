@@ -37,7 +37,6 @@ If there's time, we'll add a Dark Mode to the GST Calculator.
 
 ## Lab Time
 - JS Activity: [Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
-Ratio to Percentage Converter
     - Bonus Activity: [Ratio to Percentage utility function](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8#bonus-activity)
 
 ---
