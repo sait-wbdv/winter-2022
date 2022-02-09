@@ -1,9 +1,41 @@
 ---
-title: Forms and Page Output
+title: DOM Elements and Page Output
 description: Description here
 date: 2022-02-09T15:00:00.000Z
 released: true
 homework: 
+---
+
+## Housekeeping
+
+
+---
+
+## 1. `clickHandler` Overview
+### Materials
+- [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+- [`EventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+## 2. Form field variables with DOM output
+### Materials
+- [Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)
+- [Numeric field](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types#numeric_field)
+- [`Node.textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+
+### Demo: GST Calculator with Form
+- Gist: [JS Activity - Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
+- Starter Code: [01-clickhandler-starter](https://github.com/sait-wbdv/in-class-w22/tree/main/02-09-dom-input-output/01-clickhandler-starter)
+
+## 3. Demo: Dark Mode Toggle
+If there's time...
+### Materials: 
+- [Ultimate Dark Mode Toggle](https://padlet.com/acidtone/UltimateDarkModeToggle)
+
+---
+
+## Lab Time
+- [JS Activity: Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
+
 ---
 
 <home-work :home-work="homework">
@@ -13,15 +45,8 @@ homework:
 - [Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)
 - [Numeric field](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types#numeric_field)
 
-## Functions
-- [Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
-
-## Form Events
-- [`submit` Event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event)
-- [`Event.preventDefault()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
-
 ## HTML Output
 - [`Element.innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-- [Node.textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+- [`Node.textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
 
 </home-work>
