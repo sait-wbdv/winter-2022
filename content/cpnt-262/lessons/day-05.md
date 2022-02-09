@@ -28,6 +28,13 @@ homework:
 - Gist: [JS Activity - Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
 - Starter Code: [01-clickhandler-starter](https://github.com/sait-wbdv/in-class-w22/tree/main/02-09-dom-input-output/01-clickhandler-starter)
 
+### Breakout Activity
+In pairs: Try to repeat what Tony did in his demo
+1. Pick one of the functions from [today's spoilers](https://github.com/sait-wbdv/in-class-w22/tree/main/02-09-dom-input-output/01-clickhandler-starter)
+2. Goal: Create a fully functional form that takes input from a form field and outputs to the page.
+3. Follow the instructions on [this page](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8).
+
+
 ## 3. Demo: Vanilla JS Dark Mode Toggle
 If there's time, we'll add a Dark Mode to the GST Calculator.
 ### Materials: 
