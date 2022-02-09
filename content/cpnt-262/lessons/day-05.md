@@ -45,6 +45,10 @@ If there's time, we'll add a Dark Mode to the GST Calculator.
 ## Lab Time
 - JS Activity: [Form fields and DOM output](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8)
     - Bonus Activity: [Ratio to Percentage utility function](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8#bonus-activity)
+- Dark Mode Toggle upgrades: [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-09-dom-input-output/03-gst-calculator-dark-mode). Try the following upgrades to the dark mode toggle:
+    - Add a transition to the colour change that matches the timing of the slider;
+    - Add more colours to the form that also toggle;
+    - Add a dynamic label that changes from "_Enable Dark Mode!_" to "_Dark Mode Enabled!_" to match the current state of the switch.
 
 ---
 
