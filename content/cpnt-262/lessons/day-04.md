@@ -5,6 +5,8 @@ date: 2022-02-08T15:00:00.000Z
 released: true
 homework: 
 ---
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-08-events)
 
 ## Housekeeping
 - [Changes](https://github.com/sait-wbdv/winter-2022/commit/0543d3fc7ccfd4829fb90c0aa7e0169a27799029) to:
