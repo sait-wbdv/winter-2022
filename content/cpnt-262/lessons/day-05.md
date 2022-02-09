@@ -5,6 +5,9 @@ date: 2022-02-09T15:00:00.000Z
 released: true
 homework: 
 ---
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-09-dom-input-output)
+
 
 ## Housekeeping
 - Friday afternoon: 
