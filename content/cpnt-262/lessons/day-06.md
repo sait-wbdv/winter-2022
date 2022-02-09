@@ -11,7 +11,7 @@ homework:
 ## Forms
 - [`Event.preventDefault()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 - [`submit` Event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event)
-- [<select>: The HTML Select element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+- [`<select>`: The HTML Select element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 
 ## Conditional Code
 - [Boolean values](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
