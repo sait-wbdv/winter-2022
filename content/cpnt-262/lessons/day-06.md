@@ -35,7 +35,7 @@ The `if`/`else` statement is used to conditionally run code when an expression (
 
 ### Breakout Activity
 In pairs, take the [form created in the demo](https://github.com/sait-wbdv/in-class-w22/tree/main/02-10-conditionals/05-tip-calculator-menu), using `if`, `else if` and/or `else` statements, set the `tipRate` based on the service level selected in the menu.
-- Note: The value of a select menu is stored in the `FormElement.value` property.
+- Note: The value of the select menu is stored in the `form.service.value` property.
 
 ## 3. Equality and Truthiness
 Coercion in untyped languages (such as Javascript) produces a concept known as "Truthiness": some values are more equal than others, based on their value type.
