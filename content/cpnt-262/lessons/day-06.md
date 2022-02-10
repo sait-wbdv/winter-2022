@@ -6,6 +6,9 @@ released: true
 homework: 
 ---
 
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-10-conditionals)
+
 ## Housekeeping
 - Achievement 4: [If This, Then That](/cpnt-262/assignments/achievement-4)
 
