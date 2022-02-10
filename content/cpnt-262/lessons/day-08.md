@@ -20,3 +20,5 @@ homework:
 - [for statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
 
 </home-work>
+
+---
