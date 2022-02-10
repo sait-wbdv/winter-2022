@@ -31,9 +31,10 @@ The `if`/`else` statement is used to conditionally run code when an expression (
 
 ### Demo: Tip Calculator with `<select>` menu and `Event.preventDefault()`
 - JS Activity: [Tip Calculator with drop down menu](https://gist.github.com/acidtone/9adae5b6fcdf8f2b3bab4c814f9f1da6)
+- [starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-10-conditionals/03-tip-calculator-starter)
 
 ### Breakout Activity
-In pairs, take the form created in the demo, using `if`, `else if` and/or `else` statements, set the `tipRate` based on the service level selected in the menu.
+In pairs, take the [form created in the demo](https://github.com/sait-wbdv/in-class-w22/tree/main/02-10-conditionals/05-tip-calculator-menu), using `if`, `else if` and/or `else` statements, set the `tipRate` based on the service level selected in the menu.
 - Note: The value of a select menu is stored in the `FormElement.value` property.
 
 ## 3. Equality and Truthiness
