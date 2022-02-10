@@ -33,11 +33,10 @@ export default {
   .theme-switch-wrapper {
     display: flex;
     align-items: center;
-    
-    em {
-      margin-left: 10px;
-      font-size: 1rem;
-    }
+  }
+  .theme-switch-wrapper  em {
+    margin-left: 10px;
+    font-size: 1rem;
   }
   .theme-switch {
     display: inline-block;
