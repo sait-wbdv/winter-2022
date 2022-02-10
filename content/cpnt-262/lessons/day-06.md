@@ -19,6 +19,8 @@ The `if`/`else` statement is used to conditionally run code when an expression (
 - [Making decisions in your code - conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
 - [Comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators)
 
+[Slides](https://sait-wbdv.github.io/slides/w22/cpnt262/js-conditionals.html)
+
 ### Demo: Greeter with language support
 - [Greeter starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-10-conditionals/01-greet-starter)
 
