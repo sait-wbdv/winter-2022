@@ -30,7 +30,7 @@ Bite-sized assessments to introduce you to fundamental topics.
 3. [Press of a Button](/cpnt-262/assignments/achievement-3)
     - Due: Sunday, Feb 13
     - Weight: 5% of the final mark
-4. If This, Then That (conditional code)
+4. [If This, Then That](/cpnt-262/assignments/achievement-4) (conditional code)
     - Due: Tuesday, Feb 15
     - Weight: 5% of the final mark
 5. Groundhog Day (loops)
