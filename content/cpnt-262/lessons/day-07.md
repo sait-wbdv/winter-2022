@@ -31,7 +31,7 @@ homework:
 ## 3. Scope
 ### Materials
 - Article: [A Simple Explanation of Scope in JavaScript](https://dmitripavlutin.com/javascript-scope/)
-- [Slides: Scope terminology](https://sait-wbdv.github.io/slides/w22/cpnt262/scope.html)
+- [Slides: Scope terminology](https://sait-wbdv.github.io/slides/w22/cpnt262/scope-terminology.html)
 
 ## 4. Activity: Text area counter
 ### Materials
