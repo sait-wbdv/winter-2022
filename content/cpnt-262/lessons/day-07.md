@@ -23,6 +23,10 @@ homework:
 ## 2. Value validation
 ### Materials
 - [Slides: Value Validation](https://sait-wbdv.github.io/slides/w22/cpnt262/js-value-validation.html)
+- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+- [Logical AND (`&&`)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
+- [Logical OR (`||`)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
+- [Logical NOT (`!`)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
 
 ## 3. Scope
 ### Materials
