@@ -29,7 +29,7 @@ homework:
 - [Logical NOT (`!`)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
 
 ### Breakout Activity
-In pairs, refactor the [GST Calculator](https://github.com/sait-wbdv/in-class-w22/tree/main/02-11-validation/02-utility-function-finished) so that:
+In pairs, refactor the [GST Calculator](https://github.com/sait-wbdv/in-class-w22/tree/main/02-11-validation/03-validation-activity) so that:
 - `NaN` no longer appears in the response
 - `toPercentage()` will return `false` for negative numbers
 - The response for negative numbers is "Please use a positive rate."
