@@ -2,7 +2,7 @@
   <div>
     <div class="theme-switch-wrapper">
       <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox" />
+        <input @click="toggleTheme()" type="checkbox" id="checkbox" />
         <div class="slider round"></div>
       </label>
       <em>Enable Dark Mode!</em>
@@ -11,21 +11,26 @@
 </template>
 
 <script>
-export default {
-    computed: 
-    {
-        checked: 
-        {
-            get () 
-            {
-                return this.value.includes(this.val)
-            },
-            set (newVal) 
-            {
-              alert("Hello")
-            }
-        }
-    },
+
+export default {    
+  data() {
+    return {
+      theme: localStorage.getItem("theme")
+    };
+  },
+  methods: {
+    toggleTheme() {
+      if (this.theme == "dark") {
+        this.theme = "light";
+        document.body.setAttribute("data-theme", "light");
+        localStorage.setItem("theme", "light");
+      } else {
+        this.theme = "dark";
+        document.body.setAttribute("data-theme", "dark");
+        localStorage.setItem("theme", "dark");
+      }
+    }
+  }
 };
 </script>
 
