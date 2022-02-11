@@ -18,6 +18,7 @@ homework:
 
 ### Demo: Ratio to Percentage Converter
 - [Bonus Activity](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8#bonus-activity) from Wednesday
+- [Starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-11-validation)
 
 ## 2. Value validation
 ### Materials
