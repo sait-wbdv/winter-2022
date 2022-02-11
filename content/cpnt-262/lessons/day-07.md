@@ -6,6 +6,39 @@ released: true
 homework: 
 ---
 
+## Housekeeping
+- Question: Why does `3 > 2 > 1` evaluate to `false`?
+- This afternoon: Dark Mode in VueJS/Nuxt
+
+---
+
+# 1. Utility Functions
+### Materials
+- [Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
+
+### Demo: Ratio to Percentage Converter
+- [Bonus Activity](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8#bonus-activity) from Wednesday
+
+## 2. Value validation
+### Materials
+- [Slides: Value Validation](https://sait-wbdv.github.io/slides/w22/cpnt262/js-value-validation.html)
+
+## 3. Scope
+### Materials
+- Article: [A Simple Explanation of Scope in JavaScript](https://dmitripavlutin.com/javascript-scope/)
+- [Slides: Scope terminology](https://sait-wbdv.github.io/slides/w22/cpnt262/scope.html)
+
+## 4. Activity: Text area counter
+### Materials
+- [`<textarea>` HTML Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [Element.getAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
+
+### Activity
+- [Text area character counter](https://gist.github.com/acidtone/74727a562940ead812f46c1b1b870d19)
+
+
+---
+
 <home-work :home-work="homework">
 
 ### Forms
@@ -22,20 +55,5 @@ homework:
 
 </home-work>
 
----
 
-<!--
-
-# 1. Utility Functions
-### Materials
-- [Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
-
-### Demo: Ratio to Percentage Converter
-- [Bonus Activity](https://gist.github.com/acidtone/64c3c63e0ee7de3aa56adfc99deeeef8#bonus-activity) from yesterday
-
-## 2. Value validation
-### Materials
-- [Validating value types](/library/takeaways/js/validating-values)
-
--->
 
