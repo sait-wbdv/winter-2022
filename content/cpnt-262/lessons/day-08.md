@@ -55,7 +55,7 @@ You will be asked to submit your share link in the main room so your Instructor 
 
 ## Lab Time
 Using [this starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-14-arrays-strings/05-array-string-lab-starter) try the following to practice your arrays and strings:
-- Using `String.startsWith()`, print a "yes" or "no" response stating whether or not the `string` is matches the start of the `phrase`. 
+- Using `String.startsWith()`, print a "yes" or "no" response stating whether or not the `string` is matches the start of the `phrase`. See [spoilers](https://github.com/sait-wbdv/in-class-w22/tree/main/02-14-arrays-strings/06-array-string-lab-example).
 - Using `String.endsWith()`, state whether or not the `phrase` is a question.
 - Using `String.includes()`, print a "yes" or "no" response stating whether or not the `string` matches any section of the `phrase`.
 - Using `String.indexOf()`, print the `index` of the first matching `string` found in the `phrase`.
