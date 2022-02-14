@@ -18,7 +18,7 @@ homework:
 ---
 
 ## 1. Review: Capitalize utility function
-### Materials
+### Demo: Create form for capitalizing strings
 - [Refactor code into functions](https://gist.github.com/acidtone/90355d3bdbcf770be4a642939f58cfd7).
 
 ## 2. Arrays
@@ -27,7 +27,15 @@ homework:
 - MDN: [Common Array Operations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - Video [Introduction to Arrays with JavaScript](https://www.youtube.com/watch?v=arIhhRd1RPc) by Steve Griffith
 
-[Slides: Arrays and Strings](https://sait-wbdv.github.io/slides/w22/cpnt262/js-arrays-strings.html)
+**[Slides: Arrays and Strings](https://sait-wbdv.github.io/slides/w22/cpnt262/js-arrays-strings.html)**
+
+### Breakout Activity
+In groups of 3-4, create some more sample arrays for [this Gist](https://gist.github.com/acidtone/61ed05c9fe7fe85fd278ea9a84db7203).
+1. As a group, decide on a topic for your list;
+2. One member create a Gist or GH repo to share your list;
+3. Using the [`nouns.js`](https://gist.github.com/acidtone/61ed05c9fe7fe85fd278ea9a84db7203#file-nouns-js) list as an example, brainstorm items for your array and save them to your Gist/repo.
+
+You will be asked to submit your share link in the main room so your Instructor can add it to the above Gist.
 
 ## 3. Strings and string methods
 ### Materials
