@@ -20,6 +20,7 @@ homework:
 ## 1. Review: Capitalize utility function
 ### Demo: Create form for capitalizing strings
 - [Refactor code into functions](https://gist.github.com/acidtone/90355d3bdbcf770be4a642939f58cfd7).
+- [starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-14-arrays-strings/01-capitalize-function-starter)
 
 ## 2. Arrays
 ### Materials
