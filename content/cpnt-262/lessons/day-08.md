@@ -57,9 +57,10 @@ You will be asked to submit your share link in the main room so your Instructor 
 Using [this starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-14-arrays-strings/05-array-string-lab-starter) try the following to practice your arrays and strings:
 - Using `String.startsWith()`, print a "yes" or "no" response stating whether or not the `string` is matches the start of the `phrase`. 
 - Using `String.endsWith()`, state whether or not the `phrase` is a question.
-- Using `String.includes()`, print a "yes" or "no" response stating whether or not the `string` is matches any section of the `phrase`.
+- Using `String.includes()`, print a "yes" or "no" response stating whether or not the `string` matches any section of the `phrase`.
 - Using `String.indexOf()`, print the `index` of the first matching `string` found in the `phrase`.
 - Add the `<textarea>` counter back into the starter form.
+- Using `String.split()`, refactor the `<textarea>` counter to be a word counter.
 
 ### Stretch Lab
 - Add a second `string` field to the form and use `String.replaceAll()` to print a new `phrase` where the first `string` has been replaced with the second `string`.
