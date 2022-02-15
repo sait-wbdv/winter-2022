@@ -35,7 +35,7 @@ This achievement will be marked out of **5 points** where you will:
     - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
     - Journal: Include self-assessments, observations, research, etc under the heading "Code Journal". 
 
-Points will be deducted for code that is too similar to examples shown in class.
+Points will be deducted for code that is too similar to examples shown in class or is uncommented.
 
 ---
 
