@@ -6,6 +6,9 @@ released: true
 homework: 
 ---
 
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-11-validation)
+
 ## Housekeeping
 - Question: Why does `3 > 2 > 1` evaluate to `false`?
 - This afternoon: Dark Mode in VueJS/Nuxt

@@ -6,6 +6,9 @@ released: true
 homework: 
 ---
 
+## Recap
+- [in-class code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-14-arrays-strings)
+
 ## Housekeeping
 - Lab time facilitator schedule (for now):
     - Monday
