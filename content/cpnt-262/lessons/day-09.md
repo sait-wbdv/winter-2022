@@ -20,7 +20,7 @@ homework:
 
 ### Demo
 - Add a second `string` field to the form and use `String.replaceAll()` to print a new `phrase` where the first `string` has been replaced with the second `string`.
-- Using `String.split()`, refactor the `<textarea>` counter to be a word counter.
+- Using `String.matchAll()`, find all instances of `string` that occur in `phrase`.
 
 ## 2. `for` Loop
 ### Materials
