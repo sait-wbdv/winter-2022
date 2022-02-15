@@ -25,6 +25,8 @@ homework:
 ### Materials
 - MDN: [`for` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)
 
+[Slides: `for` Loop](https://sait-wbdv.github.io/slides/w22/cpnt262/js-for-loops.html)
+
 ### Demo: Output 1-100 as a bulleted list
 - Starter Code: [Print 1-to-100 with a `for` Loop](https://gist.github.com/acidtone/e87aa5564ae1b286beca66b07d52550f)
 
