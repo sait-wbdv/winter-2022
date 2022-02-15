@@ -19,6 +19,7 @@ homework:
 - [starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-14-arrays-strings/05-array-string-lab-starter) from yesterday
 
 ### Demo
+- Add a second `string` field to the form and use `String.replaceAll()` to print a new `phrase` where the first `string` has been replaced with the second `string`.
 - Using `String.split()`, refactor the `<textarea>` counter to be a word counter.
 
 ## 2. `for` Loop
