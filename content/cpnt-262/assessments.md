@@ -33,8 +33,8 @@ Bite-sized assessments to introduce you to fundamental topics.
 4. [If This, Then That](/cpnt-262/assignments/achievement-4) (conditional code)
     - Due: Tuesday, Feb 15
     - Weight: 5% of the final mark
-5. Groundhog Day (loops)
-    - Due: Thursday, Feb 17
+5. [Groundhog Day](/cpnt-262/assignments/achievement-5) (loops)
+    - Due: Friday, Feb 18
     - Weight: 5% of the final mark
 
 ## Vanilla JS Individual Assignment
