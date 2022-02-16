@@ -58,16 +58,54 @@ While they are not css frameworks, they can be used with frameworks if you so de
   - Fork [this repo](), it has a completely unstylized webpage
   - Add tailwind to the head of the html page using a cdn
   - Style the content with tailwind directly in your html
+    - text
+    - layout
+    - colors
   - **TIP** Keep the [tailwind docs](https://tailwindcss.com/) open next to your editor, use `Ctrl K` to quick search for the code you need
+    - Also, many tailwind utilities are the same as css properties, or very similar.
+      - ie: set display to flex by adding `class="flex"`, and then make it flex-column by writing `class="flex flex-col` --> Directly in your html
 - **Resources**
   - [Review this documentation](https://tailwindcss.com/docs/installation/play-cdn) for information on how to add tailwind to a project
   - [Make sure to add the tailwind intellisense plugin to vscode](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-### Tailwind Configuration
+### Configure Tailwind as an NPM Dependency
 
 Most npm packages require some level of configuration to make them work in a project. This will vary from package to package and also project to project. The most important takeaway here is to familiarize yourself with using docs to properly set up an npm package in your project - and in a way that enhances our project.
 
-#### Breakout Session: Tailwind Config
+#### Breakout Session: Tailwind Setup
+
+- Steps:
+  - Fork and clone [this repository]()
+  - Set it up as an npm project by running `npm init` **in the root project folder**
+  - Follow the steps on the [Tailwind Website](https://tailwindcss.com/docs/installation)
+    - **TIP** use `npx tailwindcss init --full` to generate a full set of stylings to work from
+    - add `@layer base` etc to a normal css file
+  - Verify that your tailwind styles work by adding some obvious changes
+  - Push your repo
+
+#### Tailwind Configuration
+
+- Steps:
+
+  - Add fonts to the `tailwind.config.js` file
+  - Add 2 colors to the `tailwind.config.js` file
+  - Add default font styles inside `@layer base {}` in your css file
+  - to use tailwind properties in your css file, add them with `@apply`
+
+- Example:
+
+```
+@layer base {
+  h1 {
+    @apply text-3xl font-bold text-center text-blue-500 hover:text-blue-700;
+  }
+}
+```
+
+- Resources:
+  - [Tailwind Docs Configuration Page](https://tailwindcss.com/docs/configuration)
+  - [How to use `@apply` and `@layer`](https://tailwindcss.com/docs/functions-and-directives#layer)
+  - [Ashlyn's Tailwind Config Gist](https://gist.github.com/lilyx13/f1c82147032f0b11a1ea8e6c36c681f6)
 
 ### Useful links
 
