@@ -40,7 +40,20 @@ homework:
 
 ## Lab Time
 ### Public JSON APIs
+- Try using `fetch()` to retrieve placeholder data from [JSON Placeholder](https://jsonplaceholder.typicode.com/), such as:
+    - [GET /photos](https://jsonplaceholder.typicode.com/photos)
+        - returns an array
+    - [GET /photos/8](https://jsonplaceholder.typicode.com/photos/8)
+        - returns a single object
+    - [GET /todos](https://jsonplaceholder.typicode.com/todos)
+        - returns an array
+    - [GET /todos/5](https://jsonplaceholder.typicode.com/todos/5)
+        - returns a single object
+- Here's a list of some of [Tony's favourite APIs](https://gist.github.com/acidtone/673dfc5c11ce06e9e8cd6ce33609eb3c) to get you started with real data.
 - Using this [List of Public APIs](https://github.com/public-apis/public-apis), find an endpoint (a URL that returns a `json` object, not an HTML page) that returns either an object or an array of objects. You will use this for an activity tomorrow.
+    - Tips - pick APIs where:
+        - Auth is `no`
+        - CORS is `yes`
 
 ---
 
