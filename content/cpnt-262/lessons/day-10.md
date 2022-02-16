@@ -21,6 +21,8 @@ homework:
     - [Introducing asynchronous Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
 - Video: [Async JS Crash Course - Callbacks, Promises, Async Await](https://www.youtube.com/watch?v=PoRJizFvM7s) by Brad Traversy
 
+[Slides: Asynchronous Javascript](https://sait-wbdv.github.io/slides/w22/cpnt262/js-async.html)
+
 ## 3. Fetching JSON Data
 ### Materials
 - [How to Use Fetch with async/await](https://dmitripavlutin.com/javascript-fetch-async-await/)
