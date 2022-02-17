@@ -20,7 +20,7 @@ homework:
 ### Materials
 - [The Basics of Exception Handling in JavaScript](https://www.section.io/engineering-education/exception-handling-in-javascript/)
 - MDN: [`try`/`catch` blocks](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
-- Gist [Asynchronous data with async/await](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
+- Gist: [Asynchronous data with async/await](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
 [Slides: Handling Exceptions](https://sait-wbdv.github.io/slides/w22/cpnt262/js-exceptions.html)
 
 ## 3. Demo: Disney Character API
@@ -31,6 +31,8 @@ homework:
     - [Working_with_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 - [REST APIs: Practice endpoints](https://gist.github.com/acidtone/673dfc5c11ce06e9e8cd6ce33609eb3c)
 - [List of Public APIs](https://github.com/public-apis/public-apis)
+- Gist: [Asynchronous data with async/await](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
+
 
 ### Breakout Activity: Find the array
 You will be working in pairs. Using your knowledge of [dot notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors#dot_notation), and the randomIndex function created this morning:
