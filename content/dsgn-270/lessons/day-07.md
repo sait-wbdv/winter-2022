@@ -10,4 +10,6 @@ homework:
         link: https://www.figma.com/best-practices/five-ways-to-improve-your-prototyping-workflow/
       - title: How to create a prototype from a wireframe (article + video)
         link: https://www.freecodecamp.org/news/designing-a-website-ui-with-prototyping/
+      - title: Kevin Powell on Prototyping in Figma (17min video)
+        link: https://www.youtube.com/watch?v=ps6p9e6QmgY
 ---
