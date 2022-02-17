@@ -38,7 +38,7 @@ Bite-sized assessments to introduce you to fundamental topics.
     - Weight: 5% of the final mark
 
 ## Vanilla JS Individual Assignment
-**Fetch Data from an API**
+**[Fetch Data from an API](/cpnt-262/assignments/assignment-1)**
 - Due: Tuesday, Feb 22
 - Weight: 15% of final mark
 
