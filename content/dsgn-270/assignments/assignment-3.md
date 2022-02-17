@@ -32,7 +32,7 @@ This assignment will be marked out of 20 points, which will be given for each of
 
 ### Logo Design: 5 points
 
-- Design makes sense
+- Design makes uses of
 
 ### Design Variations: 5 points
 
