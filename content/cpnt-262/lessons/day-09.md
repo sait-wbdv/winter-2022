@@ -40,6 +40,7 @@ In groups of two or three, attempt the code-interview question listed under [Act
 
 ### Demo: Pick `x` number of random items
 - Inspiration: Tony's [Namor App](https://acidtone.github.io/namor/) (random phrase generator that uses a `for` loop)
+- [starter code](https://github.com/sait-wbdv/in-class-w22/tree/main/02-15-for-loops/06-phrase-generator-starter)
 
 ---
 
