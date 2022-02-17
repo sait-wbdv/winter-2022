@@ -3,7 +3,7 @@ title: DSGN 270  Assignment 3 - SVG Logo Design
 description: Create a logo using an svg. Optimize it and deploy it to a web page
 ---
 
-- Due:
+- Due: March 16
 - Weight: 20%
 
 ## Scenario

@@ -3,7 +3,7 @@ title: DSGN 270 Assignment 4 - Figma Prototype
 description: Build a prototype of a web page in figma.
 ---
 
-- Due:
+- Due: March 21
 - Weight: 20%
 
 ## Scenario
