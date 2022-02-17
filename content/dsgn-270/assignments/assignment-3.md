@@ -3,7 +3,24 @@ title: DSGN 270  Assignment 3 - SVG Logo Design
 description: Create a logo using an svg. Optimize it and deploy it to a web page
 ---
 
+- Due:
+
 ## Scenario
+
+You have been hired to create an svg logo for a client's website. The client wants the logo to be able to be able to have both monochrome and coloured versions. You have complete creative control over the design.
+
+For your proof of concept, you must supply 2 versions of your design. They must be optimized using [svgomg](https://jakearchibald.github.io/svgomg/).
+
+- Version Options:
+  - Position of text in relation to image
+  - Monochrome and coloured
+  - Design Variations
+
+You must also supply an html page that shows your logo variations in use.
+
+- One version must be added directly onto the html page
+  - The paths need to be styled using css
+- The second version must be added using an `img` tag
 
 ## Instructions
 
@@ -13,13 +30,27 @@ description: Create a logo using an svg. Optimize it and deploy it to a web page
 
 This assignment will be marked out of 20 points, which will be given for each of the following:
 
-### : 5 points
+### Logo Design: 5 points
 
-### : 5 points
+- Design makes sense
 
-### : 5 points
+### Design Variations: 5 points
+
+- SVG quality
+- Uses one of the above specified variations
+
+### SVG in HTML: 5 points
+
+- CSS is used to style paths
+- Colour styled using css
 
 ### General: 5 points
+
+- README file that includes:
+  - Name and course number
+  - Course Number
+  - Link to github repo and live github page
+  - Brief description of your design concept
 
 ---
 
