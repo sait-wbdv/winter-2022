@@ -20,7 +20,7 @@ homework:
 ### Materials
 - [The Basics of Exception Handling in JavaScript](https://www.section.io/engineering-education/exception-handling-in-javascript/)
 - MDN: [`try`/`catch` blocks](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
-
+- Gist [Asynchronous data with async/await](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
 [Slides: Handling Exceptions](https://sait-wbdv.github.io/slides/w22/cpnt262/js-exceptions.html)
 
 ## 3. Demo: Disney Character API
