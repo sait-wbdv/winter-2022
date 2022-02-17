@@ -32,6 +32,7 @@ homework:
 - [REST APIs: Practice endpoints](https://gist.github.com/acidtone/673dfc5c11ce06e9e8cd6ce33609eb3c)
 - [List of Public APIs](https://github.com/public-apis/public-apis)
 - Gist: [Asynchronous data with async/await](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
+- Install: [Postman](https://www.postman.com/) - A browser for working with APIs
 
 
 ### Breakout Activity: Find the array
