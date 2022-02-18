@@ -8,7 +8,7 @@ homework:
 
 ## Housekeeping
 - Early dismissal at noon
-- [Tentative Assignment Schedule](https://sait-wbdv.netlify.app/cpnt-201/assessments)
+- [Tentative CPNT 201 Assignment Schedule](https://sait-wbdv.netlify.app/cpnt-201/assessments)
     - Assignments to be announced next week
 ---
 
