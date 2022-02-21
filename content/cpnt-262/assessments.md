@@ -39,7 +39,7 @@ Bite-sized assessments to introduce you to fundamental topics.
 
 ## Vanilla JS Individual Assignment
 **[Fetch Data from an API](/cpnt-262/assignments/assignment-1)**
-- Due: Tuesday, Feb 22
+- Due: Wednesday, Feb 23
 - Weight: 15% of final mark
 
 ### VueJS Assessments
