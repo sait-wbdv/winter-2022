@@ -17,13 +17,13 @@ For this assignment you **cannot** add tailwind via a cdn, you must set up a tai
 
 Review the following categories on how this assignment will be graded.
 
-#### NPM Project Setup
+#### NPM Project Setup (5pts)
 
 - Properly configured `package.json`
 - `node_modules/` added to `.gitignore`
 - add a tailwind build command to the `scripts`
 
-#### Tailwind Configuration
+#### Tailwind Configuration (5pts)
 
 - `tailwind.config.js` file added to project
 - at least the following present in your tailwind config.
@@ -34,13 +34,31 @@ Review the following categories on how this assignment will be graded.
 - `assets/css/main.css` contains tailwind imports
 - `main.css` file or `tailwind.css.config` file used to set up default font sizes
 
-#### Content Styling
+#### Content Styling (5pts)
 
-- All content is styled using only tailwind styling approaches
-- Design is responsive
+- All content is styled using only tailwind styling methods (no custom classes)
+- Design is responsive and mobile first
+- Design uses colors and fonts defined in the `tailwind.config.js` file
 
-#### General Requirements
+#### General Requirements (5pts)
+
+- Project is in a github repo named `cpnt201-a3`
+- Add a `README.md` file to the root of your project
+  - Readme contains:
+    - Basic Info:
+      - your name
+      - course and assignment number
+      - link to deployed github page
+      - link to github repo
+      - attributions to assets
+    - Additional Information
+      - a brief note on your experience using tailwind
+    - a brief note on your understanding of whata css framework is.
+- Note that links in both your readme and submission need to be accurate
 
 ---
 
 ## Submission Instructions
+
+- Submit the zipped folder to brightspace
+- Submit your live page and repo link in the text area of your submission.
