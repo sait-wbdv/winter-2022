@@ -15,7 +15,7 @@ description:
 - Weight: 20% of final course mark
 - Due: Mon Jan 17 @11:59pm
 
-### Assignment 3: Tailwind
+### Assignment 3: [Tailwind](/cpnt-201/assignments/assignment-3)
 
 - Weight: 20% of final course mark
 - Due: Sun Feb 27 @ 11:59
