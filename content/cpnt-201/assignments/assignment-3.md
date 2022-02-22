@@ -14,17 +14,25 @@ You have been given a git repo with a simple unstyled html page. You are require
 
 For this assignment you **cannot** add tailwind via a cdn, you must set up a tailwind.config.js file and use it appropriately.
 
-### Rubric
+### Resources
+
+- [Tailwind Documentation](https://tailwindcss.com/)
+- [Tailwind Utility First Fundamentals](https://tailwindcss.com/docs/utility-first)
+- [Tailwind Setup Guide](https://tailwindcss.com/docs/installation)
+
+---
+
+## Rubric
 
 Review the following categories on how this assignment will be graded.
 
-#### NPM Project Setup (5pts)
+### NPM Project Setup (5pts)
 
 - Properly configured `package.json`
 - `node_modules/` added to `.gitignore`
 - add a tailwind build command to the `scripts`
 
-#### Tailwind Configuration (5pts)
+### Tailwind Configuration (5pts)
 
 - `tailwind.config.js` file added to project
 - at least the following present in your tailwind config.
@@ -35,13 +43,13 @@ Review the following categories on how this assignment will be graded.
 - `assets/css/main.css` contains tailwind imports
 - `main.css` file or `tailwind.css.config` file used to set up default font sizes
 
-#### Content Styling (5pts)
+### Content Styling (5pts)
 
 - All content is styled using only tailwind styling methods (no custom classes)
 - Design is responsive and mobile first
 - Design uses colors and fonts defined in the `tailwind.config.js` file
 
-#### General Requirements (5pts)
+### General Requirements (5pts)
 
 - Project is in a github repo named `cpnt201-a3`
 - Add a `README.md` file to the root of your project
