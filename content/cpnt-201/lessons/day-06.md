@@ -20,6 +20,11 @@ homework:
         description: This article covers how to create responsive designs by using tailwind's breakpoints.
 ---
 
+## Assignment 3: Tailwind CSS
+
+- [Assignment Instructions](/cpnt-201/assignments/assignment-3)
+- Due: Sunday February 27 @ 11:59PM
+
 ## What is a CSS Framework?
 
 CSS Frameworks are designed to make styling content easier and more maintainable. Technology and design are both fast moving fields and in web development, developers need to be able to respond to changes in branding and design concepts with minimal breaking changes and tech debt.
