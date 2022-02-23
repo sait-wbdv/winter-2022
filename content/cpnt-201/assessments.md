@@ -20,7 +20,7 @@ description:
 - Weight: 20% of final course mark
 - Due: Sun Feb 27 @ 11:59
 
-### Assignment 4: `npm` Pair Project
+### Assignment 4: [`npm` Pair Project](/cpnt-201/assignments/assignment-4)
 
 - Weight: 20% of final course mark
 - Due: Tues Mar 1 @ 11:59

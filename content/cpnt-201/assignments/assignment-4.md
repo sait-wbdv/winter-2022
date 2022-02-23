@@ -5,7 +5,7 @@ weight: 20%
 date: 2022-02-22T23:59:00.000Z
 ---
 
-- Due:
+- Due: Tuesday March 1 @ 11:59PM
 - Weight: 20%
 
 ## Instructions
