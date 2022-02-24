@@ -5,7 +5,7 @@ date: 2022-02-25T15:00:00.000Z
 released: false
 homework:
   - title: CMS Intro
-    - tasks:
+      tasks:
       - title: JAMStack
         link:
         description:
@@ -75,3 +75,5 @@ However new types of CMS's are starting to emerge as well. The JAMStack has rece
 - Activity: Scan through documentation and between storyblok, sanity, and strapi, and take notes on the strengths and weakenesses of each
 
 ---
+
+## Lab Time
