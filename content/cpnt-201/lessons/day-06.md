@@ -1,7 +1,7 @@
 ---
 title: Tailwind CSS
 description: In this class, we will be covering how to use tailwindcss in a project.Using these tools, we will get first hand practice using npm packages
-date: 2022-02-22T15:00:00.000Z
+date: 2022-02-23T15:00:00.000Z
 released: true
 homework:
   - title: Tailwind
