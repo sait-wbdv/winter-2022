@@ -1,6 +1,6 @@
 ---
 title: Assignment 4 - Nuxt Framework Setup
-description: For this assignment, you will set up
+description: For this assignment, you will set up a basic nuxt project in a github repo
 weight: 20%
 date: 2022-02-22T23:59:00.000Z
 ---
@@ -10,23 +10,16 @@ date: 2022-02-22T23:59:00.000Z
 
 ## Instructions
 
-In groups of 2, you will set up and configure a nuxt 2 project. NPM adds an extra level of complexity to a git workflow, you will both be required to add 2 of the specified modules to the project as well as 1 extra npm package (nuxt module or other).
-
-You will be required to submit a minimum of 8 git commits which must be documented in your individual submission.
+For this assignment, you will set up and configure a nuxt 2 project. You will be required to add specific npm packages to your project (these ones are all nuxt modules). You will also be required to make a minimum of 10 git commits throughout your project.
 
 ### Steps
 
 - Initialize a nuxt 2 project
 - Add the following modules:
-
   - [Nuxt Tailwind](https://tailwindcss.nuxtjs.org/)
   - [Nuxt Storyblok](https://github.com/storyblok/storyblok-nuxt)
   - [Nuxt Image](https://image.nuxtjs.org/)
-  - [Nuxt Composition Api](https://composition-api.nuxtjs.org/)
-  - Each of you must choose 1 other nuxt module or npm package and add it to the project.
-    - easier: [nuxt modules](https://modules.nuxtjs.org/)
-    - harder: [other npm packages](https://www.npmjs.com/)
-
+  - Choose another module to install from: [nuxt modules](https://modules.nuxtjs.org/)
 - Add the nuxt modules to either the `buildModules` or `modules` objects in the `nuxt.config.js` file as per their documentation
   - note: for storyblok, the doc asks for a key, you don't need this yet.
 
@@ -34,14 +27,11 @@ You will be required to submit a minimum of 8 git commits which must be document
 
 [Nuxt](https://nuxtjs.org/) is a javascript frontend framework built around [vuejs](https://vuejs.org/) that is used to build websites and web applications.
 
-We will be using nuxt in cpnt-262. This assignment should give you a basic idea of what to look for when configuring a frontend framework. You may also run into package incompatibilities that need to be resolved, this is a common aspect of dev work in many fields.
+We will be using nuxt in cpnt-262. This assignment should give you a basic idea of what to look for when configuring a frontend framework. You may also run into package incompatibilities that need to be resolved, this is a common aspect of dev work.
 
 ---
 
 ## Rubric
-
-- **Bonus Points**
-  - npm security vulnerabilities resolved
 
 ### NPM Project Setup (5pts)
 
@@ -49,6 +39,11 @@ We will be using nuxt in cpnt-262. This assignment should give you a basic idea 
 - package.json is properly set up
 - scripts all work
 - All specified npm packages have been installed
+
+### Nuxt Modules (2pts)
+
+- Modules added to the package.json file
+- Modules are set up following the guidelines on their respective documentation
 
 ### Nuxt Configuration (3pts)
 
@@ -58,31 +53,26 @@ We will be using nuxt in cpnt-262. This assignment should give you a basic idea 
 
 ### Git Commits (5pts)
 
-- 10 commits each (0.5pts/commit)
-  - tips:
-    - commit often
-    - don't push broken code
-    - pull before you push
-    - communicate
-
-### Individually added npm package (2pts)
-
-- added package to the package.json file
-  - if it's a nuxt module, add it to the `nuxt.config.js` file
-- put a link to the doc page for your module in your readme
+- 10 commits (0.5pts/commit)
+  - create in relation to specific tasks while setting up your repo
+  - reflect specifics about your commit in the message
+- Copy the messages and hashes into your readme in an ordered list
+- You can have more than 10 commits, but only 10 need to be documented.
 
 ### General Requirements (5)
 
 - Project has a `README.md` file in the root of the repo
-- both of your names with links to your github accounts
   - ie: [First Last](https:/github.com/your-gh-account)
-- the commit hashs for your commits
-  - **only do this for your own fork**
 - the link to your npm package that you added
 - A short description of why you chose this package.
+- Ordered list of git commit messages
 
-  ## Submission Instructions
+### Bonus Point (1)
 
-  - Submit a zipped folder of your repo to brightspace
-  - Zipped folder must **not** include `node_modules`
-  - Submit repo link to **your fork** of the project
+- npm security vulnerabilities resolved
+
+## Submission Instructions
+
+- Submit a zipped folder of your repo to brightspace
+- Zipped folder must **not** include `node_modules`
+- Submit repo link

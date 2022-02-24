@@ -6,7 +6,7 @@ released: true
 homework:
 ---
 
-## [CPNT-201 Assignment 4]('/cpnt-201/assignments/assignment-4')
+## [CPNT-201 Assignment 4](/cpnt-201/assignments/assignment-4)
 
 - Due: Tuesday March 1st @ 11:59PM
 - Objective: Install and set up a NuxtJS instance
@@ -66,6 +66,7 @@ homework:
 - Follow steps outlined in the documentation
 - Select from options provided
   - if you're unsure of what the options mean, take a moment to google your options
+- add [tailwind nuxt module](https://tailwindcss.nuxtjs.org/)
 
 ---
 
