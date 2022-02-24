@@ -3,11 +3,24 @@ title: Headless Content Management Systems
 description: An overview of CMS approaches with a focus on headless CMS and JAMstack development.
 date: 2022-02-25T15:00:00.000Z
 released: false
+homework:
+  - title: CMS Intro
+    - tasks:
+      - title: JAMStack
+        link:
+        description:
+      - title: What is a lamp stack?
+        link: https://larryludwig.com/lamp-stack/
+---
+
+## What is Content Management
+
+- Learning Objective: How to see a website as a collection of data
+- Activity: Use figjam to create a visual description of a sitemap
+
 ---
 
 ## What is a CMS?
-
-# Content Management Systems and Site Rendering
 
 CMS's are used to organze content on websites. This includes text content like blogs and articles, images, videos, products, etc.
 
@@ -32,11 +45,33 @@ However new types of CMS's are starting to emerge as well. The JAMStack has rece
     - Beautiful editor, 14 day free trial
 
 - Traditional CMS
-  : Backend and frontend content are tightly together. LAMP stack.
-
+  - Backend and frontend content are built together
+  - Often uses a [LAMP stack](<https://en.wikipedia.org/wiki/LAMP_(software_bundle)>)
+    - **L**inux: Operating System
+    - **A**pache: HTTP Server
+    - **M**ySQL: Relational Database
+    - **P**HP/Perl/Python: Programming Language
+  - Though other stacks such as WAMP or MAMP are also used.
 - Examples includes:
-  - Wordpress, Drupal...
+  - [Wordpress](https://wordpress.org/)
+  - [Drupal](https://drupal.org)
 
 ### Why Headless?
 
 - We will be using a headless CMS because it is more flexible, secure, and developer friendly than traditional cms options.
+- JAMstack allows for content editors and developers to be able to use tools that work best with their workflow.
+- Headless CMS allows deployment of content to multiple frontends, this is more challenging with a traditional CMS
+
+---
+
+## JAMstack Overview
+
+- Learning Objective: understand what a jam stack is in general
+- Activity: Explore storyblok cms
+
+## JAMstack Examples
+
+- Learning Objective: familiarize with the flexibility of options using jamstack
+- Activity: Scan through documentation and between storyblok, sanity, and strapi, and take notes on the strengths and weakenesses of each
+
+---
