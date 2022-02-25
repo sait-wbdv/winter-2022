@@ -2,23 +2,20 @@
 title: Headless Content Management Systems
 description: An overview of CMS approaches with a focus on headless CMS and JAMstack development.
 date: 2022-02-25T15:00:00.000Z
-released: false
+released: true
 homework:
-  - title: CMS Intro
-      tasks:
-      - title: JAMStack
-        link:
-        description:
-      - title: What is a lamp stack?
-        link: https://larryludwig.com/lamp-stack/
 ---
 
 ## What is Content Management
 
-- Learning Objective: How to see a website as a collection of data
-- Activity: Use figjam to create a visual description of a sitemap
+- Content management in web spaces is how website data and assets are stored, edited, and organized
+- Content is organized in a database or schema
 
----
+### Activity: Website Review
+- Look at some websites that you like, try to find content patterns.
+
+### Demonstration Activity
+- Visually Recreate a page's content structures using figjam
 
 ## What is a CMS?
 
@@ -62,18 +59,44 @@ However new types of CMS's are starting to emerge as well. The JAMStack has rece
 - JAMstack allows for content editors and developers to be able to use tools that work best with their workflow.
 - Headless CMS allows deployment of content to multiple frontends, this is more challenging with a traditional CMS
 
+- [Jamstack vs Lampstack structure](https://jamstack.org/)
 ---
 
 ## JAMstack Overview
 
-- Learning Objective: understand what a jam stack is in general
-- Activity: Explore storyblok cms
+- **J**avascript: Language
+- **A**PI: Content Delivery
+- **M**arkup: Content
 
-## JAMstack Examples
+### Important Characteristics
+- Scalable: Easier to scale by decoupling cms and frontend
+- Fast Performance: Prebuilt static site
+- More Secure: No Server Vulnerabilities
+- Developer Experience: Designed to give dev and content editors best working environments
 
-- Learning Objective: familiarize with the flexibility of options using jamstack
-- Activity: Scan through documentation and between storyblok, sanity, and strapi, and take notes on the strengths and weakenesses of each
+### Jamstack workflow
+- [See this link](https://jamstack.wtf/#meaning)
+
+### Activity
+- Research different headless cms'
 
 ---
 
 ## Lab Time
+
+
+<home-work :home-work="homework">
+
+### Storyblok
+
+- [Storyblok Introduction](https://www.storyblok.com/docs/guide/introduction)
+- [Storyblok Schema](https://www.storyblok.com/docs/schema-configuration)
+- [Video Storyblok Visual Editor](https://www.youtube.com/watch?v=6wmS2bNaQg8)
+- [40 minute storyblok tutorial](https://www.youtube.com/watch?v=MVvW4dpNPFA)
+
+### Jamstack
+- [Best Practices](https://jamstack.org/best-practices/)
+- [What is Jamstack and how do I get started?](https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/)
+
+
+</home-work>
