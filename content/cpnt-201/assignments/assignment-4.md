@@ -61,12 +61,19 @@ We will be using nuxt in cpnt-262. This assignment should give you a basic idea 
 
 ### General Requirements (5)
 
-- Project has a `README.md` file in the root of the repo
-  - ie: [First Last](https:/github.com/your-gh-account)
-- the link to your npm package that you added
-- A short description of why you chose this package.
-- Ordered list of git commit messages
-
+- Project is in a github repo named `cpnt201-a4`
+- Add a `README.md` file to the root of your project
+  - Readme contains:
+    - Basic Info:
+      - your name
+      - course and assignment number
+      - link to github repo
+      - attributions to assets
+    - Additional Information
+     - the link to your npm package that you added
+     - A short description of why you chose this package.
+     - Ordered list of git commit messages
+- Note that links in both your readme and submission need to be accurate
 ### Bonus Point (1)
 
 - npm security vulnerabilities resolved
