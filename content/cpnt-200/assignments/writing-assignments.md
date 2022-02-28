@@ -32,7 +32,7 @@ Because these are writing assignments, grammar and spelling will are important. 
 
 ## Post 1 (15%)
 
-- Due: Sunday March 6 @ 11:59PM
+- Due: Tues March 8 @ 11:59PM
 - Weight: 10%
 
 - 200-500 words
@@ -41,7 +41,7 @@ Because these are writing assignments, grammar and spelling will are important. 
 
 ## Post 2 (15%)
 
-- Due: Friday March 11 @ 11:59PM
+- Due: Monday March 14 @ 11:59PM
 
 - 200-500 words
 - include a 3-5 images related to your content

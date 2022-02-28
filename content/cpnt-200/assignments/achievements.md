@@ -7,7 +7,7 @@ weight: 15%
 ## Achievements
 
 - Client Content Requirements Achievement (5%)
-- Paired schema achievement (5%)
+- Client Focused Schema Achievement (5%)
 - REST Query Achievement (5%)
 - Storyblok Nuxt Component Achievement
 

@@ -8,7 +8,7 @@ homework:
 
 ## Assigments
 
-### [Achievement: Client Content Requirements](/cpnt-200/assignments/achievements/)
+### [Achievement: Client Content Requirements](/cpnt-200/assignments/achievements)
 
 - Due: **February 28th** @ 11:59pm
 - Weight: 5%
