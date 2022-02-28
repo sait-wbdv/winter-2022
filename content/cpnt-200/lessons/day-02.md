@@ -1,28 +1,21 @@
 ---
+day: Day 1
 title: Content Organization and Schemas
 description: An overview of CMS approaches with a focus on headless CMS and JAMstack development.
 date: 2022-03-01T15:00:00.000Z
 released: true
+assignments:
+  - assignment:
+    type: Achievement
+    name: Client Content Requirements
+    link: /cpnt-200/assignments/achievements
+    due: March 1
+  - assignment:
+    type: Assignment
+    name: Site Map Organization
+    link: /cpnt-200/assignments/assignment-1
+    due: March 6
 homework:
----
-
-## Assigments
-
-### [Achievement: Client Content Requirements](/cpnt-200/assignments/achievements)
-
-- Due: **February 28th** @ 11:59pm
-- Weight: 5%
-- Primary Tool: A word processor
-- Goal: Examine content types without using developer language.
-- **Don't overthink this, write based on gut feeling**
-
-### [Assignment 1](/cpnt-200/assignments/assignment-1/)
-
-- Due Sunday March 6 @ 11:59PM
-- Weight: 20%
-- Primary Tool: Figjam on Figma
-- Goal: Create a visual representation of a site map and document recurring content types
-
 ---
 
 ## Sitemaps and Website Organization
