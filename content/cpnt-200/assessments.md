@@ -8,7 +8,7 @@ Small 5 point activities
 
 ### [Client Content Requirements](/cpnt-200/assignments/achievements)
 
-- Due: Monday February 28th
+- Due: Tuesday February 29th
 
 ### [Client Focused Schema Build](/cpnt-200/assignments/achievements)
 

@@ -2,10 +2,8 @@
 title: Assignment 2 - Components and Schemas
 description: For this assignment, you will create the schemas for a number of components using storyblok's visual editor. Submissions will screenshots of your components as well as an exported json file that shows the components.
 weight: 30%
+due: Sunday March 13th @ 11:59PM
 ---
-
-- Due Sunday March 13th @ 11:59PM
-- Weight: 30%
 
 ## Overview
 
@@ -46,43 +44,6 @@ You will also submit a README.md file that contains your personal reflection fro
    - Write up a brief personal reflection after your first test in your README. Document what felt like it needed to be changed and how you changed it. Point form is fine.
 8. Optimize your components
    - Remove, add, or edit your components based on your testing.
-
-## Rubric
-
-### Content Type: Page or Section (5pts)
-
-- Schema setup quality
-- Easy to follow and use (good descriptions)
-- Use of nested components
-- Overall design
-- Follows modern design standards
-
-### Content Type: Article or Product (5pts)
-
-- Schema setup quality
-- Easy to follow and use (good descriptions)
-- Use of nested components
-- Overall design
-- Follows modern design standards
-
-### Content Types: Card (5pts)
-
-- Schema setup quality
-- Easy to follow and use (good descriptions)
-- Use of nested components
-- Overall design
-- Follows modern design standards
-
-### Nested Components (10pts)
-
-- Proper uses of fields
-- Reusable
-- Consistent naming conventions
-
-### Readme (5pts)
-
-- Basic project information
-- Useful information on how you optimized your components
 
 ---
 

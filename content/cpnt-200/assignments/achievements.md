@@ -1,7 +1,20 @@
 ---
 title: CPNT 200 Achievements
 descriptions: small activities
-weight: 15%
+weight: 15% Total
+due:
+  - assign:
+    name: Achievement 1
+    date: Feb 29
+  - assign:
+    name: Achievement 2
+    date: March 2
+  - assign:
+    name: Achievement 3
+    date: March 7
+  - assign:
+    name: Achievement 4
+    date: March 11
 ---
 
 ## Achievements
@@ -13,7 +26,7 @@ weight: 15%
 
 ## Client Content Requirements Achievement
 
-- Due: Monday February 28th @ 11:59PM
+- Due: Tuesday February 29th @ 11:59PM
 - Weight: 5%
 
 For this achievement, you will be getting into the mind of a client and how they might be perceiving content types. As we are only just starting to learn about schemas and how content is organized in a cms, this will help you understand how you assume data to be organized and grouped prior to building schemas. It will also help you learn to interpret the needs of a non-tech-savvy client.
@@ -42,7 +55,7 @@ You will submit a document file that contains a set of content requirements. Lat
 
 ## Client Focused Schema Achievement
 
-- Due: Wednesday March 2 @ 11:59PM
+- Due: Wednesday March 3 @ 11:59PM
 - Weight: 5%
 
 For this achievement, you will be grouped into pairs and will attempt to build a storyblok content type component based on your partner's requirements from achievement 1. If your partner did not complete the first achievement or doesn't have any ideas of a content requirement that they can give you on the fly, Let Ashlyn know and you will be provided one.

@@ -3,8 +3,16 @@
     <header>
       <h1>{{ assignment.title }}</h1>
       <div class="info">
-        <p v-if="assignment.due">Due: {{ assignment.due }}</p>
-        <p v-if="assignment.weight">Weight: {{ assignment.weight }}</p>
+        <p
+          v-if="assignment.due"
+          v-for="assign in assignment.due"
+          :key="assign.id"
+        >
+          {{ assign.name }} -- {{ assign.date }}
+        </p>
+        <p class="weight" v-if="assignment.weight">
+          Weight: {{ assignment.weight }}
+        </p>
       </div>
       <hr />
     </header>
@@ -29,6 +37,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 main {
   max-width: 85%;
@@ -41,17 +50,26 @@ header {
 
   padding: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 header h1 {
   font-weight: bold;
 }
 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 1rem 3rem;
   margin-top: 1rem;
   border-radius: 6px;
   max-width: fit-content;
-
   background-color: #169bd4;
+}
+.info p {
+  margin: 0.2rem;
+}
+.weight {
+  margin: 0.5rem;
+  font-weight: bold;
+  align-self: center;
 }
 </style>
