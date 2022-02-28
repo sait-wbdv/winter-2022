@@ -1,7 +1,7 @@
 ---
 title: CPNT 200 Achievements
 descriptions: small activities
-weight: 20%
+weight: 25%
 ---
 
 ## Achievements
@@ -9,7 +9,7 @@ weight: 20%
 - Client content requirements achievement (5%)
 - Paired schema achievement (5%)
 - REST query achievement (5%)
-- Netlify deployment achievement (5%)
+- Netlify deployment research achievement (10%)
 
 ## Client Content Requirements Achievement
 
@@ -95,10 +95,10 @@ Using postman, make 5 queries from a space set up using storyblok's demo content
 
 ---
 
-## Netlify Deployment Achievement
+## Netlify Deployment Research Achievement
 
 - Due: Wednesday March 9th @ 11:59PM
-- Weight: 5%
+- Weight: 10%
 
 For this achievement, you will be writing a small set of instructions for yourself inside your storyblok cms. This is a research focused assignment that is intended for you to practice filtering essential information from online resources on web development.
 
