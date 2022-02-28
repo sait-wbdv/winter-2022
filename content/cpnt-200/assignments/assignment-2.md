@@ -4,7 +4,7 @@ description: For this assignment, you will create the schemas for a number of co
 weight: 30%
 ---
 
-- Due Wednesday March 9th @ 11:59PM
+- Due Sunday March 13th @ 11:59PM
 - Weight: 30%
 
 ## Overview

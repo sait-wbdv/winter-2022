@@ -23,7 +23,7 @@ Because these are writing assignments, grammar and spelling will are important. 
   - article is easy to follow and understand
   - grammar and spelling errors
   - supporting content (images, links)
-- References (2pts)
+- References
   - a nested component used to show references
   - attribute information to sources correctly
     - author, title, and link all need to be present

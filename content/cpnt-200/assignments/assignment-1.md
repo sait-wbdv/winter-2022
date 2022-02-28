@@ -4,9 +4,9 @@ description: Create a visual diagram of a website's sitemap using figjam. Then s
 weight: 20%
 ---
 
-## Assignment 1: Documenting Site Content
+## Assignment 1: Site Content Visual Map
 
-- Due: Friday March 4th @ 11:59PM
+- Due: Sunday March 6th @ 11:59PM
 - Weight: 20%
 
 For this assignment, you will be mapping out a website of your choice using figjam. Reverse engineer the sitemap tree with a top level view of how pages are connected to one another. This part of the assignment is focused on documenting the hierarchy of **pages**.
@@ -73,7 +73,7 @@ Along with your site map, you will also document the content on one page from yo
 
 ## Submission Notes
 
-- In a zip file:
+- In a zip file submit:
   - A pdf of your figjam file.
-  - The `README.md` File
+  - The `README.md` file
 - For a bonus point, add a working shareable link to your figjam file in the text box of your submission.
