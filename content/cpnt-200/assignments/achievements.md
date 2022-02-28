@@ -1,7 +1,7 @@
 ---
 title: CPNT 200 Achievements
 descriptions: small activities
-weight: 25%
+weight: 20%
 ---
 
 ## Achievements
@@ -9,7 +9,6 @@ weight: 25%
 - Client content requirements achievement (5%)
 - Paired schema achievement (5%)
 - REST query achievement (5%)
-- Netlify deployment research achievement (10%)
 
 ## Client Content Requirements Achievement
 
@@ -46,9 +45,8 @@ You will submit a document file that contains a set of content requirements. Lat
 - Due: Wednesday March 2 @ 11:59PM
 - Weight: 5%
 
-For this achievement, you will be grouped into pairs and will attempt to build a storyblok content type component **one** of the content type requirements created by your team member (if they did not complete the 1st achievement, then you will build components for your own achievement 1).
+For this achievement, you will be grouped into pairs and will attempt to build a storyblok content type component based on your partner's requirements from achievement 1. If your partner did not complete the first achievement or doesn't have any ideas of a content requirement that they can give you on the fly, Let Ashlyn know and you will be provided one.
 
-- **important** Your component must make use of nested blok components for full marks.
 - for this assignment, you will submit:
   - a screen cap of each finished component's ui from the content editor.
   - a formatted `.json` file of the content type's schema
@@ -95,26 +93,16 @@ Using postman, make 5 queries from a space set up using storyblok's demo content
 
 ---
 
-## Netlify Deployment Research Achievement
+## Storyblok Nuxt Component Achievement (5pts)
 
-- Due: Wednesday March 9th @ 11:59PM
-- Weight: 10%
+- Due: Friday March 11 @ 11:59PM
+- Weight: 5%
 
-For this achievement, you will be writing a small set of instructions for yourself inside your storyblok cms. This is a research focused assignment that is intended for you to practice filtering essential information from online resources on web development.
+Inside the template provided, there is a `.vue` page where you will need to link a storyblok component so that the content shows up on the page. Edit this file and use the provided code snippits to make the content show up.
 
-### Instructions
+### Rubric
 
-1. Create a simple storyblok component named `article`. If you already have a component like this, use that one.
-2. Look up a tutorial video on youtube for deploying websites to netlify (prioritize ones that focus on nuxt)
-3. Watch the video and take notes on information that stands out to you in your cms.
-   - Make sure to properly attribute the video referenced in your article. the reference should be it's own field and **not** just as text in your article.
-4. Copy the schema of your article into a `.json` file in vscode and make sure that it is formatted
-5. Submit the json file to brightspace
+- Properly set up env file (2pts)
+- Correctly added code to `script` and `template` tags so that your component renders on the page.
 
-### Rubric (5pts)
-
-- 1 point for submitting the filled out schema correctly
-- 1 point for a correctly used reference field
-- 3 points for your article
-  - article content (2)
-  - grammer and writing quality (1)
+### Rubric

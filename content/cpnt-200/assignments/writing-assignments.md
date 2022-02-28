@@ -1,7 +1,7 @@
 ---
 title: Writing Assignments
 description: This is similar to your previous code journals but will take the shape of
-weight: 20%
+weight: 30%
 ---
 
 ## Instructions
@@ -16,10 +16,10 @@ Because these are writing assignments, grammar and spelling will are important. 
 
 ### Rubric
 
-- Topic and Information Accurary (5pts)
+- Topic and Information Accurary (10pts)
   - topic is relevant to web development
   - information is accurate
-- Article structure and grammar (3pts)
+- Article structure and grammar (5pts)
   - article is easy to follow and understand
   - grammar and spelling errors
   - supporting content (images, links)
@@ -30,7 +30,7 @@ Because these are writing assignments, grammar and spelling will are important. 
 
 ---
 
-## Post 1 (10%)
+## Post 1 (15%)
 
 - Due: Sunday March 6 @ 11:59PM
 - Weight: 10%
@@ -39,9 +39,9 @@ Because these are writing assignments, grammar and spelling will are important. 
 - include header image
 - references section
 
-## Post 2 (10%)
+## Post 2 (15%)
 
-- Due: Thursday March 10 @ 11:59PM
+- Due: Friday March 11 @ 11:59PM
 
 - 200-500 words
 - include a 3-5 images related to your content
