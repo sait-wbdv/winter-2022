@@ -16,20 +16,18 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-
+  static: {},
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/reset.css',
     '@/assets/css/utilities.css',
-    '@/assets/css/main.css'
+    '@/assets/css/main.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     // https://www.npmjs.com/package/vue-luxon
     '~/plugins/vue-luxon.js',
-    // https://www.npmjs.com/package/vue-youtube-embed
-    { src: '~/plugins/youtube.js', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -46,6 +44,9 @@ export default {
     // https://image.nuxtjs.org/
     '@nuxt/image',
   ],
+  vite: {
+    experimentWarning: false,
+  },
   googleFonts: {
     families: {
       'Open+Sans': true,
@@ -62,15 +63,20 @@ export default {
     defaultTimeZone: 'America/Edmonton',
     plugins: [
       'utc', // import 'dayjs/plugin/utc'
-      'timezone' // import 'dayjs/plugin/timezone'
-    ] // Your Day.js plugin
+      'timezone', // import 'dayjs/plugin/timezone'
+    ], // Your Day.js plugin
   },
-
   content: {
     // https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
-    plugins: ['remark-definition-list'],
   },
   // https://github.com/nuxt-community/dayjs-module
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ['vee-validate'],
+    postcss: {
+      plugins: {
+        'postcss-preset-env': false,
+      },
+    },
+  },
 };
