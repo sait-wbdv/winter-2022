@@ -2,7 +2,9 @@
 title: Assignment 1 - Site Organization
 description: Create a visual diagram of a website's sitemap using figjam. Then structure content from 1 page in a spreadsheet.
 weight: 20%
-due: Sunday March 6 @ 11:59PM
+due:
+  - assign:
+    date: Sunday March 6 @ 11:59PM
 ---
 
 For this assignment, you will be mapping out a website of your choice using figjam. Reverse engineer the sitemap tree with a top level view of how pages are connected to one another. This part of the assignment is focused on documenting the hierarchy of **pages**.

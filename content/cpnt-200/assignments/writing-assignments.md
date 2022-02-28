@@ -1,6 +1,13 @@
 ---
 title: Writing Assignments
 description: This is similar to your previous code journals but will take the shape of
+due:
+  - assign:
+    name: Post 1
+    date: March 8
+  - assign:
+    name: Post 2
+    date: March 14
 weight: 30%
 ---
 

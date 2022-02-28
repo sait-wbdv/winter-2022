@@ -3,12 +3,8 @@
     <header>
       <h1>{{ assignment.title }}</h1>
       <div class="info">
-        <p
-          v-if="assignment.due"
-          v-for="assign in assignment.due"
-          :key="assign.id"
-        >
-          {{ assign.name }} -- {{ assign.date }}
+        <p v-for="assign in assignment.due" :key="assign.id">
+          {{ assign.name }} <span v-if="assign.name">--</span> {{ assign.date }}
         </p>
         <p class="weight" v-if="assignment.weight">
           Weight: {{ assignment.weight }}
