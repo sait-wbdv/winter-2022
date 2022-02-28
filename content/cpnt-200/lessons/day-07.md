@@ -1,6 +1,6 @@
 ---
-title: Netlify Deployment
-description: Description here
+title: Netlify
+description: We will cover the modern site deployment platform, netlify
 date: 2022-03-08T15:00:00.000Z
 released: false
 ---

@@ -14,6 +14,10 @@ released: false
 
 - Learning Objective: Discuss relationship between developer and content editor
 
+### Tools
+
+- Grammarly
+
 ## Creating Web Content
 
 - Learning Objective: Become more comfortable writing content for web.

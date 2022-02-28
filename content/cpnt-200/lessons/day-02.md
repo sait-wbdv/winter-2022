@@ -1,5 +1,5 @@
 ---
-title: Schemas and Content Organization
+title: Content Organization and Schemas
 description: An overview of CMS approaches with a focus on headless CMS and JAMstack development.
 date: 2022-03-01T15:00:00.000Z
 released: true

@@ -1,27 +1,32 @@
 ---
-title: Storyblok Local Deployment
+title: Storyblok Components
 description: We will deploy storyblok to nuxt so that we can view our content.
 date: 2022-03-02T15:00:00.000Z
 released: false
 ---
 
-## Review Storyblok Data
+## Basic Frontend Configuration
 
-- Learning Objective: Reinforce how to access data from the storyblok api.
-- Activity: Storyblok with postman
+- How to use the provided template for your storyblok content
+- setting up your .env files
+- tweaking components
 
-## Storyblok Bridge
+### Breakout Session (30min)
 
-- Learning Objective: Know how to deploy storyblok to any frontend with the javascript bridge
-- Activity: Access API data
+- Create a new space
+- Download nuxt template and follow [this guide]() to attach your storyblok space to it.
+- This [tutorial from storyblok](https://www.storyblok.com/tp/headless-cms-nuxtjs) offers great information on not only editing components in nuxt, but also on setting up storyblok with nuxt
 
-## Storyblok on the frontend
+## Storyblok Component Building
 
-- Learning Objectives: identify storyblok content's code
+Now, you will be able to create new components and tweak the styling using tailwind in your frontend if you wish.
 
-## How to deploy content from a headless CMS (low code)
+### Breakout Session (15min)
 
-- Learning Objective: Understand how content is rendered on a web page from a headless cms
-- Activity: locate storyblok content in the nuxt template
+- Create a blog post component
+  - use multiple nested components
+- Create folders to organize your componens
+
+---
 
 ## Lab Time
