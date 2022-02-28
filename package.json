@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt preview",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
@@ -21,5 +22,8 @@
     "nuxt-vite": "^0.2.4",
     "vue-luxon": "^0.10.0"
   },
-  "resolutions": {}
+  "resolutions": {
+    "glob-parent": "^5.1.2",
+    "nth-check": "^2.0.1"
+  }
 }
