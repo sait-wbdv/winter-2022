@@ -2,21 +2,28 @@
 title: Tailwind CSS
 description: In this class, we will be covering how to use tailwindcss in a project.Using these tools, we will get first hand practice using npm packages
 date: 2022-02-23T15:00:00.000Z
-released: false
+released: true
 homework:
-  - title: Tailwind CSS Editor Setup
-    link: https://tailwindcss.com/docs/editor-setup
-    description: This provides useful information on how to set up your code editor for working with tailwind.
-  - title: Tailwind CSS Utility Class Concept
-    link: https://tailwindcss.com/docs/utility-first
-    description: Intro to the utility first philosophy of tailwind. This page also discusses some of the benefits of using a utility first approach.
-  - title: Tailwind Hover, Focus, and Other States
-    link: https://tailwindcss.com/docs/hover-focus-and-other-states
-    description: This page addresses how tailwind handles states such as hover. It also introduces how tailwind handles breakpoints. This is a long article, I recommend skimming it for familiarity and then coming back to it when you can apply some of the concepts.
-  - title: Responsive Design in Tailwind
-    link: https://tailwindcss.com/docs/responsive-design
-    description: This article covers how to create responsive designs by using tailwind's breakpoints.
+  - title: Tailwind
+    tasks:
+      - title: Tailwind CSS Editor Setup
+        link: https://tailwindcss.com/docs/editor-setup
+        description: This provides useful information on how to set up your code editor for working with tailwind.
+      - title: Tailwind CSS Utility Class Concept
+        link: https://tailwindcss.com/docs/utility-first
+        description: Intro to the utility first philosophy of tailwind. This page also discusses some of the benefits of using a utility first approach.
+      - title: Tailwind Hover, Focus, and Other States
+        link: https://tailwindcss.com/docs/hover-focus-and-other-states
+        description: This page addresses how tailwind handles states such as hover. It also introduces how tailwind handles breakpoints. This is a long article, I recommend skimming it for familiarity and then coming back to it when you can apply some of the concepts.
+      - title: Responsive Design in Tailwind
+        link: https://tailwindcss.com/docs/responsive-design
+        description: This article covers how to create responsive designs by using tailwind's breakpoints.
 ---
+
+## Assignment 3: Tailwind CSS
+
+- [Assignment Instructions](/cpnt-201/assignments/assignment-3)
+- Due: Sunday February 27 @ 11:59PM
 
 ## What is a CSS Framework?
 
@@ -49,58 +56,46 @@ While they are not css frameworks, they can be used with frameworks if you so de
 
 ## Tailwind CSS
 
+This is a utility class framework which means that the stylesheet is not component focused.
+
 ### Basic Concepts
 
-#### Breakout: A Tailwind Experiment
+- [Utility First Fundamentals](https://tailwindcss.com/docs/utility-first)
+  - utility classes are used to style content
+  - component concepts occur at content level, not stylesheet level
+- [Responsive design](https://tailwindcss.com/docs/responsive-design)
+  - Tailwind is mobile first, so when setting breakpoints, the smallest size is default and you add larger breakpoints for changes
+- [Theme Configuration](https://tailwindcss.com/docs/theme)
+  - Less of a concept and more of a method
+    - Tailwind uses a well structured configuration to define utility styles
+    - In your configuration, you set your default sizes, hover shades, colors... mostly everything
+    - You can also use `@layer base{}` in a css file to generate your own base styles - this is especially helpful for fonts
+- Aggressive Reset
+  - Tailwind has a pretty intense reset
+  - It removes all base styles so you have complete control
+- **When does tailwind excel?**
+  - When you're using a templating system or framework where your content code is organized into small reusable **components**. These often have **scoped** styles which means that any css added to them is only relevant inside the component.
 
-- 15 Min
-- **Steps**
-  - Fork [this repo](), it has a completely unstylized webpage
-  - Add tailwind to the head of the html page using a cdn
-  - Style the content with tailwind directly in your html
-    - text
-    - layout
-    - colors
-  - **TIP** Keep the [tailwind docs](https://tailwindcss.com/) open next to your editor, use `Ctrl K` to quick search for the code you need
-    - Also, many tailwind utilities are the same as css properties, or very similar.
-      - ie: set display to flex by adding `class="flex"`, and then make it flex-column by writing `class="flex flex-col` --> Directly in your html
-- **Resources**
-  - [Review this documentation](https://tailwindcss.com/docs/installation/play-cdn) for information on how to add tailwind to a project
-  - [Make sure to add the tailwind intellisense plugin to vscode](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+#### Breakout: A Tailwind Experiment [15min]
 
-### Configure Tailwind as an NPM Dependency
+- [Link to activity](https://gist.github.com/lilyx13/84400e9d8feb8a1940d5c67044b73077)
+
+---
+
+## Configuring Tailwind
+
+### Tailwind as an NPM Dependency
 
 Most npm packages require some level of configuration to make them work in a project. This will vary from package to package and also project to project. The most important takeaway here is to familiarize yourself with using docs to properly set up an npm package in your project - and in a way that enhances our project.
 
-#### Breakout Session: Tailwind Setup
+- Add tailwind to a project with `npm install`
+  - [see the docs](https://tailwindcss.com/docs/installation)
 
-- Steps:
-  - Fork and clone [this repository]()
-  - Set it up as an npm project by running `npm init` **in the root project folder**
-  - Follow the steps on the [Tailwind Website](https://tailwindcss.com/docs/installation)
-    - **TIP** use `npx tailwindcss init --full` to generate a full set of stylings to work from
-    - add `@layer base` etc to a normal css file
-  - Verify that your tailwind styles work by adding some obvious changes
-  - Push your repo
+#### Breakout Session: Tailwind Setup (10min)
 
-#### Tailwind Configuration
+- [Activity Link](https://gist.github.com/lilyx13/2ed0c859ce72a24a59f2e1c54c0778d4)
 
-- Steps:
-
-  - Add fonts to the `tailwind.config.js` file
-  - Add 2 colors to the `tailwind.config.js` file
-  - Add default font styles inside `@layer base {}` in your css file
-  - to use tailwind properties in your css file, add them with `@apply`
-
-- Example:
-
-```
-@layer base {
-  h1 {
-    @apply text-3xl font-bold text-center text-blue-500 hover:text-blue-700;
-  }
-}
-```
+#### Tailwind Configuration (10min)
 
 - Resources:
   - [Tailwind Docs Configuration Page](https://tailwindcss.com/docs/configuration)
@@ -113,3 +108,15 @@ These are a collection of doc pages from tailwind's website that you will likely
 
 - [Tailwind pseudo class dictionary](https://tailwindcss.com/docs/hover-focus-and-other-states#disabled)
 - [Tailwind built in dark mode](https://tailwindcss.com/docs/dark-mode)
+
+---
+
+## Lab Time
+
+- Main Room: Add tailwind to the course page (Demo)
+- Activity: Continue experimenting with tailwind in your fork of the provided repo from earlier
+  - recommended if you feel like you need a bit more practice
+- Assignment 3: Start working on your assignment 3
+  - recommended if tailwind is coming fairly easy to you
+
+<home-work :home-work="homework"></home-work>

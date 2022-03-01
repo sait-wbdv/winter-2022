@@ -23,13 +23,14 @@
             <nuxt-link to="/cpnt-262/assessments"
               >CPNT-262 Assessments</nuxt-link
             >
-          </li>          <!--
-          <li>
-            <nuxt-link to="cpnt-262/assessments">CPNT-262 Assessments</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="cpnt-200/assessments">CPNT-200 Assessments</nuxt-link>
+            <nuxt-link to="cpnt-200/assignments"
+              >CPNT-200 Assessments</nuxt-link
+            >
           </li>
+
+          <!--
           <li>
             <nuxt-link to="cpnt-265/assessments">CPNT-265 Assessments</nuxt-link>
           </li>

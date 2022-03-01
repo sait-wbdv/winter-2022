@@ -2,7 +2,7 @@
 title: CPNT 262 Assignment 1 - Fetching API Data
 description: A description
 ---
-- Due: Tuesday, Feb 22
+- Due: Wednesday, Feb 23
 - Weight: 15% of final mark
 
 In this assignment you'll be fetching data asynchronously from a [public API](https://github.com/public-apis/public-apis) and displaying in on a web page.
