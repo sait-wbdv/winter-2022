@@ -69,11 +69,6 @@ One of the great things about a cms is that you don't need to manually set up we
     - a nestable component
     - use these inside of content types
 
-### In Class Example:
-
-- A simple card content-type
-- nested bloks to use in the card
-
 ### Schema
 
 - A schema is how data is organized in storyblok. You'll find this term used in many other areas of development. For us, we are just thinking about it as the `json` structure of our data
