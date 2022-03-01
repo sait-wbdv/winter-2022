@@ -35,20 +35,15 @@ One of the great things about a cms is that you don't need to manually set up we
   - Maintainability
 - While Planning a site and determining generated content (which will be the things you make in your cms), make sure to take some notes on content types. This can keep your productivity up.
 
-### Tools
+### Breakout Activity (20min)
 
-- [Figjam](https://miro.com/blog/how-to-create-a-sitemap/) is useful for planning out site maps and brainstorming. This can be used alongside of a normal figma file to provide a top level plan in a visually appealing way
+- [Activity Instructions](https://gist.github.com/lilyx13/18f6a9de9322762a404cf17eb655e4a2)
 
-### Resources
+#### Follow Up Discussion
 
-- [This article has some useful tips on planning a sitemap](https://miro.com/blog/how-to-create-a-sitemap/)
-
-### Breakout Activity
-
-- Set up a figjam file
-  - Try mapping out some of the content from the [course website](https://sait-wbdv.netlify.app)
-  - Experiment with color coding for page types
-  - [see this figjam file as an example](https://www.figma.com/file/TMRzQ2nCinvCrJnZeMDHcm/Lush-Site-Map?node-id=0%3A1)
+- Explain your approach to mapping a website visually
+- Describe anything that you found particularly challenging or easy
+  - ie: using figjam, structuring content, color coding...
 
 ---
 
