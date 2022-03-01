@@ -11,8 +11,8 @@ export default {
   async asyncData({ $content }) {
     const page = await $content('cpnt-260/assessments').fetch();
     return {
-      page,
+      page
     };
-  },
+  }
 };
 </script>

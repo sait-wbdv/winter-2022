@@ -10,13 +10,15 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const page = await $content(`library/breakdowns/${params.pathMatch}`).fetch();
+      const page = await $content(
+        `library/breakdowns/${params.pathMatch}`
+      ).fetch();
       return {
-        page,
+        page
       };
     } catch (e) {
-      error("Page not found.");
+      error('Page not found.');
     }
-  },
+  }
 };
 </script>

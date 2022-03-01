@@ -6,8 +6,7 @@
 /* adjustments to base styles */
 
 @layer base {
-/* Basic Font Setup */
-
+  /* Basic Font Setup */
 
   h1 {
     @apply text-4xl font-title font-light;
@@ -21,7 +20,11 @@
   h4 {
     @apply text-xl font-title font-light;
   }
-  p, a, li, dl, dt {
+  p,
+  a,
+  li,
+  dl,
+  dt {
     @apply text-lg font-sans font-normal;
   }
 

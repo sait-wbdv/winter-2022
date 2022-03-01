@@ -13,11 +13,11 @@ export default {
     try {
       const lesson = await $content(`cpnt-201/lessons/${params.slug}`).fetch();
       return {
-        lesson,
+        lesson
       };
     } catch (e) {
-      error("No lesson found");
+      error('No lesson found');
     }
-  },
+  }
 };
 </script>

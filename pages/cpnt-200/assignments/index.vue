@@ -13,10 +13,10 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const assignments = await $content("cpnt-200/assignments").fetch();
+    const assignments = await $content('cpnt-200/assignments').fetch();
     return {
-      assignments,
+      assignments
     };
-  },
+  }
 };
 </script>

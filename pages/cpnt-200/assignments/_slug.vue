@@ -25,12 +25,12 @@ export default {
         `cpnt-200/assignments/${params.slug}`
       ).fetch();
       return {
-        assignment,
+        assignment
       };
     } catch (e) {
       error('No lesson found');
     }
-  },
+  }
 };
 </script>
 

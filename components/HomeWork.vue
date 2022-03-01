@@ -23,8 +23,8 @@
 export default {
   props: {
     homeWork: {
-      type: Array,
-    },
-  },
+      type: Array
+    }
+  }
 };
 </script>
