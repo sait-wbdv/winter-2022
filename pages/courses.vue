@@ -1,9 +1,10 @@
 <template>
   <div>
     <main class="container mx-auto flex flex-col items-center">
-
       <h2 class="text-center">Courses</h2>
-      <ul class="flex flex-wrap gap-4 md:gap-6 lg:gap-8 justify-center items-start w-full mb-12 list-none">
+      <ul
+        class="flex flex-wrap gap-4 md:gap-6 lg:gap-8 justify-center items-start w-full mb-12 list-none"
+      >
         <li v-for="course in courses" :key="course.id">
           <nuxt-link
             :to="course.course"
@@ -15,7 +16,15 @@
               </h3>
               <p class="m-2">{{ course.title }}</p>
             </div>
-            <nuxt-img preload :src="course.image" quality="80" width="208" height="192" alt="" class="w-52 min-h-32 h-48 object-cover rounded-l-lg" />
+            <nuxt-img
+              preload
+              :src="course.image"
+              quality="80"
+              width="208"
+              height="192"
+              alt=""
+              class="w-52 min-h-32 h-48 object-cover rounded-l-lg"
+            />
           </nuxt-link>
         </li>
       </ul>
@@ -30,32 +39,32 @@ export default {
         {
           course: 'cpnt-200',
           title: 'Content Management Systems',
-          image: '/site-ui/cpnt200-card.jpg',
+          image: '/images/site-ui/cpnt200-card.jpg',
         },
         {
           course: 'cpnt-201',
           title: 'Web Development Tools',
-          image: '/site-ui/cpnt201-card.jpg',
+          image: '/images/site-ui/cpnt201-card.jpg',
         },
         {
           course: 'cpnt-260',
           title: 'Web Page Fundamentals',
-          image: '/site-ui/cpnt260-card.jpg',
+          image: '/images/site-ui/cpnt260-card.jpg',
         },
         {
           course: 'cpnt-262',
           title: 'Client and Server Programming',
-          image: '/site-ui/cpnt262-card.jpg',
+          image: '/images/site-ui/cpnt262-card.jpg',
         },
         {
           course: 'cpnt-265',
           title: 'Business of the Web',
-          image: '/site-ui/cpnt265-card.jpg',
+          image: '/images/site-ui/cpnt265-card.jpg',
         },
         {
           course: 'dsgn-270',
           title: 'Design Fundamentals',
-          image: '/site-ui/dsgn270-card.jpg',
+          image: '/images/site-ui/dsgn270-card.jpg',
         },
       ],
     };

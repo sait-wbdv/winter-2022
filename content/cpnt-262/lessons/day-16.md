@@ -77,5 +77,3 @@ released: false
 ---
 
 ## Lab Time
-
--
