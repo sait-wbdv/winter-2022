@@ -5,13 +5,35 @@ date: 2022-03-02T15:00:00.000Z
 released: false
 ---
 
+## Review of the Visual Editor
+
+- We will follow [the storyblok doc page](https://www.storyblok.com/docs/guide/essentials/ui) that explains their ui
+
+---
+
 ## Storyblok Component Building
 
-Now, you will be able to create new components and tweak the styling using tailwind in your frontend if you wish.
+At this stage, our components will just be collections of fields.
 
-### Breakout Session (20min)
+- Storyblok's documentation recommends two approaches to building components
+  - 'Stay Big': For when your content creators should adhere to rigid schemas
+    - this method is great for content that always uses the same layout
+  - 'Be Small': Create smaller components that can be nested and reused
+    - This is more time consuming but will offer flexibility and layout customization from the storyblok visual editor (after it's been configured with a frontend)
+- Component organization: **Use Folders**
 
-- Create a blog post component
+#### Documentation
+
+- [Field Types](https://www.storyblok.com/docs/terminology/field-type)
+- [Components](https://www.storyblok.com/docs/terminology/component)
+
+---
+
+### Breakout Session 1: Stay Big Component Builder (20min)
+
+- Work in groups of 2-3
+  - you can work collaboratively in the same space, or in your own spaces
+- Create either a: blog post, card, hero section, FAQ sheet...
   - field ideas:
     - title
     - description
@@ -22,7 +44,18 @@ Now, you will be able to create new components and tweak the styling using tailw
 
 #### Breakout session debrief
 
+- showcase your blog post component setup (1 person from each group)
+- discuss benefits and limitation of your approach
+
 ---
+
+## Building Nestable Components
+
+- Create content components that are set up to take information
+- Also create presentational components, that are used to arrange content components
+- Finally, create larger components that make use of presentational and content components
+
+###
 
 ## Connect a Headless CMS to a Nuxt Frontend
 

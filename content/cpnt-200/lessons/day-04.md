@@ -7,12 +7,20 @@ released: false
 
 ## Common CMS Content
 
-- Learning Objective: Explore the range of types of content that are kept in a cms
-- Activity: web page content analysis data gather
+- [Card Design](https://www.mockplus.com/blog/post/card-ui-design)
+- [Blog Posts](https://www.bramework.com/ideal-blog-post-length/)
+- [FAQ Page](https://www.jimdo.com/blog/how-to-write-an-faq-page-with-examples/)
+- [Product Page](https://www.shopify.ca/blog/product-page)
+
+### Breakout Session (20 minutes)
+
+- In groups of 3-4
+- Choose an content type and create components
+- Be prepared to discuss your components and how your approach relates to the content in the articles that we looked at
 
 ## Developers and Content Editors
 
-- Learning Objective: Discuss relationship between developer and content editor
+- Sometimes developers and content editors are the same person (this can be the case for small businesses and startups), however these roles are usually better to have separated as they require different skill sets
 
 ### Tools
 
