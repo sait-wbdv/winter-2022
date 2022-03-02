@@ -1,23 +1,6 @@
 ---
-title: Netlify
-description: We will cover the modern site deployment platform, netlify
+title: Storyblok on the Frontend
+description: We will use a few premade vue components to render some of the fields that we have been creating. To wrap up cpnt-200, we will also look into extending storyblok with apps.
 date: 2022-03-08T15:00:00.000Z
 released: false
 ---
-
-## Web hosting
-
-- Learning Objective: Learn the basics of web hosting and compare traditional hosting with modern options
-
-## Netlify and JAMstack
-
-- Learning Objective: Understand how netlify fits into the JAMstack architecture
-
-## Netlify Dashboard
-
-- Learning Objective: Know where the important parts of the netlify dashboard are for basic deployment.
-- Activity: Deploy activities from earlier in 200
-
----
-
-## Labtime

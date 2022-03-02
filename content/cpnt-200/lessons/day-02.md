@@ -65,9 +65,7 @@ One of the great things about a cms is that you don't need to manually set up we
   - Content Type
     - Templates for stories
     - Made up of fields and bloks
-  - Blok
-    - a nestable component
-    - use these inside of content types
+  - Blok - a nestable component - use these inside of content types
 
 ### Schema
 
