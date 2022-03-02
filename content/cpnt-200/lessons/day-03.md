@@ -55,28 +55,6 @@ At this stage, our components will just be collections of fields.
 - Also create presentational components, that are used to arrange content components
 - Finally, create larger components that make use of presentational and content components
 
-###
-
-## Connect a Headless CMS to a Nuxt Frontend
-
-When you use a headless cms, the presentation layer is decoupled from the content. This means that you will have to build your presentation layer. but it also means that you will have complete control over your frontend(s).
-
-- See [this gist](https://gist.github.com/lilyx13/03a8a0bda19524bfa89bd2d5f2ef7612) for steps on how to add a headless cms to nuxt.
-- [Documentation Resource](https://www.storyblok.com/tc/nuxtjs)
-  - this page has tons of resources on working with nuxt and storyblok.
-
-### Breakout Session (30min)
-
-- Create a new storyblok space
-- Fork or Clone this [nuxt template]() and follow [this guide](https://gist.github.com/lilyx13/03a8a0bda19524bfa89bd2d5f2ef7612) to attach your storyblok space. **note** this will only connect your home page to storyblok.
-
-#### Post breakout Debrief
-
-- Discussion:
-  - issues that you ran into
-  - aha moments
-  - concepts that aren't making sense
-
 ---
 
 ### Connecting with a dev community
