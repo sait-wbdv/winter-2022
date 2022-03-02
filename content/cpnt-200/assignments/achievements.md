@@ -22,7 +22,7 @@ due:
 - Client Content Requirements Achievement (5%)
 - Client Focused Schema Achievement (5%)
 - REST Query Achievement (5%)
-- Storyblok Nuxt Component Achievement
+- Storyblok Nuxt Component Achievement (5%)
 
 ## Client Content Requirements Achievement
 
