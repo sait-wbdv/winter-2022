@@ -2,7 +2,7 @@
 title: Storyblok Components
 description: We will deploy storyblok to nuxt so that we can being to view our content
 date: 2022-03-02T15:00:00.000Z
-released: false
+released: true
 ---
 
 ## Review of the Visual Editor
