@@ -56,3 +56,5 @@ Whether a website is static, a web application, a LAMP stack, JAMstack or other,
 - Breakout Rooms:
   - Make sure that you are able to deploy to netlify
   - Work on assignments
+
+### Announcement: If 90% of the class can submit a link to the nuxt template deployed to netlify by the end of lab time, We will start at 9am on March 4
