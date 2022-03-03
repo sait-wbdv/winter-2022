@@ -3,17 +3,6 @@ title: Content Creation
 description: Today's goal is to focus on creating content. this will involve a mix of writing, asset gathering, and component building
 date: 2022-03-03T15:00:00.000Z
 released: true
-assignments:
-  - assignment:
-    type: Achievement
-    name: Client Focused Schema
-    link: /cpnt-200/assignments/achievements
-    date: March 3
- - assignment:
-    type: Writing Assignment
-    name: Blog Post 1
-    link: /cpnt-200/assignments/writing-assignments
-    date: March 8
 ---
 
 ## Review Component Creation
