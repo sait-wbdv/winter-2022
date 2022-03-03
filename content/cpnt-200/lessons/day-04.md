@@ -3,6 +3,7 @@ title: Content Creation
 description: Today's goal is to focus on creating content. this will involve a mix of writing, asset gathering, and component building
 date: 2022-03-03T15:00:00.000Z
 released: true
+homework:
 ---
 
 ## Review Component Creation
