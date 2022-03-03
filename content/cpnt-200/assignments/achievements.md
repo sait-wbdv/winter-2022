@@ -5,7 +5,7 @@ weight: 15% Total
 due:
   - assign:
     name: Achievement 1
-    date: Feb 29
+    date:
   - assign:
     name: Achievement 2
     date: March 2
@@ -22,7 +22,7 @@ due:
 - Client Content Requirements Achievement (5%)
 - Client Focused Schema Achievement (5%)
 - REST Query Achievement (5%)
-- Storyblok Nuxt Component Achievement (5%)
+- Connect Storyblok to Nuxt (5%)
 
 ## Client Content Requirements Achievement
 
@@ -108,6 +108,7 @@ Using postman, make 5 queries from a space set up using storyblok's demo content
 
 ---
 
+<!--
 ## Storyblok Nuxt Component Achievement (5pts)
 
 - Due: Friday March 11 @ 11:59PM
@@ -130,3 +131,4 @@ Inside the template provided, there is a `.vue` page where you will need to link
 
 - Properly set up env file (2pts)
 - Correctly added code to `script` and `template` tags so that your component renders on the page. (3pts)
+-->

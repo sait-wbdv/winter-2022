@@ -58,3 +58,5 @@ Whether a website is static, a web application, a LAMP stack, JAMstack or other,
   - Work on assignments
 
 ### Announcement: If 90% of the class can submit a link to the nuxt template deployed to netlify by the end of lab time, We will start at 9am on March 4
+
+- Submit link in the netlify box in brightspace (not for grades)

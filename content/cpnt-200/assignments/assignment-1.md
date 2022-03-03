@@ -7,9 +7,7 @@ due:
     date: Sunday March 6 @ 11:59PM
 ---
 
-For this assignment, you will be mapping out a website of your choice using figjam. Reverse engineer the sitemap tree with a top level view of how pages are connected to one another. This part of the assignment is focused on documenting the hierarchy of **pages**.
-
-Along with your site map, you will also document the content on one page from your site in a spreadsheet. This part of the assignment focuses on the **content** level of the site. Use the spreadsheet template provided.
+For this assignment, you will be mapping out a website of your choice using figjam. Reverse engineer the sitemap tree with a top level view of how pages are connected to one another. This part of the assignment is focused on documenting the hierarchy of **pages**. You'll also learn more about components by documenting main content types on different pages.
 
 ### Instructions
 
