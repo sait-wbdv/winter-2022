@@ -24,6 +24,7 @@ released: true
 
 - In groups of 3-4
 - Choose an content type and create components
+- Keep it simple
 - Be prepared to discuss your components and how your approach relates to the content in the articles that we looked at
 
 ---
