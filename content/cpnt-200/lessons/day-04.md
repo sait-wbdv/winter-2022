@@ -4,6 +4,17 @@ description: Today's goal is to focus on creating content. this will involve a m
 date: 2022-03-03T15:00:00.000Z
 released: true
 homework:
+assignments:
+  - assignment:
+    type: Achievement
+    name: Client Component
+    link: /cpnt-200/assignments/achievements
+    due: March 3
+  - assignment:
+    type: Writing Assignment
+    name: First Blog Post
+    link: /cpnt-200/assignments/writing-assignments/
+    due: March 8
 ---
 
 ## Review Component Creation
@@ -11,6 +22,11 @@ homework:
 - Questions from yesterday
 - In class component setup
 - Learn how to make structural components
+- [Read: Grouping Fields in Tabs](https://www.storyblok.com/cl/tabs)
+  - This documentation explains more about how to use tabs to add functionality to your components
+  - This can be:
+    - style
+    - groups of content (instead of nesting fields)
 
 ---
 
