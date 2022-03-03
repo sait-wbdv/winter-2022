@@ -15,6 +15,7 @@ homework:
 ### Postman
 - Install [Postman](https://www.postman.com/downloads/)
 - Video: [The Basics of Using Postman for API Testing](https://youtu.be/t5n07Ybz7yI) by Steve Griffith
+- Optional: [10 Tips for Working with Postman Variables](https://blog.postman.com/10-tips-for-working-with-postman-variables/)
 
 ### REST APIs and CRUD
 - [CRUD vs REST Guide: Operations Simplified 101](https://hevodata.com/learn/crud-vs-rest/)
@@ -22,5 +23,6 @@ homework:
 
 ### Reference
 - [Storyblok API Docs](https://www.storyblok.com/docs/api/content-delivery)
+- [Storyblok Guide - Accessing Your Data](https://www.storyblok.com/docs/guide/essentials/accessing-data)
 
 </home-work>
