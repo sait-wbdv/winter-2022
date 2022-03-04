@@ -19,6 +19,7 @@ homework:
 **[Slides: HTTP and REST](https://sait-wbdv.github.io/slides/w22/cpnt262/http-rest.html)**
 
 ## 2. Testing APIs with Postman
+### Materials
 - Install [Postman](https://www.postman.com/downloads/)
 - Video: [The Basics of Using Postman for API Testing](https://youtu.be/t5n07Ybz7yI) by Steve Griffith
 - Optional: [10 Tips for Working with Postman Variables](https://blog.postman.com/10-tips-for-working-with-postman-variables/)
@@ -28,6 +29,7 @@ homework:
 - Tool: [JSON Placeholder](https://jsonplaceholder.typicode.com/)
 
 ## 3. The Storyblok API
+### Materials
 - [Storyblok API Docs](https://www.storyblok.com/docs/api/content-delivery)
 - [Storyblok Guide - Accessing Your Data](https://www.storyblok.com/docs/guide/essentials/accessing-data)
 
