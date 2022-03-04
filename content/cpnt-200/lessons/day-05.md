@@ -33,7 +33,7 @@ homework:
 - [Storyblok API Docs](https://www.storyblok.com/docs/api/content-delivery)
 - [Storyblok Guide - Accessing Your Data](https://www.storyblok.com/docs/guide/essentials/accessing-data)
 
-**[Authentication vs Authorization](https://sait-wbdv.github.io/slides/w22/cpnt262/authentication-authorization.html)**
+**[Slides: Authentication vs Authorization](https://sait-wbdv.github.io/slides/w22/cpnt262/authentication-authorization.html)**
 
 ---
 
