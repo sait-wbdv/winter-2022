@@ -49,7 +49,10 @@ released: false
     - `TheFooter.vue`
     - `TheHeader.vue`
 
-###
+#### Breakout activity
+
+- Create a component that would be used once on a page and would always have the same information in it
+- Add html to the component in a `template` tag
 
 ---
 
