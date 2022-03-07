@@ -2,7 +2,28 @@
 title: Netlify
 description: Before we begin to set up components, we will learn to deploy a frontend to netlify
 date: 2022-03-07T15:00:00.000Z
-released: false
+released: true
+assignments:
+  - assignment:
+    type: Achievement
+    name: Assignment 2 - Components
+    link: /cpnt-200/assignments/assignment-2
+    due: March 13
+---
+
+## Assignment Review
+
+- Nuxt Deployment Main Issues:
+  - Nested projects (not inherently wrong but will require different steps at deployment)
+  - configuration errors with setting up nuxt modules
+  - incorrectly scaffolded
+  - build bugs
+
+## Component Building Check In
+
+- Nested Components
+- Content Types vs Components
+
 ---
 
 ## Web Hosting and Deployment
@@ -50,13 +71,20 @@ Whether a website is static, a web application, a LAMP stack, JAMstack or other,
 
 ---
 
+## Connect Nuxt to Storyblok using an API key
+
+- [Follow these instructions](https://gist.github.com/lilyx13/03a8a0bda19524bfa89bd2d5f2ef7612)
+- You will use different API keys for your development and production environments
+- This is how information is transmitted between the CMS and the Frontend
+
+---
+
 ## Lab Time
 
-- Main Room: Setting up nuxt storyblok components
 - Breakout Rooms:
   - Make sure that you are able to deploy to netlify
   - Work on assignments
 
-### Announcement: If 90% of the class can submit a link to the nuxt template deployed to netlify by the end of lab time, We will start at 9am on March 4
+### Announcement: If 90% of the class can submit a link to the nuxt template deployed to netlify by the end of lab time, We will start at 9am on March 8
 
 - Submit link in the netlify box in brightspace (not for grades)
