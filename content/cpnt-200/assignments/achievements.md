@@ -108,27 +108,34 @@ Using postman, make 5 queries from a space set up using storyblok's demo content
 
 ---
 
-<!--
 ## Storyblok Nuxt Component Achievement (5pts)
 
 - Due: Friday March 11 @ 11:59PM
 - Weight: 5%
 
-Inside the template provided, there is a `.vue` page where you will need to link a storyblok component so that the content shows up on the page. Edit this file and use the provided code snippits to make the content show up.
+### Goal
+
+Create 3 vue components that correspond to storyblok json components
 
 ### Instructions
 
 1. fork the provided repo
 2. clone your fork to your desktop
-3. add the .env file and set up storyblok onto nuxt
-4. edit your component
+3. create 3 components in storyblok
+4. create 3 corresponding components in nuxt (in the components folder)
+5. use html and whatever css approach that you like to add some basic styling
+6. name content in template in a way that will help you add dynamic content later
+7. submit the vue files and the corresponding storyblok schema in `.json`.
+
+- Bonus: declare variables that will be dynamically generated from storyblok in the `script` tags as is shown in class. Render their information using mustache syntax ` {{ variableName }}`
 
 #### Submission instructions
 
-- zip the component .vue file and submit it to brightspace
+- zip the component .vue files and .json and submit the zipped folder to brightspace
 
 ### Rubric
 
-- Properly set up env file (2pts)
-- Correctly added code to `script` and `template` tags so that your component renders on the page. (3pts)
--->
+- styled components
+- content in vue components are named consistently with components in storyblok
+- components follow described naming convention
+- extra point: use of variables from script tags
