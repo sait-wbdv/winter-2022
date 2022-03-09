@@ -40,7 +40,7 @@ homework:
 ---
 
 ## Housekeeping
-- Assignment 3
+- [Assignment 3](/dsgn-270/assignments/assignment-3)
 
 ---
 
