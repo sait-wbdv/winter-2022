@@ -3,7 +3,7 @@ title: DSGN 270  Assignment 3 - SVG Logo Design
 description: Create a logo using an svg. Optimize it and deploy it to a web page
 ---
 
-- Due: March 16
+- Due: Wednesday March 16
 - Weight: 20%
 
 ## Scenario
@@ -22,7 +22,7 @@ For your proof of concept, you must supply 2 versions of your design. They must 
 You must also supply an html page that shows your logo variations in use.
 
 - One version must be added directly onto the html page
-  - The paths need to be styled using css
+  - The SVG elements need to be styled using css
 - The second version must be added using an `img` tag
 
 ---
@@ -39,8 +39,9 @@ This assignment will be marked out of 20 points, which will be given for each of
 
 ### Design Variations: 5 points
 
-- SVG quality
+- SVG code quality
 - Uses one of the variations specified in the instructions
+    - Variations should be distinct and non-trivial
 
 ### SVG in HTML: 5 points
 
@@ -48,14 +49,22 @@ This assignment will be marked out of 20 points, which will be given for each of
 - Colour styled using css
 - Use at least 1 other css property to enhance your design on a web page
 
-### General: 5 points
-
+### Documentation: 5 points
 - README file that includes:
   - Description of your design concept **important**
-- HTML and css code quality
-- Proper file structure **important**
-  - follows rules for html project covered in cpnt-260
-  - logos are in a directory inside assets
+- Journal Entry describing your process/journey completing the assignment
+  - Comments, observations
+  - Problems encountered
+  - Screencaps of progress, inspiration and mood boards
+
+## General
+Points will be deducted for:
+- not following file and directory conventions
+    - CSS in a dedicated `/assets/css` directory
+    - Images (including svg) in a dedicated `/assets/images` directory
+    - Javascript in a dedicated `/assets/js` directory
+- General code quality
+- Logos that are similar to the ones provided in class
 
 ---
 
