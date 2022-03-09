@@ -45,34 +45,9 @@ released: false
 - [Nuxt Navigation](https://gist.github.com/lilyx13/3ae4627f079929978634d9d84b776f35)
 - [Nuxt Pages](https://gist.github.com/lilyx13/b4dfac6b3f0c3a5c98dee24a6d44eb72)
 
-### Important Modules
+## Creating Pages with Nuxt
 
-- [Nuxt Content](https://content.nuxtjs.org/) (selected during setup, but can also install after)
-  - Handles the CMS stuff
-  - install with `npm install -D @nuxt/content
-- [Nuxt Images](https://image.nuxtjs.org/) (must add to project)
-  - Automatic and easy optimization of images
-  - install with `npm install -D @nuxt/image
-    - Then add to `buildModules`
-- [Nuxt Router](https://nuxtjs.org/docs/get-started/routing/) (built in)
-  - `NuxtLink` makes site navigation easy
-
-#### Activity - Install and explore nuxt
-
-- Install
-- Run dev
-- Look at the pages and components files
-- Try adding content in any of the `template` tags
-  - In vue, you can write plain html in the template tags
-
-### nuxt.config.js
-
-- This is where you will set up your modules and a lot of your defaults
-- Review [the documentation](https://nuxtjs.org/docs/directory-structure/nuxt-config/)
-- check that `components: true`, if it is set to false, you will have to manually import components
-- you can set default image sizes if you are using @nuxt/image in here
-- you can import sass/scss into here as well.
-- If you are using an external stylesheet, decalre it in this file (see docs)
+- You can create static pages in your `pages/` folder, the nuxt router will generate your routes
 
 ---
 
