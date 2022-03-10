@@ -39,7 +39,7 @@ homework:
 - [What Is an SVG File? SVG Image and Tags Explained](https://www.freecodecamp.org/news/svg-basics-what-are-scalable-vector-graphics-and-how-do-you-use-them/)
 - Gist: [Getting Started](https://gist.github.com/acidtone/ea248e3207b06cfdf861bdec06816fb9)
 
-**[Slides: Scalable Vector Graphics](/slides/w22/cpnt262/svgs.html)**
+**[Slides: Scalable Vector Graphics](https://sait-wbdv.github.io/slides/w22/cpnt262/svgs.html)**
 
 ## 2. Demo: Exporting SVGs
 ### Materials
