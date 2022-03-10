@@ -63,6 +63,8 @@ The third "Skully" logo ws exported from Illustrator and is not optimized for we
 - Assignments
 - Using CSS, create a dark mode version of an inline SVG.
     - Sample SVG: [Browser Therapy Logo](https://github.com/sait-wbdv/sample-code/blob/master/assets/images/logos/browser-therapy.svg)
+- Animate an SVG with vanilla CSS
+    - [Example Codepen](https://codepen.io/acidtone/pen/YzpWbeN)
 - Install an SVG animation library
     - [Greensock](https://greensock.com/)
     - [Animejs](https://animejs.com/)
