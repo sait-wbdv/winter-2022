@@ -74,22 +74,63 @@ We are going to create a design system in Figma. These will be applied to both o
 ## Components
 
 It's good to learn how components work by building your own first. However for fast production of mockups, you can use prebuilt component UI libraries. When you get to the development phase, this speed can be continued by using corresponding css frameworks.
+o
+
+- [Short doc on making a component in figma](https://help.figma.com/hc/en-us/articles/360038663154)
 
 ### Activity: Create your own components (15Min)
 
-- Cr
+- Create and save a button component
+  - Set the border radius
+  - Set a variation (solid and outline versions)
+  - Save the component and use it in a different file
+- Component needs to be saved and reusable from assets
 
 ### UI Kits to try
+
+Keep in mind that many of these will have a limited free version and a premium full version
 
 - [Tailwind CSS UI Kit](https://www.figma.com/community/file/768809027799962739)
 - [Bootstrap 4 UI Kit](https://www.figma.com/community/file/832800692655327277)
 - [Figma IOS UI Kit](https://www.figma.com/community/file/809487622678629513)
 - [Material Design UI Kit](https://www.figma.com/community/file/880534892514982400)
 
-### Activity: Create a page component with a UI Kit
+### Activity: Create a page component with a UI Kit (15min)
 
 - Choose one of the following:
   - Hero
   - 3 Card Layout
   - Gallery
   - Panel
+
+### Debrief Discussion
+
+- Review work as a group
+- Discuss UI kit experiences
+- Make sure everyone can create components
+
+---
+
+## Content Plugins
+
+- [Icons8 Icons](https://www.figma.com/community/plugin/791103617505812222/Icons8-Free-Icons)
+- [Font Awesome Icons](https://www.figma.com/community/plugin/774202616885508874/Font-Awesome-Icons)
+- [LottieFiles](https://www.figma.com/community/plugin/809860933081065308/LottieFiles)
+- [Unsplash](https://www.figma.com/community/plugin/738454987945972471/Unsplash)
+- [Lorem Ipsum](https://www.figma.com/community/plugin/736000994034548392/Lorem-ipsum)
+
+---
+
+## Lab time
+
+- Sleep in activity: Create a web page mockup using a UI Kit
+  - It must have the following sections of content
+    - Top bar
+    - Header/Hero
+    - Section of Content
+    - Footer
+  - It does not need to be a final version, this is for blocking out content
+  - You can do either a desktop layout, or a mobile layout
+  - You can design a page from scratch, or you can use a webpage that already exists as inspiration
+  - Placeholder text and images are ok
+    - It must use actual Images
