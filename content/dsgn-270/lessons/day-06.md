@@ -90,6 +90,7 @@ o
 
 Keep in mind that many of these will have a limited free version and a premium full version
 
+- [Official Tailwind CSS for Figma](https://www.figma.com/community/file/958383439532195363)
 - [Tailwind CSS UI Kit](https://www.figma.com/community/file/768809027799962739)
 - [Bootstrap 4 UI Kit](https://www.figma.com/community/file/832800692655327277)
 - [Figma IOS UI Kit](https://www.figma.com/community/file/809487622678629513)
