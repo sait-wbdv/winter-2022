@@ -29,5 +29,42 @@ homework:
         link: https://gist.github.com/acidtone/1180c12d207234f9a053eedda981ddf9
 ---
 
+## Housekeeping
+- The Obi-Wan trailer looks promising
+
+---
+
+## 1. SVG Basics
+### Materials
+- [What Is an SVG File? SVG Image and Tags Explained](https://www.freecodecamp.org/news/svg-basics-what-are-scalable-vector-graphics-and-how-do-you-use-them/)
+- Gist: [Getting Started](https://gist.github.com/acidtone/ea248e3207b06cfdf861bdec06816fb9)
+
+**[Slides: Scalable Vector Graphics](/slides/w22/cpnt262/svgs.html)**
+
+## 2. Demo: Exporting SVGs
+### Materials
+- Optimization Tool: [SVG OMG](https://jakearchibald.github.io/svgomg/)
+- SVGs
+    - [Browser Therapy Logo](https://github.com/sait-wbdv/sample-code/blob/master/assets/images/logos/browser-therapy.svg)
+    - [No Bugs icon](https://github.com/sait-wbdv/sample-code/blob/master/assets/images/logos/no-bugs.svg)
+    - [Skully Pinball Mascot](https://github.com/sait-wbdv/sample-code/blob/master/assets/images/logos/skully.svg) (not optimized)
+
+### Activity: Optimize Skully
+The third "Skully" logo ws exported from Illustrator and is not optimized for web. Use [SVG OMG](https://jakearchibald.github.io/svgomg/) to fix this.
+
+## 3. Inline SVGs in HTML
+### Activity: Styling SVGs
+- [Add a colour scheme to a pinball diagram](https://gist.github.com/acidtone/118f11cd417a7b20fb4f6976f36767a1) ([Codepen](https://codepen.io/acidtone/pen/QWGERKm))
+
+---
+
+## Lab Time
+- Assignments
+- Using CSS, create a dark mode version of an inline SVG.
+    - Sample SVG: [Browser Therapy Logo](https://github.com/sait-wbdv/sample-code/blob/master/assets/images/logos/browser-therapy.svg)
+- Install an SVG animation library
+    - [Greensock](https://greensock.com/)
+    - [Animejs](https://animejs.com/)
+
 <home-work :home-work="homework">
 </home-work>
