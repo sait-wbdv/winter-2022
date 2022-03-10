@@ -30,7 +30,8 @@ homework:
 ---
 
 ## Housekeeping
-- The Obi-Wan trailer looks promising
+- The Obi-Wan trailer looks promising.
+- Submit a response to Ash's Slack Poll if you haven't already.
 
 ---
 
