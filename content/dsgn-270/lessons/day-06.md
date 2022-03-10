@@ -27,6 +27,69 @@ We are going to create a design system in Figma. These will be applied to both o
 ### Important Plugins
 
 - [StyleList](https://www.figma.com/community/plugin/927255248672920500/StyleList-%E2%80%93-text-and-color-styles): Create text and color styles
+- [Color Designer](https://www.figma.com/community/plugin/739475857305927370/Color-Designer)]: Another color palette generator
+- [Color Scheme](https://www.figma.com/community/plugin/815841134222084922/Color-Scheme): Similar to StyleList for color generation
 - [CSS Export](https://designcode.io/figma-handbook-exporting-css-codes): Export Vanilla CSS
 - [Figma Tailwind](https://www.figma.com/community/plugin/785619431629077634/Figma-Tailwindcss): Export a Tailwind Configuration
 - [Tailwind Import](https://www.figma.com/community/plugin/738806869514947558/Tailwind-CSS): Import a tailwind configuration file into Figma
+
+---
+
+## Design System Setup
+
+- [Figma Design System Best Practices](https://www.figma.com/best-practices/components-styles-and-shared-libraries/)
+
+1. Pick colors and generate variations
+2. Pick typography and generate variations
+3. Create a couple simple components to generate:
+   - border-radius
+   - effect styles
+
+### Activity: Create a color scheme for your design system (15min)
+
+- Use one of the above specified, or any other color palette generator
+- Create a color palette that includes
+  - a primary color
+  - a secondary color
+  - grayscale shades
+- Set between 5 - 10 variations
+
+### Activity: Create a Typography Scheme for your design system (15min)
+
+- [Extra Reading: Typography](https://www.figma.com/resources/learn-design/typography/)
+- Choose 2 fonts
+  - Heading
+  - Body Text
+- Set up all of your font variations
+  - Label them based on html font names or based on utility class styles
+
+### Debrief
+
+- Show off your work
+- Ask questions
+- Learn from one another
+
+---
+
+## Components
+
+It's good to learn how components work by building your own first. However for fast production of mockups, you can use prebuilt component UI libraries. When you get to the development phase, this speed can be continued by using corresponding css frameworks.
+
+### Activity: Create your own components (15Min)
+
+- Cr
+
+### UI Kits to try
+
+- [Tailwind CSS UI Kit](https://www.figma.com/community/file/768809027799962739)
+- [Bootstrap 4 UI Kit](https://www.figma.com/community/file/832800692655327277)
+- [Figma IOS UI Kit](https://www.figma.com/community/file/809487622678629513)
+- [Material Design UI Kit](https://www.figma.com/community/file/880534892514982400)
+
+### Activity: Create a page component with a UI Kit
+
+- Choose one of the following:
+  - Hero
+  - 3 Card Layout
+  - Gallery
+  - Panel
