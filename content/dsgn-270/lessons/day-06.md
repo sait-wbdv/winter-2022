@@ -2,7 +2,7 @@
 title: Figma Mockup Design
 description: Description here
 date: 2022-03-11T15:00:00.000Z
-released: false
+released: true
 homework:
   - title: Design Systems
     tasks:
@@ -96,7 +96,7 @@ Keep in mind that many of these will have a limited free version and a premium f
 - [Figma IOS UI Kit](https://www.figma.com/community/file/809487622678629513)
 - [Material Design UI Kit](https://www.figma.com/community/file/880534892514982400)
 
-### Activity: Create a page component with a UI Kit (15min)
+### Activity: Create a page component(15min)
 
 - Choose one of the following:
   - Hero
@@ -124,14 +124,39 @@ Keep in mind that many of these will have a limited free version and a premium f
 
 ## Lab time
 
-- Sleep in activity: Create a web page mockup using a UI Kit
-  - It must have the following sections of content
-    - Top bar
-    - Header/Hero
-    - Section of Content
-    - Footer
-  - It does not need to be a final version, this is for blocking out content
-  - You can do either a desktop layout, or a mobile layout
-  - You can design a page from scratch, or you can use a webpage that already exists as inspiration
-  - Placeholder text and images are ok
-    - It must use actual Images
+### Sleep in Activity: Create a Design System
+
+- Due: 11:59PM Today
+
+- Your design system must include:
+  - a color scheme
+  - typography
+  - shadow
+  - border radius
+  - components:
+    - a button
+
+#### Submission
+
+- Create a team
+  = Add the Design System file to your team
+- Publish as a library
+- Share an editable link in your submission to Brightspace
+
+### Optional Activity: Create a web page mockup using a UI Kit
+
+- It must have the following sections of content
+  - Top bar
+  - Header/Hero
+  - Section of Content
+  - Footer
+- Create either a desktop layout, or a mobile layout
+- You can design a page from scratch, or you can follow a webpage that already exists as inspiration
+- Placeholder text and images are ok
+  - It must use actual Images
+
+<homework :home-work="homework">
+
+- [Video: Figma Design System 55min](https://www.youtube.com/watch?v=EK-pHkc5EL4)
+
+ </homework>
