@@ -59,11 +59,11 @@ Bite-sized assessments to introduce you to fundamental topics.
 1. [Vue Components](/content/cpnt-262/assignments/achievement-6.md)
    - Due: Sunday, March 20
    - Weight: 5%
-   - focus: moustache syntax, v-for, v-bind, v-if
+   - focus: moustache syntax, v-for, v-bind, v-slot
 2. [Reusable Vue Components](/content/cpnt-262/assignments/achievement-7.md)
    - Due: Thursday March 24
    - Weight: 5%
-   - focus: props, computed properties, slots
+   - focus: props, computed properties, v-if
 3. [Vue Component Async](/content/cpnt-262/assignments/achievement-8.md)
    - Due: Sunday, March 27
    - Weight: 5%
