@@ -10,35 +10,23 @@ description: Fetch data from a headless cms with nuxt
 
 This achievement will me marked out of **5 points** where you will:
 
-- **2 points**: Install a third-party JS library using its documented installation instructions;
-- **1 point**: Demonstrate the library with a simple demo (most libraries include sample code to do this);
-- **1 point**: Distinguish between the various methods JS can be loaded into an HTML file.
+- **2 points**: Async fetch setup in the `_slug.vue` file
+- **1 point**: Content from storyblok visbile on page
+- **1 point**: Deployed repo to netlify
 - **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
 ---
 
 ## Instructions
 
-1. Find a javascript library can be installed on a web page.
-   - Suggestions for beginners:
-     - [ChartJS](https://www.chartjs.org/): Simple yet flexible JavaScript charting for designers & developers.
-     - [lodash](https://lodash.com/)
-   - For more inspiration see (or a similar "Best Of" list):
-     - [10 Awesome JavaScript Libraries You Should Try Out in 2021](https://www.freecodecamp.org/news/10-javascript-libraries-you-should-try/)
-     - [The 40 Best JavaScript Libraries and Frameworks for 2022](https://kinsta.com/blog/javascript-libraries/)
-2. Using the documentation provided by the library, follow the instructions and install the library.
-   - Suggestions for beginners:
-     - Avoid installation methods using `npm` or `yarn`
-     - Libraries with a [CDN](https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/) option are generally easier to install.
-3. Create a simple demo that shows a working implementation.
-4. Include a `README.md` file (if your library includes one, replace it) with the following:
-   - Your name, course and assignment title;
-   - **How did you install the library?**
-     - As embedded code in a `<script>` element at the end of the HTML file?
-     - As external code in a `<script>` element in the `<head>` element of the HTML file?
-     - Did you use a Content Delivery Network, downloaded files or `npm`?
-   - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
-   - Code Journal: Include self-assessments, observations, research, etc under the heading "Code Journal".
+1. Set up a nuxt project in a new repo
+2. Create a `_.slug` file in `pages/`
+3. Connect Nuxt to a storyblok space
+   - If you do not have a storyblok space with any articles, contact your instructor
+4. Use nuxt's async and fetch features to generate pages based on articles in the storyblok space
+5. Display the title and 1 other field from your article on each page using moustache syntax
+6. Deploy your site to netlify
+7. Document your process in a readme
 
 ---
 
@@ -48,3 +36,4 @@ This achievement will me marked out of **5 points** where you will:
 2. Download a ZIP of the project;
 3. In Brightspace, submit your ZIP and include the following as a comment in your submission:
    - a link to your GitHub repo;
+   - a link to the life netlify site
