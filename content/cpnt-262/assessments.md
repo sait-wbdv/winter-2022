@@ -57,7 +57,7 @@ Bite-sized assessments to introduce you to fundamental topics.
 ### Achievements
 
 1. [Vue Components](/content/cpnt-262/assignments/achievement-6.md)
-   - Due: Friday, March 18
+   - Due: Sunday, March 20
    - Weight: 5%
    - focus: moustache syntax, v-for, v-bind, v-if
 2. [Reusable Vue Components](/content/cpnt-262/assignments/achievement-7.md)
@@ -72,7 +72,7 @@ Bite-sized assessments to introduce you to fundamental topics.
 ### [Individual Assignment](/content/cpnt-262/assignments/assignment-2.md)
 
 - Nuxt Landing Page
-  - Due: Wednesday, March 30
+  - Due: Friday, April 1
   - Weight: 15%
   - Focus: Create and deploy a web page with components in nuxtjs
 
