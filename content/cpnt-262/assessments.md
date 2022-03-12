@@ -63,11 +63,11 @@ Bite-sized assessments to introduce you to fundamental topics.
 2. [Reusable Vue Components](/content/cpnt-262/assignments/achievement-7.md)
    - Due: Thursday March 24
    - Weight: 5%
-   - focus: props, computed properties, v-if
+   - focus: props, v-if, nuxt-img
 3. [Vue Component Async](/content/cpnt-262/assignments/achievement-8.md)
    - Due: Sunday, March 27
    - Weight: 5%
-   - focus: async in vue & nuxt, JAMstack
+   - focus: async in vue & nuxt, JAMstack, computed properties
 
 ### [Individual Assignment](/content/cpnt-262/assignments/assignment-2.md)
 
