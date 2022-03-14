@@ -124,4 +124,17 @@ Protoyping adds functionality to your design. This includes navigation between p
     - Add animated buttons
     - Make things swoosh and move
 
-<home-work :home-work="homework"></home-work>
+<home-work :home-work="homework">
+
+## Node Prep
+
+- Video: [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) by Traversy Media
+- [An introduction to the npm package manager](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)
+- [Where does npm install the packages?](https://nodejs.dev/learn/where-does-npm-install-the-packages)
+- [Semantic Versioning using npm](https://nodejs.dev/learn/semantic-versioning-using-npm)
+- **Activities** [Freecodecamp Javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+  - Pick a few topics that you feel like you need to brush up on and practice them
+  - The secion on es6 syntax is especially helpful for if you want a more advanced refresh
+  - The sections on Object Oriented and Functional Programming give a lot of elegant and useful advanced techniques
+
+</home-work>
