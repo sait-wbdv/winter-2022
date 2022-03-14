@@ -1,9 +1,9 @@
 ---
-title: DSGN 270 Assignment 4 - Figma Prototype
+title: DSGN 270 Assignment 5 - Figma Prototype
 description: Build a prototype of a web page in figma.
 ---
 
-- Due: March 21
+- Due: March 22
 - Weight: 20%
 
 ## Scenario
@@ -22,7 +22,7 @@ The goal of this is to establish a sense of style and consistent movement around
   - colors
 - Create figma components for reusable ui elements (cards, buttons, panels)
 - Add prototyping for site navigation
-- Export your styles to css or tailwind for developers
+- Add add prototyping for one feature of your website (can be a button animation or other)
 
 ---
 
@@ -30,23 +30,21 @@ The goal of this is to establish a sense of style and consistent movement around
 
 This assignment will be marked out of 20 points, which will be given for each of the following:
 
-### Mockup Design: 5 points
+### Mockup Design: 10 points
 
 - Use of whitespace
 - Positioning of Elements
 - Consistent color scheme
 - Effective visual hierarchy
-
-### Design System & Components: 5 points
-
-- All colors and fonts are applied using a design sytem
-- repeated patterns are figma components
-- Exported css files from design
+- Home Page
+- Other page 1
+- Other page 2
 
 ### Prototype: 5 points
 
 - Consistent flow of navigation
 - No dead ends (user cannot get trapped)
+- Special Prototype functionality
 
 ### General: 5 points
 
@@ -64,10 +62,8 @@ In order to receive a grade:
    - The text of your assignment saved in a `README.md` file in the root of your project;
    - Your name, course title and assignment title at the top of the page
    - Exported pdfs of your design's frames saved in a folder called `assets/mockups`
-   - Exported design system files inside `assets/css`
 2. Zip your assignment and submit it to Brightspace.
    - In the text box of your submission **you must add a viewable link to your design**
      - If you do not do this, you will receive a 0 for the prototype component of the assignment
 3. As a comment to your submission, include:
    - a link to your GitHub repo;
-   - a link to the live GH Pages site;

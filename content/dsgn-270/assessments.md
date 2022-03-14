@@ -18,12 +18,12 @@ description:
 - Weight: 20% of final course mark
 - Due: Wednesday, March 16
 
-## Assignment 4: Colour palettes
+## Assignment 4: [Mockup and Design system](/dsgn-270/assignments/assignment-4)
 
 - Weight: 10% of final course mark
-- Due: TBA
+- Due: March 18
 
-## Assignment 5: Figma Web Prototype
+## Assignment 5: [Figma Web Prototype](/dsgn-270/assignments/assignment-5)
 
-- Weight: 30% of final course mark
-- Due: March 21
+- Weight: 20% of final course mark
+- Due: March 22
