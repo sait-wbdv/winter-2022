@@ -36,6 +36,7 @@ This assignment will be marked out of 20 points, which will be given for each of
 - No extraneous paths
 - Makes use of boolean groups
 - Is an identifiable logo
+    - A guideline for design: a logo with at least 3 closed paths
 
 ### Design Variations: 5 points
 
@@ -48,6 +49,8 @@ This assignment will be marked out of 20 points, which will be given for each of
 - CSS is used to style paths
 - Colour styled using css
 - Use at least 1 other css property to enhance your design on a web page
+- Logos should be responsive
+    - All logos should be entirely visible when the page loads without the need to scroll.
 
 ### Documentation: 5 points
 - README file that includes:
