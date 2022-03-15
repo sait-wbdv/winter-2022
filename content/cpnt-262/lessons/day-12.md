@@ -35,6 +35,10 @@ homework:
 - Conditionals
   - excellent for error handling
 
+#### Arrays
+
+- Try to avoid using **mutable** array methods. instead make use of **immutable** array methods. These will work with the original data, but not change it. Allowing you to reuse it many times over -[read this article](https://www.sitepoint.com/immutable-array-methods-javascript/)
+
 ### Higher Order Functions
 
 If regular for loops are easy and you want more, explore the following higher order functions that are great at working with arrays
@@ -143,4 +147,3 @@ Looks like you need inspiration for Assignment 4!
   - Does a lot of videos on frameworks
 
 </home-work>
-
