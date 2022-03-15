@@ -112,8 +112,6 @@ Node Builtin Module
 
 ## 4. Lab Time
 
-Looks like you need inspiration for Assignment 4!
-
 - Can any of the following sample code be refactored to take arguments from the command line?
 
 ### Miscellaneous Node-friendly Gists
