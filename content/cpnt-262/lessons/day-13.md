@@ -186,7 +186,21 @@ const variableKey = 'Variable Value'
 
 ---
 
+## Places to Use Vue
+
+- In a codepen single file component (least setup)
+- In the two spaces provided on the vue site (some setup, specific uses)
+- In a non sfc component (some setup)
+- In a vue project (more setup)
+- In a nuxt project (most setup)
+
+---
+
 ## Lab Time
+
+- Try working through [vue's tutorial](https://vuejs.org/tutorial/#step-1) (more structure)
+- Try refactoring a past activity in codepen into vue
+- Work on assignments
 
 ---
 
