@@ -135,5 +135,6 @@ released: true
 <home-work :home-work="homework">
 
 - [Composition API Tutorial](https://sait-wbdv.slack.com/archives/D02ER6BBA59/p1647465698805469)
-
-</home-work>
+- [Computed Properties](https://vuejs.org/guide/essentials/computed.html)
+- Video: [Computed Properties](https://www.youtube.com/watch?v=cx2WnT_sckA)
+  </home-work>
