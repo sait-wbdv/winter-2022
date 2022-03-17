@@ -3,6 +3,7 @@ title: Vue Data Binding
 description: Learn how to bind data to html elements in vue
 date: 2022-03-17T14:00:00.000Z
 released: true
+homework:
 ---
 
 ## [Achievement 1](/content/cpnt-262/assignments/): Create Vue Components
@@ -137,4 +138,5 @@ released: true
 - [Composition API Tutorial](https://sait-wbdv.slack.com/archives/D02ER6BBA59/p1647465698805469)
 - [Computed Properties](https://vuejs.org/guide/essentials/computed.html)
 - Video: [Computed Properties](https://www.youtube.com/watch?v=cx2WnT_sckA)
-  </home-work>
+
+</home-work>
