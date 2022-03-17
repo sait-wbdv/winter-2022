@@ -138,5 +138,6 @@ homework:
 - [Composition API Tutorial](https://sait-wbdv.slack.com/archives/D02ER6BBA59/p1647465698805469)
 - [Computed Properties](https://vuejs.org/guide/essentials/computed.html)
 - Video: [Computed Properties](https://www.youtube.com/watch?v=cx2WnT_sckA)
+-
 
 </home-work>
