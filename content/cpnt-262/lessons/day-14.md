@@ -6,7 +6,7 @@ released: true
 homework:
 ---
 
-## [Achievement 1](/content/cpnt-262/assignments/): Create Vue Components
+## [Achievement 1](/content/cpnt-262/assignments/achievement-6/): Create Vue Components
 
 - Due: Sunday March 20 @ 11:59PM
 - Focus: Creating Vue Components
