@@ -217,5 +217,7 @@ const variableKey = 'Variable Value'
 - Video: [props](https://www.youtube.com/watch?v=W2j7CjQI2y4)
 - [Conditional rendering](https://v2.vuejs.org/v2/guide/conditional.html)
 - [Components Basics](https://vuejs.org/guide/essentials/component-basics.html)
-  </home-work>
+
 - [Slots](https://vuejs.org/guide/components/slots.html)
+
+</home-work>

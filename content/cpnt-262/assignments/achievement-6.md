@@ -20,6 +20,7 @@ This achievement will me marked out of **5 points** where you will:
 ## Instructions
 
 1. Create a nuxt 2 project with `npx create-nuxt-app cpnt-262-achievement-6`
+   - you can create this using the vue cli instead of nuxt if you want.
 2. Create a navigation component and hero component
    - In your nav component, use a v-for to create nav links to 5 pages (including the index)
    - your links should all be stored in the script tags in an array
