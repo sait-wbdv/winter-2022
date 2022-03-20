@@ -3,7 +3,7 @@ title: CPNT-262 Assignment 2 - Nuxt Landing Page
 description: A description
 ---
 
-- Due: Friday April 1st @ 11:59pm
+- Due: Sunday April 3st @ 11:59pm
 - Weight: 15% of the final mark
 
 ---

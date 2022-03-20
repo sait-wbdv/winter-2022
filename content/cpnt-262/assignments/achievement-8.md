@@ -3,7 +3,7 @@ title: CPNT-262 Achievement 8 - Async Fetch Nuxt
 description: Fetch data from a headless cms with nuxt
 ---
 
-- Due: Sunday, March 27
+- Due: Tuesday, March 29
 - Weight: 5% of the final mark
 
 ## Learning Outcomes

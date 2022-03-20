@@ -3,7 +3,7 @@ title: CPNT-262 Assignment 3 - Group Assignment
 description: For this assignment, you will work as a team to build a multipage website.
 ---
 
-- Due: Thursday April 7, 2022
+- Due: Friday April 8, 2022
 - Weight: 30% of the final mark
 
 ## Outline

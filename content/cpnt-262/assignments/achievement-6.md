@@ -3,7 +3,7 @@ title: CPNT-262 Achievement 6 - Vue Components
 description: Create vue components for a consistent page layout
 ---
 
-- Due: Sunday, March 20
+- Due: Wednesday, March 23
 - Weight: 5% of the final mark
 
 ## Learning Outcomes

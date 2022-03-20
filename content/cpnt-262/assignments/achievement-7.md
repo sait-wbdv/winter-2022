@@ -3,7 +3,7 @@ title: CPNT-262 Achievement 7 - Reusable Vue Components
 description: Create a vue component that makes use of props and slots to be reusable
 ---
 
-- Due: Sunday, March 24
+- Due: Sunday, March 27
 - Weight: 5% of the final mark
 
 ## Learning Outcomes
