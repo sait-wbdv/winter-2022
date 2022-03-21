@@ -11,7 +11,7 @@ description: Create vue components for a consistent page layout
 This achievement will me marked out of **5 points** where you will:
 
 - **2 points**: Component setup and style
-- **1 point**: Use of v-bind and props
+- **1 point**: Use of v-bind and slot
 - **1 point**: Proper use of a v-for and data variables
 - **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
