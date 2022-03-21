@@ -56,27 +56,27 @@ Bite-sized assessments to introduce you to fundamental topics.
 
 ### Achievements
 
-1. [Vue Components](/content/cpnt-262/assignments/achievement-6)
+1. [Vue Components](/cpnt-262/assignments/achievement-6)
    - Due: Wednesday, March 23
    - Weight: 5%
    - focus: moustache syntax, v-for, v-bind, v-slot
-2. [Reusable Vue Components](/content/cpnt-262/assignments/achievement-7)
+2. [Reusable Vue Components](/cpnt-262/assignments/achievement-7)
    - Due: Sunday March 27
    - Weight: 5%
    - focus: props, v-if, nuxt-img
-3. [Vue Component Async](/content/cpnt-262/assignments/achievement-8)
+3. [Vue Component Async](/cpnt-262/assignments/achievement-8)
    - Due: Tuesday, March 29
    - Weight: 5%
    - focus: async in vue & nuxt, JAMstack, computed properties
 
-### [Individual Assignment](/content/cpnt-262/assignments/assignment-2.md)
+### [Individual Assignment](/cpnt-262/assignments/assignment-2.md)
 
 - Nuxt Landing Page
   - Due: Sunday, April 3
   - Weight: 15%
   - Focus: Create and deploy a web page with components in nuxtjs
 
-### [Group Assignment](/content/cpnt-262/assignments/assignment-3.md)
+### [Group Assignment](/cpnt-262/assignments/assignment-3.md)
 
 - Multipage Site
   - Due: Friday, April 8

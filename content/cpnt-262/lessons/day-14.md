@@ -6,12 +6,6 @@ released: true
 homework:
 ---
 
-## [Achievement 1](/content/cpnt-262/assignments/achievement-6/): Create Vue Components
-
-- Due: Sunday March 20 @ 11:59PM
-- Focus: Creating Vue Components
-- Syntax: Moustach syntax, v-bind, v-for, v-slot
-
 ## Morning Javascipt
 
 - [Gist on Nested For Loops from Yesterday](https://gist.github.com/lilyx13/26f337154f7a7ecb0a94559dec7cfecb)
@@ -120,9 +114,6 @@ homework:
 ## Lab Time
 
 ### More Cool Javascript Stuff (main room demonstration)
-
-- [.map() Docummentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-- [map gist](https://gist.github.com/lilyx13/efc642ac2af5423666f3403d2a6dff9e)
 
 ## Activities
 
