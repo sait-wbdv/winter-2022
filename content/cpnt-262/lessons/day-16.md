@@ -1,56 +1,82 @@
 ---
-title: NuxtJS
-description: We will go into detail on how the nuxt framework works
+title: Vue Event Handling and Lifecycle Hooks
+description:
 date: 2022-03-22T14:00:00.000Z
-released: false
+released: true
 ---
 
-## Intro to Nuxt
+## Morning Javascript Adventures
 
-- NuxtJS is a frontend framework that uses VueJS
-- It can be used to create:
-  - Server Side Rendered (SSR) Pages
-    - backend server sends data to frontend page (traditional page)
-  - Static Site Generation (SSG)
-    - Web page content is built and then hosted statically
-  - Progressive Web Apps
-    - A client side rendered web application
-- Nuxt 2, Nuxt Bridge, Nuxt 3
-  - Nuxt 2: stable version
-  - Nuxt Bridge: adds some features from Nuxt 3 to Nuxt 2
-  - Nuxt 3: Currently in Public Beta Version
-- We will use Nuxt 2 as there are more available resources
+- `.reduce()`
+  - This one is great for adding all the values of an array together
+  - It can also flatten arrays
+  - It can also group information from arrays of objects
+- [Gist](https://gist.github.com/lilyx13/279dcb2a10697068bea8b18ad93eca33)
 
-### NuxtJS Resources
+### Activity: Use Reduce to sum all the values from yesterday's grocery list
 
-- [Offical Docs](https://nuxtjs.org/docs/get-started/installation)
-- [Tutorials](https://nuxtjs.org/tutorials)
-- [Traversy Video](https://www.youtube.com/watch?v=ltzlhAxJr74) **note that this tutorial is focused on SSR**
+- [Try a few of the activities in this gist](https://gist.github.com/lilyx13/279dcb2a10697068bea8b18ad93eca33)
 
 ---
 
-## Nuxt Setup
+## Component Planning
 
-- Use the create nuxt-app command as noted on the documentation
-  - npm, npx, and yarn are all good options
-  - [Create Nuxt App Docs](https://github.com/nuxt/create-nuxt-app/blob/master/README.md)
-- Going through the prompt:
-  - _Make sure to press space to select options_
-  - Follow [Ash's guide](https://gist.github.com/lilyx13/db43759b547b7cf909d4167d0577d482)
-  - If you use Nuxt with Strapi, select `axios` instead of `content` during setup
+- Review [This gist on organizing components](https://gist.github.com/lilyx13/79bf3fc3b5fe354de8f829cf069e4690)
+- Review the [Vue Style Guide](https://v2.vuejs.org/v2/style-guide/?redirect=true)
 
-### Nuxt Tour Gists
+### Demonstration
 
-- [Nuxt Project Structure](https://gist.github.com/lilyx13/4c973750fb63713d04f7d2f64fa20223)
-- [Nuxt Navigation](https://gist.github.com/lilyx13/3ae4627f079929978634d9d84b776f35)
-- [Nuxt Pages](https://gist.github.com/lilyx13/b4dfac6b3f0c3a5c98dee24a6d44eb72)
+- Plan out components based on [cassie codes' website](https://www.cassie.codes/)
+  - We won't be making a clone of her site, just following it for visual direction
+  - You will want to do this with a mockup
 
-## Creating Pages with Nuxt
+### Activity: Create components based on a design mockup (20min)
 
-- You can create static pages in your `pages/` folder, the nuxt router will generate your routes
+- If you don't have one that you want to use, Ash can provide a figma file to work with
+- Apply the namespace ideas examined in the demonstration
+
+---
+
+## Event Handling
+
+- [Documentation](https://vuejs.org/guide/essentials/event-handling.html)
+- [v-on gist](https://gist.github.com/lilyx13/74543137780c1958f01e9b470a3cb13b) with notes on how to use `v-on`
+- `v-on` is used to listen to DOM events and trigger a javascript handler (often a function)
+- syntax: `v-on:click="handler"`
+  - or shortened as`@click="handler`
+- Use this for any buttons on a page
+  - set the handler to be a function
+- This can be used with the [`ref()`](https://vuejs.org/guide/essentials/template-refs.html) to make variables more reactive
+
+### Activity: Make a button that calculates all of the groceries
+
+- [Instructions](https://gist.github.com/lilyx13/b410645e7560a096a37f89b57724619f)
+
+### Event Modifiers
+
+- To stop a form from being submitted when using a `<button>`, or to stop other default behaviour, use `.prevent`
+  - `@click.prevent="myFunction`
+  - Check out the other event modifiers
+    - `@click.once` - will only trigger once
+    - `@click.passive` - great for touch events
+  - Key modifiers allow for effecting how an event handler is triggered
+  - You can specify specific keys using key aliases and key modifiers
+
+---
+
+## Lifecycle Hooks
+
+- Lifecycle hooks are common to javascript frameworks. They are the steps for when different parts of the site are initialized.
+- This [diagram](https://vuejs.org/guide/essentials/lifecycle.html) shows the order of which the lifecycle hooks are initialized
+- `onMounted()` can be made use of when fetching content
+
+### Activity: console.log a message when `onMounted()` is initialized
+
+- copy the example off of the above noted lifecycle page
 
 ---
 
 ## Lab Time
 
--
+- Work on Achievement
+- Main Room: Refactor Course Site Code
