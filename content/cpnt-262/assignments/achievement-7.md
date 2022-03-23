@@ -11,7 +11,7 @@ description: Create a vue component that makes use of props and slots to be reus
 This achievement will me marked out of **5 points** where you will:
 
 - **2 points**: Card Component rendered on the index.vue page
-- **1 point**: props properly set up
+- **1 point**: props and slots properly set up
 - **1 point**: conditional rendering properly set up
 - **1 point**: Document this activity in a Code Journal section of the project README (see last step in the [Instructions](#instructions)).
 
@@ -29,7 +29,7 @@ Create a new repo for this assignment, in it set up a nuxt project as was done i
    - tags
 2. Set up props to pass information to the card component from the parent component/page
 3. use v-if to render a tag list if it exists
-4. On your parent page (`index.vue`), add an array of objects that contains information for a card
+4. On your parent page (`index.vue` or `App.vue`), add an array of objects that contains information for a card
    - 3 cards
    - 1 of them must not have a tag array
 5. Create a code journal and discuss anything challenging that you encountered

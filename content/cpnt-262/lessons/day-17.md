@@ -1,92 +1,112 @@
 ---
-title: Nuxt Pages and Layouts
+title: Vue Hackathon Day
 description: Description here
 date: 2022-03-23T14:00:00.000Z
-released: false
+released: true
 ---
 
-## Intro to Nuxt
+## [Achievement 7: Create Vue Components](/cpnt-262/assignments/achievement-7/)
 
-- NuxtJS is a frontend framework that uses VueJS
-- It can be used to create:
-  - Server Side Rendered (SSR) Pages
-    - backend server sends data to frontend page (traditional page)
-  - Static Site Generation (SSG)
-    - Web page content is built and then hosted statically
-  - Progressive Web Apps
-    - A client side rendered web application
-- Nuxt 2, Nuxt Bridge, Nuxt 3
-  - Nuxt 2: stable version
-  - Nuxt Bridge: adds some features from Nuxt 3 to Nuxt 2
-  - Nuxt 3: Currently in Public Beta Version
-- We will use Nuxt 2 as there are more available resources
-
-### NuxtJS Resources
-
-- [Offical Docs](https://nuxtjs.org/docs/get-started/installation)
-- [Tutorials](https://nuxtjs.org/tutorials)
-- [Traversy Video](https://www.youtube.com/watch?v=ltzlhAxJr74) **note that this tutorial is focused on SSR**
+- Due: Sunday, March 27 11:59PM
+- Focus: Creating Reusable Vue Components
+- Syntax: props, conditionals, v-for, complex components
+- Task: Create, style, and test a few vue components, use props and slots for reusability
 
 ---
 
-## Nuxt Setup (review)
+## Vue Event Handling Demonstration
 
-- Use the create nuxt-app command as noted on the documentation
-  - npm, npx, and yarn are all good options
-  - [Create Nuxt App Docs](https://github.com/nuxt/create-nuxt-app/blob/master/README.md)
-- Going through the prompt:
-  - _Make sure to press space to select options_
-  - Follow [Ash's guide](https://gist.github.com/lilyx13/db43759b547b7cf909d4167d0577d482)
-  - If you use Nuxt with Strapi, select `axios` instead of `content` during setup
+- [Gist](https://gist.github.com/lilyx13/7933323264f20ef4708c85856cf8c50a)
+  - Syntax for properly using events with `@click` in vue
+- [Github Repo](https://github.com/lilyx13/vue-demo-2)
+  - Note for structure and design of components
+  - Example of Tailwind
+  - Fontawesome icons in a vue project
+- Task: create a shopping list using the list components and calculate the total using a button
 
-### Nuxt Tour Gists
+### Font Awesome Icons Vue
 
-- [Nuxt Project Structure](https://gist.github.com/lilyx13/4c973750fb63713d04f7d2f64fa20223)
-- [Nuxt Navigation](https://gist.github.com/lilyx13/3ae4627f079929978634d9d84b776f35)
-- [Nuxt Pages](https://gist.github.com/lilyx13/b4dfac6b3f0c3a5c98dee24a6d44eb72)
-
-## Creating Pages with Nuxt
-
-- You can create web pages in your `pages/` folder, the nuxt router will generate your the routes for you
+- [Documentation](https://fontawesome.com/docs/web/use-with/vue/)
+- [Gist for extra tips](https://gist.github.com/lilyx13/b52c7b08c012e8dea79d2b566e6b6842) (will be filled out after demonstration)
 
 ---
 
-## Using Vue in Nuxt
+## What is today about?
 
-- Nuxt is a framework built around vue, so all valid vue code is valid nuxt code.
+Today we are going to pair code to create a small website using all the concepts that we have learned. At the end of the day, each team will showcase their work at the end of the day.
 
-### Layouts
+Everything that you do in this can be used for your achievements. However you will need to make sure that your name is in the package.json etc and that you are able to submit your own repo for any submissions that you may use this work for.
 
-- One thing that nuxt offers is a convenient way to set up default layouts
-  - This allows you to have multiple complete layouts within which to add your page content
-    - Use layouts for things like:
-      - Nav
-      - Header
-      - Footer
-      - `<Nuxt />`
-      - side bars
-      - A group of pages with a local nav (for posts)
-  - the namespace `default.vue` does not need to be registered
-  - if you create a `default.vue` layout, it will be automatically applied to all pages unless they are specified to do otherwise
+### What do we get out of this??
 
-### Activity: Create 2 different layouts (15min)
+- If each team submits a github repo with a vue project made in this mini hackathon, we will have late start on Thursday
+- If every single person submits a github repo as noted above, then Monday will also be a late start day.
+- This is also an excellent opportunity to prepare for your group work that will be coming up, as well as for practicing and sharpening your skills
 
-- 1 default layout
-- 1 layout that includes content different from the default (could be for a gallery, contact page, page with a local navigation)
+## What are the rules?
+
+- Create a web page about whatever you want
+- Use whatever approach to css you want (but stick with 1 approach)
+- Teams can be of 2 or 3 (they will be assigned)
+- Use a git based workflow
+  - One person initializes and the other is added as a collaborator
+  - Add all of your group member names to the README file
+  - **for full submission, the collaborator(s) need to fork the repo and change the name in package.json**
+- You can use a formal pair code approach, or divide and conquer
+- Use the challenges listed below
+  - You don't need to progress to a new challenge with every sprint, but dont jump ahead
+- **Hack like there's no tomorrow**
+
+### Structure of the session
+
+- Work in 30 minute sprints
+- We will break for full team debriefs after each spring
+  - Present problems, and topics that you're working on
+  - Decide to continue with same work, or switch up challenges
+- End with Show and Tell (last hour of class)
 
 ---
 
-## Vue Router
+## Challenges
 
-- [Vue Router: Documentation](https://router.vuejs.org/)
-- [Nuxt Router: Documentation](https://nuxtjs.org/docs/features/file-system-routing)
-- Nuxt and vue have excellent routers that build your routes for you.
-- You can access the router by using `this.$router` syntax in your scripts
+The 1st 30 minutes will be for project setup. Make sure that you
 
-### Activity: console log your route information
+- Create a vue project
+- Push it to Github
+- Add Collaborators
+- Pick a Website to Emulate (be general, focus on creating, the example is just for some guidance)
+- Decide if you want to use a linter
+- Decide if you want to use the vue router or not
+- Set up your css approach
 
-- In the script tags on each page, console.log the route
-- Experiment changing the names of different pages in your `pages/` folder
-  - See how your routes change
+### Challenge I Options
 
-## Lab Time
+- Create, style, and set up ui components
+- Create, style, and set up reusable base components
+- Create, style, and set up utility components
+
+### Challenge II Options
+
+- Create a card component layout
+- Create a gallery layout
+- Create a shopping cart
+
+### Challenge III Options
+
+- Use computed properties to create variations in content
+- Add a mobile navigation menu
+- Create a toggle
+- Create a calculator function
+
+### Challenge IV Options
+
+- Create another page
+- Optimize your css and styling
+- Render static lists to arrays iterated through with v-for
+
+### Challenge V
+
+- Code clean up
+- Pick a feature or bug to discuss with group
+
+---
