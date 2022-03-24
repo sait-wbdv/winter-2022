@@ -2,7 +2,7 @@
 title: Nuxt
 description: We are going to migrate from vue to nuxt
 date: 2022-03-24T14:00:00.000Z
-released: false
+released: true
 ---
 
 ## Intro to Nuxt
