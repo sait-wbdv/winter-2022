@@ -1,5 +1,5 @@
 ---
-title: CPNT-262 Assignment 2 - Nuxt Landing Page
+title: CPNT-262 Assignment 2 - Vue/Nuxt Landing Page
 description: A description
 ---
 
@@ -10,15 +10,24 @@ description: A description
 
 ## Overview
 
-For this assignment, you will create a landing page in nuxt. Your landing page must be designed using reusable components. It can be on any topic.
+For this assignment, you will create a landing page in nuxt or vue. Your landing page must be designed using reusable components. It can be on any topic.
+
+This assignment is meant to be cumulative, so while your javascript and vue code is the priority for most marks, style, layout, and application of conventions are also considered for your overall grade.
 
 ### Instructions
 
-- Create a nuxt 2 project with the composition api added
+- Create a nuxt 2, nuxt 3, or vue 3 project
 - Use any nuxt modules that will improve your site (note that they must be properly used and points will be deducted for modules added but not used)
 - Create components that could be reused on other pages. Use props and slots where applicable
 - Style the site with your preferred css approach
 - Deploy your site to Netlify
+
+### Page Size and Content Requirements
+
+- Your page should either be either:
+  - short but heavy in content/style (2-3 screens of content) **or**
+  - longer but can be less content or style heavy (4-6 screens of content)
+- Make use of layout conventions covered throughout the course
 
 ---
 
@@ -26,23 +35,25 @@ For this assignment, you will create a landing page in nuxt. Your landing page m
 
 ### Components 5pts
 
-- Navigation Component
-- Header Component
-- Footer Component
-- Developer's Choice Component
+- ui components
+- layout components
+- utilities
+- main content components
 
-### Vue Syntax 5pts
+### Vue Syntax and Javascript 5pts
 
 - v-for
 - props
 - moustache syntax
 - v-bind
 - v-slot
+- computed properties
+- objects, and arrays
 
 ### General Requirements 5pts
 
 - Assignment is built using nuxt 2 with the composition api
-- `index.vue` page makes use of all your components
+- Your page makes use of all your components
 - README
   - Course Title
   - Author name
