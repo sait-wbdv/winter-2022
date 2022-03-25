@@ -52,7 +52,6 @@ This assignment is meant to be cumulative, so while your javascript and vue code
 
 ### General Requirements 5pts
 
-- Assignment is built using nuxt 2 with the composition api
 - Your page makes use of all your components
 - README
   - Course Title
@@ -60,9 +59,7 @@ This assignment is meant to be cumulative, so while your javascript and vue code
   - Links to:
     - Github Repo
     - Netlify Site
-  - Requirement list
-    - filename and syntax of the required syntax items noted above
-      - format example: v-for: AppNav.vue Line 10
+  - Personal Reflection and Debugging Journal
   - Attributions for code or assets that are not your own
 
 ## Submission

@@ -6,7 +6,7 @@ released: true
 homework:
 ---
 
-## [Assignment 2: Landing Page](/cpnt-262/assignents/assignment-2)
+## [Assignment 2: Landing Page](/cpnt-262/assignments/assignment-2/)
 
 - Due: Sunday April 3 @11:59PM
 - Weight: 15%

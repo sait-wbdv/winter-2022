@@ -69,14 +69,14 @@ Bite-sized assessments to introduce you to fundamental topics.
    - Weight: 5%
    - focus: async in vue & nuxt, JAMstack, computed properties
 
-### [Individual Assignment](/cpnt-262/assignments/assignment-2.md)
+### [Individual Assignment](/cpnt-262/assignments/assignment-2/)
 
 - Nuxt Landing Page
   - Due: Sunday, April 3
   - Weight: 15%
   - Focus: Create and deploy a web page with components in nuxtjs
 
-### [Group Assignment](/cpnt-262/assignments/assignment-3.md)
+### [Group Assignment](/cpnt-262/assignments/assignment-3/)
 
 - Multipage Site
   - Due: Friday, April 8
