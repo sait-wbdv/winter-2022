@@ -19,7 +19,7 @@ This achievement will me marked out of **5 points** where you will:
 
 ## Instructions
 
-Create a new repo for this assignment, in it set up a nuxt project as was done in achievement 6
+Create a new repo for this assignment, in it set up a nuxt or vue project as was done in achievement 6
 
 1. Create a reusable card component
    - title
@@ -29,7 +29,7 @@ Create a new repo for this assignment, in it set up a nuxt project as was done i
    - tags
 2. Set up props to pass information to the card component from the parent component/page
 3. use v-if to render a tag list if it exists
-4. On your parent page (`index.vue` or `App.vue`), add an array of objects that contains information for a card
+4. On your parent page (`index.vue` or `app.vue`), add an array of objects that contains information for a card
    - 3 cards
    - 1 of them must not have a tag array
 5. Create a code journal and discuss anything challenging that you encountered
