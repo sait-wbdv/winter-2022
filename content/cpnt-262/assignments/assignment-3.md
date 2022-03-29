@@ -8,9 +8,27 @@ description: For this assignment, you will work as a team to build a multipage w
 
 ## Outline
 
-You are the web development team of a tech startup. Your job is to create a small multipage website for your company. It will discuss what your company does, who works there, and why you're awesome. It can be based on web development or something else, but it does have to be related to tech.
+For this assignment, you are a web developer team who working on a multi page website. You can choose to do a client site that is focused on any topic of your choice, or you can choose to do a team portfolio site that focuses on advertising yourselves as a web development company.
+
+You will be building your web site in Nuxt and deploying to Netlify. You must make use of 1 public api for data and can also use your own data from storyblok or a locally hosted api.
 
 Use what you've learned in the course thus far to accomplish your site. As this assignment is focused on javascript, the majority of marks will be dependent on successfully using js and vue functionality on your site.
+
+### Tasks
+
+- Create a group charter (required)
+  - outline and obligations
+  - write up your charter in your README
+- Plan out your website (required)
+  - objectives
+  - content
+  - style
+  - code structure
+  - plugins and modules
+- Build a kanban board to plan your project (optional +points)
+- Design wireframes and mockups (optional +points)
+- Set up your repo (required)
+- Build your site! (required)
 
 ### Requirements
 
@@ -18,27 +36,32 @@ Use what you've learned in the course thus far to accomplish your site. As this 
 - A consistent design system (typography, colors, and theme)
 - The following pages
   - A home page
-  - A tech blog with 2 articles
-  - A team bio/about page
+  - At least 1 page that uses content from an api
+  - A team bio/about page (dependent on your site)
   - 2 other pages (services/products, contact...)
 - Group Charter/readme
 
 ### Tech Stack
 
-Create a JAMstack site using Github, Nuxt, Storyblok, and Netlify.
+Create a JAMstack site using Github, Nuxt, and Netlify.
 
 - Frontend: Nuxt 2 Static Site
 - Style: Your choice of CSS approach
-- Data: Storyblok CMS
+- Data: Public API + Local API
 - Hosting: Netlify
 
 ---
 
 ## Marking Rubric
 
-### Kanban Board (bonus 2pts)
+### Bonus Point Options
 
-- Organize project tasks in github kanban board
+- Kanban Board
+  - Organize project tasks in github kanban board
+- Design Mockups
+  - Wireframes, mockups, prototypes. Any visuals used to improve your workflow
+- Storyblok
+  - Site data hosted through storyblok
 
 ### Nuxt/Vue Development 10
 
