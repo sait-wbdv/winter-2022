@@ -5,28 +5,28 @@
 /*************/
 
 :root {
-  --body-bg-clr: white;
+  --brand-clr1: #a6192e;
+  --brand-clr2: #6d2077;
+  --brand-clr3: #005eb8;
+  --brand-clr4: #00a3e0;
+  --brand-clr5: #da291c;
+
+  --bg-clr: white;
   --text-clr: black;
 
-  --nav-bg-clr-hover: #0063a7;
-  --nav-bg-clr-active: #e02727;
-  --utility-clr: #0896db;
-  --nav-link-clr: white;
   --tagline-clr: #888;
 
   --terms-bg-clr: #ddd;
   --footer-border-clr: grey;
 
-  --gallery-border-clr: black;
-  --gallery-shadow: rgb(0 0 0 / 0.2);
+  --shadow: rgb(0 0 0 / 0.2);
   --gallery-html-hover: hsl(5, 100%, 95%);
   --gallery-css-hover: hsl(203, 100%, 95%);
   --gallery-js-hover: hsl(52, 100%, 95%);
-
 }
 
 [data-theme="dark"] {
-  --body-bg-clr: black;
+  --bg-clr: black;
   --text-clr: white;
 }
 
@@ -35,7 +35,7 @@
 /* Global */
 /**********/
 body {
-  background-color: var(--body-bg-clr);
+  background-color: var(--bg-clr);
   color: var(--text-clr)
 }
 
@@ -57,14 +57,14 @@ nav.primary a, nav.utility a {
   text-decoration: none;
 }
 nav.primary a:hover, nav.utility a:hover {
-  background-color: var(--nav-bg-clr-hover);
+  background-color: var(--brand-clr3);
   color: white;
 }
 
 nav.primary a:active, nav.utility a:active {
 
-  background-color: var(--nav-bg-clr-active);
-  color: var(--nav-link-clr);
+  background-color: var(--brand-clr5);
+  color: var(--text-clr);
 }
 
 nav.primary a, nav.utility a {
@@ -92,8 +92,8 @@ nav.utility ul {
   margin: 0 1em;
 }
 nav.utility a {
-  background-color: var(--utility-clr);
-  color: var(--nav-link-clr); 
+  background-color: var(--brand-clr4);
+  color: var(--text-clr); 
   
   padding: 10px 25px;
 }
@@ -199,11 +199,11 @@ footer {
   margin: 1rem;
   text-align: center;
 
-  border: 3px solid var(--gallery-border-clr);
+  border: 3px solid var(--text-clr);
   border-radius: 10px;
   padding: 2rem;
 
-  box-shadow: 0 3px 10px var(--gallery-shadow);
+  box-shadow: 0 3px 10px var(--shadow);
 }
 
 .gallery h3 {
