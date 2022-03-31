@@ -6,12 +6,13 @@
       <h2>Lesson Plans</h2>
       <ul>
         <li v-for="(lesson, index) in lessons" :key="lesson.id">
-          <nuxt-link v-if="lesson.released" :to="`cpnt-201/lessons/${lesson.slug}`">
+          <nuxt-link
+            v-if="lesson.released"
+            :to="`cpnt-201/lessons/${lesson.slug}`"
+          >
             Day {{ index + 1 }}: {{ lesson.title }}
           </nuxt-link>
-          <span v-else>
-            Day {{ index + 1 }}: {{ lesson.title }}
-          </span>
+          <span v-else> Day {{ index + 1 }}: {{ lesson.title }} </span>
         </li>
       </ul>
     </main>
@@ -20,14 +21,14 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const lessons = await $content("cpnt-201/lessons").fetch();
+    const lessons = await $content('cpnt-201/lessons').fetch();
     return {
-      lessons: lessons.sort((a,b) => {
+      lessons: lessons.sort((a, b) => {
         a = new Date(a.date);
         b = new Date(b.date);
         return a - b;
       })
     };
-  },
+  }
 };
 </script>

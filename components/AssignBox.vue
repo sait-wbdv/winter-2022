@@ -22,8 +22,8 @@
 export default {
   props: {
     info: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>

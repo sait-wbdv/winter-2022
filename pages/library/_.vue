@@ -12,11 +12,11 @@ export default {
     try {
       const page = await $content(`library/${params.pathMatch}`).fetch();
       return {
-        page,
+        page
       };
     } catch (e) {
-      error("Page not found.");
+      error('Page not found.');
     }
-  },
+  }
 };
 </script>

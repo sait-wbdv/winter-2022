@@ -26,11 +26,17 @@
 
       <h2>Asking Questions</h2>
       <ul>
-        <li>Ask a question any time during a live stream. There are no dumb questions (maybe silly ones).</li>
-        <li>One-on-ones: DM your instructor anytime to book a time for a confidential video/audio chat. Note: this is not for tutoring, see below.</li>
+        <li>
+          Ask a question any time during a live stream. There are no dumb
+          questions (maybe silly ones).
+        </li>
+        <li>
+          One-on-ones: DM your instructor anytime to book a time for a
+          confidential video/audio chat. Note: this is not for tutoring, see
+          below.
+        </li>
         <li>See also: <nuxt-link to="/help">Finding Help</nuxt-link></li>
       </ul>
     </main>
-
   </div>
 </template>

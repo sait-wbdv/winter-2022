@@ -9,10 +9,10 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const page = await $content("cpnt-201/assessments").fetch();
+    const page = await $content('cpnt-201/assessments').fetch();
     return {
-      page,
+      page
     };
-  },
+  }
 };
 </script>

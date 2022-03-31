@@ -7,7 +7,7 @@ description: A description
 
 ## Learning Outcomes
 This achievement will be marked out of **5 points** where you will:
-- **1 point**: Declare a variable with `const` or `let` and assign it value of your choice.
+- **1 point**: Declare a variable for each of the following data types with `const` or `let` and assign them values of your choice.
 - **2 points**: Print a variable in two distinct ways for _each_ of the following value types:
     - `String`
     - `Number`
@@ -46,3 +46,14 @@ Copy/download/clone these [starter files](https://gist.github.com/acidtone/383cf
 3. In Brightspace, submit your ZIP and include the following as a comment in your submission:
     - a link to your GitHub repo;
     - a link to the GitHub Pages site;
+
+--- 
+
+## Partial Example Submission
+Here's a redacted example to get you started:
+
+### Sample Code
+![Sample Code](/assets/images/assessments/cpnt-262/before-after/before-after-code.png)
+
+### Sample Output
+![Sample Output](/assets/images/assessments/cpnt-262/before-after/before-after-output.png)
