@@ -5,11 +5,11 @@
 /*************/
 
 :root {
-  --brand-clr1: #a6192e;
-  --brand-clr2: #6d2077;
-  --brand-clr3: #005eb8;
-  --brand-clr4: #00a3e0;
-  --brand-clr5: #da291c;
+  --brand-clr1: hsl(351deg, 74%, 37%); /* #a6192e */
+  --brand-clr2: hsl(293deg, 58%, 30%); /* #6d2077 */
+  --brand-clr3: hsl(209deg, 100%, 36%); /* #005eb8 */
+  --brand-clr4: hsl(196deg, 100%, 44%); /* #00a3e0 */
+  --brand-clr5: hsl(4deg, 77%, 48%); /* #da291c */
 
   --bg-clr: white;
   --text-clr: black;
