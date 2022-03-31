@@ -9,6 +9,7 @@ released: true
 - CPNT 201 
     - Day 8 and 9 are being collapsed into CPNT 262 and CPNT 265, respectively, to give you more time to work on your Final Projects.
     - The final 201 assignment has been cancelled; the weighting of Assignments 1-4 will each be boosted from 20% to 25%.
+- 9am start time beginning next week!
 
 ---
 
