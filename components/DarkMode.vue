@@ -65,7 +65,7 @@ export default {
   }
 
   .slider:before {
-    background-color: #fff;
+    background-color: var(--bg-clr);
     bottom: 4px;
     content: "";
     height: 26px;
@@ -73,10 +73,6 @@ export default {
     position: absolute;
     transition: .4s;
     width: 26px;
-  }
-
-  input:checked + .slider {
-    background-color: #66bb6a;
   }
 
   input:checked + .slider:before {

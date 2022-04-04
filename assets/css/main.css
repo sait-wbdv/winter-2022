@@ -14,23 +14,27 @@
   --bg-clr: white;
   --text-clr: black;
 
-  --tagline-clr: #888;
-
   --terms-bg-clr: #ddd;
   --footer-border-clr: grey;
 
   --shadow: rgb(0 0 0 / 0.2);
-  --gallery-html-hover: hsl(5, 100%, 95%);
-  --gallery-css-hover: hsl(203, 100%, 95%);
-  --gallery-js-hover: hsl(52, 100%, 95%);
+  --gallery-html-hover: hsl(351deg, 100%, 95%);
+  --gallery-css-hover: hsl(293deg, 100%, 95%);
+  --gallery-js-hover: hsl(209deg, 100%, 95%);
+  
+  --link-clr: hsl(209deg, 100%, 30%);
 }
 
 [data-theme="dark"] {
-  --bg-clr: black;
+  --bg-clr: #222;
   --text-clr: white;
+  --link-clr: hsl(209deg, 100%, 70%);
+
 }
 
+:root {
 
+}
 /**********/
 /* Global */
 /**********/
@@ -56,12 +60,12 @@ nav.primary a, nav.utility a {
   text-align: center;
   text-decoration: none;
 }
-nav.primary a:hover, nav.utility a:hover {
-  background-color: var(--brand-clr3);
+nav.primary a:hover {
+  background-color: var(--brand-clr2);
   color: white;
 }
 
-nav.primary a:active, nav.utility a:active {
+nav.primary a:active {
 
   background-color: var(--brand-clr5);
   color: var(--text-clr);
@@ -82,6 +86,7 @@ nav.primary li {
 nav.primary a {
   padding: 10px;
   font-variant: small-caps;
+  color: var(--text-clr);
 }
 
 nav.utility header {
@@ -92,11 +97,19 @@ nav.utility ul {
   margin: 0 1em;
 }
 nav.utility a {
-  background-color: var(--brand-clr4);
-  color: var(--text-clr); 
+  background-color: var(--brand-clr3);
+  color: white; 
   
   padding: 10px 25px;
 }
+
+nav.utility a:hover {
+  background-color: var(--brand-clr2);
+}
+nav.utility a:active {
+  background-color: var(--brand-clr1);
+}
+
 /**********/
 /* Header */
 /**********/
@@ -113,11 +126,12 @@ nav.utility a {
 .site-name {
   font-size: 1.75rem;
   margin: 0;
+  color: var(--text-clr);
 }
 
 .tagline {
   font-size: 1.25rem;
-  color: var(--tagline-clr);
+  color: var(--text-clr);
   font-variant: small-caps;
   margin: 0 .35rem;
 }
@@ -137,6 +151,9 @@ main {
   margin: auto;
 }
 
+main a, main a:visited {
+  color: var(--link-clr);
+}
 /****************/
 /* Page Content */
 /****************/
@@ -213,6 +230,7 @@ footer {
 .gallery > a {
   text-decoration: none;
   color: inherit;
+  background-color: white;
   transition: background-color 0.3s ease-in-out;
 }
 
