@@ -11,7 +11,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const lesson = await $content(`cpnt-200/lessons/${params.slug}`).fetch();
+      const lesson = await $content(`cpnt-265/lessons/${params.slug}`).fetch();
       return {
         lesson,
       };
