@@ -113,6 +113,8 @@ Points to be awarded when submitting making the world a better place for other c
     - Implement a sample app using one of the following frameworks:
         - ReactJS
         - VueJS components not covered in class
+            - Example: [How to build an IntersectionObserver in Composition API](https://stackoverflow.com/questions/70275889/how-to-build-an-intersectionobserver-in-composition-api)
+                - See: [Introduction to the Intersection Observer JavaScript API](https://www.youtube.com/watch?v=T8EYosX4NOo) by Kevin Powell
         - Svelte
 
 </section>
