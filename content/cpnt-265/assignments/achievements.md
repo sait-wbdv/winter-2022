@@ -19,10 +19,13 @@ Points will be awarded for documentation of your final project prior to the Fina
     - [Example proposal](/files/examples/Example-Website-Proposal.pdf)
 2. **Lean Canvas: _10 points_**
     - Document Plan A of your final project using Lean Canvas
-    - Detailed requirements to be announced on Day 1.
-3. **Flowchart/Pseudo-code diagram: _5 points_**
-4. **Wireframes: _5 points_**
-5. **Design Mockups/Composites: _5 points_**
+    - Detailed requirements to be announced on Day 3.
+3. **Taskflow: _5 points_**
+    - Complete a minimum 8-item Taskflow for a well defined User Story related to your project.
+    - Submit as a markdown or README file to Brightspace.
+4. **Wireframes/Mockups: _5 points_**
+    - Complete either low-fidelity wireframes or high-fidelity mockups for at least 5 screens based on a well defined User Story related to your project.
+    - Submit screencaps of your wireframes to Brightspace.
 6. **Task Board: _1 point per feature (max 10 points)_**
     - Using GH Projects, Trello or similar task tracking tool:
         1. Optional: Create a "Final Presentation" repo for your tasks.
@@ -82,7 +85,7 @@ Points to be awarded when submitting making the world a better place for other c
     - Submit a Pull Request to a public repo
     - Submission must fix a real issue in the repo. No "my first pull request" exercises.
     - Repo must be a legitimate project. IOW, repos belonging to a classmate or the instructor do not qualify.
-    - **5 point bonus** for a PR that is accepted and merged.
+    - _5 point bonus_ for a PR that is accepted and merged.
 - **Lean Canvas Contribution: _5 points_**
     - Take part in (and add value to) a Lean Canvas exercise for another classmate.
 - **Mini-workshop Critique: _5 points_**
