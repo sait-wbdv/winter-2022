@@ -99,17 +99,17 @@ Points to be awarded when submitting making the world a better place for other c
 ### Plugin' away
 <section class="cards">
 
-- 3rd-party plugin/library implementation: **5 points**
+- **3rd-party plugin/library implementation: _5 points_**
     - Show that you've installed and implemented a 3rd party plugin from the following list
         - Greensock, anime.js, etc
         - Chart.js or similar
         - Tone.js
         - ???
-- Activity/Exercise: **5 points**
+- **Activity/Exercise: _5 points_**
     - Submit a step-by-step activity that other students/learners can follow to complete a nerdy task. For example:
         - As an addition to another Plugin' Away achievement 
         - A learning exercise that can be used for future lessons in this program
-- Frontend Framework Implementation: **10 points**
+- **Frontend Framework Implementation: _10 points_**
     - Implement a sample app using one of the following frameworks:
         - ReactJS
         - VueJS components not covered in class
