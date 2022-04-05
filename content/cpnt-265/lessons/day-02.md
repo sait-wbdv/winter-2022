@@ -27,6 +27,7 @@ Tony will host a 30-min workshop on connecting an authenticated GitHub API endpo
 - Pair-coding volunteer needed! 5 points available for Pair-coding Achievement.
 
 ### Materials
+- Slides: [API Security - Authentication vs Authorization](https://sait-wbdv.github.io/slides/w22/cpnt262/authentication-authorization.html)
 - Repo: [nuxt-github-api](https://github.com/acidtone/nuxt-github-api)
 
 ---
