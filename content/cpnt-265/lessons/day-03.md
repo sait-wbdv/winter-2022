@@ -5,6 +5,14 @@ date: 2022-04-06T14:00:00.000Z
 released: true
 ---
 
+## Housekeeping
+- Updates to Achievements
+    - _First Responder_ added to [Friendly Neighbour](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#friendly-neighbour)
+- 5 points to Bryan for his \*round of applause\* comment during the GitHub API workshop yesterday
+    - Bryan: submit a markdown file mentioning this achievement to the Misc Achievements dropbox to receive your points.
+
+---
+
 ## 1. Morning Lecture
 ### Materials
 - Agile Methods
