@@ -38,7 +38,7 @@ Tony will host a 30-min workshop on connecting an authenticated GitHub API endpo
 ---
 
 ## 3. Afternoon Main Room
-- TBA
+- Tailwind Hack Session with Jess!
 
 ---
 
