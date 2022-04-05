@@ -85,16 +85,23 @@ Points to be awarded when submitting making the world a better place for other c
 
 <section class="cards">
 
-- **Pull Request: _5 points_**
-    - Submit a Pull Request to a public repo
-    - Submission must fix a real issue in the repo. No "my first pull request" exercises.
-    - Repo must be a legitimate project. IOW, repos belonging to a classmate or the instructor do not qualify.
-    - _5 point bonus_ for a PR that is accepted and merged.
 - **Lean Canvas Contribution: _5 points_**
     - Take part in (and add value to) a Lean Canvas exercise for another classmate.
 - **Mini-workshop Critique: _5 points_**
     - Attempt step-by-step instructions provided as a Mini-workshop (see above) by a classmate.
     - Provide feedback for improvement via repo Issue or Comment.
+- **First Responder: _5 points_**
+    - Be the first to cheer on your classmates during a presentation or workshop!
+    - This achievement will only be given out:
+        - once per person
+        - once per day
+        - during Weeks 13 and 14
+    - The bar will be raised (iow, you have to do more to earn it) as more Achievements are handed out
+- **Pull Request: _5 points_**
+    - Submit a Pull Request to a public repo
+    - Submission must fix a real issue in the repo. No "my first pull request" exercises.
+    - Repo must be a legitimate project. IOW, repos belonging to a classmate or the instructor do not qualify.
+    - _5 point bonus_ for a PR that is accepted and merged.
 
 </section>
 
