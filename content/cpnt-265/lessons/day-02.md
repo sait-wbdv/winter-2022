@@ -7,6 +7,7 @@ homework:
 ---
 
 ## Housekeeping
+- Dropboxes added to Brightspace
 - Pair-coding Achievement added to [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work) achievements
 - GitHub API mini-workshop example added to [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work) achievements
 - VueJS component example added to [Plugin' Away](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#plugin-away) achievements.
