@@ -71,6 +71,10 @@ Points to be awarded for mini presentations to your classmates.
     - 5 bonus points available for:
         - providing step-by-step instructions for audience to follow along
         - anyone who attempts the activity and submits feedback for improvement
+- **Pair-coding: _5 points_**
+    - 15-minutes of pair-coding with a partner (points available for each participant)
+    - Must follow [pair coding best practices](https://gist.github.com/acidtone/caa20b2520814a94240043c40301024a)
+    - Can be stacked with Mini-workshop achievement.
 
 </section>
 

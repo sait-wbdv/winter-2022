@@ -6,6 +6,32 @@ released: true
 homework: 
 ---
 
+## Housekeeping
+- Pair-coding Achievement added to [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work) achievements
+- GitHub API mini-workshop example added to [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work) achievements
+- VueJS component example added to [Plugin' Away](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#plugin-away) achievements.
+
+---
+
+## 1. Mini-workshop Example: Authenticated GitHub API with Nuxt
+Tony will host a 30-min workshop on connecting an authenticated GitHub API endpoint to a Nuxt project.
+- Pair-coding volunteer needed! 5 points available for Pair-coding Achievement.
+
+### Materials
+- Repo: [nuxt-github-api](https://github.com/acidtone/nuxt-github-api)
+
+---
+
+## 2. Mini-presentations
+- TBA
+
+---
+
+## 3. Afternoon Main Room
+- TBA
+
+---
+
 <home-work :home-work="homework">
 
 ## API Authentication: Tokens vs Keys
