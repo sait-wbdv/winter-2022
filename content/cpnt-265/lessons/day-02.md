@@ -7,10 +7,18 @@ homework:
 ---
 
 ## Housekeeping
-- Dropboxes added to Brightspace
-- Pair-coding Achievement added to [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work) achievements
-- GitHub API mini-workshop example added to [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work) achievements
-- VueJS component example added to [Plugin' Away](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#plugin-away) achievements.
+- Achievement dropboxes added to Brightspace
+    - Project Documentation Achievements close Wednesday the 13th
+    - All other Achievements close Wednesday the 20th
+- Updated Achievements
+    - [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work)
+        - Pair-coding Achievement added
+        - GitHub API example added to Mini-workshop 
+    - [Plugin' Away](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#plugin-away)
+        - VueJS component example added
+- Placeholder Agendas added to Days 2-10
+    - Book Mini-presentations with an Instructor/Facilitator
+    - Book your slot for [Final Presentation Day](https://sait-wbdv.netlify.app/cpnt-265/lessons/day-11)
 
 ---
 
