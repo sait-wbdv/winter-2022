@@ -12,10 +12,10 @@ homework:
     - All other Achievements close Wednesday the 20th
 - Updated Achievements
     - [Stage Work](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#stage-work)
-        - Pair-coding Achievement added
-        - GitHub API example added to Mini-workshop 
+        - _Pair-coding_ Achievement added
     - [Plugin' Away](https://sait-wbdv.netlify.app/cpnt-265/assignments/achievements/#plugin-away)
-        - VueJS component example added
+        - VueJS component example added to _Frontend Framework Implementation_
+        - GitHub API example added to _Activity/Exercise_ 
 - Placeholder Agendas added to Days 2-10
     - Book Mini-presentations with an Instructor/Facilitator
     - Book your slot for [Final Presentation Day](https://sait-wbdv.netlify.app/cpnt-265/lessons/day-11)

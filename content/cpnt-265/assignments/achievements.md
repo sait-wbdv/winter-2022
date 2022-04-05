@@ -113,6 +113,7 @@ Points to be awarded when submitting making the world a better place for other c
     - Submit a step-by-step activity that other students/learners can follow to complete a nerdy task. For example:
         - As an addition to another Plugin' Away achievement 
         - A learning exercise that can be used for future lessons in this program
+    - Example Activity: [Authenticated GitHub API on Nuxt](https://github.com/acidtone/nuxt-github-api)
 - **Frontend Framework Implementation: _10 points_**
     - Implement a sample app using one of the following frameworks:
         - ReactJS
