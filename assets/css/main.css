@@ -200,6 +200,34 @@ footer {
   text-align: center;
 }
 
+/*********/
+/* Cards */
+/*********/
+
+section.cards > ol, section.cards > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+section.cards > * > li {
+  flex: 1 1 45%;
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+section.cards > * > li > ul, section.cards > * > li > ol {
+  padding-left: 1rem;
+}
+section.cards > * > li > strong {
+  display: block;
+  background-color: grey;
+  color: white;
+  font-family: 'Raleway';
+  padding: 0.5rem;
+}
+
 /*****************/
 /* Gallery Cards */
 /*****************/

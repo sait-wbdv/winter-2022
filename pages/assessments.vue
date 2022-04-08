@@ -29,7 +29,11 @@
               >CPNT-200 Assessments</nuxt-link
             >
           </li>
-
+          <li>
+            <nuxt-link to="cpnt-265/assessments"
+              >CPNT-265 Assessments</nuxt-link
+            >
+          </li>
           <!--
           <li>
             <nuxt-link to="cpnt-265/assessments">CPNT-265 Assessments</nuxt-link>
