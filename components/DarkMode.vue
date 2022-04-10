@@ -12,7 +12,7 @@
 
 <script>
 export default {    
-  data() {
+  mounted() {
     return {
       theme: localStorage.getItem("theme")
     };
