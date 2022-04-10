@@ -28,6 +28,8 @@ released: true
     - Tool: [Milanote](https://milanote.com/)
         - This app has an option for creating a Lean Canvas, which we'll cover in class.
 
+**Slides: [Agile Methods](https://sait-wbdv.github.io/slides/w22/cpnt265/agile-methods.html)**
+
 ---
 
 ## 2. Mini-presentations
