@@ -16,7 +16,6 @@ released: true
 
 ---
 
-## 3. Afternoon Main Room
-- TBA
+## 3. Afternoon: Jess - Typescript demo
 
 ---

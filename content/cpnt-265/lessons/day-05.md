@@ -1,13 +1,11 @@
 ---
-title: Flex Day
+title: UX Research
 description: Description here
 date: 2022-04-12T14:00:00.000Z
 released: true
 ---
 
-## 1. Morning Lecture
-- TBA
-- Requests are welcome
+## 1. UX Research with Ash
 
 ---
 
