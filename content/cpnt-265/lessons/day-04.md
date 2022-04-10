@@ -6,12 +6,14 @@ released: true
 ---
 
 ## Housekeeping
-- You can submit past work for Achievements, if:
-    - it wasn't covered in class (i.e. React);
-    - it isn't based on a past assignment or code provided in class.
-- Mini-presentation idea: Speak for 5 minutes about a potential Final Project idea 
-    - Get feedback from your peers
-    - Include wireframes, journal entries, etc for extra points
+- Week 14 schedule updated
+- Achievements
+  - You can submit past work for Achievements, if:
+      - it wasn't covered in class (i.e. React);
+      - it isn't based on a past assignment or code provided in class.
+  - Mini-presentation idea: Speak for 5 minutes about a potential Final Project idea 
+      - Get feedback from your peers
+      - Include wireframes, journal entries, mood boards for extra points
 
 ---
 
