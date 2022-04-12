@@ -7,14 +7,18 @@ released: true
 
 ## 1. UX Research with Ash
 
+- Affinity Diagram
+- Gathering data from users
+- [Gamestorming](https://gamestorming.com/)
+
 ---
 
 ## 2. Mini-presentations
-- TBA
 
 ---
 
 ## 3. Afternoon Main Room
-- TBA
+
+- Work on final projects
 
 ---
