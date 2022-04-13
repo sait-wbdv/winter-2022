@@ -21,8 +21,8 @@ released: true
 ### Materials
 - Tutorial: [Let’s learn SvelteKit by building a static Markdown blog from scratch](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog)
     - [Tony's Notes on his first Try](https://acidtone.github.io/code-journal/#march-22-2022)
-    - If you don't need Sass, you can stop at [Adding Sass to SvelteKit](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#adding-sass-to-sveltekit)
-    - If you don't need markdown support, you can stop at [Adding Markdown to SvelteKit with mdsvex](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#adding-markdown-to-sveltekit-with-mdsvex).
+    - If you don't need Sass, you can skip [Adding Sass to SvelteKit](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#adding-sass-to-sveltekit)
+    - If you don't need markdown support, you can skip [Adding Markdown to SvelteKit with mdsvex](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#adding-markdown-to-sveltekit-with-mdsvex).
 - [SvelteKit Documentation](https://kit.svelte.dev/docs/introduction)
 - [Comparison: Svelte vs VueJS](https://procoders.tech/blog/svelte-vs-vue-frameworks-comparison/)
 - Further information:
