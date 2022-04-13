@@ -5,6 +5,15 @@ date: 2022-04-13T14:00:00.000Z
 released: true
 ---
 
+## Housekeeping
+- Trophies
+    - Stephan: Paladin trophy for tying the room together
+    - 5 points for CPNT 265
+- Deadline for Document Achievements
+    - Extended to Easter Sunday @ 11:59pm
+
+---
+
 ## 1. Contracting as a developer
 ### Materials
 - [Example Website Proposal](https://github.com/sait-wbdv/winter-2021/blob/main/files/Example-Website-Proposal.pdf)
