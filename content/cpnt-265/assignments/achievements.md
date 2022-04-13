@@ -16,7 +16,7 @@ Points will be awarded for documentation of your final project prior to the Fina
     Some text:
     - Write a professional-level proposal for your final project.
     - Detailed requirements to be announced on Day 3.
-    - [Example proposal](/assets/files/examples/Example-Website-Proposal.pdf)
+    - [Example proposal](https://github.com/sait-wbdv/sample-code/blob/master/assets/files/examples/Example-Website-Proposal.pdf)
 2. **Lean Canvas: _10 points_**
     - Document Plan A of your final project using Lean Canvas
     - Detailed requirements to be announced on Day 3.
