@@ -16,7 +16,6 @@ released: true
 
 ---
 
-## 3. Afternoon Main Room
-- [Tait Hoyem](https://tait.tech/): Web accessibility
+## 3. 1pm: [Tait Hoyem](https://tait.tech/) - Web accessibility
 
 ---

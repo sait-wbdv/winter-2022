@@ -16,7 +16,6 @@ released: true
 
 ---
 
-## 3. Afternoon Main Room
-- Patrick: Surviving tech interviews
+## 3. 1pm: Patrick - Surviving tech interviews
 
 ---

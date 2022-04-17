@@ -16,7 +16,6 @@ released: true
 
 ---
 
-## 3. Afternoon Main Room
-- [Matthew Miller](https://www.youtube.com/watch?v=xj_goF8UfC8): Fedora Project Lead
+## 3. 1pm: [Matthew Miller](https://www.youtube.com/watch?v=xj_goF8UfC8) - Fedora Project Lead
 
 ---
