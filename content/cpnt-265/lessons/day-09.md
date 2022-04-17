@@ -1,5 +1,5 @@
 ---
-title: Flex Day
+title: Guest Speakers - Tait and Justin (Accessibility)
 description: Description here
 date: 2022-04-20T14:00:00.000Z
 released: true
@@ -17,6 +17,6 @@ released: true
 ---
 
 ## 3. Afternoon Main Room
-- TBA
+- Tait Hoyem and Justin: 
 
 ---
