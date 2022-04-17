@@ -16,6 +16,6 @@ released: true
 
 ---
 
-## 3. 1pm: Patrick - Surviving tech interviews
+## 3. 1pm: Patrick - Surviving tech interviews (and the inevitable rejection)
 
 ---
