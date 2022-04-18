@@ -12,7 +12,7 @@ released: true
 ---
 
 ## 2. Mini-presentations
-- TBA
+- Maha: Lighthouse Performance Test
 
 ---
 
