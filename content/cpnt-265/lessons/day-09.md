@@ -12,7 +12,7 @@ released: true
 ---
 
 ## 2. Mini-presentations
-- TBA
+- Bryan: `formjit` workshop
 
 ---
 
