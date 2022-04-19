@@ -11,7 +11,7 @@ released: true
 
 ---
 
-## 2. Mini-presentations
+## 2. 10:30am: Mini-presentations
 - Maha: Lighthouse Performance Test
 
 ---
