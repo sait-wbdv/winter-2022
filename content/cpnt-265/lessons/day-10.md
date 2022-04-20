@@ -14,6 +14,7 @@ released: true
 ## 2. Mini-presentations
 - Will: Replacing brakes on cars
 - Nora
+- Tess: 5 Figma Favourites
 
 ---
 
