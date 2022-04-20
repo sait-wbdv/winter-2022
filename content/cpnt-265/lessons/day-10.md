@@ -12,7 +12,7 @@ released: true
 ---
 
 ## 2. Mini-presentations
-- Will
+- Will: Replacing brakes on cars
 - Nora
 
 ---
