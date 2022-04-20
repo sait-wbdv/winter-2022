@@ -5,14 +5,18 @@ date: 2022-04-20T14:00:00.000Z
 released: true
 ---
 
-## 1. Morning Lecture
-- TBA
-- Requests are welcome
+## Housekeeping
+- Easy points: roster info
+
+---
+
+## 1. Final Week Checklist
+- **[Slides](https://sait-wbdv.github.io/slides/w22/cpnt265/finals-checklist.html)**
 
 ---
 
 ## 2. Mini-presentations
-- Bryan: `formjit` workshop
+- Bryan: `formkit` workshop
 
 ---
 

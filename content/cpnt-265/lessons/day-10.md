@@ -12,7 +12,8 @@ released: true
 ---
 
 ## 2. Mini-presentations
-- TBA
+- Will
+- Nora
 
 ---
 
