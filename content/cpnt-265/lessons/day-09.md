@@ -6,7 +6,8 @@ released: true
 ---
 
 ## Housekeeping
-- Easy points: roster info
+- Easy points: [Roster info](/cpnt-265/assignments/achievements/#extra-achievements)
+- Tomorrow is the last day to grab some [Stage Work Achievements](/cpnt-265/assignments/achievements/#stage-work).
 
 ---
 
