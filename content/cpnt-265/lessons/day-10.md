@@ -44,13 +44,13 @@ released: true
 ---
 
 ## 2. Mini-presentations
-- 10am
+- 10am-ish
   - Will: Replacing brakes on cars
   - Nora: An Introduction to Lua
   - Tess: 5 Figma Favourites
-  - Jason: Instructional Video
 - 1pm
   - Erik: Web Graphics Library
+  - Jason: Instructional Video
 
 ---
 
