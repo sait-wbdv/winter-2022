@@ -12,13 +12,17 @@ released: true
 ---
 
 ## 2. Mini-presentations
-- Will: Replacing brakes on cars
-- Nora
-- Tess: 5 Figma Favourites
+- 10am
+  - Will: Replacing brakes on cars
+  - Nora: An Introduction to Lua
+  - Tess: 5 Figma Favourites
+  - Jason: Instructional Video
+- 1pm
+  - Erik
 
 ---
 
-## 3. Afternoon Main Room
-- TBA
+## 3. Afternoon Lab Time
+- Set a time for a feature-freeze so you can concentrate on your presentation.
 
 ---

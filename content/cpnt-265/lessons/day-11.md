@@ -7,7 +7,7 @@ released: true
 
 ## Group 1
 1. TBA
-2. TBA
+2. Maryam and Maha
 3. TBA
 4. TBA
 5. TBA
