@@ -13,11 +13,10 @@ released: true
 6. Nora: Trivia Quiz Game
 
 ## Group 2
-1. Ed
-2. Jason
-3. Bryan: "Say Cheese!" - AshLens Photography Website
-4. Stephan: Client Website - Breathdoula
-5. Edgar
-6. TBA
+1. Bryan: "Say Cheese!" - AshLens Photography Website
+2. Ed: Fortune Studios
+3. Jason: Portfolio Presentation
+4. Edgar: Portfolio Website
+5. Stephan: Client Website - Breathdoula
 
 ---
