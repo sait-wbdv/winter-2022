@@ -6,19 +6,18 @@ released: true
 ---
 
 ## Group 1
-1. TBA
-2. Maryam and Maha
-3. TBA
-4. TBA
-5. TBA
-6. TBA
+1. Tess: Portfolio Website
+2. Maryam and Maha: Client website - ABK Photos
+3. Erik: Authentication API for application security
+5. Will: Tic Tac Toe
+6. Nora: Trivia Quiz Game
 
 ## Group 2
-1. TBA
-2. TBA
-3. TBA
-4. TBA
-5. TBA
+1. Ed
+2. Jason
+3. Bryan: "Say Cheese!" - AshLens Photography Website
+4. Stephan: Client Website - Breathdoula
+5. Edgar
 6. TBA
 
 ---
